@@ -1,209 +1,200 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2812
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 1,Bohemian Rhapsody,Queen,Rock,144,[classic,opera,epic]\
-2,Billie Jean,Michael Jackson,Pop,117,[dance,moonwalk,iconic]\
-3,Like a Rolling Stone,Bob Dylan,FolkRock,96,[lyrical,classic,protest]\
-4,Smells Like Teen Spirit,Nirvana,Grunge,117,[alternative,anthem,90s]\
-5,Stairway to Heaven,Led Zeppelin,Rock,82,[classic,guitar,epic]\
-6,Hotel California,Eagles,Rock,75,[classic,guitar,westcoast]\
-7,Hey Jude,The Beatles,Rock,72,[classic,singalong,Beatles]\
-8,Sweet Child o' Mine,Guns N' Roses,HardRock,125,[guitar,80s,rock]\
-9,Rolling in the Deep,Adele,Pop,105,[powerful,vocal,soul]\
-10,Lose Yourself,Eminem,HipHop,171,[rap,motivational,8Mile]\
-11,One,U2,Rock,91,[ballad,90s,emotional]\
-12,Wonderwall,Oasis,Britpop,87,[90s,acoustic,anthem]\
-13,Imagine,John Lennon,Pop,75,[peace,classic,piano]\
-14,Shake It Off,Taylor Swift,Pop,160,[dance,catchy,pop]\
-15,Back in Black,AC/DC,HardRock,94,[rock,guitar,classic]\
-16,Uptown Funk,Mark Ronson ft. Bruno Mars,Funk,115,[dance,groove,party]\
-17,Bad Guy,Billie Eilish,Pop,135,[alternative,hit,contemporary]\
-18,Blinding Lights,The Weeknd,Synthpop,171,[80s,synth,hit]\
-19,Old Town Road,Lil Nas X,CountryRap,136,[viral,crossover,trap]\
-20,Shape of You,Ed Sheeran,Pop,96,[hit,dancehall,love]\
-21,Thriller,Michael Jackson,Pop,118,[halloween,dance,iconic]\
-22,Someone Like You,Adele,Pop,67,[ballad,emotional,breakup]\
-23,Hey Ya!,OutKast,HipHop,160,[dance,catchy,2000s]\
-24,Crazy in Love,Beyonc\'e9 ft. Jay-Z,R&B,100,[dance,love,hit]\
-25,Thinking Out Loud,Ed Sheeran,Pop,79,[romantic,ballad,wedding]\
-26,All of Me,John Legend,R&B,63,[love,ballad,piano]\
-27,Roar,Katy Perry,Pop,90,[empowerment,anthem,pop]\
-28,Don't Stop Believin',Journey,Rock,119,[classic,anthem,80s]\
-29,Single Ladies,Beyonc\'e9,R&B,97,[dance,anthem,independent]\
-30,Can't Stop the Feeling!,Justin Timberlake,Pop,113,[dance,upbeat,movie]\
-31,Radioactive,Imagine Dragons,Alternative,136,[rock,powerful,modern]\
-32,Hips Don't Lie,Shakira ft. Wyclef Jean,Pop,100,[dance,latin,hit]\
-33,Viva la Vida,Coldplay,Alternative,138,[anthem,orchestral,epic]\
-34,Seven Nation Army,The White Stripes,Alternative,124,[guitar,anthem,rock]\
-35,Mr. Brightside,The Killers,Alternative,148,[indie,2000s,rock]\
-36,Firework,Katy Perry,Pop,124,[empowerment,anthem,pop]\
-37,Happy,Pharrell Williams,Pop,160,[upbeat,dance,movie]\
-38,Titanium,David Guetta ft. Sia,EDM,126,[dance,powerful,vocal]\
-39,We Found Love,Rihanna ft. Calvin Harris,Dance,128,[club,dance,love]\
-40,Royals,Lorde,Pop,85,[alternative,minimal,hit]\
-41,Poker Face,Lady Gaga,Pop,120,[dance,catchy,debut]\
-42,Somebody That I Used to Know,Gotye ft. Kimbra,IndiePop,129,[breakup,duet,alternative]\
-43,Bad Romance,Lady Gaga,Pop,119,[dance,catchy,hit]\
-44,Closer,The Chainsmokers ft. Halsey,EDM,95,[pop,duet,hit]\
-45,Counting Stars,OneRepublic,PopRock,122,[catchy,pop,hit]\
-46,Sorry,Justin Bieber,Pop,100,[dancehall,pop,apology]\
-47,Cheap Thrills,Sia,Pop,90,[dance,catchy,pop]\
-48,Despacito,Luis Fonsi ft. Daddy Yankee,Reggaeton,89,[latin,dance,hit]\
-49,Let Her Go,Passenger,Folk,75,[acoustic,emotional,breakup]\
-50,Take Me to Church,Hozier,IndieRock,128,[soulful,powerful,alternative]\
-51,Believer,Imagine Dragons,Alternative,125,[rock,powerful,modern]\
-52,Demons,Imagine Dragons,Alternative,90,[emotional,rock,hit]\
-53,Chandelier,Sia,Pop,87,[vocal,powerful,emotional]\
-54,Hello,Adele,Pop,79,[ballad,emotional,comeback]\
-55,Lean On,Major Lazer & DJ Snake ft. M\'d8,EDM,98,[dance,global,hit]\
-56,Can't Feel My Face,The Weeknd,Pop,108,[catchy,pop,hit]\
-57,Starboy,The Weeknd ft. Daft Punk,Pop,93,[electronic,collaboration,hit]\
-58,See You Again,Wiz Khalifa ft. Charlie Puth,HipHop,80,[tribute,emotional,movie]\
-59,One Dance,Drake ft. Wizkid & Kyla,Dancehall,104,[dance,global,hit]\
-60,Work,Rihanna ft. Drake,Dancehall,92,[catchy,pop,hit]\
-61,Thinking Bout You,Frank Ocean,R&B,82,[emotional,R&B,soulful]\
-62,Riptide,Vance Joy,IndieFolk,100,[acoustic,catchy,indie]\
-63,Pumped Up Kicks,Foster the People,IndiePop,128,[catchy,indie,dark]\
-64,Ho Hey,The Lumineers,IndieFolk,82,[acoustic,catchy,indie]\
-65,Blurred Lines,Robin Thicke ft. T.I. & Pharrell,Pop,120,[controversial,catchy,hit]\
-66,Get Lucky,Daft Punk ft. Pharrell Williams,Disco,116,[dance,retro,groove]\
-67,Can't Hold Us,Macklemore & Ryan Lewis ft. Ray Dalton,HipHop,146,[energetic,rap,hit]\
-68,Locked Out of Heaven,Bruno Mars,Pop,144,[funk,catchy,pop]\
-69,Treasure,Bruno Mars,Pop,116,[funk,dance,retro]\
-70,Rather Be,Clean Bandit ft. Jess Glynne,EDM,121,[dance,violin,catchy]\
-71,Love Yourself,Justin Bieber,Pop,100,[acoustic,breakup,hit]\
-72,Bad and Boujee,Migos ft. Lil Uzi Vert,HipHop,127,[trap,rap,hit]\
-73,Hotline Bling,Drake,R&B,135,[catchy,meme,hit]\
-74,In the End,Linkin Park,Alternative,105,[rock,rap,emotional]\
-75,Numb,Linkin Park,Alternative,110,[rock,emotional,hit]\
-76,Take On Me,A-ha,Synthpop,169,[80s,catchy,classic]\
-77,Africa,Toto,Rock,93,[classic,meme,80s]\
-78,Eye of the Tiger,Survivor,Rock,109,[motivational,classic,80s]\
-79,Girls Like You,Maroon 5 ft. Cardi B,Pop,125,[pop,catchy,hit]\
-80,Sugar,Maroon 5,Pop,120,[catchy,pop,love]\
-81,Wake Me Up,Avicii,EDM,124,[dance,hit,uplifting]\
-82,Levels,Avicii,EDM,126,[dance,club,classic]\
-83,Don't You Worry Child,Swedish House Mafia,EDM,129,[dance,hit,farewell]\
-84,Feel So Close,Calvin Harris,EDM,128,[dance,club,hit]\
-85,Summer,Calvin Harris,EDM,128,[dance,upbeat,hit]\
-86,Without You,David Guetta ft. Usher,EDM,128,[dance,emotional,hit]\
-87,Sexy and I Know It,LMFAO,EDM,130,[party,dance,fun]\
-88,Party Rock Anthem,LMFAO ft. Lauren Bennett & GoonRock,EDM,130,[party,dance,hit]\
-89,Time,Pink Floyd,ProgressiveRock,120,[classic,conceptual,rock]\
-90,Comfortably Numb,Pink Floyd,ProgressiveRock,126,[classic,guitar,rock]\
-91,Another One Bites the Dust,Queen,Rock,110,[classic,bassline,hit]\
-92,Under Pressure,Queen & David Bowie,Rock,114,[collaboration,classic,bassline]\
-93,Heroes,David Bowie,Rock,116,[classic,anthem,rock]\
-94,Space Oddity,David Bowie,Rock,81,[classic,space,rock]\
-95,Karma Police,Radiohead,Alternative,76,[indie,classic,90s]\
-96,Creep,Radiohead,Alternative,92,[indie,classic,90s]\
-97,Come As You Are,Nirvana,Grunge,120,[grunge,classic,90s]\
-98,Enter Sandman,Metallica,Metal,123,[metal,classic,heavy]\
-99,Nothing Else Matters,Metallica,Metal,139,[ballad,metal,classic]\
-100,Black Hole Sun,Soundgarden,Grunge,78,[grunge,classic,90s]\
-101,Californication,Red Hot Chili Peppers,Alternative,96,[rock,california,90s]\
-102,Under the Bridge,Red Hot Chili Peppers,Alternative,84,[rock,emotional,classic]\
-103,Otherside,Red Hot Chili Peppers,Alternative,78,[rock,emotional,90s]\
-104,Fell in Love with a Girl,The White Stripes,GarageRock,200,[rock,energetic,2000s]\
-105,Paranoid Android,Radiohead,Alternative,83,[complex,alternative,90s]\
-106,Sweet Dreams (Are Made of This),Eurythmics,Synthpop,125,[80s,synth,classic]\
-107,Everybody Wants to Rule the World,Tears for Fears,Pop,112,[80s,classic,pop]\
-108,Don't You (Forget About Me),Simple Minds,Pop,113,[80s,classic,movie]\
-109,Beat It,Michael Jackson,Pop,138,[rock,dance,classic]\
-110,Smooth Criminal,Michael Jackson,Pop,118,[dance,classic,hit]\
-111,Smooth,Santana ft. Rob Thomas,Rock,116,[collaboration,guitar,hit]\
-112,Purple Rain,Prince,Rock,113,[classic,guitar,ballad]\
-113,When Doves Cry,Prince,Pop,154,[80s,classic,pop]\
-114,Livin' on a Prayer,Bon Jovi,Rock,123,[80s,anthem,classic]\
-115,Wanted Dead or Alive,Bon Jovi,Rock,86,[classic,rock,ballad]\
-116,Every Breath You Take,The Police,Rock,117,[classic,stalker,80s]\
-117,Message in a Bottle,The Police,Rock,150,[classic,guitar,80s]\
-118,The Sound of Silence,Simon & Garfunkel,Folk,98,[classic,acoustic,emotional]\
-119,Mrs. Robinson,Simon & Garfunkel,Folk,83,[classic,movie,folk]\
-120,Take It Easy,Eagles,Rock,138,[classic,rock,70s]\
-121,Born to Run,Bruce Springsteen,Rock,146,[classic,anthem,rock]\
-122,Dancing in the Dark,Bruce Springsteen,Rock,149,[80s,classic,poprock]\
-123,Blowin' in the Wind,Bob Dylan,Folk,86,[classic,protest,60s]\
-124,Johnny B. Goode,Chuck Berry,RockandRoll,168,[classic,guitar,rock]\
-125,Blue Suede Shoes,Elvis Presley,RockandRoll,96,[classic,50s,rock]\
-126,Suspicious Minds,Elvis Presley,RockandRoll,122,[classic,60s,love]\
-127,Respect,Aretha Franklin,Soul,115,[classic,empowerment,60s]\
-128,I Say a Little Prayer,Aretha Franklin,Soul,105,[classic,soulful,60s]\
-129,Superstition,Stevie Wonder,Funk,100,[classic,groove,70s]\
-130,Isn't She Lovely,Stevie Wonder,Soul,110,[love,classic,70s]\
-131,September,Earth Wind & Fire,Funk,126,[dance,classic,70s]\
-132,Boogie Wonderland,Earth Wind & Fire,Disco,131,[dance,disco,classic]\
-133,Stayin' Alive,Bee Gees,Disco,104,[disco,dance,70s]\
-134,Night Fever,Bee Gees,Disco,110,[disco,dance,70s]\
-135,The Way You Make Me Feel,Michael Jackson,Pop,115,[dance,classic,80s]\
-136,Uptown Girl,Billy Joel,Pop,129,[80s,catchy,pop]\
-137,Piano Man,Billy Joel,Pop,179,[classic,piano,ballad]\
-138,Tiny Dancer,Elton John,Pop,72,[classic,piano,ballad]\
-139,Rocket Man,Elton John,Pop,74,[classic,space,pop]\
-140,Let It Be,The Beatles,Rock,71,[classic,piano,emotional]\
-141,Here Comes the Sun,The Beatles,Rock,128,[classic,uplifting,Beatles]\
-142,A Day in the Life,The Beatles,Rock,76,[classic,experimental,Beatles]\
-143,Paint It Black,The Rolling Stones,Rock,158,[classic,dark,rock]\
-144,Sympathy for the Devil,The Rolling Stones,Rock,113,[classic,rock,60s]\
-145,Brown Sugar,The Rolling Stones,Rock,127,[classic,rock,70s]\
-146,Sweet Home Alabama,Lynyrd Skynyrd,SouthernRock,98,[classic,rock,anthem]\
-147,Free Bird,Lynyrd Skynyrd,SouthernRock,144,[classic,guitar,epic]\
-148,Dust in the Wind,Kansas,ProgressiveRock,94,[classic,acoustic,ballad]\
-149,Carry On Wayward Son,Kansas,ProgressiveRock,130,[classic,rock,70s]\
-150,American Pie,Don McLean,FolkRock,139,[classic,storytelling,70s]\
-151,Hallelujah,Leonard Cohen,FolkRock,64,[emotional,classic,ballad]\
-152,Hurt,Nine Inch Nails,Industrial,90,[dark,emotional,alternative]\
-153,Closer,Nine Inch Nails,Industrial,92,[dark,alternative,90s]\
-154,Losing My Religion,R.E.M.,Alternative,125,[classic,alternative,90s]\
-155,Everybody Hurts,R.E.M.,Alternative,76,[emotional,ballad,90s]\
-156,Don't Look Back in Anger,Oasis,Britpop,84,[britpop,classic,90s]\
-157,Champagne Supernova,Oasis,Britpop,141,[britpop,epic,90s]\
-158,Bittersweet Symphony,The Verve,Britpop,85,[classic,strings,90s]\
-159,Yellow,Coldplay,Alternative,143,[emotional,classic,alternative]\
-160,Fix You,Coldplay,Alternative,138,[emotional,ballad,uplifting]\
-161,The Scientist,Coldplay,Alternative,150,[emotional,piano,ballad]\
-162,Clocks,Coldplay,Alternative,131,[piano,alternative,hit]\
-163,Boulevard of Broken Dreams,Green Day,Alternative,85,[rock,2000s,emotional]\
-164,American Idiot,Green Day,PunkRock,186,[energetic,punk,2000s]\
-165,Basket Case,Green Day,PunkRock,176,[classic,punk,90s]\
-166,Black,Pearl Jam,Grunge,72,[grunge,emotional,90s]\
-167,Jeremy,Pearl Jam,Grunge,109,[grunge,classic,90s]\
-168,Alive,Pearl Jam,Grunge,109,[grunge,rock,90s]\
-169,Thunderstruck,AC/DC,HardRock,134,[rock,guitar,classic]\
-170,Highway to Hell,AC/DC,HardRock,116,[rock,classic,70s]\
-171,Welcome to the Jungle,Guns N' Roses,HardRock,123,[rock,energetic,classic]\
-172,November Rain,Guns N' Roses,HardRock,76,[epic,ballad,guitar]\
-173,Jump,Van Halen,HardRock,130,[80s,synth,classic]\
-174,Panama,Van Halen,HardRock,143,[rock,guitar,80s]\
-175,Master of Puppets,Metallica,Metal,212,[metal,classic,thrash]\
-176,Run to the Hills,Iron Maiden,Metal,180,[metal,classic,80s]\
-177,The Trooper,Iron Maiden,Metal,160,[metal,guitar,classic]\
-178,Paranoid,Black Sabbath,Metal,164,[metal,classic,70s]\
-179,War Pigs,Black Sabbath,Metal,90,[metal,classic,protest]\
-180,Ace of Spades,Mot\'f6rhead,Metal,140,[metal,classic,energetic]\
-181,Kashmir,Led Zeppelin,Rock,83,[epic,rock,classic]\
-182,Immigrant Song,Led Zeppelin,Rock,112,[rock,energetic,classic]\
-183,Whole Lotta Love,Led Zeppelin,Rock,91,[classic,guitar,rock]\
-184,My Generation,The Who,Rock,136,[classic,rock,60s]\
-185,Baba O'Riley,The Who,Rock,117,[classic,anthem,rock]\
-186,I Can't Explain,The Who,Rock,143,[classic,rock,60s]\
-187,London Calling,The Clash,PunkRock,138,[punk,classic,rock]\
-188,Should I Stay or Should I Go,The Clash,PunkRock,111,[punk,classic,rock]\
-189,Blitzkrieg Bop,Ramones,PunkRock,178,[punk,classic,energetic]\
-190,Anarchy in the UK,Sex Pistols,PunkRock,137,[punk,classic,rebellious]\
-191,God Save the Queen,Sex Pistols,PunkRock,120,[punk,classic,protest]\
-192,Psycho Killer,Talking Heads,NewWave,122,[alternative,classic,70s]\
-193,Once in a Lifetime,Talking Heads,NewWave,120,[alternative,classic,80s]\
-194,Burning Down the House,Talking Heads,NewWave,115,[alternative,classic,80s]\
-195,Tainted Love,Soft Cell,Synthpop,145,[80s,synth,classic]\
-196,Blue Monday,New Order,Synthpop,130,[80s,electronic,classic]\
-197,Just Can't Get Enough,Depeche Mode,Synthpop,130,[80s,synth,classic]\
-198,West End Girls,Pet Shop Boys,Synthpop,113,[80s,electronic,classic]\
-199,Don't You Want Me,The Human League,Synthpop,117,[80s,synth,classic]\
-200,True,Spandau Ballet,NewWave,98,[80s,ballad,classic]}
+1,Bohemian Rhapsody,Queen,Rock,144,[classic,opera,epic]
+2,Billie Jean,Michael Jackson,Pop,117,[dance,moonwalk,iconic]
+3,Like a Rolling Stone,Bob Dylan,FolkRock,96,[lyrical,classic,protest]
+4,Smells Like Teen Spirit,Nirvana,Grunge,117,[alternative,anthem,90s]
+5,Stairway to Heaven,Led Zeppelin,Rock,82,[classic,guitar,epic]
+6,Hotel California,Eagles,Rock,75,[classic,guitar,westcoast]
+7,Hey Jude,The Beatles,Rock,72,[classic,singalong,Beatles]
+8,Sweet Child o' Mine,Guns N' Roses,HardRock,125,[guitar,80s,rock]
+9,Rolling in the Deep,Adele,Pop,105,[powerful,vocal,soul]
+10,Lose Yourself,Eminem,HipHop,171,[rap,motivational,8Mile]
+11,One,U2,Rock,91,[ballad,90s,emotional]
+12,Wonderwall,Oasis,Britpop,87,[90s,acoustic,anthem]
+13,Imagine,John Lennon,Pop,75,[peace,classic,piano]
+14,Shake It Off,Taylor Swift,Pop,160,[dance,catchy,pop]
+15,Back in Black,AC/DC,HardRock,94,[rock,guitar,classic]
+16,Uptown Funk,Mark Ronson ft. Bruno Mars,Funk,115,[dance,groove,party]
+17,Bad Guy,Billie Eilish,Pop,135,[alternative,hit,contemporary]
+18,Blinding Lights,The Weeknd,Synthpop,171,[80s,synth,hit]
+19,Old Town Road,Lil Nas X,CountryRap,136,[viral,crossover,trap]
+20,Shape of You,Ed Sheeran,Pop,96,[hit,dancehall,love]
+21,Thriller,Michael Jackson,Pop,118,[halloween,dance,iconic]
+22,Someone Like You,Adele,Pop,67,[ballad,emotional,breakup]
+23,Hey Ya!,OutKast,HipHop,160,[dance,catchy,2000s]
+24,Crazy in Love,Beyoncé ft. Jay-Z,R&B,100,[dance,love,hit]
+25,Thinking Out Loud,Ed Sheeran,Pop,79,[romantic,ballad,wedding]
+26,All of Me,John Legend,R&B,63,[love,ballad,piano]
+27,Roar,Katy Perry,Pop,90,[empowerment,anthem,pop]
+28,Don't Stop Believin',Journey,Rock,119,[classic,anthem,80s]
+29,Single Ladies,Beyoncé,R&B,97,[dance,anthem,independent]
+30,Can't Stop the Feeling!,Justin Timberlake,Pop,113,[dance,upbeat,movie]
+31,Radioactive,Imagine Dragons,Alternative,136,[rock,powerful,modern]
+32,Hips Don't Lie,Shakira ft. Wyclef Jean,Pop,100,[dance,latin,hit]
+33,Viva la Vida,Coldplay,Alternative,138,[anthem,orchestral,epic]
+34,Seven Nation Army,The White Stripes,Alternative,124,[guitar,anthem,rock]
+35,Mr. Brightside,The Killers,Alternative,148,[indie,2000s,rock]
+36,Firework,Katy Perry,Pop,124,[empowerment,anthem,pop]
+37,Happy,Pharrell Williams,Pop,160,[upbeat,dance,movie]
+38,Titanium,David Guetta ft. Sia,EDM,126,[dance,powerful,vocal]
+39,We Found Love,Rihanna ft. Calvin Harris,Dance,128,[club,dance,love]
+40,Royals,Lorde,Pop,85,[alternative,minimal,hit]
+41,Poker Face,Lady Gaga,Pop,120,[dance,catchy,debut]
+42,Somebody That I Used to Know,Gotye ft. Kimbra,IndiePop,129,[breakup,duet,alternative]
+43,Bad Romance,Lady Gaga,Pop,119,[dance,catchy,hit]
+44,Closer,The Chainsmokers ft. Halsey,EDM,95,[pop,duet,hit]
+45,Counting Stars,OneRepublic,PopRock,122,[catchy,pop,hit]
+46,Sorry,Justin Bieber,Pop,100,[dancehall,pop,apology]
+47,Cheap Thrills,Sia,Pop,90,[dance,catchy,pop]
+48,Despacito,Luis Fonsi ft. Daddy Yankee,Reggaeton,89,[latin,dance,hit]
+49,Let Her Go,Passenger,Folk,75,[acoustic,emotional,breakup]
+50,Take Me to Church,Hozier,IndieRock,128,[soulful,powerful,alternative]
+51,Believer,Imagine Dragons,Alternative,125,[rock,powerful,modern]
+52,Demons,Imagine Dragons,Alternative,90,[emotional,rock,hit]
+53,Chandelier,Sia,Pop,87,[vocal,powerful,emotional]
+54,Hello,Adele,Pop,79,[ballad,emotional,comeback]
+55,Lean On,Major Lazer & DJ Snake ft. MØ,EDM,98,[dance,global,hit]
+56,Can't Feel My Face,The Weeknd,Pop,108,[catchy,pop,hit]
+57,Starboy,The Weeknd ft. Daft Punk,Pop,93,[electronic,collaboration,hit]
+58,See You Again,Wiz Khalifa ft. Charlie Puth,HipHop,80,[tribute,emotional,movie]
+59,One Dance,Drake ft. Wizkid & Kyla,Dancehall,104,[dance,global,hit]
+60,Work,Rihanna ft. Drake,Dancehall,92,[catchy,pop,hit]
+61,Thinking Bout You,Frank Ocean,R&B,82,[emotional,R&B,soulful]
+62,Riptide,Vance Joy,IndieFolk,100,[acoustic,catchy,indie]
+63,Pumped Up Kicks,Foster the People,IndiePop,128,[catchy,indie,dark]
+64,Ho Hey,The Lumineers,IndieFolk,82,[acoustic,catchy,indie]
+65,Blurred Lines,Robin Thicke ft. T.I. & Pharrell,Pop,120,[controversial,catchy,hit]
+66,Get Lucky,Daft Punk ft. Pharrell Williams,Disco,116,[dance,retro,groove]
+67,Can't Hold Us,Macklemore & Ryan Lewis ft. Ray Dalton,HipHop,146,[energetic,rap,hit]
+68,Locked Out of Heaven,Bruno Mars,Pop,144,[funk,catchy,pop]
+69,Treasure,Bruno Mars,Pop,116,[funk,dance,retro]
+70,Rather Be,Clean Bandit ft. Jess Glynne,EDM,121,[dance,violin,catchy]
+71,Love Yourself,Justin Bieber,Pop,100,[acoustic,breakup,hit]
+72,Bad and Boujee,Migos ft. Lil Uzi Vert,HipHop,127,[trap,rap,hit]
+73,Hotline Bling,Drake,R&B,135,[catchy,meme,hit]
+74,In the End,Linkin Park,Alternative,105,[rock,rap,emotional]
+75,Numb,Linkin Park,Alternative,110,[rock,emotional,hit]
+76,Take On Me,A-ha,Synthpop,169,[80s,catchy,classic]
+77,Africa,Toto,Rock,93,[classic,meme,80s]
+78,Eye of the Tiger,Survivor,Rock,109,[motivational,classic,80s]
+79,Girls Like You,Maroon 5 ft. Cardi B,Pop,125,[pop,catchy,hit]
+80,Sugar,Maroon 5,Pop,120,[catchy,pop,love]
+81,Wake Me Up,Avicii,EDM,124,[dance,hit,uplifting]
+82,Levels,Avicii,EDM,126,[dance,club,classic]
+83,Don't You Worry Child,Swedish House Mafia,EDM,129,[dance,hit,farewell]
+84,Feel So Close,Calvin Harris,EDM,128,[dance,club,hit]
+85,Summer,Calvin Harris,EDM,128,[dance,upbeat,hit]
+86,Without You,David Guetta ft. Usher,EDM,128,[dance,emotional,hit]
+87,Sexy and I Know It,LMFAO,EDM,130,[party,dance,fun]
+88,Party Rock Anthem,LMFAO ft. Lauren Bennett & GoonRock,EDM,130,[party,dance,hit]
+89,Time,Pink Floyd,ProgressiveRock,120,[classic,conceptual,rock]
+90,Comfortably Numb,Pink Floyd,ProgressiveRock,126,[classic,guitar,rock]
+91,Another One Bites the Dust,Queen,Rock,110,[classic,bassline,hit]
+92,Under Pressure,Queen & David Bowie,Rock,114,[collaboration,classic,bassline]
+93,Heroes,David Bowie,Rock,116,[classic,anthem,rock]
+94,Space Oddity,David Bowie,Rock,81,[classic,space,rock]
+95,Karma Police,Radiohead,Alternative,76,[indie,classic,90s]
+96,Creep,Radiohead,Alternative,92,[indie,classic,90s]
+97,Come As You Are,Nirvana,Grunge,120,[grunge,classic,90s]
+98,Enter Sandman,Metallica,Metal,123,[metal,classic,heavy]
+99,Nothing Else Matters,Metallica,Metal,139,[ballad,metal,classic]
+100,Black Hole Sun,Soundgarden,Grunge,78,[grunge,classic,90s]
+101,Californication,Red Hot Chili Peppers,Alternative,96,[rock,california,90s]
+102,Under the Bridge,Red Hot Chili Peppers,Alternative,84,[rock,emotional,classic]
+103,Otherside,Red Hot Chili Peppers,Alternative,78,[rock,emotional,90s]
+104,Fell in Love with a Girl,The White Stripes,GarageRock,200,[rock,energetic,2000s]
+105,Paranoid Android,Radiohead,Alternative,83,[complex,alternative,90s]
+106,Sweet Dreams (Are Made of This),Eurythmics,Synthpop,125,[80s,synth,classic]
+107,Everybody Wants to Rule the World,Tears for Fears,Pop,112,[80s,classic,pop]
+108,Don't You (Forget About Me),Simple Minds,Pop,113,[80s,classic,movie]
+109,Beat It,Michael Jackson,Pop,138,[rock,dance,classic]
+110,Smooth Criminal,Michael Jackson,Pop,118,[dance,classic,hit]
+111,Smooth,Santana ft. Rob Thomas,Rock,116,[collaboration,guitar,hit]
+112,Purple Rain,Prince,Rock,113,[classic,guitar,ballad]
+113,When Doves Cry,Prince,Pop,154,[80s,classic,pop]
+114,Livin' on a Prayer,Bon Jovi,Rock,123,[80s,anthem,classic]
+115,Wanted Dead or Alive,Bon Jovi,Rock,86,[classic,rock,ballad]
+116,Every Breath You Take,The Police,Rock,117,[classic,stalker,80s]
+117,Message in a Bottle,The Police,Rock,150,[classic,guitar,80s]
+118,The Sound of Silence,Simon & Garfunkel,Folk,98,[classic,acoustic,emotional]
+119,Mrs. Robinson,Simon & Garfunkel,Folk,83,[classic,movie,folk]
+120,Take It Easy,Eagles,Rock,138,[classic,rock,70s]
+121,Born to Run,Bruce Springsteen,Rock,146,[classic,anthem,rock]
+122,Dancing in the Dark,Bruce Springsteen,Rock,149,[80s,classic,poprock]
+123,Blowin' in the Wind,Bob Dylan,Folk,86,[classic,protest,60s]
+124,Johnny B. Goode,Chuck Berry,RockandRoll,168,[classic,guitar,rock]
+125,Blue Suede Shoes,Elvis Presley,RockandRoll,96,[classic,50s,rock]
+126,Suspicious Minds,Elvis Presley,RockandRoll,122,[classic,60s,love]
+127,Respect,Aretha Franklin,Soul,115,[classic,empowerment,60s]
+128,I Say a Little Prayer,Aretha Franklin,Soul,105,[classic,soulful,60s]
+129,Superstition,Stevie Wonder,Funk,100,[classic,groove,70s]
+130,Isn't She Lovely,Stevie Wonder,Soul,110,[love,classic,70s]
+131,September,Earth Wind & Fire,Funk,126,[dance,classic,70s]
+132,Boogie Wonderland,Earth Wind & Fire,Disco,131,[dance,disco,classic]
+133,Stayin' Alive,Bee Gees,Disco,104,[disco,dance,70s]
+134,Night Fever,Bee Gees,Disco,110,[disco,dance,70s]
+135,The Way You Make Me Feel,Michael Jackson,Pop,115,[dance,classic,80s]
+136,Uptown Girl,Billy Joel,Pop,129,[80s,catchy,pop]
+137,Piano Man,Billy Joel,Pop,179,[classic,piano,ballad]
+138,Tiny Dancer,Elton John,Pop,72,[classic,piano,ballad]
+139,Rocket Man,Elton John,Pop,74,[classic,space,pop]
+140,Let It Be,The Beatles,Rock,71,[classic,piano,emotional]
+141,Here Comes the Sun,The Beatles,Rock,128,[classic,uplifting,Beatles]
+142,A Day in the Life,The Beatles,Rock,76,[classic,experimental,Beatles]
+143,Paint It Black,The Rolling Stones,Rock,158,[classic,dark,rock]
+144,Sympathy for the Devil,The Rolling Stones,Rock,113,[classic,rock,60s]
+145,Brown Sugar,The Rolling Stones,Rock,127,[classic,rock,70s]
+146,Sweet Home Alabama,Lynyrd Skynyrd,SouthernRock,98,[classic,rock,anthem]
+147,Free Bird,Lynyrd Skynyrd,SouthernRock,144,[classic,guitar,epic]
+148,Dust in the Wind,Kansas,ProgressiveRock,94,[classic,acoustic,ballad]
+149,Carry On Wayward Son,Kansas,ProgressiveRock,130,[classic,rock,70s]
+150,American Pie,Don McLean,FolkRock,139,[classic,storytelling,70s]
+151,Hallelujah,Leonard Cohen,FolkRock,64,[emotional,classic,ballad]
+152,Hurt,Nine Inch Nails,Industrial,90,[dark,emotional,alternative]
+153,Closer,Nine Inch Nails,Industrial,92,[dark,alternative,90s]
+154,Losing My Religion,R.E.M.,Alternative,125,[classic,alternative,90s]
+155,Everybody Hurts,R.E.M.,Alternative,76,[emotional,ballad,90s]
+156,Don't Look Back in Anger,Oasis,Britpop,84,[britpop,classic,90s]
+157,Champagne Supernova,Oasis,Britpop,141,[britpop,epic,90s]
+158,Bittersweet Symphony,The Verve,Britpop,85,[classic,strings,90s]
+159,Yellow,Coldplay,Alternative,143,[emotional,classic,alternative]
+160,Fix You,Coldplay,Alternative,138,[emotional,ballad,uplifting]
+161,The Scientist,Coldplay,Alternative,150,[emotional,piano,ballad]
+162,Clocks,Coldplay,Alternative,131,[piano,alternative,hit]
+163,Boulevard of Broken Dreams,Green Day,Alternative,85,[rock,2000s,emotional]
+164,American Idiot,Green Day,PunkRock,186,[energetic,punk,2000s]
+165,Basket Case,Green Day,PunkRock,176,[classic,punk,90s]
+166,Black,Pearl Jam,Grunge,72,[grunge,emotional,90s]
+167,Jeremy,Pearl Jam,Grunge,109,[grunge,classic,90s]
+168,Alive,Pearl Jam,Grunge,109,[grunge,rock,90s]
+169,Thunderstruck,AC/DC,HardRock,134,[rock,guitar,classic]
+170,Highway to Hell,AC/DC,HardRock,116,[rock,classic,70s]
+171,Welcome to the Jungle,Guns N' Roses,HardRock,123,[rock,energetic,classic]
+172,November Rain,Guns N' Roses,HardRock,76,[epic,ballad,guitar]
+173,Jump,Van Halen,HardRock,130,[80s,synth,classic]
+174,Panama,Van Halen,HardRock,143,[rock,guitar,80s]
+175,Master of Puppets,Metallica,Metal,212,[metal,classic,thrash]
+176,Run to the Hills,Iron Maiden,Metal,180,[metal,classic,80s]
+177,The Trooper,Iron Maiden,Metal,160,[metal,guitar,classic]
+178,Paranoid,Black Sabbath,Metal,164,[metal,classic,70s]
+179,War Pigs,Black Sabbath,Metal,90,[metal,classic,protest]
+180,Ace of Spades,Motörhead,Metal,140,[metal,classic,energetic]
+181,Kashmir,Led Zeppelin,Rock,83,[epic,rock,classic]
+182,Immigrant Song,Led Zeppelin,Rock,112,[rock,energetic,classic]
+183,Whole Lotta Love,Led Zeppelin,Rock,91,[classic,guitar,rock]
+184,My Generation,The Who,Rock,136,[classic,rock,60s]
+185,Baba O'Riley,The Who,Rock,117,[classic,anthem,rock]
+186,I Can't Explain,The Who,Rock,143,[classic,rock,60s]
+187,London Calling,The Clash,PunkRock,138,[punk,classic,rock]
+188,Should I Stay or Should I Go,The Clash,PunkRock,111,[punk,classic,rock]
+189,Blitzkrieg Bop,Ramones,PunkRock,178,[punk,classic,energetic]
+190,Anarchy in the UK,Sex Pistols,PunkRock,137,[punk,classic,rebellious]
+191,God Save the Queen,Sex Pistols,PunkRock,120,[punk,classic,protest]
+192,Psycho Killer,Talking Heads,NewWave,122,[alternative,classic,70s]
+193,Once in a Lifetime,Talking Heads,NewWave,120,[alternative,classic,80s]
+194,Burning Down the House,Talking Heads,NewWave,115,[alternative,classic,80s]
+195,Tainted Love,Soft Cell,Synthpop,145,[80s,synth,classic]
+196,Blue Monday,New Order,Synthpop,130,[80s,electronic,classic]
+197,Just Can't Get Enough,Depeche Mode,Synthpop,130,[80s,synth,classic]
+198,West End Girls,Pet Shop Boys,Synthpop,113,[80s,electronic,classic]
+199,Don't You Want Me,The Human League,Synthpop,117,[80s,synth,classic]
+200,True,Spandau Ballet,NewWave,98,[80s,ballad,classic]
