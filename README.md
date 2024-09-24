@@ -4,7 +4,7 @@
 ### Sept 24
 Jaden: 
 1. Started User class and Song class
-2. Started learning Python
+2. Started learning Python<br />
 Yifan:
 1. Completed weekly planner
 2. Completed project description
