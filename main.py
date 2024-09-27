@@ -1,5 +1,11 @@
+from gui import *
+from music_player_system import *
+
 def main():
-    print("this is the main method, this acts like the java main, or the processing void setup if you are more farmiliar with it")
+    gui = GUI()
+    music_player_system = MusicPlayerSystem()
+    music_player_system.update()
+    gui.update()
 
 if __name__ == "__main__":
     main()

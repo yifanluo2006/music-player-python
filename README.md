@@ -19,3 +19,12 @@ Jaden:
 Yifan:
 1. Redesigned the class system
 2. Created gui.py, playlist.py, song.py, user.py, and main.py files
+
+### Sept 26
+
+College Presentation Period
+
+### Sept 27
+Jaden:
+
+Yifan:
