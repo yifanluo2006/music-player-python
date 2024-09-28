@@ -1,12 +1,16 @@
 # Music Player
 
 # Daily Log
+
 ### Sept 24
-Jaden: 
+
+Jaden:
+
 1. Started User class and Song class
 2. Started learning Python
 
 Yifan:
+
 1. Developed a plan to complete the project
 2. Completed weekly planner with: Goals, description, and specific checklist
 3. Completed project description and overview
