@@ -7,7 +7,7 @@ def main(): # This is the main method, this will always run as the program start
     gui = GUI()
     music_player_system = MusicPlayerSystem()
     music_player_system.update()
-    music_player_system.test_print() # test to verify it works, and it does :)
+    # music_player_system.test_print() # test to verify it works, and it does :)
     gui.update()
 
 if __name__ == "__main__":

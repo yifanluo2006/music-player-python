@@ -1,7 +1,8 @@
 from song import *
 
 class Playlist:
-    def __init__(self):
+    def __init__(self, name):
+        self.name = name
         self.first_song = None
         self.song = None
 

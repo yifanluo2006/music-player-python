@@ -1,10 +1,15 @@
 from playlist import *
 from song import *
+from user import *
 
 class MusicPlayerSystem:
     def __init__(self):
-        self.complete_list = Playlist() # initial playlist created
+        self.complete_list = Playlist("Complete Library") # initial playlist created
         self.populate_complete_list() # and populated
+
+        self.first_user = None
+        self.user = None
+        self.populate_users()
 
     def update(self):
         pass
@@ -18,5 +23,14 @@ class MusicPlayerSystem:
             song_element = song.split(',')
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], [song_element[5], song_element[6], song_element[7]])
             
+    def populate_users(self, id, username):
+        if self.first_user == None:
+            self.user = User(id, username)
+            self.first_user = self.user
+        else:
+            a_user = User(id, username)
+            self.user.set_next(a_user)
+            self.user = a_user
+
     def test_print(self):
         self.complete_list.print_list()
