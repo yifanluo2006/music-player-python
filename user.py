@@ -1,19 +1,23 @@
 from playlist import *
 
 class User:
-    def __init__(self, id, username):
+    def __init__(self, id):
         self.next = None
 
         self.id = id
-        self.username = username
-        self.library = Playlist()
+        self.username = None
+        self.library = Playlist(self.id * 10 + 0, "Library")
         self.playlists = []
         self.populate_user_information()
 
-    def populate_user_information():
-        file = open("./data/user_" + str(id), "r") #reads the text file
+    def populate_user_information(self):
+        file = open("./data/user_" + str(self.id) + ".txt", "r") #reads the text file
         content = file.read()
-        print(content)
+        
+
+    def create_new_playlist(self, name):
+        new_playlist = Playlist(self.id + len(self.playlists) + 1, name)
+        self.playlists.append(new_playlist)
 
     def set_next(self, next):
         self.next = next

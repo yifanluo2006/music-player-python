@@ -1,10 +1,11 @@
 from song import *
 
 class Playlist:
-    def __init__(self, name):
+    def __init__(self, id, name):
         self.name = name
         self.first_song = None
         self.song = None
+        self.id = id
 
     def add_song(self, id, title, artist, genre, bpm, meta):
         if self.first_song == None: #if this is first song
