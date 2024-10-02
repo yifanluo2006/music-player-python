@@ -4,7 +4,7 @@ from user import *
 
 class MusicPlayerSystem:
     def __init__(self):
-        self.complete_list = Playlist(0, "Complete Library") # initial playlist created
+        self.complete_list = Playlist(0, "Complete Library", self) # initial playlist created
         self.populate_complete_list() # and populated
 
         self.first_user = None
@@ -35,5 +35,27 @@ class MusicPlayerSystem:
     def get_user(self, id):
         return self.first_user # implement a search function in the future for the id number
 
+    def add_user(self, user):
+        pass
+
+    def add_song_to_library(userId, song):
+        pass
+
+    def create_playlist(userId, playlistName):
+        pass
+
+    def add_song_to_playlist(userId, playlistId, songId):
+        pass
+
+    def generate_suggestions(userId, playlistId):
+        pass
+
+    def get_most_popular_songs(n):
+        pass
+
+    def search_songs(query):
+        pass
+
+    # =============== Testing ===============
     def test_print(self):
         self.complete_list.print_list()

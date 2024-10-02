@@ -9,18 +9,26 @@ class GUI:
 
     def update(self, system):
          self.main_screen()
-         self.display_users(system, 1)
+         self.display_user(system, 1)
+         self.display_playlist(system, 1)
          self.window.mainloop()
 
     def main_screen(self):
+        pass
+
+    def display_user(self, system, userID):
         leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
         leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
+        leftBar.pack_propagate(0)
         rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
         rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+        rightSide.pack_propagate(0)
+        user = system.get_user(userID)
+        name = tk.Label(leftBar, text="TEST", fg = "black", bg = "grey") # set text to username once one is established
+        name.pack(side = tk.TOP)
+        for p in range(len(user.playlists)):
+        
 
-    def display_users(self, system, userID):
-        disp = system.get_user(userID)
-        ID = tk.Label(text=disp.id)
-        ID.place(400, 400)
-        if(disp.next != None):
-            self.display_users(self,system,userID+1)
+    def display_playlist(self, system, playlist):
+        pass
+        
