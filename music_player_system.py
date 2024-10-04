@@ -25,10 +25,10 @@ class MusicPlayerSystem:
             
     def populate_users(self, id):
         if self.first_user == None:
-            self.user = User(id)
+            self.user = User(id, self.complete_list)
             self.first_user = self.user
         else:
-            a_user = User(id)
+            a_user = User(id, self.complete_list)
             self.user.set_next(a_user)
             self.user = a_user
 

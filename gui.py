@@ -28,13 +28,13 @@ class GUI:
         user = system.get_user(userID)
         name = tk.Label(topBar, text="TEST", fg = "black", bg = "grey") # set text to username once one is established
         name.pack(side = tk.TOP)
-        for p in range(len(user.playlists)+1):
-            tempframe = tk.frame(master = leftBar, width = 250, relief = tk.RAISED)
-            tempframe.pack+propagate(0)
+        for p in range(len(user.playlists)):
+            tempframe = tk.Frame(master = leftBar, width = 250, relief = tk.RAISED)
+            tempframe.pack_propagate(0)
             tempframe.pack()
             playlistdisp = tk.Label(tempframe, text = user.playlists[p].name)
             playlistdisp.pack(side = tk.LEFT)
-            B = tk.Button(tempframe, text = "+", relief = tk.RAISED, command = self.choose_playlist(p))
+            B = tk.Button(tempframe, text = "?", relief = tk.RAISED, command = self.choose_playlist(user.playlists[p]))
             B.pack(side = tk.LEFT)
 
     def display_playlist(self, system, playlist):
@@ -44,7 +44,18 @@ class GUI:
         playlistInfo = tk.Frame(master = rightSide, width = 1000, relief = tk.RAISED)
         playlistInfo.pack()
         playlistInfo.pack_propagate(0)
-        
+        infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner), fg = "white")
+        infoText.pack()
+        self.display_songs(system, rightSide, playlist.first_song)
+
+    def display_songs(self, system, frame, first):
+        container = tk.Frame(master = frame, width = 1000)
+        container.pack()
+        container.pack_propagate(0)
+        info = tk.Label(container, text = first.title + " " + first.artist + " " + first.genre)
+        info.pack()
+        if(first.next != None):
+            self.display_songs(system, frame, first.next)
         
     def choose_playlist(self, p):
         self.current_playlist = p

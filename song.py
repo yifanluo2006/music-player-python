@@ -3,9 +3,9 @@ class Song:
         self.next = None
         
         self.id = int(id)
-        self.title = title
-        self.artist = artist
-        self.genre = genre
+        self.title = str(title)
+        self.artist = str(artist)
+        self.genre = str(genre)
         self.bpm = int(bpm)
         self.meta = meta
 
@@ -17,11 +17,23 @@ class Song:
     def get_id(self):
         return self.id
     
-    def get_next(self):
-        return self.next
-    
     def get_title(self):
         return self.title
+    
+    def get_artist(self):
+        return self.artist
+    
+    def get_genre(self):
+        return self.genre
+    
+    def get_bpm(self):
+        return self.bpm
+    
+    def get_meta(self):
+        return self.meta
+    
+    def get_next(self):
+        return self.next
 
     # ================ Testing ==================== 
     def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print

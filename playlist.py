@@ -2,7 +2,7 @@ from song import *
 
 class Playlist:
     def __init__(self, id, name, owner):
-        self.name = name
+        self.name = str(name)
         self.first_song = None
         self.song = None
         self.id = id
@@ -17,13 +17,22 @@ class Playlist:
             self.song.set_next(a_song) # "linking" the list
             self.song = a_song
 
-    def search_song_id(self, id):
-        self.song = self.first_song
+    # def add_song_obj(self, song):
+    #     if self.first_song == None: #if this is first song
+    #         self.song = song
+    #         self.first_song = self.song
+    #     else: # if there is already first song
+    #         self.song.set_next(song) # "linking" the list
+    #         self.song = song
 
-        while self.song != None:
-            if self.song.get_id() == id:
-                return self.song
-            self.song = self.song.get_next()
+    def search_song_id(self, id):
+        current_song = self.first_song
+
+        while current_song != None:
+            if current_song.get_id() == id:
+                return current_song
+            else:
+                current_song = current_song.get_next()
 
         return None
 
