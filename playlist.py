@@ -16,6 +16,17 @@ class Playlist:
             a_song = Song(id, title, artist, genre, bpm, meta)
             self.song.set_next(a_song) # "linking" the list
             self.song = a_song
-            
+
+    def search_song_id(self, id):
+        self.song = self.first_song
+
+        while self.song != None:
+            if self.song.get_id() == id:
+                return self.song
+            self.song = self.song.get_next()
+
+        return None
+
+    # ============== Testing ===============
     def print_list(self): #print list for testing purposes
         self.first_song.print_all()

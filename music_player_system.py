@@ -34,6 +34,9 @@ class MusicPlayerSystem:
 
     def get_user(self, id):
         return self.first_user # implement a search function in the future for the id number
+    
+    def get_playlist(self, id):
+        return self.complete_list # implement in future
 
     def add_user(self, user):
         pass
