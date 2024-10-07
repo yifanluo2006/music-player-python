@@ -21,9 +21,7 @@ class User:
 
         library_songs = user_info_list[3].split(",")
         for song_id in library_songs:
-            print(song_id)
             current_song = complete_playlist.search_song_id(int(song_id))
-            print(type(current_song))
             self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
         
         playlist_num = int(user_info_list[4])
@@ -37,6 +35,11 @@ class User:
     def create_new_playlist(self, name):
         new_playlist = Playlist(self.id * 10 + len(self.playlists) + 1, name, self)
         self.playlists.append(new_playlist)
+
+    # def add_song_to_playlist(self, playlistId, songId):
+    #     for playlist in playlists:
+    #         if playlist.get_id() == playlistId:
+
 
     def set_next(self, next):
         self.next = next

@@ -5,7 +5,7 @@ class Playlist:
         self.name = str(name)
         self.first_song = None
         self.song = None
-        self.id = id
+        self.id = int(id)
         self.owner = owner
 
     def add_song(self, id, title, artist, genre, bpm, meta):
@@ -35,6 +35,10 @@ class Playlist:
                 current_song = current_song.get_next()
 
         return None
+    
+    # =============== Accessor Methods ==============
+    def get_id(self):
+        return self.id
 
     # ============== Testing ===============
     def print_list(self): #print list for testing purposes

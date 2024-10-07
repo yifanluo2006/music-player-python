@@ -6,6 +6,8 @@ class GUI:
         self.window = tk.Tk()
         self.window.geometry("1100x800")
         self.current_playlist = None
+        self.rightSide = tk.Frame()
+        self.leftBar = tk.Frame()
         
 
     def update(self, system):
@@ -13,49 +15,55 @@ class GUI:
          self.display_user(system, 1)
          if(self.current_playlist != None):
              self.display_playlist(system, self.current_playlist)
+         self.test_button()
          self.window.mainloop()
 
     def main_screen(self):
         pass
 
     def display_user(self, system, userID):
-        leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
-        leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
-        leftBar.pack_propagate(0)
-        topBar = tk.Frame(master = leftBar, width = 250)
-        topBar.pack_propagate(0)
-        topBar.pack()
+        self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
+        self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.leftBar.pack_propagate(0)
         user = system.get_user(userID)
-        name = tk.Label(topBar, text="TEST", fg = "black", bg = "grey") # set text to username once one is established
+        name = tk.Label(self.leftBar, text="TEST", fg = "black", bg = "grey") # set text to username once one is established
         name.pack(side = tk.TOP)
         for p in range(len(user.playlists)):
-            tempframe = tk.Frame(master = leftBar, width = 250, relief = tk.RAISED)
+            tempframe = tk.Frame(master = self.leftBar, width = 250, height = 50, relief = tk.RAISED)
             tempframe.pack_propagate(0)
-            tempframe.pack()
+            tempframe.pack(side = tk.TOP)
             playlistdisp = tk.Label(tempframe, text = user.playlists[p].name)
             playlistdisp.pack(side = tk.LEFT)
             B = tk.Button(tempframe, text = "?", relief = tk.RAISED, command = self.choose_playlist(user.playlists[p]))
             B.pack(side = tk.LEFT)
 
     def display_playlist(self, system, playlist):
-        rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
-        rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
-        rightSide.pack_propagate(0)
-        playlistInfo = tk.Frame(master = rightSide, width = 1000, relief = tk.RAISED)
+        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
+        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.rightSide.pack_propagate(0)
+        playlistInfo = tk.Frame(master = self.rightSide, width = 1000, height = 30, relief = tk.RAISED, bg = "black")
         playlistInfo.pack()
         playlistInfo.pack_propagate(0)
-        infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner), fg = "white")
+        infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner.username), fg = "white", bg = "black")
         infoText.pack()
-        self.display_songs(system, rightSide, playlist.first_song)
+        self.display_songs(system, self.rightSide, playlist.first_song)
 
     def display_songs(self, system, frame, first):
-        container = tk.Frame(master = frame, width = 1000)
+        container = tk.Frame(master = frame, width = 1000, height = 50)
         container.pack()
         container.pack_propagate(0)
-        info = tk.Label(container, text = first.title + " " + first.artist + " " + first.genre)
+        info = tk.Label(container, text = first.title + ", " + first.artist + ", " + first.genre)
         info.pack()
         if(first.next != None):
             self.display_songs(system, frame, first.next)
         
     def choose_playlist(self, p):
         self.current_playlist = p
+        for tk.Widget in  self.rightSide.winfo_children():
+            tk.Widget.destroy() 
+    def test_button(self):
+        test = tk.Button(master = self.window, text = "DELETE", command = self.test_button_command)
+        test.place(x=500, y=500)
+    def test_button_command(self):
+        for tk.Widget in  self.rightSide.winfo_children():
+            tk.Widget.destroy() 

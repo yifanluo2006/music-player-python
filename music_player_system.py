@@ -9,7 +9,8 @@ class MusicPlayerSystem:
 
         self.first_user = None
         self.user = None
-        self.populate_users(1)
+        self.add_user(1)
+        self.first_user.print_info()
 
     def update(self):
         pass
@@ -23,7 +24,7 @@ class MusicPlayerSystem:
             song_element = song.split(',')
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], [song_element[5], song_element[6], song_element[7]])
             
-    def populate_users(self, id):
+    def add_user(self, id):
         if self.first_user == None:
             self.user = User(id, self.complete_list)
             self.first_user = self.user
@@ -37,9 +38,6 @@ class MusicPlayerSystem:
     
     def get_playlist(self, id):
         return self.complete_list # implement in future
-
-    def add_user(self, user):
-        pass
 
     def add_song_to_library(userId, song):
         pass
