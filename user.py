@@ -44,3 +44,13 @@ class User:
     # ================= Accessor Methods ==================
     def get_name(self):
         return self.username
+    
+    # ================= Testing ===================
+    def print_info(self):
+        print(self.id)
+        print(self.username)
+        print(self.password)
+        print(self.library.print_list())
+        for playlist in self.playlists:
+            print(playlist.name)
+            print(playlist.print_list())
