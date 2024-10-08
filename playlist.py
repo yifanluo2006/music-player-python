@@ -17,14 +17,6 @@ class Playlist:
             self.song.set_next(a_song) # "linking" the list
             self.song = a_song
 
-    # def add_song_obj(self, song):
-    #     if self.first_song == None: #if this is first song
-    #         self.song = song
-    #         self.first_song = self.song
-    #     else: # if there is already first song
-    #         self.song.set_next(song) # "linking" the list
-    #         self.song = song
-
     def search_song_id(self, id):
         current_song = self.first_song
 

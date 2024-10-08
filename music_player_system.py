@@ -9,8 +9,9 @@ class MusicPlayerSystem:
 
         self.first_user = None
         self.user = None
-        self.add_user(1)
-        self.first_user.print_info()
+        for i in range(1, 6):
+            self.add_user(i)
+        self.first_user.get_next().print_info()
 
     def update(self):
         pass
@@ -33,29 +34,38 @@ class MusicPlayerSystem:
             self.user.set_next(a_user)
             self.user = a_user
 
+    def add_song_to_library(self, userId, song):
+        self.user = self.get_user(userId)
+        self.user.add_song_to_library(userId, song, self.complete_list)
+
+    def create_playlist(self, userId, playlistName):
+        pass
+
+    def add_song_to_playlist(self, userId, playlistId, songId):
+        pass
+
+    def generate_suggestions(self, userId, playlistId):
+        pass
+
+    def get_most_popular_songs(self, n):
+        pass
+
+    def search_songs(self, query):
+        pass
+
     def get_user(self, id):
-        return self.first_user # implement a search function in the future for the id number
-    
+        current_user = self.first_user
+
+        while current_user != None:
+            if current_user.get_id() == id:
+                return current_user
+            else:
+                current_user = current_user.get_next()
+
+        return None
+
     def get_playlist(self, id):
         return self.complete_list # implement in future
-
-    def add_song_to_library(userId, song):
-        pass
-
-    def create_playlist(userId, playlistName):
-        pass
-
-    def add_song_to_playlist(userId, playlistId, songId):
-        pass
-
-    def generate_suggestions(userId, playlistId):
-        pass
-
-    def get_most_popular_songs(n):
-        pass
-
-    def search_songs(query):
-        pass
 
     # =============== Testing ===============
     def test_print(self):
