@@ -41,16 +41,11 @@ class User:
         if self.library.search_song_id(songID) == None:
             self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
 
-    def add_song_to_playlist(self, playlistId, songId):
-        current_playlist = self.first_song
-
-        while current_song != None:
-            if current_song.get_id() == id:
-                return current_song
-            else:
-                current_song = current_song.get_next()
-
-        return None
+    def add_song_to_playlist(self, playlistId, songID, complete_playlist):
+        current_song = complete_playlist.search_song_id(songID)
+        for playlist in self.playlists:
+            if playlist.get_id == playlistId and playlist.search_song_id(songID) == None:
+                playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
 
     def set_next(self, next):
         self.next = next

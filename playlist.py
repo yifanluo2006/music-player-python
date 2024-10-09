@@ -5,7 +5,7 @@ class Playlist:
         self.name = str(name)
         self.first_song = None
         self.song = None
-        self.id = int(id)
+        self.id = str(id)
         self.owner = owner
 
     def add_song(self, id, title, artist, genre, bpm, meta):

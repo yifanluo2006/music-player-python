@@ -15,16 +15,20 @@ class GUI:
          self.display_user(system, 3)
          if(self.current_playlist != None):
              self.display_playlist(system, self.current_playlist)
-         self.test_button()
          self.window.mainloop()
 
-    def main_screen(self):
-        pass
+         
 
-    def display_user(self, system, userID):
+    def main_screen(self):
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
         self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
         self.leftBar.pack_propagate(0)
+        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
+        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.rightSide.pack_propagate(0)
+
+    def display_user(self, system, userID):
+        
         user = system.get_user(userID)
         name = tk.Label(self.leftBar, text=user.username, fg = "black", bg = "grey") # set text to username once one is established
         name.pack(side = tk.TOP)
@@ -34,13 +38,12 @@ class GUI:
             tempframe.pack(side = tk.TOP)
             playlistdisp = tk.Label(tempframe, text = user.playlists[p].name)
             playlistdisp.pack(side = tk.LEFT)
-            B = tk.Button(tempframe, text = "?" + str(p), relief = tk.RAISED, command = lambda : self.choose_playlist(0, user, system))
+            B = tk.Button(tempframe, text = "?" + str(p), relief = tk.RAISED, command = lambda : self.choose_playlist(user, system))
             B.pack(side = tk.LEFT)
 
     def display_playlist(self, system, playlist):
-        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
-        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
-        self.rightSide.pack_propagate(0)
+        self.test_button_command()
+        
         playlistInfo = tk.Frame(master = self.rightSide, width = 1000, height = 30, relief = tk.RAISED, bg = "black")
         playlistInfo.pack()
         playlistInfo.pack_propagate(0)
@@ -59,15 +62,13 @@ class GUI:
         if(first.next != None):
             self.display_songs(system, frame, first.next)
         
-    def choose_playlist(self, p, user, system):
-        self.current_playlist = user.playlists[p]
-        print("I AM PASSING THE METHOD THE METHOD IS PASSED METHOD PASSING PASSED METHOD " + user.playlists[p].name + str(p))
+    def choose_playlist(self, user, system):
+        mouse_y = self.window.winfo_pointery() - self.window.winfo_rooty()
+        for b in range(len(user.playlists)):
+            if(mouse_y >= (b*50+30) and mouse_y <= (b*50+60)):
+                self.current_playlist = user.playlists[b]
         self.display_playlist(system, self.current_playlist)
         
-
-    def test_button(self):
-        test = tk.Button(master = self.window, text = "DELETE", command = self.test_button_command)
-        test.place(x=500, y=500)
     def test_button_command(self):
         for tk.Widget in  self.rightSide.winfo_children():
-            tk.Widget.destroy() 
+            tk.Widget.destroy()

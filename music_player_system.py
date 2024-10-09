@@ -36,13 +36,14 @@ class MusicPlayerSystem:
 
     def add_song_to_library(self, userId, song):
         self.user = self.get_user(userId)
-        self.user.add_song_to_library(userId, song, self.complete_list)
+        self.user.add_song_to_library(song, self.complete_list)
 
     def create_playlist(self, userId, playlistName):
         pass
 
     def add_song_to_playlist(self, userId, playlistId, songId):
-        pass
+        self.user = self.get_user(userId)
+        self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
 
     def generate_suggestions(self, userId, playlistId):
         pass
