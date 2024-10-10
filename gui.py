@@ -12,7 +12,7 @@ class GUI:
 
     def update(self, system):
          self.main_screen()
-         self.display_user(system, 3)
+         self.display_user(system, 1)
          if(self.current_playlist != None):
              self.display_playlist(system, self.current_playlist)
          self.window.mainloop()

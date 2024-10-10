@@ -5,8 +5,17 @@ class Playlist:
         self.name = str(name)
         self.first_song = None
         self.song = None
-        self.id = str(id)
         self.owner = owner
+
+        """
+        The ID to keep track of the playlist will be formated as the following 5-digit string:
+        * * * _ _ First 3 digits will be the user ID, with with 0 as placeholders if the ID is single or double digit
+        _ _ _ * * The fourth and fift digit will be the playlist number owned by the user, in the sequence they were created
+        with 00 as the library playlist, 1 as the first, 2 as the second ...
+        The 00000 playlist will be the complete playlist of all songs
+        """
+        
+        self.id = str(id)
 
     def add_song(self, id, title, artist, genre, bpm, meta):
         if self.first_song == None: #if this is first song

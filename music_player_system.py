@@ -4,7 +4,7 @@ from user import *
 
 class MusicPlayerSystem:
     def __init__(self):
-        self.complete_list = Playlist(0, "Complete Library", self) # initial playlist created
+        self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
         self.populate_complete_list() # and populated
 
         self.first_user = None
@@ -34,12 +34,13 @@ class MusicPlayerSystem:
             self.user.set_next(a_user)
             self.user = a_user
 
-    def add_song_to_library(self, userId, song):
+    def add_song_to_library(self, userId, songId):
         self.user = self.get_user(userId)
-        self.user.add_song_to_library(song, self.complete_list)
+        self.user.add_song_to_library(songId, self.complete_list)
 
     def create_playlist(self, userId, playlistName):
-        pass
+        self.user = self.get_user(userId)
+        self.user.add_playlist(playlistName)
 
     def add_song_to_playlist(self, userId, playlistId, songId):
         self.user = self.get_user(userId)
@@ -66,7 +67,11 @@ class MusicPlayerSystem:
         return None
 
     def get_playlist(self, id):
-        return self.complete_list # implement in future
+        if int(id[0:3]) == 0:
+            return self.complete_list
+        else:
+            self.user = self.get_user(int(id[0:3]))
+            self.user.get_playlist(id)
 
     # =============== Testing ===============
     def test_print(self):

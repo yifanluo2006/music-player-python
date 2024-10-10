@@ -7,7 +7,8 @@ class User:
         self.password = None
 
         self.id = int(id)
-        self.library = Playlist(self.id * 10 + 0, "Library", self)
+        self.library = Playlist("{0:03d}".format(self.id) + "00", "Library", self)
+
         self.playlists = []
         self.populate_user_information(complete_playlist)
 
@@ -26,15 +27,11 @@ class User:
         
         playlist_num = int(user_info_list[4])
         for i in range(0, playlist_num):
-            self.create_new_playlist(user_info_list[4+i*2+1])
+            self.add_playlist(user_info_list[4+i*2+1]) # that is the name element in the .txt file
             playlist_song_list = user_info_list[4+i*2+2].split(",")
             for song_id in playlist_song_list:
                 current_song = complete_playlist.search_song_id(int(song_id))
                 self.playlists[i].add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-        
-    def create_new_playlist(self, name):
-        new_playlist = Playlist(self.id * 10 + len(self.playlists) + 1, name, self)
-        self.playlists.append(new_playlist)
 
     def add_song_to_library(self, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
@@ -46,6 +43,11 @@ class User:
         for playlist in self.playlists:
             if playlist.get_id == playlistId and playlist.search_song_id(songID) == None:
                 playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                self.add_song_to_library(songID, complete_playlist)
+
+    def add_playlist(self, playlist_name):
+        p = Playlist("{0:03d}".format(self.id) + "{0:02d}".format(len(self.playlists) + 1), playlist_name, self)
+        self.playlists.append(p)
 
     def set_next(self, next):
         self.next = next
@@ -59,6 +61,12 @@ class User:
     
     def get_id(self):
         return self.id
+    
+    def get_playlist(self, index):
+        if index == 0:
+            return self.library
+        else:
+            return self.playlists[index-1]
     
     # ================= Testing ===================
     def print_info(self):
