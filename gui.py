@@ -38,17 +38,18 @@ class GUI:
             tempframe.pack(side = tk.TOP)
             playlistdisp = tk.Label(tempframe, text = user.playlists[p].name)
             playlistdisp.pack(side = tk.LEFT)
-            B = tk.Button(tempframe, text = "?" + str(p), relief = tk.RAISED, command = lambda : self.choose_playlist(user, system))
+            B = tk.Button(tempframe, text = "?" + str(p), relief = tk.RAISED, command = lambda p=p: self.choose_playlist(user, system, p))
             B.pack(side = tk.LEFT)
 
-    def display_playlist(self, system, playlist):
-        self.test_button_command()
-        
+    def display_playlist(self, system, playlist):       
+        print("displaying playlist") 
         playlistInfo = tk.Frame(master = self.rightSide, width = 1000, height = 30, relief = tk.RAISED, bg = "black")
         playlistInfo.pack()
         playlistInfo.pack_propagate(0)
+        
         infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner.username), fg = "white", bg = "black")
         infoText.pack()
+        
         self.display_songs(system, self.rightSide, self.current_playlist.first_song)
         
 
@@ -62,13 +63,12 @@ class GUI:
         if(first.next != None):
             self.display_songs(system, frame, first.next)
         
-    def choose_playlist(self, user, system):
-        mouse_y = self.window.winfo_pointery() - self.window.winfo_rooty()
-        for b in range(len(user.playlists)):
-            if(mouse_y >= (b*50+30) and mouse_y <= (b*50+60)):
-                self.current_playlist = user.playlists[b]
+    def choose_playlist(self, user, system, playlist_index):
+                 
+        self.rightSide.destroy()
+        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
+        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.rightSide.pack_propagate(0)
+    
+        self.current_playlist = user.playlists[playlist_index]
         self.display_playlist(system, self.current_playlist)
-        
-    def test_button_command(self):
-        for tk.Widget in  self.rightSide.winfo_children():
-            tk.Widget.destroy()
