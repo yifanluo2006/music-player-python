@@ -52,7 +52,21 @@ class MusicPlayerSystem:
     def get_most_popular_songs(self, n):
         pass
 
-    def search_songs(self, query):
+    def search_songs_in_playlist(self, playlist, query):
+        pass
+
+    def search_songs(self, query): #returns as a linked list (playlist)
+        pass
+
+    def search_songs_title(self, query):
+        search_result = Playlist("99999", "Search Result", self)
+        song = self.complete_list.first_song
+        
+
+    def search_songs_artist(self, query):
+        pass
+
+    def search_songs_genre(self, query):
         pass
 
     def get_user(self, id):

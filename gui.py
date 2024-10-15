@@ -8,6 +8,7 @@ class GUI:
         self.current_playlist = None
         self.rightSide = tk.Frame()
         self.leftBar = tk.Frame()
+        self.scrollbar = tk.Scrollbar(self.rightSide)
 
 
     def update(self, system):
@@ -30,15 +31,18 @@ class GUI:
     def display_user(self, system, userID):
         
         user = system.get_user(userID)
-        name = tk.Label(self.leftBar, text=user.username, fg = "black", bg = "grey") # set text to username once one is established
+        name = tk.Label(self.leftBar, text=user.username, fg = "black", bg = "grey") 
         name.pack(side = tk.TOP)
+        self.display_discovery_button()
+        self.display_library_button(user, system)
+        self.displaySearch()
         for p in range(len(user.playlists)):
             tempframe = tk.Frame(master = self.leftBar, width = 250, height = 50, relief = tk.RAISED)
             tempframe.pack_propagate(0)
             tempframe.pack(side = tk.TOP)
             playlistdisp = tk.Label(tempframe, text = user.playlists[p].name)
             playlistdisp.pack(side = tk.LEFT)
-            B = tk.Button(tempframe, text = "?" + str(p), relief = tk.RAISED, command = lambda p=p: self.choose_playlist(user, system, p))
+            B = tk.Button(tempframe, text = "?", relief = tk.RAISED, command = lambda p=p: self.choose_playlist(user, system, p))
             B.pack(side = tk.LEFT)
 
     def display_playlist(self, system, playlist):       
@@ -49,6 +53,10 @@ class GUI:
         
         infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner.username), fg = "white", bg = "black")
         infoText.pack()
+
+        #scrollbar goes here
+        
+        self.scrollbar.pack(side = tk.RIGHT, fill =tk.Y)
         
         self.display_songs(system, self.rightSide, self.current_playlist.first_song)
         
@@ -64,11 +72,37 @@ class GUI:
             self.display_songs(system, frame, first.next)
         
     def choose_playlist(self, user, system, playlist_index):
-                 
+        
         self.rightSide.destroy()
         self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
         self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
         self.rightSide.pack_propagate(0)
-    
-        self.current_playlist = user.playlists[playlist_index]
+        if(playlist_index == -1):
+            self.current_playlist = user.library
+        else:
+            self.current_playlist = user.playlists[playlist_index]
         self.display_playlist(system, self.current_playlist)
+
+    def displaySearch(self):
+        searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50)
+        searchbar.pack(side = tk.TOP)
+        searchbar.pack_propagate(0)
+        search_button = tk.Button(searchbar, text = '🔍', command = lambda: self.search())
+        search_button.pack(side = tk.LEFT)
+        search_input = tk.Text(searchbar, height = 10, width = 30)
+        search_input.pack(side = tk.LEFT)
+
+
+    def search(self):
+        pass
+
+    def display_discovery_button(self):
+        discovery = tk.Button(self.leftBar, text = "Discovery", width = 250, command = self.discovery_button)
+        discovery.pack(side = tk.TOP)
+
+    def discovery_button(self):
+        pass
+
+    def display_library_button(self, user, system):
+        librarybutton = tk.Button(self.leftBar, text = "Library", width = 250, command = lambda: self.choose_playlist(user, system, -1))
+        librarybutton.pack(side = tk.TOP)

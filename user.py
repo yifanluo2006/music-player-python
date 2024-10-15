@@ -67,6 +67,9 @@ class User:
             return self.library
         else:
             return self.playlists[index-1]
+        
+    def get_all_playlist(self):
+        return self.playlists
     
     # ================= Testing ===================
     def print_info(self):
