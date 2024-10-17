@@ -41,6 +41,7 @@ class MusicPlayerSystem:
     def create_playlist(self, userId, playlistName):
         self.user = self.get_user(userId)
         self.user.add_playlist(playlistName)
+        print("playlist added" + str(playlistName) + str(userId))
 
     def add_song_to_playlist(self, userId, playlistId, songId):
         self.user = self.get_user(userId)
@@ -54,6 +55,8 @@ class MusicPlayerSystem:
 
     def search_songs_in_playlist(self, playlist, query):
         search_result = self.search_songs_title(playlist, query)
+        search_result.append(self.search_songs_artist(playlist, query))
+        search_result.append(self.search_songs_genre(playlist, query))
         return search_result
 
     def search_songs(self, query): #returns as a linked list (playlist)
@@ -64,11 +67,13 @@ class MusicPlayerSystem:
         search_result = playlist.search_song_title(query)
         return search_result
 
-    def search_songs_artist(self, query):
-        pass
+    def search_songs_artist(self, playlist, query):
+        search_result = playlist.search_song_artist(query)
+        return search_result
 
-    def search_songs_genre(self, query):
-        pass
+    def search_songs_genre(self, playlist, query):
+        search_result = playlist.search_song_genre(query)
+        return search_result
 
     def get_user(self, id):
         current_user = self.first_user

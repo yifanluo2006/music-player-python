@@ -38,9 +38,9 @@ class Playlist:
     
     def search_song_artist(self, query):
         search_result = Playlist("99998", "Search Result", self)
-        current_song = self.first_song()
+        current_song = self.first_song
         while current_song is not None:
-            if query.lower in current_song.get_artist().lower:
+            if query.lower() in current_song.get_artist().lower():
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
             current_song = current_song.get_next()
 
@@ -65,6 +65,14 @@ class Playlist:
             else:
                 current_song = current_song.get_next()
         return None
+    
+    def append(self, playlist):
+        self.song = self.first_song
+        while self.song is not None and self.song.get_next() is not None:
+            self.song = self.song.get_next()
+        
+        if self.song is not None:
+            self.song.set_next(playlist.get_first_song())
     
     # =============== Accessor Methods ==============
     def get_id(self):
