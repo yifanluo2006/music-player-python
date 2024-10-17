@@ -53,15 +53,16 @@ class MusicPlayerSystem:
         pass
 
     def search_songs_in_playlist(self, playlist, query):
-        pass
+        search_result = self.search_songs_title(playlist, query)
+        return search_result
 
     def search_songs(self, query): #returns as a linked list (playlist)
-        pass
+        search_result = self.search_songs_in_playlist(self.complete_list, query)
+        return search_result
 
-    def search_songs_title(self, query):
-        search_result = Playlist("99999", "Search Result", self)
-        song = self.complete_list.first_song
-        
+    def search_songs_title(self, playlist, query):
+        search_result = playlist.search_song_title(query)
+        return search_result
 
     def search_songs_artist(self, query):
         pass

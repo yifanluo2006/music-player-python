@@ -6,10 +6,10 @@ class GUI:
         self.window = tk.Tk()
         self.window.geometry("1100x800")
         self.current_playlist = None
-        self.rightSide = tk.Frame()
+        self.right_side_frame = tk.Frame()
+        self.rightSide = tk.Canvas()
         self.leftBar = tk.Frame()
         self.scrollbar = tk.Scrollbar(self.rightSide)
-
 
     def update(self, system):
          self.main_screen()
@@ -24,8 +24,11 @@ class GUI:
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
         self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
         self.leftBar.pack_propagate(0)
-        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
-        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+
+
+
+        self.rightSide = tk.Canvas(master = self.right_side_frame, width = 1000, height = 2000, bg = "black", yscrollcommand = self.scrollbar.set)
+        self.rightSide.pack(fill = tk.X, side=tk.LEFT)
         self.rightSide.pack_propagate(0)
 
     def display_user(self, system, userID):
@@ -33,9 +36,10 @@ class GUI:
         user = system.get_user(userID)
         name = tk.Label(self.leftBar, text=user.username, fg = "black", bg = "grey") 
         name.pack(side = tk.TOP)
+        self.displaySearch(system)
         self.display_discovery_button()
         self.display_library_button(user, system)
-        self.displaySearch()
+        
         for p in range(len(user.playlists)):
             tempframe = tk.Frame(master = self.leftBar, width = 250, height = 50, relief = tk.RAISED)
             tempframe.pack_propagate(0)
@@ -46,16 +50,18 @@ class GUI:
             B.pack(side = tk.LEFT)
 
     def display_playlist(self, system, playlist):       
-        print("displaying playlist") 
         playlistInfo = tk.Frame(master = self.rightSide, width = 1000, height = 30, relief = tk.RAISED, bg = "black")
         playlistInfo.pack()
         playlistInfo.pack_propagate(0)
         
-        infoText = tk.Label(playlistInfo, text = str(playlist.name) + " OWNER: " + str(playlist.owner.username), fg = "white", bg = "black")
+        infoText = tk.Label(playlistInfo, text = str(playlist.name), fg = "white", bg = "black")
         infoText.pack()
 
+        #  + " OWNER: " + str(playlist.owner.username)
+
         #scrollbar goes here
-        
+        self.scrollbar = tk.Scrollbar(self.rightSide)
+        self.scrollbar.config(command = self.rightSide.yview)
         self.scrollbar.pack(side = tk.RIGHT, fill =tk.Y)
         
         self.display_songs(system, self.rightSide, self.current_playlist.first_song)
@@ -67,14 +73,13 @@ class GUI:
         container.pack_propagate(0)
         info = tk.Label(container, text = first.title + ", " + first.artist + ", " + first.genre)
         info.pack()
-        print(first.title + ", " + first.artist + ", " + first.genre)
         if(first.next != None):
             self.display_songs(system, frame, first.next)
         
     def choose_playlist(self, user, system, playlist_index):
         
         self.rightSide.destroy()
-        self.rightSide = tk.Frame(master = self.window, width = 1000, bg = "black")
+        self.rightSide = tk.Canvas(master = self.window, width = 1000, bg = "black")
         self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
         self.rightSide.pack_propagate(0)
         if(playlist_index == -1):
@@ -83,18 +88,27 @@ class GUI:
             self.current_playlist = user.playlists[playlist_index]
         self.display_playlist(system, self.current_playlist)
 
-    def displaySearch(self):
+    def displaySearch(self, system):
         searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50)
         searchbar.pack(side = tk.TOP)
         searchbar.pack_propagate(0)
-        search_button = tk.Button(searchbar, text = '🔍', command = lambda: self.search())
+        search_button = tk.Button(searchbar, text = '🔍', command = lambda: self.search(search_input, system))
         search_button.pack(side = tk.LEFT)
         search_input = tk.Text(searchbar, height = 10, width = 30)
         search_input.pack(side = tk.LEFT)
 
 
-    def search(self):
-        pass
+    def search(self, search_input, system):
+        inp = search_input.get(1.0, "end-1c")
+        
+        self.rightSide.destroy()
+        self.rightSide = tk.Canvas(master = self.window, width = 1000, bg = "black")
+        self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.rightSide.pack_propagate(0)
+
+        result = system.search_songs_in_playlist(self.current_playlist, inp)
+        result.print_list()
+        self.display_playlist(system, result)
 
     def display_discovery_button(self):
         discovery = tk.Button(self.leftBar, text = "Discovery", width = 250, command = self.discovery_button)
