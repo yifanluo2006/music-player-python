@@ -67,12 +67,12 @@ class Playlist:
         return None
     
     def append(self, playlist):
-        self.song = self.first_song
-        while self.song is not None and self.song.get_next() is not None:
-            self.song = self.song.get_next()
+        self.song = self.get_last_song()
         
-        if self.song is not None:
+        if self.song is not None and playlist.get_first_song() is not None:
             self.song.set_next(playlist.get_first_song())
+        elif self.song is None and playlist.get_first_song() is not None:
+            self.first_song = playlist.get_first_song()
     
     # =============== Accessor Methods ==============
     def get_id(self):
@@ -80,7 +80,16 @@ class Playlist:
 
     def get_first_song(self):
         return self.first_song
-
+    
+    def get_last_song(self):
+        self.song = self.first_song
+        
+        if self.song is not None:
+            while self.song.get_next() is not None:
+                self.song = self.song.get_next()
+        
+        return self.song
+        
     # ============== Testing ===============
     def print_list(self): #print list for testing purposes
         self.first_song.print_all()
