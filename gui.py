@@ -11,15 +11,107 @@ class GUI:
         self.rightSide = tk.Canvas()
         self.leftBar = tk.Frame()
         self.scrollbar = tk.Scrollbar()
+        self.loggedin = False
 
     def update(self, system):
-         self.main_screen()
-         self.display_user(system, self.current_user)
-         if self.current_playlist is not None:
-             self.display_playlist(system, self.current_playlist)
+         if(self.loggedin == False):
+             self.loginscreen(system)
+         else:
+            self.main_screen()
+            self.display_user(system, self.current_user)
+            if self.current_playlist is not None:
+                 self.display_playlist(system, self.current_playlist, system.get_user(self.current_user))
          self.window.mainloop()
 
-         
+#===================================================LOGIN=====================================================================#
+
+    def loginscreen(self, system):
+        mainloginframe = tk.Frame(master = self.window, width = 500, height = 1000, bg = "grey")
+        mainloginframe.place(x=300, y=0)
+        subframe = tk.Frame(master = mainloginframe, width = 400, height = 500, bg = 'gray')
+        subframe.place(x=50, y=150)
+        subframe.pack_propagate(0)
+        logintext = tk.Label(subframe, text = 'LOGIN', font = ("Arial", 25))
+        logintext.pack()
+        usernametext = tk.Label(subframe, text = 'USERNAME', font = ("Arial", 10), pady=10)
+        usernametext.pack()
+        usernameinput = tk.Text(subframe, height=1, width = 15)
+        usernameinput.pack()
+        passwordtext = tk.Label(subframe, text = "PASSWORD", font = ("Arial", 10), pady = 10)
+        passwordtext.pack()
+        passwordinput = tk.Text(subframe, height = 1, width = 15)
+        passwordinput.pack()
+
+        confirmbutton = tk.Button(subframe, text = "CONFIRM", command = lambda: self.loginattempt(system, subframe, usernameinput, passwordinput, errormessage, mainloginframe))
+        confirmbutton.pack()
+
+        newuserbutton = tk.Button(subframe, text = "NEW USER", command = lambda: self.newuserpopup(system, subframe, newuserbutton))
+        newuserbutton.pack()
+
+        errormessage = tk.Label(subframe, text = "INCORRECT USERNAME OR PASSWORD", fg = 'red', bg = 'gray', font = ("Arial", 10))
+        
+
+        
+    def loginattempt(self, system, subframe, userinput, passinput, error, bigboyframe):
+        username = userinput.get(1.0, "end-1c")
+        password = passinput.get(1.0, "end-1c")
+        
+        if(system.login_authentication(username, password) == None):
+            error.pack()
+        else:
+            self.current_user = system.login_authentication(username, password).id
+            self.loggedin = True
+            bigboyframe.destroy()
+            self.update(system)
+
+
+    def newuserpopup(self, system, subframe, button):
+        button = tk.Button(subframe, state = 'disabled', text = "NEW USER", command = lambda: self.newuserpopup(system, subframe))
+
+        newprofilezone = tk.Frame(master = subframe, width = 400, height = 250)
+        newprofilezone.place(x=0,y=300)
+        newprofilezone.pack_propagate(0)
+
+        newprofilelabel = tk.Label(newprofilezone, text = 'NEW PROFILE', font = ("Arial", 10))
+        newprofilelabel.pack()
+
+        usernametext = tk.Label(newprofilezone, text = 'USERNAME', font = ("Arial", 10), pady=10)
+        usernametext.pack()
+        usernameinput = tk.Text(newprofilezone, height = 1, width = 15)
+        usernameinput.pack()
+        passwordtext = tk.Label(newprofilezone, text = "PASSWORD", font = ("Arial", 10), pady = 10)
+        passwordtext.pack()
+        passwordinput = tk.Text(newprofilezone, height = 1, width = 15)
+        passwordinput.pack()
+
+        errormessage = tk.Label(newprofilezone, text = " ", fg = 'red')
+
+        confirmbutton = tk.Button(newprofilezone, text = "CREATE", command = lambda: self.usercreation(usernameinput, passwordinput, system, newprofilezone, errormessage))
+        confirmbutton.pack()
+
+        errormessage.pack()
+
+
+    def usercreation(self, userinput, passinput, system, frame, error):
+        username = userinput.get(1.0, "end-1c")
+        password = passinput.get(1.0, "end-1c")
+        errormessage = tk.Label(frame)
+        if(len(username) < 3):
+            error.config(text = "USERNAME TOO SHORT")
+           
+        elif(len(password) < 8):
+            error.config(text = "PASSWORD TOO SHORT")
+           
+        elif(system.login_authentication(username, password) != None):
+            error.config(text = "USER ALREADY IN USE")
+           
+        else:
+            system.add_user(username, password)
+            error.config(text = "USER ADDED")
+        
+
+#============================================================================================================================#
+
 
     def main_screen(self):
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
@@ -88,7 +180,7 @@ class GUI:
         
 
 
-    def display_playlist(self, system, playlist):  
+    def display_playlist(self, system, playlist, user):  
         
         self.rightSide.delete("all")
         
@@ -106,11 +198,11 @@ class GUI:
         # print(playlist.first_song.genre)
         #  + " OWNER: " + str(playlist.owner.username)
         
-        self.display_songs(system, self.content_frame, self.current_playlist.first_song)
+        self.display_songs(system, self.content_frame, self.current_playlist.first_song, user)
 
         
 
-    def display_songs(self, system, frame, song):
+    def display_songs(self, system, frame, song, user):
         
         while song is not None:
             container = tk.Frame(master = frame, width = 850, height = 50)
@@ -118,6 +210,16 @@ class GUI:
             container.pack_propagate(0)
             info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
             info.pack()
+            options = [
+                user.library
+            ]
+
+
+            
+            clicked = tk.StringVar()
+            clicked.set("library")
+            dropmenu = tk.OptionMenu(container, clicked, )
+
             song = song.get_next()
         
     def choose_playlist(self, user, system, playlist_index):
