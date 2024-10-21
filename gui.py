@@ -20,7 +20,7 @@ class GUI:
             self.main_screen()
             self.display_user(system, self.current_user)
             if self.current_playlist is not None:
-                 self.display_playlist(system, self.current_playlist, system.get_user(self.current_user))
+                 self.display_playlist(system, self.current_playlist, self.current_user)
          self.window.mainloop()
 
 #===================================================LOGIN=====================================================================#
@@ -63,6 +63,7 @@ class GUI:
             self.loggedin = True
             bigboyframe.destroy()
             self.update(system)
+            print(self.current_user)
 
 
     def newuserpopup(self, system, subframe, button):
@@ -211,16 +212,38 @@ class GUI:
             info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
             info.pack()
             options = [
-                user.library
+                user.library.name
             ]
 
+            for p in range(len(user.playlists)):
 
-            
+                addition = user.playlists[p].name
+                options.append(addition)
+
             clicked = tk.StringVar()
-            clicked.set("library")
-            dropmenu = tk.OptionMenu(container, clicked, )
+
+            add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
+            add_to_button.place(x=300, y=24)
+            
+            
+            clicked.set("Library")
+            dropmenu = tk.OptionMenu(container, clicked, *options)
+            dropmenu.pack()
 
             song = song.get_next()
+
+    def addtoplaylist(self, name, system, song):
+        playlist = name.get()
+        user = system.get_user(self.current_user)
+        if(playlist == "Library"):
+            system.add_song_to_library(self.current_user, song.id)
+        else:
+            for index, item in enumerate(user.playlists):
+                print(item.name)
+                if item.name == playlist:
+                    system.add_song_to_playlist(user.id, item.id, song.id) # doesnt seem to be working quite yet
+                    
+        
         
     def choose_playlist(self, user, system, playlist_index):
         
@@ -229,7 +252,7 @@ class GUI:
             self.current_playlist = user.library
         else:
             self.current_playlist = user.playlists[playlist_index]
-        self.display_playlist(system, self.current_playlist)
+        self.display_playlist(system, self.current_playlist, user)
 
     def displaySearch(self, system):
         searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50)
