@@ -38,6 +38,9 @@ class Song:
     
     def get_next(self):
         return self.next
+    
+    def get_meta(self):
+        return self.meta
 
     # ================ Testing ==================== 
     def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print

@@ -18,16 +18,26 @@ class Playlist:
         self.id = str(id)
 
     def add_song(self, id, title, artist, genre, bpm, meta):
-        if self.first_song is None: #if this is first song
-            self.song = Song(id, title, artist, genre, bpm, meta)
-            self.first_song = self.song
-        else: # if there is already first song
-            a_song = Song(id, title, artist, genre, bpm, meta)
-            self.song.set_next(a_song) # "linking" the list
-            self.song = a_song
+        if not self.is_duplicate(int(id)):
+            if self.first_song is None: #if this is first song
+                self.song = Song(id, title, artist, genre, bpm, meta)
+                self.first_song = self.song
+            else: # if there is already first song
+                a_song = Song(id, title, artist, genre, bpm, meta)
+                self.song.set_next(a_song) # "linking" the list
+                self.song = a_song
+
+    def is_duplicate(self, id): # check for any duplicate in the current playlist
+        current_song = self.first_song
+        while current_song is not None:
+            if current_song.get_id == id:
+                return True
+            current_song = current_song.get_next()
+
+        return False
 
     def search_song_title(self, query):
-        search_result = Playlist("99999", "Search Result", self)
+        search_result = Playlist("99990", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
             if query.lower() in current_song.get_title().lower():
@@ -37,7 +47,7 @@ class Playlist:
         return search_result
     
     def search_song_artist(self, query):
-        search_result = Playlist("99998", "Search Result", self)
+        search_result = Playlist("99991", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
             if query.lower() in current_song.get_artist().lower():
@@ -47,11 +57,25 @@ class Playlist:
         return search_result
     
     def search_song_genre(self, query):
-        search_result = Playlist("99997", "Search Result", self)
+        search_result = Playlist("99992", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
             if query.lower() in current_song.get_genre().lower():
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+            current_song = current_song.get_next()
+
+        return search_result
+    
+    def search_song_meta(self, query): # since the user cannot see meta, the meta has to exactly match to be searched
+        search_result = Playlist("99993", "Search Result", self)
+        current_song = self.first_song
+        while current_song is not None:
+            meta_lst = current_song.get_meta()
+            for meta in meta_lst:
+                if query.lower()==meta.lower():
+                    print(query, meta)
+                    search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                    break
             current_song = current_song.get_next()
 
         return search_result

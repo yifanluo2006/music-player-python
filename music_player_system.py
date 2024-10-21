@@ -11,7 +11,6 @@ class MusicPlayerSystem:
         self.user = None
         for i in range(1, 8):
             self.import_user()
-            
         print("Total user count = " + str(self.get_user_num()))
 
     def populate_complete_list(self): # import the initial list with all songs
@@ -38,14 +37,16 @@ class MusicPlayerSystem:
         if self.first_user is None:
             self.user = User(id, self.complete_list, name, password)
             self.first_user = self.user
+            print("Total user count = " + str(self.get_user_num()))
         else:
             a_user = User(id, self.complete_list, name, password)
             self.get_last_user().set_next(a_user)
             self.user = a_user
+            print("Total user count = " + str(self.get_user_num()))
             
     def login_authentication(self, name, password):
         current_user = self.first_user
-        while current_user.get_next() is not None:
+        while current_user is not None:
             if current_user.get_name() == name and current_user.get_password() == password:
                 return current_user
             current_user = current_user.get_next()
@@ -65,7 +66,7 @@ class MusicPlayerSystem:
         self.user = self.get_user(userId)
         self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
 
-    #*********************************************************************************
+    #************************IMPORTANT: TO BE COMPLETED*******************************
     def generate_suggestions(self, userId, playlistId):
         suggested_songs = Playlist("99979", "Suggestion", self)
 
@@ -75,7 +76,10 @@ class MusicPlayerSystem:
             current_song = current_song.get_next()
             
         return suggested_songs
+    #*********************************************************************************
 
+    #************************IMPORTANT: TO BE COMPLETED*******************************
+    ##########################Need to implement Fuzzy Search##########################
     def get_most_popular_songs(self, n):
         popular_songs = Playlist("99989", "Top " + str(n) + " Songs", self)
 
@@ -85,15 +89,16 @@ class MusicPlayerSystem:
             current_song = current_song.get_next()
 
         return popular_songs
-              
-
     #*********************************************************************************
 
+    #************************IMPORTANT: TO BE COMPLETED*******************************
     def search_songs_in_playlist(self, playlist, query): # returns result in linked list
         search_result = self.search_songs_title(playlist, query)
         search_result.append(self.search_songs_artist(playlist, query))
         search_result.append(self.search_songs_genre(playlist, query))
+        search_result.append(self.search_songs_meta(playlist, query))
         return search_result
+    #*********************************************************************************
 
     def search_songs_in_library(self, user, query): # searches in library
         search_result = self.search_songs_in_playlist(user.get_library(), query)
@@ -103,25 +108,23 @@ class MusicPlayerSystem:
         search_result = self.search_songs_in_playlist(self.complete_list, query)
         return search_result
 
-    def search_songs_title(self, playlist, query):
+    def search_songs_title(self, playlist, query): # searches by title, used by other search functions
         search_result = playlist.search_song_title(query)
         return search_result
 
-    def search_songs_artist(self, playlist, query):
+    def search_songs_artist(self, playlist, query): # searches by artist, used by other search functions
         search_result = playlist.search_song_artist(query)
         return search_result
 
-    def search_songs_genre(self, playlist, query):
+    def search_songs_genre(self, playlist, query): # searches by genre, used by other search functions
         search_result = playlist.search_song_genre(query)
         return search_result
     
-    #*********************************************************************************
-    def search_songs_meta(self, playlist, query):
-        pass
-    #*********************************************************************************
+    def search_songs_meta(self, playlist, query): #searches b meta tags, used by other search functions
+        search_result = playlist.search_song_meta(query)
+        return search_result
 
     # ================= Accessor Methods =======================
-    
     def get_user(self, id):
         current_user = self.first_user
 
