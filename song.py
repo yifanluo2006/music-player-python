@@ -8,9 +8,13 @@ class Song:
         self.genre = str(genre)
         self.bpm = int(bpm)
         self.meta = meta
+        self.frequency_count = 0
 
     def set_next(self, next):
         self.next = next
+
+    def update_frequency(self, n):
+        self.frequency_count += n
     
     # ================ Accessor Methods ===============
 

@@ -89,6 +89,13 @@ class Playlist:
                 self.song = self.song.get_next()
         
         return self.song
+    
+    def slice(self, end):
+        self.song = self.first_song
+        for i in range(0, end-1):
+            self.song = self.song.get_next()
+
+        self.song.set_next(None)
         
     # ============== Testing ===============
     def print_list(self): #print list for testing purposes

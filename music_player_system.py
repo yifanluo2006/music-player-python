@@ -65,11 +65,29 @@ class MusicPlayerSystem:
         self.user = self.get_user(userId)
         self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
 
+    #*********************************************************************************
     def generate_suggestions(self, userId, playlistId):
-        pass
+        suggested_songs = Playlist("99979", "Suggestion", self)
+
+        current_song = self.complete_list.get_first_song()
+        for i in range (0, 5):
+            suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+            current_song = current_song.get_next()
+            
+        return suggested_songs
 
     def get_most_popular_songs(self, n):
-        pass
+        popular_songs = Playlist("99989", "Top " + str(n) + " Songs", self)
+
+        current_song = self.complete_list.get_first_song()
+        for i in range (0, n):
+            popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+            current_song = current_song.get_next()
+
+        return popular_songs
+              
+
+    #*********************************************************************************
 
     def search_songs_in_playlist(self, playlist, query): # returns result in linked list
         search_result = self.search_songs_title(playlist, query)
@@ -96,6 +114,11 @@ class MusicPlayerSystem:
     def search_songs_genre(self, playlist, query):
         search_result = playlist.search_song_genre(query)
         return search_result
+    
+    #*********************************************************************************
+    def search_songs_meta(self, playlist, query):
+        pass
+    #*********************************************************************************
 
     # ================= Accessor Methods =======================
     

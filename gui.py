@@ -20,7 +20,7 @@ class GUI:
             self.main_screen()
             self.display_user(system, self.current_user)
             if self.current_playlist is not None:
-                 self.display_playlist(system, self.current_playlist, self.current_user)
+                 self.display_playlist(system, self.current_playlist, self.current_user, True)
          self.window.mainloop()
 
 #===================================================LOGIN=====================================================================#
@@ -139,7 +139,7 @@ class GUI:
         
         self.displaySearch(system)
         self.for_you(system)
-        self.display_discovery_button()
+        self.display_discovery_button(system)
         self.display_library_button(user, system)
         
         section_title = tk.Label(self.leftBar, text="Playlists", fg="black", bg="grey")
@@ -152,6 +152,19 @@ class GUI:
             B = tk.Button(tempframe, text = user.playlists[p].name, relief = tk.RAISED, command = lambda p=p: self.choose_playlist(user, system, p))
             B.pack(side = tk.LEFT)
         self.add_playlist_button(system, userID)
+        self.logout_button(system)
+    
+    def logout_button(self, system):
+        button = tk.Button(self.leftBar, text = "LOGOUT 🚪", command = lambda: self.logout(system))
+        button.pack(side = tk.BOTTOM)
+
+    def logout(self, system):
+        self.rightSide.destroy()
+        self.leftBar.destroy()
+        self.right_side_frame.destroy()
+        self.loggedin = False
+        self.update(system)
+
 
     def add_playlist_button(self, system, userID):
         playlistbutton = tk.Button(self.leftBar, text = "Add Playlist", pady = 5, command = lambda: self.add_playlist_menu(system, playlistbutton))
@@ -181,13 +194,14 @@ class GUI:
         
 
 
-    def display_playlist(self, system, playlist, user):  
-        
-        self.rightSide.delete("all")
-        
-        self.content_frame = tk.Frame(self.rightSide, bg="black")
-        self.rightSide.create_window((0, 0), window=self.content_frame, anchor="nw")
-        self.content_frame.bind("<Configure>", lambda event: self.rightSide.configure(scrollregion=self.rightSide.bbox("all")))
+    def display_playlist(self, system, playlist, user, clear):  
+
+        user = system.get_user(self.current_user)
+        if clear == True:
+            self.rightSide.delete("all")
+            self.content_frame = tk.Frame(self.rightSide, bg="black")
+            self.rightSide.create_window((0, 0), window=self.content_frame, anchor="nw")
+            self.content_frame.bind("<Configure>", lambda event: self.rightSide.configure(scrollregion=self.rightSide.bbox("all")))
              
         playlistInfo = tk.Frame(master=self.content_frame, width=850, height=30, relief=tk.RAISED, bg="black")
         playlistInfo.pack()
@@ -199,7 +213,7 @@ class GUI:
         # print(playlist.first_song.genre)
         #  + " OWNER: " + str(playlist.owner.username)
         
-        self.display_songs(system, self.content_frame, self.current_playlist.first_song, user)
+        self.display_songs(system, self.content_frame, playlist.first_song, user)
 
         
 
@@ -240,6 +254,7 @@ class GUI:
         else:
             for index, item in enumerate(user.playlists):
                 print(item.name)
+                print(playlist)
                 if item.name == playlist:
                     system.add_song_to_playlist(user.id, item.id, song.id) # doesnt seem to be working quite yet
                     
@@ -252,7 +267,7 @@ class GUI:
             self.current_playlist = user.library
         else:
             self.current_playlist = user.playlists[playlist_index]
-        self.display_playlist(system, self.current_playlist, user)
+        self.display_playlist(system, self.current_playlist, user, True)
 
     def displaySearch(self, system):
         searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50)
@@ -273,7 +288,7 @@ class GUI:
         result = system.search_songs(inp)
         
         self.current_playlist = result
-        self.display_playlist(system, result)
+        self.display_playlist(system, result, self.current_user, True)
 
     def reset_right(self):
         self.rightSide.delete("all")
@@ -284,12 +299,14 @@ class GUI:
         self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
         self.leftBar.pack_propagate(0)
 
-    def display_discovery_button(self):
-        discovery = tk.Button(self.leftBar, text = "Browse", width = 250, command = self.discovery_button)
+    def display_discovery_button(self, system):
+        discovery = tk.Button(self.leftBar, text = "Browse", width = 250, command = lambda: self.discovery_button(system))
         discovery.pack(side = tk.TOP)
 
-    def discovery_button(self):
-        pass
+    def discovery_button(self, system):
+        
+        self.display_playlist(system, system.get_most_popular_songs(5), system.get_user(self.current_user), True)
+        self.display_playlist(system, system.complete_list, system.get_user(self.current_user), False)
 
     def display_library_button(self, user, system):
         librarybutton = tk.Button(self.leftBar, text = "Library", width = 250, command = lambda: self.choose_playlist(user, system, -1))
