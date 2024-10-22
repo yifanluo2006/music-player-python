@@ -30,7 +30,7 @@ class Playlist:
     def is_duplicate(self, id): # check for any duplicate in the current playlist
         current_song = self.first_song
         while current_song is not None:
-            if current_song.get_id == id:
+            if current_song.get_id() == id:
                 return True
             current_song = current_song.get_next()
 
@@ -98,6 +98,9 @@ class Playlist:
         elif self.song is None and playlist.get_first_song() is not None:
             self.first_song = playlist.get_first_song()
     
+    def set_first_song(self, new_first_song):
+        self.first_song = new_first_song
+        
     # =============== Accessor Methods ==============
     def get_id(self):
         return self.id

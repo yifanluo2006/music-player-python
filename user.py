@@ -45,8 +45,10 @@ class User:
     def add_song_to_playlist(self, playlistId, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
         for playlist in self.playlists:
-            self.add_song_to_library(songID, complete_playlist)
-            playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+            if playlist.get_id()==playlistId:
+                self.add_song_to_library(songID, complete_playlist)
+                playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                print(current_song.get_title() + "added to playlist " + playlist.name)
 
     def add_playlist(self, playlist_name):
         p = Playlist("{0:03d}".format(self.id) + "{0:02d}".format(len(self.playlists) + 1), playlist_name, self)

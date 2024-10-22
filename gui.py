@@ -11,6 +11,7 @@ class GUI:
         self.rightSide = tk.Canvas()
         self.leftBar = tk.Frame()
         self.scrollbar = tk.Scrollbar()
+        self.generate = None
         self.loggedin = False
 
     def update(self, system):
@@ -214,8 +215,16 @@ class GUI:
         #  + " OWNER: " + str(playlist.owner.username)
         
         self.display_songs(system, self.content_frame, playlist.first_song, user)
+        if(self.generate != None):
+            self.generate = None
+        self.display_generate_suggestions_button(playlist, system)
 
-        
+    def display_generate_suggestions_button(self, playlist, system):
+        self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system))
+        self.generate.pack(side = tk.BOTTOM)
+
+    def generate_suggestions(self, playlist, system):
+        pass
 
     def display_songs(self, system, frame, song, user):
         
@@ -253,8 +262,6 @@ class GUI:
             system.add_song_to_library(self.current_user, song.id)
         else:
             for index, item in enumerate(user.playlists):
-                print(item.name)
-                print(playlist)
                 if item.name == playlist:
                     system.add_song_to_playlist(user.id, item.id, song.id) # doesnt seem to be working quite yet
                     
@@ -313,8 +320,9 @@ class GUI:
         librarybutton.pack(side = tk.TOP)
 
     def for_you(self, system):
-        foryoubutton = tk.Button(self.leftBar, text = "For You", width = 250, command = self.foryoucommand)
+        foryoubutton = tk.Button(self.leftBar, text = "For You", width = 250, command = lambda: self.foryoucommand(system))
         foryoubutton.pack()
     
-    def foryoucommand(self):
-        pass
+    def foryoucommand(self, system):
+        user = system.get_user(self.current_user)
+        self.display_playlist(system, system.generate_suggestions(user.id, user.library), user, True)

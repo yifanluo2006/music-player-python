@@ -66,6 +66,19 @@ class MusicPlayerSystem:
         self.user = self.get_user(userId)
         self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
 
+    def delete_song_in_playlist(self, song, playlist):
+        current_song = playlist.get_first_song()
+
+        if current_song.get_id() == song.get_id():
+            playlist.set_first_song(song.get_next())
+            return
+
+        while current_song is not None:
+            previous_song = current_song
+            current_song = current_song.get_next()
+            if current_song.get_id() == song.get_id():
+                previous_song.set_next(current_song.get_next)
+
     #************************IMPORTANT: TO BE COMPLETED*******************************
     def generate_suggestions(self, userId, playlistId):
         suggested_songs = Playlist("99979", "Suggestion", self)
@@ -123,7 +136,6 @@ class MusicPlayerSystem:
     def search_songs_meta(self, playlist, query): #searches b meta tags, used by other search functions
         search_result = playlist.search_song_meta(query)
         return search_result
-
     # ================= Accessor Methods =======================
     def get_user(self, id):
         current_user = self.first_user
@@ -143,7 +155,6 @@ class MusicPlayerSystem:
             self.user = self.get_user(int(id[0:3]))
             self.user.get_playlist(id)
 
- 
     def get_user_num(self):
         num = 0
         user = self.first_user
