@@ -18,7 +18,7 @@ class Playlist:
         self.id = str(id)
 
     def add_song(self, id, title, artist, genre, bpm, meta):
-        if not self.is_duplicate(int(id)):
+        if not self.is_duplicate(str(id)):
             if self.first_song is None: #if this is first song
                 self.song = Song(id, title, artist, genre, bpm, meta)
                 self.first_song = self.song

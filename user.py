@@ -27,7 +27,7 @@ class User:
             self.add_playlist(user_info_list[3+i*2+1]) # that is the name element in the .txt file
             playlist_song_list = user_info_list[3+i*2+2].split(",")
             for song_id in playlist_song_list:
-                current_song = complete_playlist.search_song_id(int(song_id))
+                current_song = complete_playlist.search_song_id('s' + str(song_id))
                 self.playlists[i].add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
         
         for playlist in self.playlists:
@@ -48,7 +48,7 @@ class User:
             if playlist.get_id()==playlistId:
                 self.add_song_to_library(songID, complete_playlist)
                 playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-                print(current_song.get_title() + "added to playlist " + playlist.name)
+                print(current_song.get_title() + "is added to playlist " + playlist.name)
 
     def add_playlist(self, playlist_name):
         p = Playlist("{0:03d}".format(self.id) + "{0:02d}".format(len(self.playlists) + 1), playlist_name, self)

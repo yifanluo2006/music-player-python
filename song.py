@@ -1,13 +1,16 @@
 class Song:
     def __init__(self, id, title, artist, genre, bpm, meta):
+        print(str(id) + " " + str(title) + " is loaded")
+        
         self.next = None
         
-        self.id = int(id)
+        self.id = str(id)
         self.title = str(title)
         self.artist = str(artist)
         self.genre = str(genre)
         self.bpm = int(bpm)
         self.meta = meta
+        
         self.frequency_count = 0
 
     def set_next(self, next):

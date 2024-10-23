@@ -19,9 +19,22 @@ class MusicPlayerSystem:
         song_list = content.split('\n') #splits the entire elements of each song into a list, seperated by new line operator \n
         
         for song in song_list: # use this for loop to add songs into the list
-            song_element = song.split(',')
-            self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], [song_element[5], song_element[6], song_element[7]])
-    
+            song_element = song.split('_')
+            
+            meta = [str(song_element[5]), str(song_element[6])]
+            
+            if len(song_element) == 8:
+                meta.append(str(song_element[7]))
+            elif len(song_element) == 9:
+                meta.append(str(song_element[7]))
+                meta.append(str(song_element[8]))
+            elif len(song_element) == 10:
+                meta.append(str(song_element[7]))
+                meta.append(str(song_element[8]))
+                meta.append(str(song_element[9]))
+                
+            self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], meta)
+                
     def import_user(self):
         id = self.get_user_num() + 1
         if self.first_user is None:
