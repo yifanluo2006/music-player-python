@@ -13,6 +13,7 @@ class GUI:
         self.scrollbar = tk.Scrollbar()
         self.generate = None
         self.loggedin = False
+        self.previous_playlists = []
 
     def update(self, system):
          if(self.loggedin == False):
@@ -214,7 +215,7 @@ class GUI:
         # print(playlist.first_song.genre)
         #  + " OWNER: " + str(playlist.owner.username)
         
-        self.display_songs(system, self.content_frame, playlist.first_song, user)
+        self.display_songs(system, self.content_frame, playlist.first_song, user, playlist)
         if(self.generate != None):
             self.generate = None
         self.display_generate_suggestions_button(playlist, system)
@@ -224,10 +225,11 @@ class GUI:
         self.generate.pack(side = tk.BOTTOM)
 
     def generate_suggestions(self, playlist, system):
-        pass
+        self.display_playlist(system, system.generate_suggestions(self.current_user, playlist.id), self.current_user, False)
+        self.generate.pack_forget()
 
-    def display_songs(self, system, frame, song, user):
-        
+    def display_songs(self, system, frame, song, user, currentplaylist):
+        songcounter = 0
         while song is not None:
             container = tk.Frame(master = frame, width = 850, height = 50)
             container.pack()
@@ -253,7 +255,24 @@ class GUI:
             dropmenu = tk.OptionMenu(container, clicked, *options)
             dropmenu.pack()
 
-            song = song.get_next()
+            songcounter += 1
+            song=song.get_next()
+            if(songcounter > 101): 
+                new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name + " Continued", system.get_user(self.current_user))
+                while song is not None:
+                    new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta)
+                    song=song.get_next()
+                next_page_button = tk.Button(self.content_frame, text = ">", command = lambda: self.next_page(currentplaylist, new_page, system))
+                next_page_button.pack(side = tk.LEFT)
+
+
+    def next_page(self, previous, next, system):
+        self.previous_playlists.append(previous)
+        self.display_playlist(system, next, self.current_user, True)
+        prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page())
+
+    def prev_page(self):
+        pass
 
     def addtoplaylist(self, name, system, song):
         playlist = name.get()
@@ -263,7 +282,7 @@ class GUI:
         else:
             for index, item in enumerate(user.playlists):
                 if item.name == playlist:
-                    system.add_song_to_playlist(user.id, item.id, song.id) # doesnt seem to be working quite yet
+                    system.add_song_to_playlist(user.id, item.id, song.id)
                     
         
         
