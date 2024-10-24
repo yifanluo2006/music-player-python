@@ -1,0 +1,14 @@
+97
+Sydney countrygirl
+13067597
+5
+Country Classics
+402,415,447,555,771,784
+Modern Country
+519,529,553,561,872,973
+Country Pop
+872,902,967,973,993
+Country Ballads
+402,415,447,555,771,784
+Road Trip Songs
+519,553,561,872,902,967

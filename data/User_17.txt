@@ -1,0 +1,12 @@
+17
+Jacob metalhead
+91401971
+4
+Hard Rock Hits
+644,654,696,804,887,887
+Metal Anthems
+804,887,887,938,993,995
+Guitar Solos
+644,654,696,804,887,938
+Heavy Metal Classics
+804,887,887,938,993,995

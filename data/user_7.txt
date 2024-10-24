@@ -1,10 +1,10 @@
 7
-Ava
-55667788
+James classic blues
+21501001
 3
-Indie Mix
-35,62,63,64
-Coldplay Collection
-159,160,161,162
-90s Alternative
-12,35,103
+Blues Legends
+205,211,229,242,262,266
+Delta Blues
+205,229,242,266,267,879
+Electric Blues
+211,262,266,397,874,979

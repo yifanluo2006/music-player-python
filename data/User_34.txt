@@ -1,0 +1,14 @@
+34
+Logan classicpop
+92533350
+5
+70s Pop Hits
+500,510,536,542,556,559
+80s Pop Favorites
+601,627,638,674,683,702
+90s Pop Gems
+706,708,712,771,792,916
+Timeless Classics
+406,601,771,916,954,990
+Feel-Good Songs
+803,834,841,859,906,920

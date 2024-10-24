@@ -1,0 +1,10 @@
+30
+Nathan jazzfanatic
+82308827
+3
+Jazz Legends
+199,204,210,213,216,226
+Smooth Jazz
+201,214,217,231,248,255
+Big Band Swing
+206,213,216,226,237,290

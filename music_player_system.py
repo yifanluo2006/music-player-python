@@ -9,7 +9,7 @@ class MusicPlayerSystem:
 
         self.first_user = None
         self.user = None
-        for i in range(1, 8):
+        for i in range(1, 101):
             self.import_user()
         print("Total user count = " + str(self.get_user_num()))
 

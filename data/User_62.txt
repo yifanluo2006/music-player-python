@@ -1,0 +1,14 @@
+62
+Samuel classicpunk
+81474885
+5
+Punk Pioneers
+627,804,854,887,938,993
+Hardcore Punk
+804,887,938,993,995,996
+Post-Punk Revival
+857,883,895,931,938,983
+Anarcho-Punk
+804,887,938,993,995,996
+Ska Punk
+767,768,879,935,971,977

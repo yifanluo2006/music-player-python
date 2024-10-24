@@ -1,0 +1,12 @@
+32
+Lucas bluesman
+78717017
+4
+Blues Roots
+205,211,229,242,262,266
+Chicago Blues
+211,262,266,397,874,979
+Blues Guitarists
+211,262,266,397,644,654
+Blues Rock
+644,654,696,804,854,887

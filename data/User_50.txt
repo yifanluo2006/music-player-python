@@ -1,0 +1,10 @@
+50
+Christian classicjazz
+77319459
+3
+Jazz Legends
+199,204,210,213,216,226
+Swing Era
+206,213,216,226,237,290
+Bebop Classics
+206,216,226,237,246,270
