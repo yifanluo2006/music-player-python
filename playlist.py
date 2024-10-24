@@ -14,7 +14,7 @@ class Playlist:
         with 00 as the library playlist, 1 as the first, 2 as the second ...
         The 00000 playlist will be the complete playlist of all songs
         """
-        
+
         self.id = str(id)
 
     def add_song(self, id, title, artist, genre, bpm, meta):
@@ -117,6 +117,12 @@ class Playlist:
         
         return self.song
     
+    def get_name(self):
+        return self.name
+
+    def get_owner(self):
+        return self.owner
+
     def slice(self, end):
         self.song = self.first_song
         for i in range(0, end-1):

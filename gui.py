@@ -248,8 +248,11 @@ class GUI:
             clicked = tk.StringVar()
 
             add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
-            add_to_button.place(x=300, y=24)
+            add_to_button.place(x=300, y=23)
             
+            if currentplaylist.id is not "00000":
+                remove_button = tk.Button(container, text = "-", fg = "red", command = lambda removed = song, con = container: self.remove_song(system, currentplaylist, con, removed))
+                remove_button.place(x=800, y=23)
             
             clicked.set("Library")
             dropmenu = tk.OptionMenu(container, clicked, *options)
@@ -257,22 +260,33 @@ class GUI:
 
             songcounter += 1
             song=song.get_next()
+            
             if(songcounter > 101): 
-                new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name + " Continued", system.get_user(self.current_user))
+                new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name, system.get_user(self.current_user))
                 while song is not None:
                     new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta)
                     song=song.get_next()
                 next_page_button = tk.Button(self.content_frame, text = ">", command = lambda: self.next_page(currentplaylist, new_page, system))
-                next_page_button.pack(side = tk.LEFT)
-
+                next_page_button.pack(side = tk.BOTTOM)
+            
+    def remove_song(self, system, currentplaylist, container, song):
+        container.destroy()
+        system.delete_song_in_playlist(song, currentplaylist)
 
     def next_page(self, previous, next, system):
         self.previous_playlists.append(previous)
         self.display_playlist(system, next, self.current_user, True)
-        prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page())
+        if(len(self.previous_playlists) != 0):
+                prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
+                prev_page_button.pack(side = tk.BOTTOM)
 
-    def prev_page(self):
-        pass
+    def prev_page(self, system):
+        self.display_playlist(system, self.previous_playlists[-1], self.current_user, True)
+        self.previous_playlists.pop()
+        if(len(self.previous_playlists) != 0):
+                prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
+                prev_page_button.pack(side = tk.BOTTOM)
+        
 
     def addtoplaylist(self, name, system, song):
         playlist = name.get()
@@ -287,7 +301,7 @@ class GUI:
         
         
     def choose_playlist(self, user, system, playlist_index):
-        
+        self.previous_playlists = []
         self.reset_right()
         if playlist_index == -1:
             self.current_playlist = user.library
