@@ -28,18 +28,18 @@ class GUI:
 #===================================================LOGIN=====================================================================#
 
     def loginscreen(self, system):
-        mainloginframe = tk.Frame(master = self.window, width = 500, height = 1000, bg = "grey")
-        mainloginframe.place(x=300, y=0)
-        subframe = tk.Frame(master = mainloginframe, width = 400, height = 500, bg = 'gray')
-        subframe.place(x=50, y=150)
+        mainloginframe = tk.Frame(master = self.window, width = 1100, height = 1000, bg = "black")
+        mainloginframe.place(x=0, y=0)
+        subframe = tk.Frame(master = mainloginframe, width = 400, height = 1000, bg = 'black')
+        subframe.place(x=350, y=150)
         subframe.pack_propagate(0)
-        logintext = tk.Label(subframe, text = 'LOGIN', font = ("Arial", 25))
+        logintext = tk.Label(subframe, text = 'LOGIN', font = ("Arial", 50), fg = "white", bg = "black")
         logintext.pack()
-        usernametext = tk.Label(subframe, text = 'USERNAME', font = ("Arial", 10), pady=10)
+        usernametext = tk.Label(subframe, text = 'USERNAME', font = ("Arial", 15), pady=10, fg = "white", bg = "black")
         usernametext.pack()
         usernameinput = tk.Text(subframe, height=1, width = 15)
         usernameinput.pack()
-        passwordtext = tk.Label(subframe, text = "PASSWORD", font = ("Arial", 10), pady = 10)
+        passwordtext = tk.Label(subframe, text = "PASSWORD", font = ("Arial", 15), pady = 10, fg = "white", bg = "black")
         passwordtext.pack()
         passwordinput = tk.Text(subframe, height = 1, width = 15)
         passwordinput.pack()
@@ -50,7 +50,7 @@ class GUI:
         newuserbutton = tk.Button(subframe, text = "NEW USER", command = lambda: self.newuserpopup(system, subframe, newuserbutton))
         newuserbutton.pack()
 
-        errormessage = tk.Label(subframe, text = "INCORRECT USERNAME OR PASSWORD", fg = 'red', bg = 'gray', font = ("Arial", 10))
+        errormessage = tk.Label(subframe, text = "INCORRECT USERNAME OR PASSWORD", fg = 'red', bg = 'black', font = ("Arial", 10))
         
 
         
@@ -71,25 +71,25 @@ class GUI:
     def newuserpopup(self, system, subframe, button):
         button = tk.Button(subframe, state = 'disabled', text = "NEW USER", command = lambda: self.newuserpopup(system, subframe))
 
-        newprofilezone = tk.Frame(master = subframe, width = 400, height = 250)
+        newprofilezone = tk.Frame(master = subframe, width = 400, height = 210, bg = "grey")
         newprofilezone.place(x=0,y=300)
         newprofilezone.pack_propagate(0)
 
-        newprofilelabel = tk.Label(newprofilezone, text = 'NEW PROFILE', font = ("Arial", 10))
+        newprofilelabel = tk.Label(newprofilezone, text = 'NEW PROFILE', font = ("Arial", 20), bg = "gray")
         newprofilelabel.pack()
 
-        usernametext = tk.Label(newprofilezone, text = 'USERNAME', font = ("Arial", 10), pady=10)
+        usernametext = tk.Label(newprofilezone, text = 'USERNAME', font = ("Arial", 10), pady=10, bg = "gray")
         usernametext.pack()
         usernameinput = tk.Text(newprofilezone, height = 1, width = 15)
         usernameinput.pack()
-        passwordtext = tk.Label(newprofilezone, text = "PASSWORD", font = ("Arial", 10), pady = 10)
+        passwordtext = tk.Label(newprofilezone, text = "PASSWORD", font = ("Arial", 10), pady = 10, bg = "gray")
         passwordtext.pack()
         passwordinput = tk.Text(newprofilezone, height = 1, width = 15)
         passwordinput.pack()
 
-        errormessage = tk.Label(newprofilezone, text = " ", fg = 'red')
+        errormessage = tk.Label(newprofilezone, text = " ", fg = 'red', bg = "gray")
 
-        confirmbutton = tk.Button(newprofilezone, text = "CREATE", command = lambda: self.usercreation(usernameinput, passwordinput, system, newprofilezone, errormessage))
+        confirmbutton = tk.Button(newprofilezone, text = "CREATE", padx=5, pady=5, command = lambda: self.usercreation(usernameinput, passwordinput, system, newprofilezone, errormessage))
         confirmbutton.pack()
 
         errormessage.pack()
@@ -231,7 +231,7 @@ class GUI:
     def display_songs(self, system, frame, song, user, currentplaylist):
         songcounter = 0
         while song is not None:
-            container = tk.Frame(master = frame, width = 850, height = 50)
+            container = tk.Frame(master = frame, width = 850, height = 50, highlightbackground = "black", highlightthickness = 1)
             container.pack()
             container.pack_propagate(0)
             info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
@@ -250,9 +250,9 @@ class GUI:
             add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
             add_to_button.place(x=300, y=23)
             
-            if currentplaylist.id is not "00000":
+            if currentplaylist.id is not "00000" and currentplaylist.id is not "99989":
                 remove_button = tk.Button(container, text = "-", fg = "red", command = lambda removed = song, con = container: self.remove_song(system, currentplaylist, con, removed))
-                remove_button.place(x=800, y=23)
+                remove_button.place(x=800, y=5)
             
             clicked.set("Library")
             dropmenu = tk.OptionMenu(container, clicked, *options)

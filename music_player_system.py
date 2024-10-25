@@ -85,7 +85,7 @@ class MusicPlayerSystem:
 
         if current_song.get_id() == song.get_id():
             playlist.set_first_song(song.get_next())
-            if playlist.get_id()[3 : 5] != "00":
+            if playlist.get_id()[3 : 5] == "00":
                 print("deleting from all")
                 self.delete_song_in_playlist(song, playlist.get_owner().get_library())
                 for playlist in playlist.get_owner().get_all_playlists():
@@ -99,7 +99,7 @@ class MusicPlayerSystem:
             if current_song.get_id() == song.get_id():
                 previous_song.set_next(current_song.get_next())
                 print("Deleted " + song.get_title() + " from " + playlist.get_name())
-                if playlist.get_id()[3 : 5] != "00":
+                if playlist.get_id()[3 : 5] == "00":
                     print("deleting from all")
                     self.delete_song_in_playlist(song, playlist.get_owner().get_library())
                     for playlist in playlist.get_owner().get_all_playlists():
