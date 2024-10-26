@@ -80,29 +80,24 @@ class MusicPlayerSystem:
         self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
 
     def delete_song_in_playlist(self, song, playlist):
-        print("Deleting " + song.get_title() + " from " + playlist.get_name())
         current_song = playlist.get_first_song()
 
-        if current_song.get_id() == song.get_id():
-            playlist.set_first_song(song.get_next())
+        if current_song is not None and current_song.get_id() == song.get_id():
+            playlist.set_first_song(playlist.get_first_song().get_next())
             if playlist.get_id()[3 : 5] == "00":
-                print("deleting from all")
-                self.delete_song_in_playlist(song, playlist.get_owner().get_library())
-                for playlist in playlist.get_owner().get_all_playlists():
-                    self.delete_song_in_playlist(song, playlist)
+                for new_playlist in playlist.get_owner().get_all_playlist():
+                    self.delete_song_in_playlist(song, new_playlist)
             print("Deleted " + song.get_title() + " from " + playlist.get_name())
             return
 
-        while current_song is not None:
+        while current_song is not None and current_song.get_next() is not None:
             previous_song = current_song
             current_song = current_song.get_next()
             if current_song.get_id() == song.get_id():
                 previous_song.set_next(current_song.get_next())
                 print("Deleted " + song.get_title() + " from " + playlist.get_name())
                 if playlist.get_id()[3 : 5] == "00":
-                    print("deleting from all")
-                    self.delete_song_in_playlist(song, playlist.get_owner().get_library())
-                    for playlist in playlist.get_owner().get_all_playlists():
+                    for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
     #************************IMPORTANT: TO BE COMPLETED*******************************
@@ -162,6 +157,7 @@ class MusicPlayerSystem:
     def search_songs_meta(self, playlist, query): #searches b meta tags, used by other search functions
         search_result = playlist.search_song_meta(query)
         return search_result
+    
     # ================= Accessor Methods =======================
     def get_user(self, id):
         current_user = self.first_user
