@@ -44,6 +44,10 @@ class Song:
     
     def get_meta(self):
         return self.meta
+    
+    def get_numeric_id(self):
+        id_num = int(self.id[1:])
+        return id_num
 
     # ================ Testing ==================== 
     def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print

@@ -250,7 +250,7 @@ class GUI:
             add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
             add_to_button.place(x=300, y=23)
             
-            if currentplaylist.id is not "00000" and currentplaylist.id is not "99989":
+            if currentplaylist.id != "00000" and currentplaylist.id != "99989":
                 remove_button = tk.Button(container, text = "-", fg = "red", command = lambda removed = song, con = container: self.remove_song(system, currentplaylist, con, removed))
                 remove_button.place(x=800, y=5)
             

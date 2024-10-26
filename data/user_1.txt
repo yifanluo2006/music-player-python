@@ -1,6 +1,6 @@
 1
-Alex rockfan123
-easypassword
+test
+test
 4
 Classic Rock Hits
 510,511,558,644,654,655,696
