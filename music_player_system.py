@@ -89,6 +89,7 @@ class MusicPlayerSystem:
         if current_song is not None and current_song.get_id() == song.get_id():
             playlist.set_first_song(playlist.get_first_song().get_next())
             if playlist.get_id()[3 : 5] == "00":
+                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                 for new_playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, new_playlist)
             print("Deleted " + song.get_title() + " from " + playlist.get_name())
@@ -101,6 +102,7 @@ class MusicPlayerSystem:
                 previous_song.set_next(current_song.get_next())
                 print("Deleted " + song.get_title() + " from " + playlist.get_name())
                 if playlist.get_id()[3 : 5] == "00":
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
@@ -125,7 +127,7 @@ class MusicPlayerSystem:
         # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
         # None of the following is copied and pasted
         user_num = self.get_user_num() + 1
-        song_num = 1001
+        song_num = 1001 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
         matrix = np.zeros((user_num, song_num), dtype=int)
         
         # This code to populate the matrix is entirely my design and code
@@ -193,17 +195,42 @@ class MusicPlayerSystem:
         
         return suggested_songs
 
-    #************************IMPORTANT: TO BE COMPLETED*******************************
+    """
+    Sophisticated popularity tracking with trend analysis
+    I will track the popularity with exponential moving average (EMA), which places a greater value on closer data points, thus indicating the trend
+    Therefore, the formula will react to a trend faster than normal popularity tracking
+    The idea of EMA was inspired by ChatGPT; however, all of the following code are my own, only the concept was used.
+    The formula and majority of calculations will be in song class
+    Note that only the copy of the song within the complete list will be updated, all other copies in libraries and playlists will not as it is only nessecary to keep track of one record, and the complete list is the most accurate record
+    """
     def get_most_popular_songs(self, n):
         popular_songs = Playlist("99989", "Top " + str(n) + " Songs", self)
-
+        
+        "Ok as of right now this is really bad code, I'll re-write this after I get some sleep"
+        
+        # To find the song with the highest popularity score as calculated, need to sort the linked-list
+        # Note that only the count is frequently updated, the popularity score is calculated each time requested to give more accurate data
+        # current_song = self.complete_list.get_first_song()
+        # while current_song is not None:
+        #     popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+        #     current_song = current_song.get_next()
+        
+        # *************************************************NEEDS TO BE CHANGED TO PROPER SORT**************************************************
         current_song = self.complete_list.get_first_song()
-        for i in range (0, n):
-            popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+        sorting_lst = []
+        while current_song is not None:
+            sorting_lst.append(current_song)
             current_song = current_song.get_next()
-
+        sorting_lst.sort(key=lambda song: song.popularity_score)
+        
+        for current_song in sorting_lst:
+            popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+        #**************************************************************************************************************************************
+        
+        popular_songs.slice(n)
+        # most popular songs are returned in the format of a linked-list
         return popular_songs
-    #*********************************************************************************
+    
 
     #************************IMPORTANT: TO BE COMPLETED*******************************
     def search_songs_in_playlist(self, playlist, query):

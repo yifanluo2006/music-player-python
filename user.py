@@ -39,7 +39,7 @@ class User:
         
     def add_song_to_library(self, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
-        current_song.update_frequency(1)
+        current_song.update_frequency(1) # reference to the song in the complete list
         self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
 
     def add_song_to_playlist(self, playlistId, songID, complete_playlist):

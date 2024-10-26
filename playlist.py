@@ -86,8 +86,7 @@ class Playlist:
         while current_song is not None:
             if current_song.get_id() == id:
                 return current_song
-            else:
-                current_song = current_song.get_next()
+            current_song = current_song.get_next()
         return None
     
     def append(self, playlist):

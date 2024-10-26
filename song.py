@@ -12,12 +12,20 @@ class Song:
         self.meta = meta
         
         self.frequency_count = 0
-
+        self.popularity_score = 0.0
+        
     def set_next(self, next):
         self.next = next
 
+    
+    # Trend analysis code to update the frequency count and popularity score
     def update_frequency(self, n):
         self.frequency_count += n
+
+    def update_popularity(self):
+        
+        alpha = 0.35 # The alpha determines how much the value is affected by the trend
+        self.popularity_score = (self.frequency_count * alpha) + (self.popularity_score * (1-alpha))
     
     # ================ Accessor Methods ===============
 
@@ -48,6 +56,9 @@ class Song:
     def get_numeric_id(self):
         id_num = int(self.id[1:])
         return id_num
+    
+    def get_popularity(self):
+        return self.popularity_score
 
     # ================ Testing ==================== 
     def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print
