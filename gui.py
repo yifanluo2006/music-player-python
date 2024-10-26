@@ -345,7 +345,7 @@ class GUI:
 
     def discovery_button(self, system):
         
-        self.display_playlist(system, system.get_most_popular_songs(5), system.get_user(self.current_user), True)
+        self.display_playlist(system, system.get_most_popular_songs(3), system.get_user(self.current_user), True)
         self.display_playlist(system, system.complete_list, system.get_user(self.current_user), False)
 
     def display_library_button(self, user, system):

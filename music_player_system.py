@@ -199,38 +199,79 @@ class MusicPlayerSystem:
     Sophisticated popularity tracking with trend analysis
     I will track the popularity with exponential moving average (EMA), which places a greater value on closer data points, thus indicating the trend
     Therefore, the formula will react to a trend faster than normal popularity tracking
-    The idea of EMA was inspired by ChatGPT; however, all of the following code are my own, only the concept was used.
+    The idea of EMA was inspired by ChatGPT; however, the EMA part of code is entirely my own
     The formula and majority of calculations will be in song class
     Note that only the copy of the song within the complete list will be updated, all other copies in libraries and playlists will not as it is only nessecary to keep track of one record, and the complete list is the most accurate record
     """
     def get_most_popular_songs(self, n):
-        popular_songs = Playlist("99989", "Top " + str(n) + " Songs", self)
-        
-        "Ok as of right now this is really bad code, I'll re-write this after I get some sleep"
-        
-        # To find the song with the highest popularity score as calculated, need to sort the linked-list
-        # Note that only the count is frequently updated, the popularity score is calculated each time requested to give more accurate data
-        # current_song = self.complete_list.get_first_song()
-        # while current_song is not None:
-        #     popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-        #     current_song = current_song.get_next()
-        
-        # *************************************************NEEDS TO BE CHANGED TO PROPER SORT**************************************************
+        popular_songs = Playlist("99989", "Top " + str(n) + " Trending Songs", self)
+
         current_song = self.complete_list.get_first_song()
-        sorting_lst = []
         while current_song is not None:
-            sorting_lst.append(current_song)
+            current_song.update_popularity() # updates popularity score for each song
+            popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta(), current_song.get_frequency(), current_song.get_popularity())
             current_song = current_song.get_next()
-        sorting_lst.sort(key=lambda song: song.popularity_score)
-        
-        for current_song in sorting_lst:
-            popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-        #**************************************************************************************************************************************
-        
+
+        # To find the song with the highest popularity score as calculated, need to sort the linked-list
+        # Merge sort is the most efficient
+        # Original merge Sort code is partly from Geeks for Geeks, modified to sort by popularity and song objects, and also modified for OOP porgramming
+        # The original code sorts in increasing order, I also modified it to sort in decreasing order
+
+        popular_songs.set_first_song(self.merge_sort(popular_songs.get_first_song()))
+
+        # return the most popular n songs
         popular_songs.slice(n)
         # most popular songs are returned in the format of a linked-list
         return popular_songs
     
+    def split(self, head):
+        if head is None or head.next is None:
+            return None  # Cannot split further
+
+        slow = head
+        fast = head.next  # Start fast one node ahead
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        second = slow.next
+        slow.next = None  # Split the list into two halves
+        return second
+
+
+    def merge(self, first, second):
+  
+        # If either list is empty, return the other list
+        if not first:
+            return second
+        if not second:
+            return first
+
+        # Pick the smaller value between first and second nodes
+        if first.popularity_score > second.popularity_score:
+            first.next = self.merge(first.next, second)
+            return first
+        else:
+            second.next = self.merge(first, second.next)
+            return second
+
+    def merge_sort(self, head):
+  
+        # Base case: if the list is empty or has only one node, 
+        # it's already sorted
+        if not head or not head.next:
+            return head
+
+        # Split the list into two halves
+        second = self.split(head)
+
+        # Recursively sort each half
+        head = self.merge_sort(head)
+        second = self.merge_sort(second)
+
+        # Merge the two sorted halves
+        return self.merge(head, second)
 
     #************************IMPORTANT: TO BE COMPLETED*******************************
     def search_songs_in_playlist(self, playlist, query):

@@ -1,6 +1,6 @@
 class Song:
-    def __init__(self, id, title, artist, genre, bpm, meta):
-        print(str(id) + " " + str(title) + " is loaded")
+    def __init__(self, id, title, artist, genre, bpm, meta, frequency=0, popularity_score=0.0):
+        # print(str(id) + " " + str(title) + " is loaded")
         
         self.next = None
         
@@ -11,8 +11,8 @@ class Song:
         self.bpm = int(bpm)
         self.meta = meta
         
-        self.frequency_count = 0
-        self.popularity_score = 0.0
+        self.frequency_count = frequency
+        self.popularity_score = popularity_score
         
     def set_next(self, next):
         self.next = next
@@ -59,6 +59,9 @@ class Song:
     
     def get_popularity(self):
         return self.popularity_score
+    
+    def get_frequency(self):
+        return self.frequency_count
 
     # ================ Testing ==================== 
     def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print
