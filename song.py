@@ -11,12 +11,12 @@ class Song:
         self.bpm = int(bpm)
         self.meta = meta
         
+        self.similarity = 0.0
         self.frequency_count = frequency
         self.popularity_score = popularity_score
         
     def set_next(self, next):
         self.next = next
-
     
     # Trend analysis code to update the frequency count and popularity score
     def update_frequency(self, n):
@@ -26,6 +26,9 @@ class Song:
         
         alpha = 0.35 # The alpha determines how much the value is affected by the trend
         self.popularity_score = (self.frequency_count * alpha) + (self.popularity_score * (1-alpha))
+
+    def update_similarity(self, n):
+        self.similarity = n
     
     # ================ Accessor Methods ===============
 

@@ -40,8 +40,10 @@ class Playlist:
         search_result = Playlist("99990", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
-            if query.lower() in current_song.get_title().lower():
+            similarity_factor = self.similarity(query.lower(), current_song.get_title().lower())
+            if similarity_factor >= 0.8:
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                search_result.get_last_song().update_similarity(similarity_factor)
             current_song = current_song.get_next()
 
         return search_result
@@ -50,8 +52,10 @@ class Playlist:
         search_result = Playlist("99991", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
-            if query.lower() in current_song.get_artist().lower():
+            similarity_factor = self.similarity(query.lower(), current_song.get_artist().lower())
+            if similarity_factor >= 0.8:
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                search_result.get_last_song().update_similarity(similarity_factor)
             current_song = current_song.get_next()
 
         return search_result
@@ -60,21 +64,24 @@ class Playlist:
         search_result = Playlist("99992", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
-            if query.lower() in current_song.get_genre().lower():
+            similarity_factor = self.similarity(query.lower(), current_song.get_genre().lower())
+            if similarity_factor >= 0.8:
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                search_result.get_last_song().update_similarity(similarity_factor)
             current_song = current_song.get_next()
 
         return search_result
     
-    def search_song_meta(self, query): # since the user cannot see meta, the meta has to exactly match to be searched
+    def search_song_meta(self, query):
         search_result = Playlist("99993", "Search Result", self)
         current_song = self.first_song
         while current_song is not None:
             meta_lst = current_song.get_meta()
             for meta in meta_lst:
-                if query.lower()==meta.lower():
-                    print(query, meta)
+                similarity_factor = self.similarity(query.lower(), meta.lower())
+                if similarity_factor >= 0.8:
                     search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                    search_result.get_last_song().update_similarity(similarity_factor)
                     break
             current_song = current_song.get_next()
 
@@ -88,6 +95,38 @@ class Playlist:
                 return current_song
             current_song = current_song.get_next()
         return None
+    
+    "calculate levenshtein distance"
+    def levenshtein_distance(self, s1, s2):
+        # Create a matrix to store distances
+        dp = [[0 for _ in range(len(s2) + 1)] for _ in range(len(s1) + 1)]
+        
+        # Initialize the matrix
+        for i in range(len(s1) + 1):
+            dp[i][0] = i
+        for j in range(len(s2) + 1):
+            dp[0][j] = j
+        
+        # Compute distances
+        for i in range(1, len(s1) + 1):
+            for j in range(1, len(s2) + 1):
+                if s1[i - 1] == s2[j - 1]:
+                    dp[i][j] = dp[i - 1][j - 1]
+                else:
+                    dp[i][j] = min(dp[i - 1][j] + 1,      # Deletion
+                                dp[i][j - 1] + 1,      # Insertion
+                                dp[i - 1][j - 1] + 1)  # Substitution
+        
+        # The last cell contains the Levenshtein distance
+        return dp[len(s1)][len(s2)]
+    
+    "calculate similarity based on levenshtein distance"
+    def similarity(self, s1, s2):
+        max_len = max(len(s1), len(s2))
+        if max_len == 0:
+            return 1.0  # Both strings are empty
+        distance = self.levenshtein_distance(s1, s2)
+        return 1 - (distance / max_len)
     
     def append(self, playlist):
         self.song = self.get_last_song()

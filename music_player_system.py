@@ -239,7 +239,6 @@ class MusicPlayerSystem:
         slow.next = None  # Split the list into two halves
         return second
 
-
     def merge(self, first, second):
   
         # If either list is empty, return the other list
@@ -273,16 +272,22 @@ class MusicPlayerSystem:
         # Merge the two sorted halves
         return self.merge(head, second)
 
-    #************************IMPORTANT: TO BE COMPLETED*******************************
+    """
+    The fuzzy search algorithm is implemented in the Playlist class
+    I did not use any libraries, instead, I have the code to calculate the levenshtein distance and similarity score
+    I will use merge sort to sort the results and display the most relevant at the top
+    """
     def search_songs_in_playlist(self, playlist, query):
         search_result = self.search_songs_title(playlist, query)
         search_result.append(self.search_songs_artist(playlist, query))
         search_result.append(self.search_songs_genre(playlist, query))
         search_result.append(self.search_songs_meta(playlist, query))
         
+        # Merge sort the search result by similarity of result
+        search_result.set_first_song(self.merge_sort_for_search(search_result.get_first_song()))
+
         # The search function returns the result as a linked-list
         return search_result
-    #*********************************************************************************
 
     def search_songs_in_library(self, user, query): # searches in library
         search_result = self.search_songs_in_playlist(user.get_library(), query)
@@ -307,6 +312,54 @@ class MusicPlayerSystem:
     def search_songs_meta(self, playlist, query): #searches b meta tags, used by other search functions
         search_result = playlist.search_song_meta(query)
         return search_result
+    
+    def split_for_search(self, head):
+        if head is None or head.next is None:
+            return None  # Cannot split further
+
+        slow = head
+        fast = head.next  # Start fast one node ahead
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        second = slow.next
+        slow.next = None  # Split the list into two halves
+        return second
+
+    def merge_for_search(self, first, second):
+  
+        # If either list is empty, return the other list
+        if not first:
+            return second
+        if not second:
+            return first
+
+        # Pick the smaller value between first and second nodes
+        if first.similarity > second.similarity:
+            first.next = self.merge_for_search(first.next, second)
+            return first
+        else:
+            second.next = self.merge_for_search(first, second.next)
+            return second
+
+    def merge_sort_for_search(self, head):
+  
+        # Base case: if the list is empty or has only one node, 
+        # it's already sorted
+        if not head or not head.next:
+            return head
+
+        # Split the list into two halves
+        second = self.split_for_search(head)
+
+        # Recursively sort each half
+        head = self.merge_sort_for_search(head)
+        second = self.merge_sort_for_search(second)
+
+        # Merge the two sorted halves
+        return self.merge_for_search(head, second)
     
     # ================= Accessor Methods =======================
     def get_user(self, id):
