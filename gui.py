@@ -218,7 +218,8 @@ class GUI:
         self.display_songs(system, self.content_frame, playlist.first_song, user, playlist)
         if(self.generate != None):
             self.generate = None
-        self.display_generate_suggestions_button(playlist, system)
+        if(playlist.first_song != None):
+            self.display_generate_suggestions_button(playlist, system)
 
     def display_generate_suggestions_button(self, playlist, system):
         self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system))
