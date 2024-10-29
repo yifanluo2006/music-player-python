@@ -11,6 +11,8 @@ class MusicPlayerSystem:
         self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
         self.populate_complete_list() # and populated
 
+        print("Welcome to the Music Player System by Yifan and Jaden!")
+
         self.first_user = None
         self.user = None
         for i in range(1, 101):
@@ -65,6 +67,7 @@ class MusicPlayerSystem:
         current_user = self.first_user
         while current_user is not None:
             if current_user.get_name() == name and current_user.get_password() == password:
+                print("*********** User " + current_user.get_name() + " Has Authenticated *********")
                 return current_user
             current_user = current_user.get_next()
         
@@ -106,6 +109,8 @@ class MusicPlayerSystem:
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
+        print("Deleted " + current_song.get_title() + " from all playlists and libraries of user " + playlist.get_owner().get_username())
+
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
     The core idea is collaborative filtering: we recommend songs to the current user based on users who have a similar preference in songs
@@ -121,6 +126,7 @@ class MusicPlayerSystem:
         # Since the assignment is based on linked-lists, the return will be the following linked-list
         suggested_songs = Playlist("99979", "Suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name(), self)
         
+        print("")
         print("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
         
         "creates and populates matrix"
@@ -193,6 +199,9 @@ class MusicPlayerSystem:
                 suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
             current_song = current_song.get_next()
         
+        print("Matched preferences with user " + user_2.get_username() + " and user " + user_3.get_uesrname())
+        print("Generated suggestions of matching songs")
+        print("")
         return suggested_songs
 
     """
@@ -212,6 +221,9 @@ class MusicPlayerSystem:
             popular_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta(), current_song.get_frequency(), current_song.get_popularity())
             current_song = current_song.get_next()
 
+        print("")
+        print("Calculated popularity score by EMA")
+
         # To find the song with the highest popularity score as calculated, need to sort the linked-list
         # Merge sort is the most efficient
         # Original merge Sort code is partly from Geeks for Geeks, modified to sort by popularity and song objects, and also modified for OOP porgramming
@@ -221,6 +233,10 @@ class MusicPlayerSystem:
 
         # return the most popular n songs
         popular_songs.slice(n)
+
+        print("Found top " + str(n) + " most trending songs ")
+        print("")
+
         # most popular songs are returned in the format of a linked-list
         return popular_songs
     
@@ -278,14 +294,18 @@ class MusicPlayerSystem:
     I will use merge sort to sort the results and display the most relevant at the top
     """
     def search_songs_in_playlist(self, playlist, query):
+        print("")
+        print("Searching for " + query + " in " + playlist.get_name())
+
         search_result = self.search_songs_title(playlist, query)
         search_result.append(self.search_songs_artist(playlist, query))
         search_result.append(self.search_songs_genre(playlist, query))
         search_result.append(self.search_songs_meta(playlist, query))
-        
+
         # Merge sort the search result by similarity of result
         search_result.set_first_song(self.merge_sort_for_search(search_result.get_first_song()))
-
+        print("Found " + str(search_result.get_len()) + " search results!")
+        print("")
         # The search function returns the result as a linked-list
         return search_result
 
