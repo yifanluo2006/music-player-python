@@ -124,10 +124,24 @@ class GUI:
     def adminwindow(self, system):
         self.main_screen()
         self.logout_button(system)
+        self.test_button(system)
         self.loop_console(system)
+        
 
     def loop_console(self, system):
         pass
+
+    def test_button(self, system):
+        button = tk.Button(self.leftBar, text = "TEST ALL CASES", command = lambda: self.test_all(system))
+        button.pack()
+
+    def test_all(system):
+        testuser = system.first_user
+        
+
+        system.create_playlist(testuser.id, "NEW PLAYLIST")
+        testplaylist = testuser.playlists[-1]
+        system.add_song_to_playlist(testuser.id, testplaylist.id, 15)
 
     def main_screen(self):
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey") #creates the MAIN segments

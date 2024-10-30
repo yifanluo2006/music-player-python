@@ -6,6 +6,8 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 
+
+
 class MusicPlayerSystem:
     def __init__(self):
         self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
