@@ -1,5 +1,6 @@
 import tkinter as tk
 from music_player_system import *
+from event_generator import *
 
 class GUI:
     def __init__(self):
@@ -16,14 +17,14 @@ class GUI:
         self.previous_playlists = []
 
     def update(self, system): #essentially reset the screen
-         if(self.loggedin == False):
+        if(self.loggedin == False):
              self.loginscreen(system)
-         else:
+        else:
             self.main_screen()
             self.display_user(system, self.current_user)
             if self.current_playlist is not None:
                  self.display_playlist(system, self.current_playlist, self.current_user, True)
-         self.window.mainloop()
+        self.window.mainloop()
 
 #===================================================LOGIN=====================================================================#
 
@@ -142,6 +143,8 @@ class GUI:
         system.create_playlist(testuser.id, "NEW PLAYLIST")
         testplaylist = testuser.playlists[-1]
         system.add_song_to_playlist(testuser.id, testplaylist.id, 15)
+        if(testplaylist.first_song.id == 15):
+            print()
 
     def main_screen(self):
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey") #creates the MAIN segments
@@ -216,10 +219,20 @@ class GUI:
         button.config(state = tk.NORMAL)
 
     def addplaylist(self, nameinput, system, frame):
+        valid = True
         name = nameinput.get()
-        system.create_playlist(self.current_user, name)
-        self.reset_left()
-        self.display_user(system, self.current_user)
+        for p in range(len(system.get_user(self.current_user).playlists)):
+            invalidname = system.get_user(self.current_user).playlists[p].name
+            if(name == invalidname):
+                    valid = False
+                    errormessage.forget_pack()
+                    errormessage = tk.Label(frame, text = "PLAYLIST NAME ALREADY TAKEN", fg = "red")
+                    errormessage.pack()
+                    break
+        if valid == True:
+            system.create_playlist(self.current_user, name)
+            self.reset_left()
+            self.display_user(system, self.current_user)
         
 
 
@@ -246,12 +259,17 @@ class GUI:
             self.display_generate_suggestions_button(playlist, system)
 
     def display_generate_suggestions_button(self, playlist, system):
-        self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system))
+        errormessage = tk.Label(self.content_frame, text = "NO SONGS TO GATHER DATA FROM", bg = "black", fg = "red")
+        self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system, errormessage))
         self.generate.pack(side = tk.BOTTOM) 
 
-    def generate_suggestions(self, playlist, system):
-        self.display_playlist(system, system.generate_suggestions(self.current_user, playlist.id), self.current_user, False)
-        self.generate.pack_forget() #generates suggestions specific to playlist then removes self
+    def generate_suggestions(self, playlist, system, errormessage):
+        errormessage.pack_forget()
+        if playlist.first_song == None:
+            errormessage.pack()
+        else:
+            self.display_playlist(system, system.generate_suggestions(self.current_user, playlist.id), self.current_user, False)
+            self.generate.pack_forget() #generates suggestions specific to playlist then removes self
 
     def display_songs(self, system, frame, song, user, currentplaylist):
         songcounter = 0
@@ -316,12 +334,14 @@ class GUI:
     def addtoplaylist(self, name, system, song): #where the magic happens
         playlist = name.get()
         user = system.get_user(self.current_user)
-        if(playlist == "Library"):
-            system.add_song_to_library(self.current_user, song.id)
-        else:
-            for index, item in enumerate(user.playlists): #checks until it finds the correct playlist to add to
-                if item.name == playlist:
-                    system.add_song_to_playlist(user.id, item.id, song.id)
+        if(user != None):
+
+            if(playlist == "Library"):
+                system.add_song_to_library(self.current_user, song.id)
+            else:
+                for index, item in enumerate(user.playlists): #checks until it finds the correct playlist to add to
+                    if item.name == playlist:
+                        system.add_song_to_playlist(user.id, item.id, song.id)
                     
         
         
