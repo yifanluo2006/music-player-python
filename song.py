@@ -1,8 +1,5 @@
 class Song:
     def __init__(self, id, title, artist, genre, bpm, meta, frequency=0, popularity_score=0.0):
-        
-        print(str(id) + " " + str(title) + " is loaded")
-        
         self.next = None
         
         self.id = str(id)

@@ -177,6 +177,14 @@ class Playlist:
             len+=1
             current_song = current_song.get_next()
         return len
+    
+    def get_index_song(self, index):
+        current_song = self.first_song
+        while index > 0 and current_song.get_next() is not None:
+            current_song = current_song.get_next()
+            index -= 1
+            
+        return current_song # returns the song at index, or last song if index is too large
 
     # ============== Testing ===============
     def print_list(self): #print list for testing purposes

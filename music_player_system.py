@@ -6,8 +6,6 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 
-
-
 class MusicPlayerSystem:
     def __init__(self):
         self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
@@ -40,8 +38,9 @@ class MusicPlayerSystem:
                 meta.append(str(song_element[7]))
                 meta.append(str(song_element[8]))
                 meta.append(str(song_element[9]))
-                
+            
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], meta)
+            print(str(song_element[0]) + " " + str(song_element[1]) + " is loaded")
                 
     def import_user(self):
         id = self.get_user_num() + 1
@@ -111,7 +110,7 @@ class MusicPlayerSystem:
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
-        print("Deleted " + current_song.get_title() + " from all playlists and libraries of user " + playlist.get_owner().get_username())
+        print("Deleted " + current_song.get_title() + " from all playlists and libraries of user " + playlist.get_owner().get_name())
 
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
@@ -160,10 +159,8 @@ class MusicPlayerSystem:
         
         "calculate cosine similarity"
         # The following code is inspired by ChatGPT
-        user_similarity = cosine_similarity(matrix)
-        
         "User k-NN to find similar users"
-        k = 3
+        k = 21
         knn = NearestNeighbors(n_neighbors=k, metric='cosine')
         knn.fit(matrix)
         
@@ -174,34 +171,24 @@ class MusicPlayerSystem:
         distances, indices = knn.kneighbors([matrix[target_user_index]])
         similar_users = indices.flatten()
         
-        print(similar_users)
-        
         "find songs in similar users to give recommendations"
         # The following code is entirely my own:
         target_playlist = self.get_user(userId).get_playlist(int(playlistId[3:5]))
         
-        user_1 = self.get_user(similar_users[0])
-        current_song = user_1.get_library().get_first_song()
-        while current_song is not None:
-            if not target_playlist.is_duplicate(current_song.get_id()):
-                suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-            current_song = current_song.get_next()
-        
-        user_2 = self.get_user(similar_users[1])
-        current_song = user_2.get_library().get_first_song()
-        while current_song is not None:
-            if not target_playlist.is_duplicate(current_song.get_id()):
-                suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-            current_song = current_song.get_next()
+        user_index = 1
+        while suggested_songs.get_len() <= 10 and user_index <= 20:
+            similar_user = self.get_user(similar_users[user_index])
             
-        user_3 = self.get_user(similar_users[2])
-        current_song = user_3.get_library().get_first_song()
-        while current_song is not None:
-            if not target_playlist.is_duplicate(current_song.get_id()):
-                suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-            current_song = current_song.get_next()
+            print(similar_users)
         
-        print("Matched preferences with user " + user_2.get_username() + " and user " + user_3.get_uesrname())
+            current_song = similar_user.get_library().get_first_song()
+            while current_song is not None:
+                if not target_playlist.is_duplicate(current_song.get_id()):
+                    suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                current_song = current_song.get_next()
+            user_index += 1
+            print("Matched preferences with user " + similar_user.get_name())
+    
         print("Generated suggestions of matching songs")
         print("")
         return suggested_songs
@@ -418,6 +405,9 @@ class MusicPlayerSystem:
             user = user.get_next()
             
         return user
+    
+    def get_complete_list(self):
+        return self.complete_list
         
     # =============== Testing ===============
     def test_print(self):

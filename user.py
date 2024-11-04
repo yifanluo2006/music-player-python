@@ -88,6 +88,13 @@ class User:
     def get_library(self):
         return self.library
     
+    def get_playlist_name(self, name):
+        for playlist in self.playlists:
+            if playlist.get_name == name:
+                return playlist
+        
+        return None
+    
     # ================= Testing ===================
     def print_info(self):
         print(self.id)
