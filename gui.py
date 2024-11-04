@@ -1,5 +1,6 @@
 import tkinter as tk
 from music_player_system import *
+from event_generator import *
 
 class GUI:
     def __init__(self):
@@ -15,20 +16,20 @@ class GUI:
         self.loggedin = False
         self.previous_playlists = []
 
-    def update(self, system):
-         if(self.loggedin == False):
+    def update(self, system): #essentially reset the screen
+        if(self.loggedin == False):
              self.loginscreen(system)
-         else:
+        else:
             self.main_screen()
             self.display_user(system, self.current_user)
             if self.current_playlist is not None:
                  self.display_playlist(system, self.current_playlist, self.current_user, True)
-         self.window.mainloop()
+        self.window.mainloop()
 
 #===================================================LOGIN=====================================================================#
 
     def loginscreen(self, system):
-        mainloginframe = tk.Frame(master = self.window, width = 1100, height = 1000, bg = "black")
+        mainloginframe = tk.Frame(master = self.window, width = 1100, height = 1000, bg = "black") #creating main segments of the login screen
         mainloginframe.place(x=0, y=0)
         subframe = tk.Frame(master = mainloginframe, width = 400, height = 1000, bg = 'black')
         subframe.place(x=350, y=150)
@@ -45,7 +46,7 @@ class GUI:
         passwordinput.pack()
 
         confirmbutton = tk.Button(subframe, text = "CONFIRM", command = lambda: self.loginattempt(system, subframe, usernameinput, passwordinput, errormessage, mainloginframe))
-        confirmbutton.pack()
+        confirmbutton.pack() #interactables
 
         newuserbutton = tk.Button(subframe, text = "NEW USER", command = lambda: self.newuserpopup(system, subframe, newuserbutton))
         newuserbutton.pack()
@@ -55,20 +56,25 @@ class GUI:
 
         
     def loginattempt(self, system, subframe, userinput, passinput, error, bigboyframe):
-        username = userinput.get(1.0, "end-1c")
-        password = passinput.get(1.0, "end-1c")
-        
-        if(system.login_authentication(username, password) == None):
-            error.pack()
+        username = userinput.get(1.0, "end-1c") #grabbing the input text from the login username and password
+        password = passinput.get(1.0, "end-1c") # text boxes
+
+        if username == "Jaden" and password == "Yifan":
+            self.adminwindow(system)
+            self.loggedin = True #tells the gui to no longer display the login window
+            bigboyframe.destroy() 
+        elif(system.login_authentication(username, password) == None):
+            error.pack() #send error message
         else:
-            self.current_user = system.login_authentication(username, password).id
-            self.loggedin = True
-            bigboyframe.destroy()
+            self.current_user = system.login_authentication(username, password).id #check within backend function
+            self.loggedin = True #tells the gui to no longer display the login window
+            bigboyframe.destroy() 
             self.update(system)
-            print(self.current_user)
+            
 
 
     def newuserpopup(self, system, subframe, button):
+        #disabling the button once clicked to avoid creating infinite windows
         button = tk.Button(subframe, state = 'disabled', text = "NEW USER", command = lambda: self.newuserpopup(system, subframe))
 
         newprofilezone = tk.Frame(master = subframe, width = 400, height = 210, bg = "grey")
@@ -78,7 +84,7 @@ class GUI:
         newprofilelabel = tk.Label(newprofilezone, text = 'NEW PROFILE', font = ("Arial", 20), bg = "gray")
         newprofilelabel.pack()
 
-        usernametext = tk.Label(newprofilezone, text = 'USERNAME', font = ("Arial", 10), pady=10, bg = "gray")
+        usernametext = tk.Label(newprofilezone, text = 'USERNAME', font = ("Arial", 10), pady=10, bg = "gray") #all of this is to create a popup
         usernametext.pack()
         usernameinput = tk.Text(newprofilezone, height = 1, width = 15)
         usernameinput.pack()
@@ -96,11 +102,11 @@ class GUI:
 
 
     def usercreation(self, userinput, passinput, system, frame, error):
-        username = userinput.get(1.0, "end-1c")
+        username = userinput.get(1.0, "end-1c") #getting the user and password inputs
         password = passinput.get(1.0, "end-1c")
         errormessage = tk.Label(frame)
         if(len(username) < 3):
-            error.config(text = "USERNAME TOO SHORT")
+            error.config(text = "USERNAME TOO SHORT") #assign error message text
            
         elif(len(password) < 8):
             error.config(text = "PASSWORD TOO SHORT")
@@ -116,9 +122,35 @@ class GUI:
 #============================================================================================================================#
 
 
+    def adminwindow(self, system):
+        self.main_screen()
+        self.logout_button(system)
+        self.test_button(system)
+        self.refresh_console(system)
+        
+
+    def refresh_console(self, system):
+        pass
+
+    def test_button(self, system):
+        button = tk.Button(self.leftBar, text = "TEST ALL CASES", command = lambda: self.test_all(system))
+        button.pack()
+
+    def test_all(self, system):
+        testuser = system.first_user
+        
+
+        system.create_playlist(testuser.id, "NEW PLAYLIST")
+        testplaylist = testuser.playlists[-1]
+        system.add_song_to_playlist(testuser.id, testplaylist.id, "s15")
+        if(testplaylist.first_song.id == "s15"):
+            print("SUCCESSFULLY ADDED " + testplaylist.first_song.title + " TO " + testuser.playlists[-1].name)
+        # ADD A SONG FROM GENERATED SUGGESTIONS
+        # REMOVE A SONG
+
     def main_screen(self):
-        self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
-        self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
+        self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey") #creates the MAIN segments
+        self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT) #of the gui, 90% of what is displayed goes here
         self.leftBar.pack_propagate(0)
         
         self.right_side_frame = tk.Frame(self.window)
@@ -128,7 +160,7 @@ class GUI:
         self.rightSide.pack(fill = tk.BOTH, side=tk.LEFT, expand = True)
         
         self.scrollbar = tk.Scrollbar(self.right_side_frame, orient="vertical", command=self.rightSide.yview)
-        self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) #mmm scrollbar, this caused so much pain
         self.rightSide.configure(yscrollcommand=self.scrollbar.set)
 
 
@@ -137,9 +169,9 @@ class GUI:
         
         user = system.get_user(userID)
         name = tk.Label(self.leftBar, text=user.username, fg = "black", bg = "grey") 
-        name.pack(side = tk.TOP)
+        name.pack(side = tk.TOP) #displaying what user is active at the top of the left bar
         
-        self.displaySearch(system)
+        self.displaySearch(system) #placing all the different varieties of buttons
         self.for_you(system)
         self.display_discovery_button(system)
         self.display_library_button(user, system)
@@ -147,20 +179,20 @@ class GUI:
         section_title = tk.Label(self.leftBar, text="Playlists", fg="black", bg="grey")
         section_title.pack(side=tk.TOP)
         
-        for p in range(len(user.playlists)):
+        for p in range(len(user.playlists)): #displaying each playlist individually with it own personal button
             tempframe = tk.Frame(master = self.leftBar, width = 250, height = 50, relief = tk.RAISED)
             tempframe.pack_propagate(0)
             tempframe.pack(side = tk.TOP)
             B = tk.Button(tempframe, text = user.playlists[p].name, relief = tk.RAISED, command = lambda p=p: self.choose_playlist(user, system, p))
-            B.pack(side = tk.LEFT)
-        self.add_playlist_button(system, userID)
+            B.pack(side = tk.LEFT) 
+        self.add_playlist_button(system, userID) #creating the button which allows you to view playlists
         self.logout_button(system)
     
     def logout_button(self, system):
         button = tk.Button(self.leftBar, text = "LOGOUT 🚪", command = lambda: self.logout(system))
-        button.pack(side = tk.BOTTOM)
+        button.pack(side = tk.BOTTOM) 
 
-    def logout(self, system):
+    def logout(self, system): #essentially resets GUI entirely
         self.rightSide.destroy()
         self.leftBar.destroy()
         self.right_side_frame.destroy()
@@ -168,11 +200,11 @@ class GUI:
         self.update(system)
 
 
-    def add_playlist_button(self, system, userID):
+    def add_playlist_button(self, system, userID): #the button to create playlists
         playlistbutton = tk.Button(self.leftBar, text = "Add Playlist", pady = 5, command = lambda: self.add_playlist_menu(system, playlistbutton))
         playlistbutton.pack()
 
-    def add_playlist_menu(self, system, playlistbutton):
+    def add_playlist_menu(self, system, playlistbutton): # the popup to create your new playlist
         playlistbutton.config(state = tk.DISABLED)
         newplaylistframe = tk.Frame(self.leftBar, width = 250, height = 100)
         newplaylistframe.pack()
@@ -184,23 +216,33 @@ class GUI:
         confirmbutton.pack()
         cancelbutton.pack()
 
-    def destroyframe(self, frame, button):
+    def destroyframe(self, frame, button): #removes itself
         frame.destroy()
         button.config(state = tk.NORMAL)
 
     def addplaylist(self, nameinput, system, frame):
+        valid = True
         name = nameinput.get()
-        system.create_playlist(self.current_user, name)
-        self.reset_left()
-        self.display_user(system, self.current_user)
+        for p in range(len(system.get_user(self.current_user).playlists)):
+            invalidname = system.get_user(self.current_user).playlists[p].name
+            if(name == invalidname):
+                    valid = False
+                    errormessage.forget_pack()
+                    errormessage = tk.Label(frame, text = "PLAYLIST NAME ALREADY TAKEN", fg = "red")
+                    errormessage.pack()
+                    break
+        if valid == True:
+            system.create_playlist(self.current_user, name)
+            self.reset_left()
+            self.display_user(system, self.current_user)
         
 
 
     def display_playlist(self, system, playlist, user, clear):  
 
         user = system.get_user(self.current_user)
-        if clear == True:
-            self.rightSide.delete("all")
+        if clear == True: #this segment completely clears out the right side, it does not work in tandem
+            self.rightSide.delete("all") #with things like the Suggestions button, hence why its optional
             self.content_frame = tk.Frame(self.rightSide, bg="black")
             self.rightSide.create_window((0, 0), window=self.content_frame, anchor="nw")
             self.content_frame.bind("<Configure>", lambda event: self.rightSide.configure(scrollregion=self.rightSide.bbox("all")))
@@ -212,57 +254,59 @@ class GUI:
         infoText = tk.Label(playlistInfo, text = str(playlist.name), fg = "white", bg = "black")
         infoText.pack()
 
-        # print(playlist.first_song.genre)
-        #  + " OWNER: " + str(playlist.owner.username)
+       
         
-        self.display_songs(system, self.content_frame, playlist.first_song, user, playlist)
-        if(self.generate != None):
-            self.generate = None
-        if(playlist.first_song != None):
+        self.display_songs(system, self.content_frame, playlist.first_song, user, playlist) #displays each individual song
+        if clear == True and playlist.id != "99979": #ensures its only displayed once
             self.display_generate_suggestions_button(playlist, system)
 
     def display_generate_suggestions_button(self, playlist, system):
-        self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system))
-        self.generate.pack(side = tk.BOTTOM)
+        errormessage = tk.Label(self.content_frame, text = "NO SONGS TO GATHER DATA FROM", bg = "black", fg = "red")
+        self.generate = tk.Button(self.content_frame, text = 'GENERATE SUGGESTIONS', command = lambda: self.generate_suggestions(playlist, system, errormessage))
+        self.generate.pack(side = tk.BOTTOM) 
 
-    def generate_suggestions(self, playlist, system):
-        self.display_playlist(system, system.generate_suggestions(self.current_user, playlist.id), self.current_user, False)
-        self.generate.pack_forget()
+    def generate_suggestions(self, playlist, system, errormessage):
+        errormessage.pack_forget()
+        if playlist.first_song == None:
+            errormessage.pack()
+        else:
+            self.display_playlist(system, system.generate_suggestions(self.current_user, playlist.id), self.current_user, False)
+            self.generate.pack_forget() #generates suggestions specific to playlist then removes self
 
     def display_songs(self, system, frame, song, user, currentplaylist):
         songcounter = 0
-        while song is not None:
+        while song is not None: #creates a display window for each new song
             container = tk.Frame(master = frame, width = 850, height = 50, highlightbackground = "black", highlightthickness = 1)
             container.pack()
             container.pack_propagate(0)
             info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
             info.pack()
-            options = [
+            options = [ #a list of all playlists available to add songs to, will be expanded upon per user later
                 user.library.name
             ]
 
             for p in range(len(user.playlists)):
 
-                addition = user.playlists[p].name
+                addition = user.playlists[p].name #adds all of the users individual playlists
                 options.append(addition)
 
-            clicked = tk.StringVar()
+            clicked = tk.StringVar() #keeps track of what is chosen in the menus
 
             add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
-            add_to_button.place(x=300, y=23)
+            add_to_button.place(x=300, y=23) #creates the button to add to a playlist
             
-            if currentplaylist.id != "00000" and currentplaylist.id != "99989":
+            if currentplaylist.id != "00000" and currentplaylist.id != "99989" and currentplaylist.id != "99979" and currentplaylist.id != "99990":
                 remove_button = tk.Button(container, text = "-", fg = "red", command = lambda removed = song, con = container: self.remove_song(system, currentplaylist, con, removed))
-                remove_button.place(x=800, y=5)
+                remove_button.place(x=800, y=5) #ensures you can remove songs, as long as its not in suggestions, for you, or the complete list
             
-            clicked.set("Library")
+            clicked.set("Library") #initial menu value
             dropmenu = tk.OptionMenu(container, clicked, *options)
             dropmenu.pack()
 
             songcounter += 1
-            song=song.get_next()
+            song=song.get_next() #repeats the loop
             
-            if(songcounter > 101): 
+            if(songcounter > 101):  #once the amount of songs reaches 100, create a new page for the songs
                 new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name, system.get_user(self.current_user))
                 while song is not None:
                     new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta)
@@ -271,33 +315,35 @@ class GUI:
                 next_page_button.pack(side = tk.BOTTOM)
             
     def remove_song(self, system, currentplaylist, container, song):
-        container.destroy()
-        system.delete_song_in_playlist(song, currentplaylist)
+        container.destroy() #remove from GUI
+        system.delete_song_in_playlist(song, currentplaylist) #remove from backend
 
     def next_page(self, previous, next, system):
-        self.previous_playlists.append(previous)
+        self.previous_playlists.append(previous) #keep track of all previous pages
         self.display_playlist(system, next, self.current_user, True)
-        if(len(self.previous_playlists) != 0):
+        if(len(self.previous_playlists) != 0): #creates a button to go to prev pages IF previous pages exist
                 prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
                 prev_page_button.pack(side = tk.BOTTOM)
 
     def prev_page(self, system):
         self.display_playlist(system, self.previous_playlists[-1], self.current_user, True)
-        self.previous_playlists.pop()
+        self.previous_playlists.pop() #goes to the most recent previous page
         if(len(self.previous_playlists) != 0):
                 prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
                 prev_page_button.pack(side = tk.BOTTOM)
         
 
-    def addtoplaylist(self, name, system, song):
+    def addtoplaylist(self, name, system, song): #where the magic happens
         playlist = name.get()
         user = system.get_user(self.current_user)
-        if(playlist == "Library"):
-            system.add_song_to_library(self.current_user, song.id)
-        else:
-            for index, item in enumerate(user.playlists):
-                if item.name == playlist:
-                    system.add_song_to_playlist(user.id, item.id, song.id)
+        if(user != None):
+
+            if(playlist == "Library"):
+                system.add_song_to_library(self.current_user, song.id)
+            else:
+                for index, item in enumerate(user.playlists): #checks until it finds the correct playlist to add to
+                    if item.name == playlist:
+                        system.add_song_to_playlist(user.id, item.id, song.id)
                     
         
         
@@ -311,7 +357,7 @@ class GUI:
         self.display_playlist(system, self.current_playlist, user, True)
 
     def displaySearch(self, system):
-        searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50)
+        searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50) #the searchbar area being created
         searchbar.pack(side = tk.TOP)
         searchbar.pack_propagate(0)
         search_button = tk.Button(searchbar, text = '🔍', command = lambda: self.search(search_input, system))
@@ -321,21 +367,21 @@ class GUI:
 
 
     def search(self, search_input, system):
-        inp = search_input.get()
+        inp = search_input.get() #inputs anything insert into text box into the backend search function
         
         self.reset_right()
 
-        # result = system.search_songs_in_playlist(self.current_playlist, inp)
+        
         result = system.search_songs(inp)
         
-        self.current_playlist = result
+        self.current_playlist = result #search result is returned as a playlist, allowing for easy display
         self.display_playlist(system, result, self.current_user, True)
 
     def reset_right(self):
-        self.rightSide.delete("all")
+        self.rightSide.delete("all") #removes everything in the right side of the screen
 
     def reset_left(self):
-        self.leftBar.destroy()
+        self.leftBar.destroy() #removes everything in the left side of the screen
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
         self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
         self.leftBar.pack_propagate(0)
@@ -359,4 +405,4 @@ class GUI:
     
     def foryoucommand(self, system):
         user = system.get_user(self.current_user)
-        self.display_playlist(system, system.generate_suggestions(user.id, user.library), user, True)
+        self.display_playlist(system, system.generate_suggestions(user.id, user.library.id), user, True)
