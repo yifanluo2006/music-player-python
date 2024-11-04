@@ -77,7 +77,7 @@ class EventGenerator:
         # creates a new playlist by random name from the word bank
         words_1 = ["Rhythmic", "Funky", "Raw", "Blissful", "Hypnotic", "Energetic", "Radiant", "Soothing", "Edgy", "Lively", "Cosmic", "Classic", "Chill", "Epic", "Dreamy", "Smooth", "Serene"]
         words_2 = ["Vibes", "Beats", "Atmospheres", "Journey", "Chronicles", "Essentials", "Flow", "Mood", "Pulse", "Tunes", "Collection", "Hits", "Sounds"]
-        playlist_name = random.choice(words_1) + random.choice(words_2)
+        playlist_name = random.choice(words_1) + " " + random.choice(words_2)
         self.music_player_system.create_playlist(event_user_id, playlist_name)
         playlist_id = self.music_player_system.get_user(event_user_id).get_all_playlist()[-1].get_id()
         
@@ -92,7 +92,12 @@ class EventGenerator:
         library_suggestions = self.music_player_system.generate_suggestions(event_user_id, library_id)
         
         # take random number of suggestions
-        suggestion_num = random.randint(1, library_suggestions.get_len())
+        # error handling: if all suggestions are used up
+        if library_suggestions.get_len() > 0:
+            suggestion_num = random.randint(1, library_suggestions.get_len())
+        else:
+            library_suggestions = 0
+            return
         
         current_song = library_suggestions.get_first_song()
         # adds suggestions to library
