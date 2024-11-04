@@ -17,3 +17,6 @@ class TestMusicPlayerSystem(unittest.TestCase):
         
         # Assert: test if it works as expected
         self.assertTrue(self.mock_music_player_system.get_user(userId).get_playlist_name() is not None)
+    
+    def test_add_song_to_playlist(self):
+        pass

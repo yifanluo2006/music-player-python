@@ -205,13 +205,15 @@ class GUI:
         playlistbutton.pack()
 
     def add_playlist_menu(self, system, playlistbutton): # the popup to create your new playlist
+        
         playlistbutton.config(state = tk.DISABLED)
         newplaylistframe = tk.Frame(self.leftBar, width = 250, height = 100)
         newplaylistframe.pack()
+        errormessage = tk.Label(newplaylistframe, text = "PLAYLIST NAME ALREADY TAKEN", fg = "red")
         newplaylistframe.pack_propagate(0)
         playlistname = tk.Entry(newplaylistframe, width = 30)
         playlistname.pack()
-        confirmbutton = tk.Button(newplaylistframe, text = "CONFIRM", command = lambda: self.addplaylist(playlistname, system, newplaylistframe))
+        confirmbutton = tk.Button(newplaylistframe, text = "CONFIRM", command = lambda: self.addplaylist(playlistname, system, newplaylistframe, errormessage))
         cancelbutton = tk.Button(newplaylistframe, text = "CANCEL", command = lambda: self.destroyframe(newplaylistframe, playlistbutton))
         confirmbutton.pack()
         cancelbutton.pack()
@@ -220,15 +222,15 @@ class GUI:
         frame.destroy()
         button.config(state = tk.NORMAL)
 
-    def addplaylist(self, nameinput, system, frame):
+    def addplaylist(self, nameinput, system, frame, errormessage):
         valid = True
+        
         name = nameinput.get()
         for p in range(len(system.get_user(self.current_user).playlists)):
             invalidname = system.get_user(self.current_user).playlists[p].name
             if(name == invalidname):
                     valid = False
-                    errormessage.forget_pack()
-                    errormessage = tk.Label(frame, text = "PLAYLIST NAME ALREADY TAKEN", fg = "red")
+                    errormessage.pack_forget()
                     errormessage.pack()
                     break
         if valid == True:
@@ -257,7 +259,7 @@ class GUI:
        
         
         self.display_songs(system, self.content_frame, playlist.first_song, user, playlist) #displays each individual song
-        if clear == True and playlist.id != "99979": #ensures its only displayed once
+        if clear == True and playlist.id != "99979" and playlist.id != "00000" and playlist.id != "99989" and playlist.id != "99979" and playlist.id != "99990" and playlist.name != "Complete Library":
             self.display_generate_suggestions_button(playlist, system)
 
     def display_generate_suggestions_button(self, playlist, system):
@@ -295,7 +297,7 @@ class GUI:
             add_to_button = tk.Button(container, text = "ADD TO:", width = 8, command = lambda s=song, c = clicked:  self.addtoplaylist(c, system, s))
             add_to_button.place(x=300, y=23) #creates the button to add to a playlist
             
-            if currentplaylist.id != "00000" and currentplaylist.id != "99989" and currentplaylist.id != "99979" and currentplaylist.id != "99990":
+            if currentplaylist.id != "00000" and currentplaylist.id != "99989" and currentplaylist.id != "99979" and currentplaylist.id != "99990" and currentplaylist.name != "Complete Library":
                 remove_button = tk.Button(container, text = "-", fg = "red", command = lambda removed = song, con = container: self.remove_song(system, currentplaylist, con, removed))
                 remove_button.place(x=800, y=5) #ensures you can remove songs, as long as its not in suggestions, for you, or the complete list
             
@@ -324,6 +326,7 @@ class GUI:
         if(len(self.previous_playlists) != 0): #creates a button to go to prev pages IF previous pages exist
                 prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
                 prev_page_button.pack(side = tk.BOTTOM)
+        self.rightSide.yview("moveto", 0)
 
     def prev_page(self, system):
         self.display_playlist(system, self.previous_playlists[-1], self.current_user, True)
@@ -331,6 +334,7 @@ class GUI:
         if(len(self.previous_playlists) != 0):
                 prev_page_button = tk.Button(self.content_frame, text = "<", command = lambda: self.prev_page(system))
                 prev_page_button.pack(side = tk.BOTTOM)
+        self.rightSide.yview("moveto", 0)
         
 
     def addtoplaylist(self, name, system, song): #where the magic happens

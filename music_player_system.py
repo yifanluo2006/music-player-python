@@ -178,6 +178,9 @@ class MusicPlayerSystem:
         user_index = 1
         while suggested_songs.get_len() <= 10 and user_index <= 20:
             similar_user = self.get_user(similar_users[user_index])
+            
+            print(similar_users)
+        
             current_song = similar_user.get_library().get_first_song()
             while current_song is not None:
                 if not target_playlist.is_duplicate(current_song.get_id()):
