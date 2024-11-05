@@ -35142,3 +35142,5 @@ SYSTEM: 2024-11-04 23:17:20,245 | system_logger | INFO | Searching for Queen in 
 SYSTEM: 2024-11-04 23:17:20,337 | system_logger | INFO | Found 3 search results!
 SYSTEM: 2024-11-04 23:17:27,665 | system_logger | INFO | Searching for Crazy Little Thing Called Love in Complete Library
 SYSTEM: 2024-11-04 23:17:28,160 | system_logger | INFO | Found 1 search results!
+SYSTEM: 2024-11-04 23:20:00,621 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-04 23:20:00,622 | system_logger | INFO | Found top 3 most trending songs 

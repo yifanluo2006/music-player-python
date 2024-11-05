@@ -162,13 +162,13 @@ class GUI:
         event_log.pack()
 
     def display_log(self, system, type):
+        displaylog = tk.Listbox(self.content_frame)
         if type == 0:
             file = open("./logs/system_event.log", "r")
             content = file.read()
             event_list = content.split('\n')
-            for event in event_list:
-                log = tk.Label(self.content_frame, text = event, bg = "black", fg = "white")
-                log.pack()
+            for index, event in event_list:
+                displaylog.insert(index, event)
             print("PASSED DISPLAYING FULL LOG")
         elif type == 1:
             file = open("./logs/user_action.log", "r")
@@ -184,6 +184,7 @@ class GUI:
             for event in event_list:
                 log = tk.Label(self.content_frame, text = event, bg = "black", fg = "white")
                 log.pack()
+        displaylog.pack()
 
 
 #===================================================================================================================================================================================
