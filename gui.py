@@ -19,7 +19,8 @@ class GUI:
         self.previous_playlists = []
         self.search_history = []
         self.clicked = tk.StringVar()
-        self.clicked.set(None)
+        self.clicked.set("History")
+        self.history_menu = None
 
         self.user_action_logger = logging.getLogger("user_action_logger")
 
@@ -134,12 +135,7 @@ class GUI:
         self.logout_button(system)
         self.test_button(system)
         self.log_buttons(system)
-        self.refresh_console(system)
         
-
-    def refresh_console(self, system):
-        pass
-
     def test_button(self, system):
         button = tk.Button(self.leftBar, text = "TEST ALL CASES", command = lambda: self.test_all(system))
         button.pack()
@@ -149,6 +145,8 @@ class GUI:
 
         system.create_playlist(testuser.id, "NEW PLAYLIST")
         testplaylist = testuser.playlists[-1]
+        if testuser.playlists:
+            print("SUCCESSFULLY CREATED PLAYLIST: " + testuser.playlists[-1].name)
         system.add_song_to_playlist(testuser.id, testplaylist.id, "s15")
         if(testplaylist.first_song.id == "s15"):
             print("SUCCESSFULLY ADDED " + testplaylist.first_song.title + " TO " + testuser.playlists[-1].name)
@@ -421,14 +419,28 @@ class GUI:
         search_input = tk.Entry(searchbar, width = 45)
         search_input.pack(side = tk.LEFT)
 
-    def search(self, search_input, system):
-        inp = search_input.get() #inputs anything insert into text box into the backend search function
+        if self.search_history:
+            self.clicked.set("History")
+            if self.history_menu is not None and self.history_menu.winfo_exists():
+                menu = self.history_menu['menu']
+                menu.delete(0, 'end')
+                for item in self.search_history:
+                    menu.add_command(label = item, command = tk._setit(self.clicked, item))
+            else:
+                self.history_menu = tk.OptionMenu(searchbar, self.clicked, *self.search_history)
+                self.history_menu.pack(side = tk.BOTTOM)
         
 
-        if self.clicked.get() != "History" and self.clicked.get() != None:
+    def search(self, search_input, system):
+        inp = search_input.get().strip() #inputs anything insert into text box into the backend search function
+        
+
+        if self.clicked.get() != "History" and self.clicked.get():
             inp = self.clicked.get()
-        else:
-            self.search_history.append(inp) #this doesnt work
+            self.clicked.set("History")
+        elif inp:
+            self.search_history.append(inp)
+            self.update_search_history
         
         result = system.search_songs(inp)
 
@@ -439,6 +451,13 @@ class GUI:
         self.display_user(system, self.current_user)
         self.current_playlist = result #search result is returned as a playlist, allowing for easy display
         self.display_playlist(system, result, self.current_user, True)
+
+    def update_search_history(self):
+        if self.history_menu is not None and self.history_menu.winfo_exists():
+            menu = self.history_menu['menu']
+            menu.delete(0, 'end')
+            for item in self.search_history:
+                menu.add_command(label=item, command = tk._setit(self.clicked, item))
         
 
     def reset_right(self):
@@ -449,6 +468,7 @@ class GUI:
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey")
         self.leftBar.pack(fill = tk.BOTH, side=tk.LEFT)
         self.leftBar.pack_propagate(0)
+        self.history_menu = None
 
     def display_discovery_button(self, system):
         discovery = tk.Button(self.leftBar, text = "Browse", width = 250, command = lambda: self.discovery_button(system))
