@@ -33,8 +33,17 @@ class Playlist:
             if current_song.get_id() == id:
                 return True
             current_song = current_song.get_next()
-
+            
         return False
+    
+    # resets the last song because if we just delete the last song then the self.song pointer will always keep track of the deleted song and everything will be messed up
+    def reset_last_song(self):
+        current_song = self.first_song
+        
+        while current_song.get_next() is not None:
+            current_song = current_song.get_next()
+            
+        self.song = current_song
 
     def search_song_title(self, query):
         search_result = Playlist("99990", "Search Result", self)
@@ -131,11 +140,11 @@ class Playlist:
         return 1 - (distance / max_len)
     
     def append(self, playlist):
-        self.song = self.get_last_song()
+        current_song = self.get_last_song()
         
-        if self.song is not None and playlist.get_first_song() is not None:
-            self.song.set_next(playlist.get_first_song())
-        elif self.song is None and playlist.get_first_song() is not None:
+        if current_song is not None and playlist.get_first_song() is not None:
+            current_song.set_next(playlist.get_first_song())
+        elif current_song is None and playlist.get_first_song() is not None:
             self.first_song = playlist.get_first_song()
     
     def set_first_song(self, new_first_song):
@@ -149,13 +158,13 @@ class Playlist:
         return self.first_song
     
     def get_last_song(self):
-        self.song = self.first_song
+        current_song = self.first_song
         
-        if self.song is not None:
-            while self.song.get_next() is not None:
-                self.song = self.song.get_next()
+        if current_song is not None:
+            while current_song.get_next() is not None:
+                current_song = current_song.get_next()
         
-        return self.song
+        return current_song
     
     def get_name(self):
         return self.name
@@ -164,11 +173,11 @@ class Playlist:
         return self.owner
 
     def slice(self, end):
-        self.song = self.first_song
+        current_song = self.first_song
         for i in range(0, end-1):
-            self.song = self.song.get_next()
+            current_song = current_song.get_next()
 
-        self.song.set_next(None)
+        current_song.set_next(None)
     
     def get_len(self):
         len = 0

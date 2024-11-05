@@ -115,7 +115,9 @@ class MusicPlayerSystem:
 
     def delete_song_in_playlist(self, song, playlist):
         current_song = playlist.get_first_song()
+        last_song = playlist.get_last_song()
 
+        # If the song to be deleted is at the begining
         if current_song is not None and current_song.get_id() == song.get_id():
             playlist.set_first_song(playlist.get_first_song().get_next())
             if playlist.get_id()[3 : 5] == "00":
@@ -129,15 +131,35 @@ class MusicPlayerSystem:
                 self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
             return
 
+        # If the song to be deleted is at the end
+        if current_song is not None and last_song.get_id() == song.get_id():
+            while current_song.get_next().get_next() is not None:
+                current_song = current_song.get_next()
+            current_song.set_next(None)
+            playlist.reset_last_song()
+            
+            if playlist.get_owner().get_id() == self.authenticated_user_id:
+                self.user_action_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
+            else:
+                self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
+                
+            if playlist.get_id()[3 : 5] == "00":
+                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                for playlist in playlist.get_owner().get_all_playlist():
+                    self.delete_song_in_playlist(song, playlist)
+        
+        # If the song to be deleted is in the middle
         while current_song is not None and current_song.get_next() is not None:
             previous_song = current_song
             current_song = current_song.get_next()
             if current_song.get_id() == song.get_id():
                 previous_song.set_next(current_song.get_next())
+                
                 if playlist.get_owner().get_id() == self.authenticated_user_id:
                     self.user_action_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 else:
                     self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
+                
                 if playlist.get_id()[3 : 5] == "00":
                     self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                     for playlist in playlist.get_owner().get_all_playlist():
