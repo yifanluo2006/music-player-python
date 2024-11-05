@@ -85,29 +85,33 @@ class MusicPlayerSystem:
         return None
 
     def add_song_to_library(self, userId, songId):
-        self.user = self.get_user(userId)
-        self.user.add_song_to_library(songId, self.complete_list)
-        if userId == self.authenticated_user_id:
-            self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
-        else:
-            self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
+        if self.get_user(userId) is not None and self.complete_list.search_song_id(songId) is not None:
+            self.user = self.get_user(userId)
+            self.user.add_song_to_library(songId, self.complete_list)
+            if userId == self.authenticated_user_id:
+                self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
+            else:
+                self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
 
     def create_playlist(self, userId, playlistName):
-        self.user = self.get_user(userId)
-        self.user.add_playlist(playlistName)
-
+        if self.get_user(userId) is not None:
+            self.user = self.get_user(userId)
+            self.user.add_playlist(playlistName)
+            
         if userId == self.authenticated_user_id:
+        
             self.user_action_logger.info("Playlist " + str(playlistName) + " added to user " + str(userId))
         else:
             self.event_generation_logger.info(("Playlist " + str(playlistName) + " added to user " + str(userId)))
 
     def add_song_to_playlist(self, userId, playlistId, songId):
-        self.user = self.get_user(userId)
-        self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
-        if userId == self.authenticated_user_id:
-            self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
-        else:
-            self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
+        if self.get_user(userId) is not None and self.complete_list.search_song_id(songId) is not None:
+            self.user = self.get_user(userId)
+            self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
+            if userId == self.authenticated_user_id:
+                self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
+            else:
+                self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
 
     def delete_song_in_playlist(self, song, playlist):
         current_song = playlist.get_first_song()
@@ -151,84 +155,85 @@ class MusicPlayerSystem:
     4. Find songs that the current user does not have in the similar user's library and recommend these songs
     """
     def generate_suggestions(self, userId, playlistId):
-        # Since the assignment is based on linked-lists, the return will be the following linked-list
-        suggested_songs = Playlist("99979", "Suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name(), self)
-        
-        print("")
-        if userId == self.authenticated_user_id:
-            self.user_action_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
-        else:
-            self.event_generation_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
-        
-        "creates and populates matrix"
-        # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
-        # None of the following is copied and pasted
-        user_num = self.get_user_num() + 1
-        song_num = 1001 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
-        matrix = np.zeros((user_num, song_num), dtype=int)
-        
-        # This code to populate the matrix is entirely my design and code
-        # I really like iterating through linked-lists with while loops, much better and safer than recursion
-        current_user = self.first_user
-        while current_user is not None:
-            if current_user.get_id() != userId: # checking if the current user owns the target playlist, so we can have the playlist data instead of the user data in the matrix as the recommendation needs to be playlist specific
-                current_song = current_user.get_library().get_first_song()
-                while current_song is not None:
-                    matrix[current_user.get_id(), current_song.get_numeric_id()] = 1
-                    current_song = current_song.get_next()
-            else:
-                current_song = current_user.get_playlist(int(playlistId[3:5])).get_first_song()
-                while current_song is not None:
-                    matrix[current_user.get_id(), current_song.get_numeric_id()] = 1
-                    current_song = current_song.get_next()
-                
-            current_user = current_user.get_next()
-        
-        # np.set_printoptions(threshold=np.inf)
-        # print(matrix)
-        
-        "calculate cosine similarity"
-        # The following code is inspired by ChatGPT
-        "User k-NN to find similar users"
-        k = 21
-        knn = NearestNeighbors(n_neighbors=k, metric='cosine')
-        knn.fit(matrix)
-        
-        # I made modifications to the following:
-        # According to the original code, only a user will be matched with a user, and there is no way to match playlists
-        # To resolve this, I imported the playlist information for the when populating the target user, so even though it is called user, it is actually the information of a playlist
-        target_user_index = userId # the target user id
-        distances, indices = knn.kneighbors([matrix[target_user_index]])
-        similar_users = indices.flatten()
-        
-        "find songs in similar users to give recommendations"
-        # The following code is entirely my own:
-        target_playlist = self.get_user(userId).get_playlist(int(playlistId[3:5]))
-        
-        user_index = 1
-        while suggested_songs.get_len() <= 10 and user_index <= 20:
-            similar_user = self.get_user(similar_users[user_index])
+        if self.get_user(userId) is not None:
+            # Since the assignment is based on linked-lists, the return will be the following linked-list
+            suggested_songs = Playlist("99979", "Suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name(), self)
             
-            # print(similar_users)
-        
-            current_song = similar_user.get_library().get_first_song()
-            while current_song is not None:
-                if not target_playlist.is_duplicate(current_song.get_id()):
-                    suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-                current_song = current_song.get_next()
-            user_index += 1
+            print("")
             if userId == self.authenticated_user_id:
-                self.user_action_logger.info("Matched preferences with user " + similar_user.get_name())
+                self.user_action_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
             else:
-                self.event_generation_logger.info("Matched preferences with user " + similar_user.get_name())
+                self.event_generation_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
+            
+            "creates and populates matrix"
+            # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
+            # None of the following is copied and pasted
+            user_num = self.get_user_num() + 1
+            song_num = 1001 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
+            matrix = np.zeros((user_num, song_num), dtype=int)
+            
+            # This code to populate the matrix is entirely my design and code
+            # I really like iterating through linked-lists with while loops, much better and safer than recursion
+            current_user = self.first_user
+            while current_user is not None:
+                if current_user.get_id() != userId: # checking if the current user owns the target playlist, so we can have the playlist data instead of the user data in the matrix as the recommendation needs to be playlist specific
+                    current_song = current_user.get_library().get_first_song()
+                    while current_song is not None:
+                        matrix[current_user.get_id(), current_song.get_numeric_id()] = 1
+                        current_song = current_song.get_next()
+                else:
+                    current_song = current_user.get_playlist(int(playlistId[3:5])).get_first_song()
+                    while current_song is not None:
+                        matrix[current_user.get_id(), current_song.get_numeric_id()] = 1
+                        current_song = current_song.get_next()
+                    
+                current_user = current_user.get_next()
+            
+            # np.set_printoptions(threshold=np.inf)
+            # print(matrix)
+            
+            "calculate cosine similarity"
+            # The following code is inspired by ChatGPT
+            "User k-NN to find similar users"
+            k = 21
+            knn = NearestNeighbors(n_neighbors=k, metric='cosine')
+            knn.fit(matrix)
+            
+            # I made modifications to the following:
+            # According to the original code, only a user will be matched with a user, and there is no way to match playlists
+            # To resolve this, I imported the playlist information for the when populating the target user, so even though it is called user, it is actually the information of a playlist
+            target_user_index = userId # the target user id
+            distances, indices = knn.kneighbors([matrix[target_user_index]])
+            similar_users = indices.flatten()
+            
+            "find songs in similar users to give recommendations"
+            # The following code is entirely my own:
+            target_playlist = self.get_user(userId).get_playlist(int(playlistId[3:5]))
+            
+            user_index = 1
+            while suggested_songs.get_len() <= 10 and user_index <= 20:
+                similar_user = self.get_user(similar_users[user_index])
+                
+                # print(similar_users)
+            
+                current_song = similar_user.get_library().get_first_song()
+                while current_song is not None:
+                    if not target_playlist.is_duplicate(current_song.get_id()):
+                        suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                    current_song = current_song.get_next()
+                user_index += 1
+                if userId == self.authenticated_user_id:
+                    self.user_action_logger.info("Matched preferences with user " + similar_user.get_name())
+                else:
+                    self.event_generation_logger.info("Matched preferences with user " + similar_user.get_name())
 
-        if userId == self.authenticated_user_id:
-            self.user_action_logger.info("Generated suggestions of matching songs")
-        else:
-            self.event_generation_logger.info("Generated suggestions of matching songs")
-        print("")
+            if userId == self.authenticated_user_id:
+                self.user_action_logger.info("Generated suggestions of matching songs")
+            else:
+                self.event_generation_logger.info("Generated suggestions of matching songs")
+            print("")
 
-        return suggested_songs
+            return suggested_songs
 
     """
     Sophisticated popularity tracking with trend analysis

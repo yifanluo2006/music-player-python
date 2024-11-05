@@ -50,19 +50,28 @@ class User:
         
     def add_song_to_library(self, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
-        current_song.update_frequency(1) # reference to the song in the complete list
-        self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+        if current_song is not None:
+            current_song.update_frequency(1) # reference to the song in the complete list
+            self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
 
     def add_song_to_playlist(self, playlistId, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
-        for playlist in self.playlists:
-            if playlist.get_id()==playlistId:
-                self.add_song_to_library(songID, complete_playlist)
-                playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+        if current_song is not None:
+            for playlist in self.playlists:
+                if playlist.get_id()==playlistId:
+                    self.add_song_to_library(songID, complete_playlist)
+                    playlist.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
 
     def add_playlist(self, playlist_name):
-        p = Playlist("{0:03d}".format(self.id) + "{0:02d}".format(len(self.playlists) + 1), playlist_name, self)
-        self.playlists.append(p)
+        
+        is_dup = False
+        for playlist in self.playlists:
+            if playlist.get_name() == playlist_name:
+                is_dup = True
+        
+        if is_dup == False:
+            p = Playlist("{0:03d}".format(self.id) + "{0:02d}".format(len(self.playlists) + 1), playlist_name, self)
+            self.playlists.append(p)
 
     def set_next(self, next):
         self.next = next
@@ -94,7 +103,7 @@ class User:
     
     def get_playlist_name(self, name):
         for playlist in self.playlists:
-            if playlist.get_name == name:
+            if playlist.get_name() == name:
                 return playlist
         
         return None
