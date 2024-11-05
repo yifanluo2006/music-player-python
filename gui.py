@@ -133,6 +133,7 @@ class GUI:
         self.main_screen()
         self.logout_button(system)
         self.test_button(system)
+        self.log_buttons(system)
         self.refresh_console(system)
         
 
@@ -163,7 +164,28 @@ class GUI:
         event_log.pack()
 
     def display_log(self, system, type):
-        pass
+        if type == 0:
+            file = open("./logs/system_event.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for event in event_list:
+                log = tk.Label(self.content_frame, text = event, bg = "black", fg = "white")
+                log.pack()
+            print("PASSED DISPLAYING FULL LOG")
+        elif type == 1:
+            file = open("./logs/user_action.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for event in event_list:
+                log = tk.Label(self.content_frame, text = event, bg = "black", fg = "white")
+                log.pack()
+        elif type == 2:
+            file = open("./logs/event_generation.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for event in event_list:
+                log = tk.Label(self.content_frame, text = event, bg = "black", fg = "white")
+                log.pack()
 
 
 #===================================================================================================================================================================================
@@ -182,6 +204,10 @@ class GUI:
         self.scrollbar = tk.Scrollbar(self.right_side_frame, orient="vertical", command=self.rightSide.yview)
         self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) #mmm scrollbar, this caused so much pain
         self.rightSide.configure(yscrollcommand=self.scrollbar.set)
+
+        self.content_frame = tk.Frame(self.rightSide, bg="black")
+        self.rightSide.create_window((0, 0), window=self.content_frame, anchor="nw")
+        self.content_frame.bind("<Configure>", lambda event: self.rightSide.configure(scrollregion=self.rightSide.bbox("all")))
 
 
 
