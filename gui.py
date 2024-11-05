@@ -77,7 +77,9 @@ class GUI:
             self.current_user = system.login_authentication(username, password).id #check within backend function
             self.loggedin = True #tells the gui to no longer display the login window
             bigboyframe.destroy() 
+            self.current_playlist = None
             self.update(system)
+            
             
 
 
