@@ -3,12 +3,14 @@ from user import *
 
 import threading
 import random
+import logging
 
 class EventGenerator:
     def __init__(self, music_player_system):
         self.music_player_system = music_player_system
         self.interval = 30
         self.running = True
+        self.event_generation_logger = logging.getLogger("event_generation_logger")
 
     def update_event_generation(self):
         if self.running:
@@ -16,11 +18,7 @@ class EventGenerator:
             threading.Timer(self.interval, self.update_event_generation).start()
             
             print("")
-            print("")
-            print("###################### Generating Random Event ########################")
-            print("Generating this random event after a " + str(self.interval) + " second interval")
-            # time interval until the next one
-            self.interval = random.randint(15, 45)
+            self.event_generation_logger.info("Start Generating Random Event")
             
             # the number of events (users) to be generated during this event
             event_num = random.randint(3, 5)
@@ -31,7 +29,7 @@ class EventGenerator:
                 event_user_id = self.get_random_user()
                 
                 print("")
-                print("================= Event for User " + str(event_user_id) + " " + self.music_player_system.get_user(event_user_id).get_name() + "==================")
+                self.event_generation_logger.info("Start generating random event for user " + str(event_user_id) + " " + self.music_player_system.get_user(event_user_id).get_name())
                 
                 # create a random number of new playlist
                 for i in range(0, random.randint(0, 2)):
@@ -56,10 +54,12 @@ class EventGenerator:
                 for i in range(0, random.randint(0, 2)):
                     self.generate_delete_random_song_event(event_user_id)
             
-            print("Next random event will be generated after a " + str(self.interval) + " second interval")
-            print("###################### Random Event Completed ########################")
+            self.event_generation_logger.info("Next random event will be generated after a " + str(self.interval) + " second interval")
+            self.event_generation_logger.info("Finish Generating Random Event")
             print("")
-            print("")
+
+            # time interval until the next one
+            self.interval = random.randint(15, 45)
 
     def set_stop(self):
         self.running = False

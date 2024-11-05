@@ -187,5 +187,5 @@ class Playlist:
         return current_song # returns the song at index, or last song if index is too large
 
     # ============== Testing ===============
-    def print_list(self): #print list for testing purposes
-        self.first_song.print_all()
+    # def print_list(self): #print list for testing purposes
+    #     self.first_song.print_all()

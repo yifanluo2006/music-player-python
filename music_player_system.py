@@ -3,21 +3,30 @@ from song import *
 from user import *
 
 import numpy as np
+import logging
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 
 class MusicPlayerSystem:
     def __init__(self):
+
+        self.system_logger = logging.getLogger("system_logger")
+        self.user_action_logger = logging.getLogger("user_action_logger")
+        self.event_generation_logger = logging.getLogger("event_generation_logger")
+
         self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
         self.populate_complete_list() # and populated
 
-        print("Welcome to the Music Player System by Yifan and Jaden!")
+        self.system_logger.info("Welcome to the Music Player System by Yifan and Jaden!")
 
         self.first_user = None
         self.user = None
+
         for i in range(1, 101):
             self.import_user()
-        print("Total user count = " + str(self.get_user_num()))
+        self.system_logger.info("Total user count = " + str(self.get_user_num()))
+        self.authenticated_user_id = None
+
 
     def populate_complete_list(self): # import the initial list with all songs
         file = open("./data/song_list.txt", "r") #reads the text file
@@ -40,7 +49,7 @@ class MusicPlayerSystem:
                 meta.append(str(song_element[9]))
             
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], meta)
-            print(str(song_element[0]) + " " + str(song_element[1]) + " is loaded")
+            self.system_logger.info(str(song_element[0]) + " " + str(song_element[1]) + " is loaded")
                 
     def import_user(self):
         id = self.get_user_num() + 1
@@ -57,18 +66,19 @@ class MusicPlayerSystem:
         if self.first_user is None:
             self.user = User(id, self.complete_list, name, password)
             self.first_user = self.user
-            print("Total user count = " + str(self.get_user_num()))
+            self.system_logger.info("Total user count = " + str(self.get_user_num()))
         else:
             a_user = User(id, self.complete_list, name, password)
             self.get_last_user().set_next(a_user)
             self.user = a_user
-            print("Total user count = " + str(self.get_user_num()))
+            self.system_logger.info("Total user count = " + str(self.get_user_num()))
             
     def login_authentication(self, name, password):
         current_user = self.first_user
         while current_user is not None:
             if current_user.get_name() == name and current_user.get_password() == password:
-                print("*********** User " + current_user.get_name() + " Has Authenticated *********")
+                self.system_logger.info("AUTHENTICATION: User " + current_user.get_name() + " Has Authenticated")
+                self.authenticated_user_id = current_user.get_id()
                 return current_user
             current_user = current_user.get_next()
         
@@ -77,15 +87,27 @@ class MusicPlayerSystem:
     def add_song_to_library(self, userId, songId):
         self.user = self.get_user(userId)
         self.user.add_song_to_library(songId, self.complete_list)
+        if userId == self.authenticated_user_id:
+            self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
+        else:
+            self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
 
     def create_playlist(self, userId, playlistName):
         self.user = self.get_user(userId)
         self.user.add_playlist(playlistName)
-        print("playlist added" + str(playlistName) + str(userId))
+
+        if userId == self.authenticated_user_id:
+            self.user_action_logger.info("Playlist " + str(playlistName) + " added to user " + str(userId))
+        else:
+            self.event_generation_logger.info(("Playlist " + str(playlistName) + " added to user " + str(userId)))
 
     def add_song_to_playlist(self, userId, playlistId, songId):
         self.user = self.get_user(userId)
         self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
+        if userId == self.authenticated_user_id:
+            self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
+        else:
+            self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
 
     def delete_song_in_playlist(self, song, playlist):
         current_song = playlist.get_first_song()
@@ -96,7 +118,11 @@ class MusicPlayerSystem:
                 self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                 for new_playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, new_playlist)
-            print("Deleted " + song.get_title() + " from " + playlist.get_name())
+
+            if playlist.get_owner().get_id() == self.authenticated_user_id:
+                self.user_action_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
+            else:
+                self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
             return
 
         while current_song is not None and current_song.get_next() is not None:
@@ -104,13 +130,14 @@ class MusicPlayerSystem:
             current_song = current_song.get_next()
             if current_song.get_id() == song.get_id():
                 previous_song.set_next(current_song.get_next())
-                print("Deleted " + song.get_title() + " from " + playlist.get_name())
+                if playlist.get_owner().get_id() == self.authenticated_user_id:
+                    self.user_action_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
+                else:
+                    self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 if playlist.get_id()[3 : 5] == "00":
                     self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
-
-        print("Deleted " + current_song.get_title() + " from all playlists and libraries of user " + playlist.get_owner().get_name())
 
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
@@ -128,7 +155,10 @@ class MusicPlayerSystem:
         suggested_songs = Playlist("99979", "Suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name(), self)
         
         print("")
-        print("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
+        if userId == self.authenticated_user_id:
+            self.user_action_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
+        else:
+            self.event_generation_logger.info("Generating suggestions based on " + self.get_user(userId).get_playlist(int(playlistId[3 : 5])).get_name())
         
         "creates and populates matrix"
         # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
@@ -179,7 +209,7 @@ class MusicPlayerSystem:
         while suggested_songs.get_len() <= 10 and user_index <= 20:
             similar_user = self.get_user(similar_users[user_index])
             
-            print(similar_users)
+            # print(similar_users)
         
             current_song = similar_user.get_library().get_first_song()
             while current_song is not None:
@@ -187,10 +217,17 @@ class MusicPlayerSystem:
                     suggested_songs.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
                 current_song = current_song.get_next()
             user_index += 1
-            print("Matched preferences with user " + similar_user.get_name())
-    
-        print("Generated suggestions of matching songs")
+            if userId == self.authenticated_user_id:
+                self.user_action_logger.info("Matched preferences with user " + similar_user.get_name())
+            else:
+                self.event_generation_logger.info("Matched preferences with user " + similar_user.get_name())
+
+        if userId == self.authenticated_user_id:
+            self.user_action_logger.info("Generated suggestions of matching songs")
+        else:
+            self.event_generation_logger.info("Generated suggestions of matching songs")
         print("")
+
         return suggested_songs
 
     """
@@ -211,7 +248,7 @@ class MusicPlayerSystem:
             current_song = current_song.get_next()
 
         print("")
-        print("Calculated popularity score by EMA")
+        self.system_logger.info("Calculated popularity score by EMA")
 
         # To find the song with the highest popularity score as calculated, need to sort the linked-list
         # Merge sort is the most efficient
@@ -223,7 +260,7 @@ class MusicPlayerSystem:
         # return the most popular n songs
         popular_songs.slice(n)
 
-        print("Found top " + str(n) + " most trending songs ")
+        self.system_logger.info("Found top " + str(n) + " most trending songs ")
         print("")
 
         # most popular songs are returned in the format of a linked-list
@@ -284,7 +321,7 @@ class MusicPlayerSystem:
     """
     def search_songs_in_playlist(self, playlist, query):
         print("")
-        print("Searching for " + query + " in " + playlist.get_name())
+        self.system_logger.info("Searching for " + query + " in " + playlist.get_name())
 
         search_result = self.search_songs_title(playlist, query)
         search_result.append(self.search_songs_artist(playlist, query))
@@ -293,7 +330,7 @@ class MusicPlayerSystem:
 
         # Merge sort the search result by similarity of result
         search_result.set_first_song(self.merge_sort_for_search(search_result.get_first_song()))
-        print("Found " + str(search_result.get_len()) + " search results!")
+        self.system_logger.info("Found " + str(search_result.get_len()) + " search results!")
         print("")
         # The search function returns the result as a linked-list
         return search_result
@@ -410,5 +447,5 @@ class MusicPlayerSystem:
         return self.complete_list
         
     # =============== Testing ===============
-    def test_print(self):
-        self.complete_list.print_list()
+    # def test_print(self):
+    #     self.complete_list.print_list()

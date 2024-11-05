@@ -2,6 +2,8 @@ import tkinter as tk
 from music_player_system import *
 from event_generator import *
 
+import logging
+
 class GUI:
     def __init__(self):
         self.window = tk.Tk()
@@ -15,6 +17,11 @@ class GUI:
         self.generate = None
         self.loggedin = False
         self.previous_playlists = []
+        self.search_history = []
+        self.clicked = tk.StringVar()
+        self.clicked.set(None)
+
+        self.user_action_logger = logging.getLogger("user_action_logger")
 
     def update(self, system): #essentially reset the screen
         if(self.loggedin == False):
@@ -23,7 +30,7 @@ class GUI:
             self.main_screen()
             self.display_user(system, self.current_user)
             if self.current_playlist is not None:
-                 self.display_playlist(system, self.current_playlist, self.current_user, True)
+                self.display_playlist(system, self.current_playlist, self.current_user, True)
         self.window.mainloop()
 
 #===================================================LOGIN=====================================================================#
@@ -119,7 +126,7 @@ class GUI:
             error.config(text = "USER ADDED")
         
 
-#============================================================================================================================#
+#======================================================="ADMIN WINDOW"==================================================================#
 
 
     def adminwindow(self, system):
@@ -138,7 +145,6 @@ class GUI:
 
     def test_all(self, system):
         testuser = system.first_user
-        
 
         system.create_playlist(testuser.id, "NEW PLAYLIST")
         testplaylist = testuser.playlists[-1]
@@ -147,6 +153,20 @@ class GUI:
             print("SUCCESSFULLY ADDED " + testplaylist.first_song.title + " TO " + testuser.playlists[-1].name)
         # ADD A SONG FROM GENERATED SUGGESTIONS
         # REMOVE A SONG
+    
+    def log_buttons(self, system):
+        full_log = tk.Button(self.leftBar, text = "FULL LOG", command = lambda: self.display_log(system, 0))
+        manual_log = tk.Button(self.leftBar, text = "MANUAL LOGS", command = lambda: self.display_log(system, 1))
+        event_log = tk.Button(self.leftBar, text = "EVENTS", command = lambda: self.display_log(system, 2))
+        full_log.pack()
+        manual_log.pack()
+        event_log.pack()
+
+    def display_log(self, system, type):
+        pass
+
+
+#===================================================================================================================================================================================
 
     def main_screen(self):
         self.leftBar = tk.Frame(master = self.window, width = 250, bg = "grey") #creates the MAIN segments
@@ -361,25 +381,39 @@ class GUI:
         self.display_playlist(system, self.current_playlist, user, True)
 
     def displaySearch(self, system):
-        searchbar = tk.Frame(master = self.leftBar, width = 250, height = 50) #the searchbar area being created
+        
+        searchbar = tk.Frame(master = self.leftBar, width = 250, height = 75) #the searchbar area being created
         searchbar.pack(side = tk.TOP)
         searchbar.pack_propagate(0)
+        if self.search_history: #passes through if search history is not empty
+            self.clicked = tk.StringVar()
+            self.clicked.set("History")
+            history = tk.OptionMenu(searchbar, self.clicked, *self.search_history)
+            history.pack(side = tk.BOTTOM)
         search_button = tk.Button(searchbar, text = '🔍', command = lambda: self.search(search_input, system))
         search_button.pack(side = tk.LEFT)
         search_input = tk.Entry(searchbar, width = 45)
         search_input.pack(side = tk.LEFT)
 
-
     def search(self, search_input, system):
         inp = search_input.get() #inputs anything insert into text box into the backend search function
         
-        self.reset_right()
 
+        if self.clicked.get() != "History" and self.clicked.get() != None:
+            inp = self.clicked.get()
+        else:
+            self.search_history.append(inp) #this doesnt work
         
         result = system.search_songs(inp)
-        
+
+        self.user_action_logger.info("Searching for query " + str(inp))
+        self.reset_right()
+        self.reset_left()
+
+        self.display_user(system, self.current_user)
         self.current_playlist = result #search result is returned as a playlist, allowing for easy display
         self.display_playlist(system, result, self.current_user, True)
+        
 
     def reset_right(self):
         self.rightSide.delete("all") #removes everything in the right side of the screen
@@ -397,6 +431,9 @@ class GUI:
     def discovery_button(self, system):
         
         self.display_playlist(system, system.get_most_popular_songs(3), system.get_user(self.current_user), True)
+
+        self.user_action_logger.info("Fetching most trending songs")
+
         self.display_playlist(system, system.complete_list, system.get_user(self.current_user), False)
 
     def display_library_button(self, user, system):
