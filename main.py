@@ -55,7 +55,7 @@ def main(): # This is the main method, this will always run as the program start
     event_generator = EventGenerator(music_player_system)
 
     # Update GUI and event generator
-    # event_generator.update_event_generation()
+    event_generator.update_event_generation()
     gui.update(music_player_system)
     
     # stops event generator after GUI is closed
