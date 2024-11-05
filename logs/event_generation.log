@@ -15664,3 +15664,795 @@ EVENT: 2024-11-04 23:21:44,570 | event_generation_logger | INFO | Playlist Bliss
 EVENT: 2024-11-04 23:22:00,605 | event_generation_logger | INFO | Start Generating Random Event
 EVENT: 2024-11-04 23:22:00,605 | event_generation_logger | INFO | Start generating random event for user 12 Isabella latinbeats
 EVENT: 2024-11-04 23:22:00,606 | event_generation_logger | INFO | Playlist Energetic Essentialsadded to user 12
+EVENT: 2024-11-04 23:22:14,576 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:22:14,576 | event_generation_logger | INFO | Start generating random event for user 52 Aaron reggaevibes
+EVENT: 2024-11-04 23:22:14,577 | event_generation_logger | INFO | Playlist Lively Journey added to user 52
+EVENT: 2024-11-04 23:22:30,620 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:22:30,621 | event_generation_logger | INFO | Start generating random event for user 98 Tyler rockfan
+EVENT: 2024-11-04 23:22:30,621 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:22:30,624 | event_generation_logger | INFO | Matched preferences with user Connor hardrock
+EVENT: 2024-11-04 23:22:30,624 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:22:30,624 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:22:30,624 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user Julian metalmania
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user test
+EVENT: 2024-11-04 23:22:30,625 | event_generation_logger | INFO | Matched preferences with user Adam 90srock
+EVENT: 2024-11-04 23:22:30,626 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:22:30,626 | event_generation_logger | INFO | Matched preferences with user Nathaniel electrorocker
+EVENT: 2024-11-04 23:22:30,626 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:22:30,626 | event_generation_logger | INFO | Adding Don't You Want Me to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,626 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,628 | event_generation_logger | INFO | Adding Shout to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,628 | event_generation_logger | INFO | Adding Owner Of A Lonely Heart to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,628 | event_generation_logger | INFO | Adding Radioactive to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,629 | event_generation_logger | INFO | Adding Stitches to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,629 | event_generation_logger | INFO | Adding Mirrors to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,629 | event_generation_logger | INFO | Adding Like a Virgin to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:22:30,629 | event_generation_logger | INFO | Generating suggestions based on Classic Rock
+EVENT: 2024-11-04 23:22:30,632 | event_generation_logger | INFO | Matched preferences with user test
+EVENT: 2024-11-04 23:22:30,632 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:22:30,632 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:22:44,577 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:22:44,577 | event_generation_logger | INFO | Start generating random event for user 91 Isabelle poplover
+EVENT: 2024-11-04 23:22:44,578 | event_generation_logger | INFO | Playlist Blissful Atmospheres added to user 91
+EVENT: 2024-11-04 23:23:00,628 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:23:00,629 | event_generation_logger | INFO | Start generating random event for user 6 Olivia diva songs
+EVENT: 2024-11-04 23:23:00,629 | event_generation_logger | INFO | Playlist Serene Flowadded to user 6
+EVENT: 2024-11-04 23:23:14,584 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:23:14,584 | event_generation_logger | INFO | Start generating random event for user 7 James classic blues
+EVENT: 2024-11-04 23:23:14,585 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:23:14,588 | event_generation_logger | INFO | Matched preferences with user Sophie classicalguitar
+EVENT: 2024-11-04 23:23:14,588 | event_generation_logger | INFO | Matched preferences with user Lucas bluesman
+EVENT: 2024-11-04 23:23:14,588 | event_generation_logger | INFO | Matched preferences with user Thomas bluesman
+EVENT: 2024-11-04 23:23:14,589 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:23:14,589 | event_generation_logger | INFO | Adding I'm Yours to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,590 | event_generation_logger | INFO | Adding Let Her Go to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,590 | event_generation_logger | INFO | Adding Riptide to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,590 | event_generation_logger | INFO | Adding Thinking out Loud to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,590 | event_generation_logger | INFO | Adding Jump to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,591 | event_generation_logger | INFO | Adding Livin' On A Prayer to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,591 | event_generation_logger | INFO | Adding Welcome to the Jungle to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,591 | event_generation_logger | INFO | Adding How You Remind Me to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,591 | event_generation_logger | INFO | Adding Everything You Want to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,591 | event_generation_logger | INFO | Adding Photograph to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,592 | event_generation_logger | INFO | Adding Reason To Believe to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,592 | event_generation_logger | INFO | Adding Fame - 2016 Remaster to user 7 <bound method User.get_name of <user.User object at 0x0000028D3C6E1290>>'s library
+EVENT: 2024-11-04 23:23:14,592 | event_generation_logger | INFO | Generating suggestions based on Energetic Collection
+EVENT: 2024-11-04 23:23:14,594 | event_generation_logger | INFO | Matched preferences with user Lucas bluesman
+EVENT: 2024-11-04 23:23:14,595 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:23:30,631 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:23:30,632 | event_generation_logger | INFO | Start generating random event for user 33 Madison kpoplover
+EVENT: 2024-11-04 23:23:30,632 | event_generation_logger | INFO | Playlist Epic Soundsadded to user 33
+EVENT: 2024-11-04 23:23:44,587 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:23:44,587 | event_generation_logger | INFO | Start generating random event for user 59 Savannah divadance
+EVENT: 2024-11-04 23:23:44,588 | event_generation_logger | INFO | Playlist Energetic Essentials added to user 59
+EVENT: 2024-11-04 23:24:00,640 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:24:00,641 | event_generation_logger | INFO | Start generating random event for user 22 Henry electrobeat
+EVENT: 2024-11-04 23:24:00,641 | event_generation_logger | INFO | Playlist Radiant Atmospheresadded to user 22
+EVENT: 2024-11-04 23:24:14,591 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:24:14,591 | event_generation_logger | INFO | Start generating random event for user 47 Samantha popclassics
+EVENT: 2024-11-04 23:24:14,592 | event_generation_logger | INFO | Playlist Edgy Beats added to user 47
+EVENT: 2024-11-04 23:24:30,646 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:24:30,646 | event_generation_logger | INFO | Start generating random event for user 85 Hailey popdiva
+EVENT: 2024-11-04 23:24:30,647 | event_generation_logger | INFO | Playlist Radiant Chroniclesadded to user 85
+EVENT: 2024-11-04 23:24:44,600 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:24:44,600 | event_generation_logger | INFO | Start generating random event for user 52 Aaron reggaevibes
+EVENT: 2024-11-04 23:24:44,601 | event_generation_logger | INFO | Playlist Classic Mood added to user 52
+EVENT: 2024-11-04 23:25:00,653 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:25:00,654 | event_generation_logger | INFO | Start generating random event for user 27 Lily acousticsoul
+EVENT: 2024-11-04 23:25:00,654 | event_generation_logger | INFO | Playlist Energetic Essentialsadded to user 27
+EVENT: 2024-11-04 23:25:14,612 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:25:14,612 | event_generation_logger | INFO | Start generating random event for user 29 Zoe dancemania
+EVENT: 2024-11-04 23:25:14,613 | event_generation_logger | INFO | Playlist Smooth Tunes added to user 29
+EVENT: 2024-11-04 23:25:30,663 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:25:30,663 | event_generation_logger | INFO | Start generating random event for user 46 Connor hardrock
+EVENT: 2024-11-04 23:25:30,664 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Tyler rockfan
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Julian metalmania
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:25:30,667 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:25:30,668 | event_generation_logger | INFO | Matched preferences with user test
+EVENT: 2024-11-04 23:25:30,668 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:25:30,668 | event_generation_logger | INFO | Matched preferences with user Adam 90srock
+EVENT: 2024-11-04 23:25:30,668 | event_generation_logger | INFO | Matched preferences with user Nathaniel electrorocker
+EVENT: 2024-11-04 23:25:30,668 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:25:30,669 | event_generation_logger | INFO | Adding With Arms Wide Open to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,669 | event_generation_logger | INFO | Adding Where Or When to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,669 | event_generation_logger | INFO | Adding Love in This Club to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,670 | event_generation_logger | INFO | Adding Hey There Delilah to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,670 | event_generation_logger | INFO | Adding Don't You Want Me to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,670 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,670 | event_generation_logger | INFO | Adding Shout to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,671 | event_generation_logger | INFO | Adding Owner Of A Lonely Heart to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,671 | event_generation_logger | INFO | Adding Radioactive to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,671 | event_generation_logger | INFO | Adding Stitches to user 46 <bound method User.get_name of <user.User object at 0x0000019D60A23910>>'s library
+EVENT: 2024-11-04 23:25:30,672 | event_generation_logger | INFO | Generating suggestions based on Hard Rock Hits
+EVENT: 2024-11-04 23:25:30,674 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:25:30,674 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:25:30,674 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:25:44,621 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:25:44,622 | event_generation_logger | INFO | Start generating random event for user 92 Levi rockfan
+EVENT: 2024-11-04 23:25:44,622 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Tyler rockfan
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Julian metalmania
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Connor hardrock
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:25:44,625 | event_generation_logger | INFO | Matched preferences with user test
+EVENT: 2024-11-04 23:25:44,626 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:25:44,626 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:25:44,626 | event_generation_logger | INFO | Adding Hanging By A Moment to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,627 | event_generation_logger | INFO | Adding How to Save a Life to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,627 | event_generation_logger | INFO | Adding Here Without You to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,627 | event_generation_logger | INFO | Adding Stressed Out to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,627 | event_generation_logger | INFO | Adding With Arms Wide Open to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,629 | event_generation_logger | INFO | Adding We Didn't Start the Fire to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,629 | event_generation_logger | INFO | Adding Love in This Club to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,629 | event_generation_logger | INFO | Adding Hey There Delilah to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,629 | event_generation_logger | INFO | Adding Radioactive to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,630 | event_generation_logger | INFO | Adding Stitches to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,630 | event_generation_logger | INFO | Adding Mirrors to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,630 | event_generation_logger | INFO | Adding Like a Virgin to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,630 | event_generation_logger | INFO | Adding (I Can't Help) Falling In Love With You to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,631 | event_generation_logger | INFO | Adding I'm Yours to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,631 | event_generation_logger | INFO | Adding Don't You Want Me to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:25:44,631 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:26:00,670 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:26:00,671 | event_generation_logger | INFO | Start generating random event for user 17 Jacob metalhead
+EVENT: 2024-11-04 23:26:00,671 | event_generation_logger | INFO | Playlist Energetic Soundsadded to user 17
+EVENT: 2024-11-04 23:26:14,634 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:26:14,634 | event_generation_logger | INFO | Start generating random event for user 50 Christian classicjazz
+EVENT: 2024-11-04 23:26:14,635 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:26:14,638 | event_generation_logger | INFO | Matched preferences with user Abigail smoothjazz
+EVENT: 2024-11-04 23:26:14,638 | event_generation_logger | INFO | Matched preferences with user Sophia jazzlover88
+EVENT: 2024-11-04 23:26:14,638 | event_generation_logger | INFO | Matched preferences with user Nathan jazzfanatic
+EVENT: 2024-11-04 23:26:14,639 | event_generation_logger | INFO | Matched preferences with user Amelia classicaljazz
+EVENT: 2024-11-04 23:26:14,639 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:26:14,639 | event_generation_logger | INFO | Adding Cool Water to user 50 <bound method User.get_name of <user.User object at 0x0000028D3D624550>>'s library
+EVENT: 2024-11-04 23:26:14,639 | event_generation_logger | INFO | Adding The Gypsy to user 50 <bound method User.get_name of <user.User object at 0x0000028D3D624550>>'s library
+EVENT: 2024-11-04 23:26:14,640 | event_generation_logger | INFO | Adding Concerto for Cootie - 1999 Remastered to user 50 <bound method User.get_name of <user.User object at 0x0000028D3D624550>>'s library
+EVENT: 2024-11-04 23:26:14,640 | event_generation_logger | INFO | Generating suggestions based on Swing Era
+EVENT: 2024-11-04 23:26:14,642 | event_generation_logger | INFO | Matched preferences with user Kevin classicjazz
+EVENT: 2024-11-04 23:26:14,642 | event_generation_logger | INFO | Matched preferences with user Nathan jazzfanatic
+EVENT: 2024-11-04 23:26:14,642 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:26:30,674 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:26:30,674 | event_generation_logger | INFO | Start generating random event for user 98 Tyler rockfan
+EVENT: 2024-11-04 23:26:30,675 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:26:30,677 | event_generation_logger | INFO | Matched preferences with user Connor hardrock
+EVENT: 2024-11-04 23:26:30,678 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:26:30,678 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:26:30,678 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:26:30,678 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:26:30,678 | event_generation_logger | INFO | Matched preferences with user Julian metalmania
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user test
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user Adam 90srock
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:26:30,679 | event_generation_logger | INFO | Matched preferences with user Nathaniel electrorocker
+EVENT: 2024-11-04 23:26:30,680 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:26:30,680 | event_generation_logger | INFO | Adding Don't You Want Me to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:26:30,680 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 98 <bound method User.get_name of <user.User object at 0x0000019D60A9FE10>>'s library
+EVENT: 2024-11-04 23:26:30,681 | event_generation_logger | INFO | Generating suggestions based on Hard Rock Hits
+EVENT: 2024-11-04 23:26:30,683 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:26:30,683 | event_generation_logger | INFO | Matched preferences with user Lucas bluesman
+EVENT: 2024-11-04 23:26:30,683 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:26:44,644 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:26:44,644 | event_generation_logger | INFO | Start generating random event for user 4 Emma popprincess22
+EVENT: 2024-11-04 23:26:44,645 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:26:44,648 | event_generation_logger | INFO | Matched preferences with user Layla soulfuldivas
+EVENT: 2024-11-04 23:26:44,648 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:26:44,649 | event_generation_logger | INFO | Adding Love Story to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,649 | event_generation_logger | INFO | Adding Woman in Love to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,649 | event_generation_logger | INFO | Adding (I Can't Help) Falling In Love With You to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,650 | event_generation_logger | INFO | Adding Lover Man - Single Version to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,650 | event_generation_logger | INFO | Adding Escapade to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,650 | event_generation_logger | INFO | Adding Love Takes Time to user 4 <bound method User.get_name of <user.User object at 0x0000028D3C7CED90>>'s library
+EVENT: 2024-11-04 23:26:44,650 | event_generation_logger | INFO | Generating suggestions based on Teen Pop Favorites
+EVENT: 2024-11-04 23:26:44,653 | event_generation_logger | INFO | Matched preferences with user Victoria 90spopfan
+EVENT: 2024-11-04 23:26:44,653 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:27:00,680 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:27:00,680 | event_generation_logger | INFO | Start generating random event for user 16 Amelia classicaljazz
+EVENT: 2024-11-04 23:27:00,681 | event_generation_logger | INFO | Playlist Raw Hitsadded to user 16
+EVENT: 2024-11-04 23:27:14,653 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:27:14,653 | event_generation_logger | INFO | Start generating random event for user 92 Levi rockfan
+EVENT: 2024-11-04 23:27:14,654 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:27:14,656 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:27:14,656 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:27:14,656 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:27:14,656 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:27:14,657 | event_generation_logger | INFO | Matched preferences with user Brandon metalhead
+EVENT: 2024-11-04 23:27:14,657 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:27:14,658 | event_generation_logger | INFO | Adding Shout to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,658 | event_generation_logger | INFO | Adding Owner Of A Lonely Heart to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,658 | event_generation_logger | INFO | Adding Dreamlover to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,658 | event_generation_logger | INFO | Adding It Wasn't Me to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,659 | event_generation_logger | INFO | Adding Gangnam Style to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,659 | event_generation_logger | INFO | Adding Bailando to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,659 | event_generation_logger | INFO | Adding Can't Remember to Forget You to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,659 | event_generation_logger | INFO | Adding Love Is The Sweetest Thing to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,660 | event_generation_logger | INFO | Adding Upside Down to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,660 | event_generation_logger | INFO | Adding My Sharona to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,660 | event_generation_logger | INFO | Adding My Humps to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,660 | event_generation_logger | INFO | Adding Girlfriend to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,661 | event_generation_logger | INFO | Adding So What to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,661 | event_generation_logger | INFO | Adding What Makes You Beautiful to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,661 | event_generation_logger | INFO | Adding Payphone to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,662 | event_generation_logger | INFO | Adding Waka Waka (This Time for Africa) to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,662 | event_generation_logger | INFO | Adding Ai Se Eu Te Pego to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,662 | event_generation_logger | INFO | Adding We Found Love to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,662 | event_generation_logger | INFO | Adding See You Again (feat. Charlie Puth) to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,663 | event_generation_logger | INFO | Adding Temperature to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,663 | event_generation_logger | INFO | Adding Cherry Pink And Apple Blossom White to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,663 | event_generation_logger | INFO | Adding I Gotta Feeling to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,663 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,664 | event_generation_logger | INFO | Adding Harbor Lights to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,664 | event_generation_logger | INFO | Adding (It's No) Sin to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,664 | event_generation_logger | INFO | Adding Why Don't You Believe Me - Remastered to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,664 | event_generation_logger | INFO | Adding Oh! My Pa-Pa (O Mein Papa) - 2001 Remastered to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,664 | event_generation_logger | INFO | Adding Let Me Go Lover (with Jimmy Carroll & His Orchestra) to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,665 | event_generation_logger | INFO | Adding Memories Are Made Of This to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,665 | event_generation_logger | INFO | Adding La mer (Beyond the Sea) to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,665 | event_generation_logger | INFO | Adding Nature Boy to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,665 | event_generation_logger | INFO | Adding Paper Doll - Single Version to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:14,665 | event_generation_logger | INFO | Adding All Or Nothing At All to user 92 <bound method User.get_name of <user.User object at 0x0000028D3D692990>>'s library
+EVENT: 2024-11-04 23:27:30,688 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:27:30,688 | event_generation_logger | INFO | Start generating random event for user 86 Evan classicrock
+EVENT: 2024-11-04 23:27:30,689 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:27:30,692 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:27:30,692 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:27:30,692 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:27:30,692 | event_generation_logger | INFO | Matched preferences with user Tyler rockfan
+EVENT: 2024-11-04 23:27:30,692 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:27:30,693 | event_generation_logger | INFO | Adding Stressed Out to user 86 <bound method User.get_name of <user.User object at 0x0000019D60A83C10>>'s library
+EVENT: 2024-11-04 23:27:30,693 | event_generation_logger | INFO | Adding With Arms Wide Open to user 86 <bound method User.get_name of <user.User object at 0x0000019D60A83C10>>'s library
+EVENT: 2024-11-04 23:27:30,694 | event_generation_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 86 <bound method User.get_name of <user.User object at 0x0000019D60A83C10>>'s library
+EVENT: 2024-11-04 23:27:30,694 | event_generation_logger | INFO | Generating suggestions based on Rock Ballads
+EVENT: 2024-11-04 23:27:30,696 | event_generation_logger | INFO | Matched preferences with user Adam 90srock
+EVENT: 2024-11-04 23:27:30,696 | event_generation_logger | INFO | Matched preferences with user Nicholas hardrocker
+EVENT: 2024-11-04 23:27:30,697 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:27:44,655 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:27:44,655 | event_generation_logger | INFO | Start generating random event for user 46 Connor hardrock
+EVENT: 2024-11-04 23:27:44,655 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:27:44,658 | event_generation_logger | INFO | Matched preferences with user Connor hardrock
+EVENT: 2024-11-04 23:27:44,658 | event_generation_logger | INFO | Matched preferences with user Noah rockclassic90
+EVENT: 2024-11-04 23:27:44,658 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:27:44,658 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:27:44,659 | event_generation_logger | INFO | Adding Hanging By A Moment to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,659 | event_generation_logger | INFO | Adding How to Save a Life to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,659 | event_generation_logger | INFO | Adding Here Without You to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,660 | event_generation_logger | INFO | Adding Stressed Out to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,660 | event_generation_logger | INFO | Adding With Arms Wide Open to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,660 | event_generation_logger | INFO | Adding Bridge Over Troubled Water to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,660 | event_generation_logger | INFO | Adding My Love - 2018 Remaster to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,661 | event_generation_logger | INFO | Adding The Way We Were to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,661 | event_generation_logger | INFO | Adding My Eyes Adored You to user 46 <bound method User.get_name of <user.User object at 0x0000028D3D61F3D0>>'s library
+EVENT: 2024-11-04 23:27:44,661 | event_generation_logger | INFO | Generating suggestions based on Serene Tunes
+EVENT: 2024-11-04 23:27:44,664 | event_generation_logger | INFO | Matched preferences with user Jacob metalhead
+EVENT: 2024-11-04 23:27:44,664 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:00,697 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:28:00,697 | event_generation_logger | INFO | Start generating random event for user 83 Eleanor classicalfan
+EVENT: 2024-11-04 23:28:00,698 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:28:00,701 | event_generation_logger | INFO | Matched preferences with user Ian classicalmusic
+EVENT: 2024-11-04 23:28:00,701 | event_generation_logger | INFO | Matched preferences with user Matthew classicalbuff
+EVENT: 2024-11-04 23:28:00,701 | event_generation_logger | INFO | Matched preferences with user Aria newagefan
+EVENT: 2024-11-04 23:28:00,701 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:00,701 | event_generation_logger | INFO | Adding Moonglow to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,702 | event_generation_logger | INFO | Adding Round Midnight to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,702 | event_generation_logger | INFO | Adding God Bless The Child to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,702 | event_generation_logger | INFO | Adding Nuages - avec le Quintette Hot Club de France to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,702 | event_generation_logger | INFO | Adding Autumn Leaves to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,703 | event_generation_logger | INFO | Adding All of Me to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,703 | event_generation_logger | INFO | Adding Artistry In Rhythm to user 83 <bound method User.get_name of <user.User object at 0x0000019D60A7B410>>'s library
+EVENT: 2024-11-04 23:28:00,703 | event_generation_logger | INFO | Generating suggestions based on Romantic Composers
+EVENT: 2024-11-04 23:28:00,705 | event_generation_logger | INFO | Matched preferences with user Matthew classicalbuff
+EVENT: 2024-11-04 23:28:00,706 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:14,658 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:28:14,658 | event_generation_logger | INFO | Start generating random event for user 48 Evan edmaddict
+EVENT: 2024-11-04 23:28:14,659 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:28:14,662 | event_generation_logger | INFO | Matched preferences with user Claire edmlover
+EVENT: 2024-11-04 23:28:14,662 | event_generation_logger | INFO | Matched preferences with user Natalie edmfan
+EVENT: 2024-11-04 23:28:14,662 | event_generation_logger | INFO | Matched preferences with user Ava edmlover101
+EVENT: 2024-11-04 23:28:14,662 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:14,663 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 48 <bound method User.get_name of <user.User object at 0x0000028D3D626D50>>'s library
+EVENT: 2024-11-04 23:28:14,663 | event_generation_logger | INFO | Adding Shout to user 48 <bound method User.get_name of <user.User object at 0x0000028D3D626D50>>'s library
+EVENT: 2024-11-04 23:28:14,663 | event_generation_logger | INFO | Generating suggestions based on Chill Electronic
+EVENT: 2024-11-04 23:28:14,665 | event_generation_logger | INFO | Matched preferences with user Zoe electropop
+EVENT: 2024-11-04 23:28:14,666 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:30,706 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:28:30,706 | event_generation_logger | INFO | Start generating random event for user 88 Connor hiphopfan
+EVENT: 2024-11-04 23:28:30,708 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Luke rapfan
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Jonathan hiphopfan
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Logan hiphophead
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Jonathan hiphopclassics
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Evelyn hiphopqueen
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Aaron hiphopmix
+EVENT: 2024-11-04 23:28:30,711 | event_generation_logger | INFO | Matched preferences with user Caleb hiphopmix
+EVENT: 2024-11-04 23:28:30,712 | event_generation_logger | INFO | Matched preferences with user Sean hiphophead
+EVENT: 2024-11-04 23:28:30,712 | event_generation_logger | INFO | Matched preferences with user Ryan hiphopbeats
+EVENT: 2024-11-04 23:28:30,712 | event_generation_logger | INFO | Matched preferences with user Michael hiphophead99
+EVENT: 2024-11-04 23:28:30,712 | event_generation_logger | INFO | Matched preferences with user Ethan rapenthusiast
+EVENT: 2024-11-04 23:28:30,712 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:30,713 | event_generation_logger | INFO | Adding So What to user 88 <bound method User.get_name of <user.User object at 0x0000019D60A83CD0>>'s library
+EVENT: 2024-11-04 23:28:30,713 | event_generation_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 88 <bound method User.get_name of <user.User object at 0x0000019D60A83CD0>>'s library
+EVENT: 2024-11-04 23:28:30,714 | event_generation_logger | INFO | Adding Stronger (What Doesn't Kill You) to user 88 <bound method User.get_name of <user.User object at 0x0000019D60A83CD0>>'s library
+EVENT: 2024-11-04 23:28:30,750 | event_generation_logger | INFO | Start generating random event for user 31 Hannah countrygirl
+EVENT: 2024-11-04 23:28:30,750 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:28:30,753 | event_generation_logger | INFO | Matched preferences with user Grace folkmusiclover
+EVENT: 2024-11-04 23:28:30,754 | event_generation_logger | INFO | Matched preferences with user Lily acousticsoul
+EVENT: 2024-11-04 23:28:30,754 | event_generation_logger | INFO | Matched preferences with user Audrey folkfavorites
+EVENT: 2024-11-04 23:28:30,754 | event_generation_logger | INFO | Matched preferences with user Avery indiepop
+EVENT: 2024-11-04 23:28:30,754 | event_generation_logger | INFO | Matched preferences with user Daniel countryfan55
+EVENT: 2024-11-04 23:28:30,754 | event_generation_logger | INFO | Matched preferences with user Caroline indieacoustic
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Brooklyn indieplaylist
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Sydney countrygirl
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Samantha countrygirl
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Mia indie vibes
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Avery indiepop
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Matched preferences with user Dylan alternative rock
+EVENT: 2024-11-04 23:28:30,755 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:30,757 | event_generation_logger | INFO | Adding SexyBack (feat. Timbaland) to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,757 | event_generation_logger | INFO | Adding Pumped Up Kicks to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,757 | event_generation_logger | INFO | Adding Just Dance to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,757 | event_generation_logger | INFO | Adding Poker Face to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,758 | event_generation_logger | INFO | Adding California Gurls to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,758 | event_generation_logger | INFO | Adding We Found Love to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,758 | event_generation_logger | INFO | Adding Heart Attack to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,758 | event_generation_logger | INFO | Adding Faded to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,759 | event_generation_logger | INFO | Adding Everything You Want to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,759 | event_generation_logger | INFO | Adding Photograph to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,759 | event_generation_logger | INFO | Adding Jump to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,760 | event_generation_logger | INFO | Adding Livin' On A Prayer to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,760 | event_generation_logger | INFO | Adding Welcome to the Jungle to user 31 <bound method User.get_name of <user.User object at 0x0000019D5FBFF690>>'s library
+EVENT: 2024-11-04 23:28:30,760 | event_generation_logger | INFO | Generating suggestions based on Country Ballads
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Matched preferences with user Sydney countrygirl
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Matched preferences with user Samantha countrygirl
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Matched preferences with user Daniel countryfan55
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Matched preferences with user Audrey folkfavorites
+EVENT: 2024-11-04 23:28:30,763 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:28:44,671 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:28:44,671 | event_generation_logger | INFO | Start generating random event for user 85 Hailey popdiva
+EVENT: 2024-11-04 23:28:44,672 | event_generation_logger | INFO | Playlist Edgy Vibes added to user 85
+EVENT: 2024-11-04 23:29:00,720 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:29:00,720 | event_generation_logger | INFO | Start generating random event for user 9 William oldiesfan77
+EVENT: 2024-11-04 23:29:00,721 | event_generation_logger | INFO | Playlist Chill Hitsadded to user 9
+EVENT: 2024-11-04 23:29:14,671 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:29:14,672 | event_generation_logger | INFO | Start generating random event for user 20 Evelyn hiphopqueen
+EVENT: 2024-11-04 23:29:14,672 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:29:14,675 | event_generation_logger | INFO | Matched preferences with user Aaron hiphopmix
+EVENT: 2024-11-04 23:29:14,675 | event_generation_logger | INFO | Matched preferences with user Caleb hiphopmix
+EVENT: 2024-11-04 23:29:14,675 | event_generation_logger | INFO | Matched preferences with user Logan hiphophead
+EVENT: 2024-11-04 23:29:14,675 | event_generation_logger | INFO | Matched preferences with user Sean hiphophead
+EVENT: 2024-11-04 23:29:14,676 | event_generation_logger | INFO | Matched preferences with user Connor hiphopfan
+EVENT: 2024-11-04 23:29:14,676 | event_generation_logger | INFO | Matched preferences with user Ryan hiphopbeats
+EVENT: 2024-11-04 23:29:14,676 | event_generation_logger | INFO | Matched preferences with user Luke rapfan
+EVENT: 2024-11-04 23:29:14,676 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:29:14,678 | event_generation_logger | INFO | Adding Gangnam Style to user 20 <bound method User.get_name of <user.User object at 0x0000028D3C7DD3D0>>'s library
+EVENT: 2024-11-04 23:29:14,678 | event_generation_logger | INFO | Adding Trap Queen to user 20 <bound method User.get_name of <user.User object at 0x0000028D3C7DD3D0>>'s library
+EVENT: 2024-11-04 23:29:14,678 | event_generation_logger | INFO | Adding Hotline Bling to user 20 <bound method User.get_name of <user.User object at 0x0000028D3C7DD3D0>>'s library
+EVENT: 2024-11-04 23:29:30,730 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:29:30,731 | event_generation_logger | INFO | Start generating random event for user 2 Sophia jazzlover88
+EVENT: 2024-11-04 23:29:30,731 | event_generation_logger | INFO | Playlist Edgy Essentialsadded to user 2
+EVENT: 2024-11-04 23:29:44,679 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:29:44,679 | event_generation_logger | INFO | Start generating random event for user 93 Victoria popsinger
+EVENT: 2024-11-04 23:29:44,680 | event_generation_logger | INFO | Playlist Radiant Beats added to user 93
+EVENT: 2024-11-04 23:30:00,734 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:30:00,735 | event_generation_logger | INFO | Start generating random event for user 3 Michael hiphophead99
+EVENT: 2024-11-04 23:30:00,735 | event_generation_logger | INFO | Playlist Lively Chroniclesadded to user 3
+EVENT: 2024-11-04 23:30:14,685 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:30:14,685 | event_generation_logger | INFO | Start generating random event for user 38 Gabriel reggae roots
+EVENT: 2024-11-04 23:30:14,685 | event_generation_logger | INFO | Playlist Smooth Essentials added to user 38
+EVENT: 2024-11-04 23:30:30,740 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:30:30,740 | event_generation_logger | INFO | Start generating random event for user 78 Brandon metalhead
+EVENT: 2024-11-04 23:30:30,740 | event_generation_logger | INFO | Playlist Raw Flowadded to user 78
+EVENT: 2024-11-04 23:30:44,447 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:30:44,447 | event_generation_logger | INFO | Start generating random event for user 15 Liam partyplaylist
+EVENT: 2024-11-04 23:30:44,447 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:30:44,451 | event_generation_logger | INFO | Matched preferences with user Zoe dancemania
+EVENT: 2024-11-04 23:30:44,451 | event_generation_logger | INFO | Matched preferences with user Claire edmlover
+EVENT: 2024-11-04 23:30:44,451 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,452 | event_generation_logger | INFO | Adding California Gurls to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,452 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,453 | event_generation_logger | INFO | Adding We Found Love to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,453 | event_generation_logger | INFO | Adding Diamonds to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,453 | event_generation_logger | INFO | Adding Gangnam Style to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,453 | event_generation_logger | INFO | Adding Can't Hold Us to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,454 | event_generation_logger | INFO | Adding Summer to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,454 | event_generation_logger | INFO | Adding Stereo Hearts (feat. Adam Levine) to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,454 | event_generation_logger | INFO | Adding Latch to user 15 Liam partyplaylist's library
+EVENT: 2024-11-04 23:30:44,454 | event_generation_logger | INFO | Generating suggestions based on Ultimate Party Mix
+EVENT: 2024-11-04 23:30:44,457 | event_generation_logger | INFO | Matched preferences with user Zoe dancemania
+EVENT: 2024-11-04 23:30:44,457 | event_generation_logger | INFO | Matched preferences with user Ryan hiphopbeats
+EVENT: 2024-11-04 23:30:44,457 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,458 | event_generation_logger | INFO | Adding SexyBack (feat. Timbaland) to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,458 | event_generation_logger | INFO | Adding Call Me Maybe to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,459 | event_generation_logger | INFO | Adding Viva La Vida to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,459 | event_generation_logger | INFO | Adding Titanium (feat. Sia) to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,459 | event_generation_logger | INFO | Adding Wake Me Up to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,460 | event_generation_logger | INFO | Adding Just Dance to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,460 | event_generation_logger | INFO | Adding Poker Face to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,460 | event_generation_logger | INFO | Adding California Gurls to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,461 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,461 | event_generation_logger | INFO | Adding We Found Love to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,461 | event_generation_logger | INFO | Adding In Da Club to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,461 | event_generation_logger | INFO | Adding Lose Yourself to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,462 | event_generation_logger | INFO | Adding Since U Been Gone to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,462 | event_generation_logger | INFO | Adding Stronger to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,462 | event_generation_logger | INFO | Adding Kiss Kiss to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,463 | event_generation_logger | INFO | Adding Work It to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,463 | event_generation_logger | INFO | Adding Love The Way You Lie to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,463 | event_generation_logger | INFO | Adding Somebody That I Used To Know to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,464 | event_generation_logger | INFO | Adding Born This Way to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,464 | event_generation_logger | INFO | Adding Let Her Go to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,464 | event_generation_logger | INFO | Adding Can't Hold Us to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,465 | event_generation_logger | INFO | Adding Can't Feel My Face to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,465 | event_generation_logger | INFO | Adding Gangnam Style to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,465 | event_generation_logger | INFO | Adding Fancy to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,466 | event_generation_logger | INFO | Adding Trap Queen to user 15 Liam partyplaylist's playlist
+EVENT: 2024-11-04 23:30:44,503 | event_generation_logger | INFO | Start generating random event for user 45 Layla soulfuldivas
+EVENT: 2024-11-04 23:30:44,503 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:30:44,506 | event_generation_logger | INFO | Matched preferences with user Charlotte soulfulsounds
+EVENT: 2024-11-04 23:30:44,506 | event_generation_logger | INFO | Matched preferences with user Allison r&bfan
+EVENT: 2024-11-04 23:30:44,506 | event_generation_logger | INFO | Matched preferences with user Olivia diva songs
+EVENT: 2024-11-04 23:30:44,506 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,507 | event_generation_logger | INFO | Adding No Diggity to user 45 Layla soulfuldivas's library
+EVENT: 2024-11-04 23:30:44,507 | event_generation_logger | INFO | Adding If I Ain't Got You to user 45 Layla soulfuldivas's library
+EVENT: 2024-11-04 23:30:44,507 | event_generation_logger | INFO | Generating suggestions based on Soul Classics
+EVENT: 2024-11-04 23:30:44,510 | event_generation_logger | INFO | Matched preferences with user Charlotte soulfulsounds
+EVENT: 2024-11-04 23:30:44,510 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,510 | event_generation_logger | INFO | Adding No One to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,511 | event_generation_logger | INFO | Adding Bleeding Love to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,511 | event_generation_logger | INFO | Adding Diamonds to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,512 | event_generation_logger | INFO | Adding Stay With Me to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,512 | event_generation_logger | INFO | Adding The Hills to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,512 | event_generation_logger | INFO | Adding Elastic Heart to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,513 | event_generation_logger | INFO | Adding No Diggity to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,513 | event_generation_logger | INFO | Adding Foolish to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,513 | event_generation_logger | INFO | Adding If I Ain't Got You to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,513 | event_generation_logger | INFO | Adding I Knew I Loved You to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,514 | event_generation_logger | INFO | Adding Hopelessly Devoted To You to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,514 | event_generation_logger | INFO | Adding Hero to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,514 | event_generation_logger | INFO | Adding Little Things Mean a Lot (Original Mix) to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,515 | event_generation_logger | INFO | Adding Maneater to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,515 | event_generation_logger | INFO | Adding Come and Get Your Love - Single Version to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,515 | event_generation_logger | INFO | Adding Say You, Say Me to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,516 | event_generation_logger | INFO | Adding Wake Me Up to user 45 Layla soulfuldivas's playlist
+EVENT: 2024-11-04 23:30:44,552 | event_generation_logger | INFO | Deleted The Hills from Library
+EVENT: 2024-11-04 23:30:44,552 | event_generation_logger | INFO | Deleted The Hills from Soul Classics
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Deleted The Hills from Neo-Soul
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Deleted Diamonds from Library
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Deleted Diamonds from Soul Classics
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Deleted Diamonds from Neo-Soul
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Deleted Diamonds from Emotional Ballads
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Start generating random event for user 68 Jonathan hiphopfan
+EVENT: 2024-11-04 23:30:44,553 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:30:44,556 | event_generation_logger | INFO | Matched preferences with user Ryan hiphopbeats
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Logan hiphophead
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Caleb hiphopmix
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Sean hiphophead
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Connor hiphopfan
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Luke rapfan
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Aaron hiphopmix
+EVENT: 2024-11-04 23:30:44,557 | event_generation_logger | INFO | Matched preferences with user Jonathan hiphopclassics
+EVENT: 2024-11-04 23:30:44,558 | event_generation_logger | INFO | Matched preferences with user Michael hiphophead99
+EVENT: 2024-11-04 23:30:44,558 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,558 | event_generation_logger | INFO | Adding I Gotta Feeling to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,558 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,559 | event_generation_logger | INFO | Adding Promiscuous to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,559 | event_generation_logger | INFO | Adding Get Low to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,559 | event_generation_logger | INFO | Adding All I Do Is Win to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,559 | event_generation_logger | INFO | Adding I'm Real - Murder Remix to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,560 | event_generation_logger | INFO | Adding Hot In Herre to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,560 | event_generation_logger | INFO | Adding Lean Back to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,560 | event_generation_logger | INFO | Adding With Arms Wide Open to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,560 | event_generation_logger | INFO | Adding Candy Shop to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,561 | event_generation_logger | INFO | Adding No Diggity to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,561 | event_generation_logger | INFO | Adding Family Affair to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,561 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,561 | event_generation_logger | INFO | Adding Foolish to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,561 | event_generation_logger | INFO | Adding Fallin' to user 68 Jonathan hiphopfan's library
+EVENT: 2024-11-04 23:30:44,562 | event_generation_logger | INFO | Generating suggestions based on Rap Legends
+EVENT: 2024-11-04 23:30:44,564 | event_generation_logger | INFO | Matched preferences with user Ethan rapenthusiast
+EVENT: 2024-11-04 23:30:44,565 | event_generation_logger | INFO | Matched preferences with user Caleb hiphopmix
+EVENT: 2024-11-04 23:30:44,565 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,565 | event_generation_logger | INFO | Adding How to Save a Life to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,565 | event_generation_logger | INFO | Adding Gangnam Style to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,565 | event_generation_logger | INFO | Adding Fancy to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,567 | event_generation_logger | INFO | Adding Trap Queen to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,567 | event_generation_logger | INFO | Adding Hotline Bling to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,567 | event_generation_logger | INFO | Adding Sugar to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,568 | event_generation_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,568 | event_generation_logger | INFO | Adding See You Again (feat. Charlie Puth) to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,568 | event_generation_logger | INFO | Adding Uptown Funk (feat. Bruno Mars) to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,569 | event_generation_logger | INFO | Adding The Hills to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,569 | event_generation_logger | INFO | Adding Love The Way You Lie to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,569 | event_generation_logger | INFO | Adding Somebody That I Used To Know to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,570 | event_generation_logger | INFO | Adding Born This Way to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,570 | event_generation_logger | INFO | Adding Let Her Go to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,570 | event_generation_logger | INFO | Adding Can't Hold Us to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,571 | event_generation_logger | INFO | Adding Can't Feel My Face to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,571 | event_generation_logger | INFO | Adding Gold Digger to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,571 | event_generation_logger | INFO | Adding Live Your Life to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,572 | event_generation_logger | INFO | Adding Disturbia to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,572 | event_generation_logger | INFO | Adding I Gotta Feeling to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,573 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,573 | event_generation_logger | INFO | Adding Promiscuous to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,573 | event_generation_logger | INFO | Adding Get Low to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,574 | event_generation_logger | INFO | Adding All I Do Is Win to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,574 | event_generation_logger | INFO | Generating suggestions based on Golden Age Hip-Hop
+EVENT: 2024-11-04 23:30:44,576 | event_generation_logger | INFO | Matched preferences with user Michael hiphophead99
+EVENT: 2024-11-04 23:30:44,576 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,577 | event_generation_logger | INFO | Adding In Da Club to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,577 | event_generation_logger | INFO | Adding I'm Real - Murder Remix to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,578 | event_generation_logger | INFO | Adding Hot In Herre to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,578 | event_generation_logger | INFO | Adding Lean Back to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,578 | event_generation_logger | INFO | Adding With Arms Wide Open to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,579 | event_generation_logger | INFO | Adding Candy Shop to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,579 | event_generation_logger | INFO | Adding Love The Way You Lie to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,579 | event_generation_logger | INFO | Adding Somebody That I Used To Know to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,580 | event_generation_logger | INFO | Adding Born This Way to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,580 | event_generation_logger | INFO | Adding Let Her Go to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,580 | event_generation_logger | INFO | Adding Can't Hold Us to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,581 | event_generation_logger | INFO | Adding Can't Feel My Face to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,581 | event_generation_logger | INFO | Adding No Diggity to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,581 | event_generation_logger | INFO | Adding Family Affair to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,581 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 68 Jonathan hiphopfan's playlist
+EVENT: 2024-11-04 23:30:44,619 | event_generation_logger | INFO | Deleted In Da Club from Library
+EVENT: 2024-11-04 23:30:44,619 | event_generation_logger | INFO | Deleted In Da Club from Golden Age Hip-Hop
+EVENT: 2024-11-04 23:30:44,619 | event_generation_logger | INFO | Deleted In Da Club from Rap Legends
+EVENT: 2024-11-04 23:30:44,619 | event_generation_logger | INFO | Start generating random event for user 6 Olivia diva songs
+EVENT: 2024-11-04 23:30:44,619 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:30:44,622 | event_generation_logger | INFO | Matched preferences with user Ella diva vocals
+EVENT: 2024-11-04 23:30:44,622 | event_generation_logger | INFO | Matched preferences with user Penelope singerdiva
+EVENT: 2024-11-04 23:30:44,622 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-04 23:30:44,623 | event_generation_logger | INFO | Matched preferences with user Layla soulfuldivas
+EVENT: 2024-11-04 23:30:44,623 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,623 | event_generation_logger | INFO | Adding Like a Virgin to user 6 Olivia diva songs's library
+EVENT: 2024-11-04 23:30:44,623 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 6 Olivia diva songs's library
+EVENT: 2024-11-04 23:30:44,624 | event_generation_logger | INFO | Adding Shake It Off to user 6 Olivia diva songs's library
+EVENT: 2024-11-04 23:30:44,624 | event_generation_logger | INFO | Generating suggestions based on Inspiring Songs
+EVENT: 2024-11-04 23:30:44,626 | event_generation_logger | INFO | Matched preferences with user Ella diva vocals
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Matched preferences with user Penelope singerdiva
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Adding Hopelessly Devoted To You to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Adding Woman in Love to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,627 | event_generation_logger | INFO | Adding Someone Like You to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,628 | event_generation_logger | INFO | Adding Because You Loved Me (Theme from "Up Close and Personal") to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,628 | event_generation_logger | INFO | Adding Lover Man - Single Version to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,628 | event_generation_logger | INFO | Adding Like a Virgin to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,629 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,629 | event_generation_logger | INFO | Adding Shake It Off to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,629 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,629 | event_generation_logger | INFO | Adding I Kissed A Girl to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,630 | event_generation_logger | INFO | Adding So What to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,630 | event_generation_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,630 | event_generation_logger | INFO | Adding California Gurls to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,631 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,631 | event_generation_logger | INFO | Generating suggestions based on 90s R&B Queens
+EVENT: 2024-11-04 23:30:44,633 | event_generation_logger | INFO | Matched preferences with user Layla soulfuldivas
+EVENT: 2024-11-04 23:30:44,633 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,634 | event_generation_logger | INFO | Adding Endless Love to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,634 | event_generation_logger | INFO | Adding Family Affair to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,634 | event_generation_logger | INFO | Adding Fallin' to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,635 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,635 | event_generation_logger | INFO | Adding Smack That to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,635 | event_generation_logger | INFO | Adding Someone Like You to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,635 | event_generation_logger | INFO | Adding No One to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,635 | event_generation_logger | INFO | Adding Bleeding Love to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,637 | event_generation_logger | INFO | Adding Stay With Me to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,637 | event_generation_logger | INFO | Adding Elastic Heart to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,637 | event_generation_logger | INFO | Adding Hopelessly Devoted To You to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,638 | event_generation_logger | INFO | Adding Hero to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,638 | event_generation_logger | INFO | Adding It Must Have Been Love - From the Film "Pretty Woman" to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,638 | event_generation_logger | INFO | Adding Welcome to the Jungle to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,638 | event_generation_logger | INFO | Adding Love Me or Leave Me to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,639 | event_generation_logger | INFO | Adding Dancing Machine to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,639 | event_generation_logger | INFO | Adding Too Much to user 6 Olivia diva songs's playlist
+EVENT: 2024-11-04 23:30:44,675 | event_generation_logger | INFO | Deleted Fallin' from Library
+EVENT: 2024-11-04 23:30:44,675 | event_generation_logger | INFO | Deleted Fallin' from 90s R&B Queens
+EVENT: 2024-11-04 23:30:44,675 | event_generation_logger | INFO | Start generating random event for user 29 Zoe dancemania
+EVENT: 2024-11-04 23:30:44,675 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:30:44,679 | event_generation_logger | INFO | Matched preferences with user Scarlett poptimism
+EVENT: 2024-11-04 23:30:44,679 | event_generation_logger | INFO | Matched preferences with user Isabelle poplover
+EVENT: 2024-11-04 23:30:44,680 | event_generation_logger | INFO | Matched preferences with user Lucy popenthusiast
+EVENT: 2024-11-04 23:30:44,680 | event_generation_logger | INFO | Matched preferences with user Natalie edmfan
+EVENT: 2024-11-04 23:30:44,680 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,680 | event_generation_logger | INFO | Adding Waka Waka (This Time for Africa) to user 29 Zoe dancemania's library
+EVENT: 2024-11-04 23:30:44,681 | event_generation_logger | INFO | Adding Born This Way to user 29 Zoe dancemania's library
+EVENT: 2024-11-04 23:30:44,681 | event_generation_logger | INFO | Generating suggestions based on Party Starters
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Matched preferences with user Scarlett poptimism
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Matched preferences with user Isabelle poplover
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Matched preferences with user Lucy popenthusiast
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Matched preferences with user Harper pop hits
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Matched preferences with user Zoe electropop
+EVENT: 2024-11-04 23:30:44,683 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,684 | event_generation_logger | INFO | Adding California Gurls to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,684 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,685 | event_generation_logger | INFO | Adding Waka Waka (This Time for Africa) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,685 | event_generation_logger | INFO | Adding We Found Love to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,685 | event_generation_logger | INFO | Adding Born This Way to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,685 | event_generation_logger | INFO | Adding I Kissed A Girl to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,685 | event_generation_logger | INFO | Adding So What to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,687 | event_generation_logger | INFO | Adding Shake It Off to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,687 | event_generation_logger | INFO | Adding Don't You Want Me to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,687 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,688 | event_generation_logger | INFO | Adding Shout to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,688 | event_generation_logger | INFO | Adding Owner Of A Lonely Heart to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,688 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:30:44,688 | event_generation_logger | INFO | Adding Hey There Delilah to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,688 | event_generation_logger | INFO | Start generating random event for user 95 Natalie edmfan
+EVENT: 2024-11-04 23:30:44,689 | event_generation_logger | INFO | Playlist Blissful Mood added to user 95
+EVENT: 2024-11-04 23:30:44,689 | event_generation_logger | INFO | Adding Titanium (feat. Sia) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,689 | event_generation_logger | INFO | Adding Latch to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,690 | event_generation_logger | INFO | Adding Heart Attack to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,690 | event_generation_logger | INFO | Adding Faded to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,691 | event_generation_logger | INFO | Adding Stitches to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,691 | event_generation_logger | INFO | Generating suggestions based on Party Starters
+EVENT: 2024-11-04 23:30:44,693 | event_generation_logger | INFO | Matched preferences with user Zoe electropop
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Lucy popenthusiast
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Scarlett poptimism
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Isabelle poplover
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Harper pop hits
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Henry electrobeat
+EVENT: 2024-11-04 23:30:44,694 | event_generation_logger | INFO | Matched preferences with user Grace popdiva
+EVENT: 2024-11-04 23:30:44,695 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,695 | event_generation_logger | INFO | Adding The Hills to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,696 | event_generation_logger | INFO | Adding Elastic Heart to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,696 | event_generation_logger | INFO | Adding Boom Boom Pow to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,696 | event_generation_logger | INFO | Adding Fallin' to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,696 | event_generation_logger | INFO | Adding Viva La Vida to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,697 | event_generation_logger | INFO | Adding Gangnam Style to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,697 | event_generation_logger | INFO | Adding I'm Yours to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,697 | event_generation_logger | INFO | Adding Let Her Go to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,697 | event_generation_logger | INFO | Adding Hero to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,698 | event_generation_logger | INFO | Adding Because You Loved Me (Theme from "Up Close and Personal") to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,698 | event_generation_logger | INFO | Adding Someone Like You to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,698 | event_generation_logger | INFO | Adding All of Me to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,698 | event_generation_logger | INFO | Adding Stay With Me to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,699 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,699 | event_generation_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,699 | event_generation_logger | INFO | Adding Stronger (What Doesn't Kill You) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,700 | event_generation_logger | INFO | Generating suggestions based on Party Starters
+EVENT: 2024-11-04 23:30:44,702 | event_generation_logger | INFO | Matched preferences with user Henry electrobeat
+EVENT: 2024-11-04 23:30:44,702 | event_generation_logger | INFO | Matched preferences with user Grace popdiva
+EVENT: 2024-11-04 23:30:44,702 | event_generation_logger | INFO | Matched preferences with user Hailey popdiva
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Zoe electropop
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Savannah divadance
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Scarlett poptimism
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Isabelle poplover
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Lucy popenthusiast
+EVENT: 2024-11-04 23:30:44,703 | event_generation_logger | INFO | Matched preferences with user Victoria popsinger
+EVENT: 2024-11-04 23:30:44,704 | event_generation_logger | INFO | Matched preferences with user Victoria divafan
+EVENT: 2024-11-04 23:30:44,704 | event_generation_logger | INFO | Matched preferences with user Harper pop hits
+EVENT: 2024-11-04 23:30:44,704 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-04 23:30:44,704 | event_generation_logger | INFO | Matched preferences with user Claire edmlover
+EVENT: 2024-11-04 23:30:44,704 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:30:44,705 | event_generation_logger | INFO | Adding Like a Virgin to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,705 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,705 | event_generation_logger | INFO | Adding Faith - Remastered to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,705 | event_generation_logger | INFO | Adding Disturbia to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,705 | event_generation_logger | INFO | Adding Touch Me In The Morning to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,707 | event_generation_logger | INFO | Adding Can't Hold Us to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,707 | event_generation_logger | INFO | Adding Basin Street Blues (06-11-29) to user 29 Zoe dancemania's playlist
+EVENT: 2024-11-04 23:30:44,707 | event_generation_logger | INFO | Deleted Owner Of A Lonely Heart from Library
+EVENT: 2024-11-04 23:30:44,707 | event_generation_logger | INFO | Deleted Owner Of A Lonely Heart from Party Starters
+EVENT: 2024-11-04 23:30:44,708 | event_generation_logger | INFO | Next random event will be generated after a 30 second interval
+EVENT: 2024-11-04 23:30:44,708 | event_generation_logger | INFO | Finish Generating Random Event
+EVENT: 2024-11-04 23:31:00,748 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:31:00,748 | event_generation_logger | INFO | Start generating random event for user 13 Noah rockclassic90
+EVENT: 2024-11-04 23:31:00,749 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:31:00,752 | event_generation_logger | INFO | Matched preferences with user Eli rockclassics
+EVENT: 2024-11-04 23:31:00,752 | event_generation_logger | INFO | Matched preferences with user Evan classicrock
+EVENT: 2024-11-04 23:31:00,752 | event_generation_logger | INFO | Matched preferences with user Levi rockfan
+EVENT: 2024-11-04 23:31:00,752 | event_generation_logger | INFO | Matched preferences with user Tyler rockfan
+EVENT: 2024-11-04 23:31:00,752 | event_generation_logger | INFO | Matched preferences with user Connor hardrock
+EVENT: 2024-11-04 23:31:00,753 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:31:00,753 | event_generation_logger | INFO | Adding Where Or When to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,753 | event_generation_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,754 | event_generation_logger | INFO | Adding The Hills to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,754 | event_generation_logger | INFO | Adding Elastic Heart to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,754 | event_generation_logger | INFO | Adding Total Eclipse of the Heart to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,755 | event_generation_logger | INFO | Adding Jack & Diane to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,755 | event_generation_logger | INFO | Adding Among My Souvenirs to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,755 | event_generation_logger | INFO | Adding Straight Up to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,755 | event_generation_logger | INFO | Adding Love in This Club to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,756 | event_generation_logger | INFO | Adding Hey There Delilah to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,756 | event_generation_logger | INFO | Adding Don't You Want Me to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:00,756 | event_generation_logger | INFO | Adding Everybody Wants To Rule The World to user 13 <bound method User.get_name of <user.User object at 0x0000019D5FBDA650>>'s library
+EVENT: 2024-11-04 23:31:14,693 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:31:14,693 | event_generation_logger | INFO | Start generating random event for user 93 Victoria popsinger
+EVENT: 2024-11-04 23:31:14,694 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:31:14,697 | event_generation_logger | INFO | Matched preferences with user Victoria divafan
+EVENT: 2024-11-04 23:31:14,697 | event_generation_logger | INFO | Matched preferences with user Harper pop hits
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Savannah divadance
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Hailey popdiva
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Grace popdiva
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Isabelle poplover
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Scarlett poptimism
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Penelope singerdiva
+EVENT: 2024-11-04 23:31:14,698 | event_generation_logger | INFO | Matched preferences with user Ella diva vocals
+EVENT: 2024-11-04 23:31:14,699 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:31:14,699 | event_generation_logger | INFO | Adding I Gotta Feeling to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,699 | event_generation_logger | INFO | Adding Just Dance to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,700 | event_generation_logger | INFO | Adding Poker Face to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,700 | event_generation_logger | INFO | Adding SexyBack (feat. Timbaland) to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,700 | event_generation_logger | INFO | Adding All I Do Is Win to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,701 | event_generation_logger | INFO | Adding Waka Waka (This Time for Africa) to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:14,701 | event_generation_logger | INFO | Adding Hello to user 93 <bound method User.get_name of <user.User object at 0x0000028D3D693B50>>'s library
+EVENT: 2024-11-04 23:31:30,763 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:31:30,764 | event_generation_logger | INFO | Start generating random event for user 2 Sophia jazzlover88
+EVENT: 2024-11-04 23:31:30,764 | event_generation_logger | INFO | Playlist Rhythmic Atmospheresadded to user 2
+EVENT: 2024-11-04 23:31:44,703 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:31:44,703 | event_generation_logger | INFO | Start generating random event for user 98 Tyler rockfan
+EVENT: 2024-11-04 23:31:44,704 | event_generation_logger | INFO | Playlist Soothing Essentials added to user 98
+EVENT: 2024-11-04 23:32:00,767 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:32:00,768 | event_generation_logger | INFO | Start generating random event for user 63 Abigail smoothjazz
+EVENT: 2024-11-04 23:32:00,768 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:32:00,771 | event_generation_logger | INFO | Matched preferences with user Nathan jazzfanatic
+EVENT: 2024-11-04 23:32:00,771 | event_generation_logger | INFO | Matched preferences with user Kevin classicjazz
+EVENT: 2024-11-04 23:32:00,771 | event_generation_logger | INFO | Matched preferences with user Sophia jazzlover88
+EVENT: 2024-11-04 23:32:00,771 | event_generation_logger | INFO | Matched preferences with user Christian classicjazz
+EVENT: 2024-11-04 23:32:00,771 | event_generation_logger | INFO | Matched preferences with user Amelia classicaljazz
+EVENT: 2024-11-04 23:32:00,772 | event_generation_logger | INFO | Matched preferences with user Victoria classicalpiano
+EVENT: 2024-11-04 23:32:00,772 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:32:00,772 | event_generation_logger | INFO | Adding Tenderly to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,772 | event_generation_logger | INFO | Adding Groovin' High to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,773 | event_generation_logger | INFO | Adding Salt Peanuts to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,773 | event_generation_logger | INFO | Adding The Third Man Theme (The Harry Lime Theme) - Original Version to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,773 | event_generation_logger | INFO | Adding Cool Water to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,773 | event_generation_logger | INFO | Adding The Gypsy to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,774 | event_generation_logger | INFO | Adding Concerto for Cootie - 1999 Remastered to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,774 | event_generation_logger | INFO | Adding Don't Fence Me In to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,774 | event_generation_logger | INFO | Adding I'm Walking Behind You - 2001 Remastered to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,774 | event_generation_logger | INFO | Adding Autumn Leaves to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,775 | event_generation_logger | INFO | Adding All of Me to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,775 | event_generation_logger | INFO | Adding Love Me Like You Do to user 63 <bound method User.get_name of <user.User object at 0x0000019D60A4E9D0>>'s library
+EVENT: 2024-11-04 23:32:00,775 | event_generation_logger | INFO | Generating suggestions based on Energetic Mood
+EVENT: 2024-11-04 23:32:00,778 | event_generation_logger | INFO | Matched preferences with user Nathan jazzfanatic
+EVENT: 2024-11-04 23:32:00,778 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:32:14,715 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:32:14,715 | event_generation_logger | INFO | Start generating random event for user 52 Aaron reggaevibes
+EVENT: 2024-11-04 23:32:14,715 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-04 23:32:14,719 | event_generation_logger | INFO | Matched preferences with user Gabriel reggae roots
+EVENT: 2024-11-04 23:32:14,719 | event_generation_logger | INFO | Matched preferences with user Sofia latinmusicfan
+EVENT: 2024-11-04 23:32:14,719 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:32:14,720 | event_generation_logger | INFO | Adding Stitches to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,720 | event_generation_logger | INFO | Adding Elastic Heart to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,721 | event_generation_logger | INFO | Adding Temperature to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,721 | event_generation_logger | INFO | Adding Ai Se Eu Te Pego to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,721 | event_generation_logger | INFO | Adding We Found Love to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,721 | event_generation_logger | INFO | Adding See You Again (feat. Charlie Puth) to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,722 | event_generation_logger | INFO | Adding I Gotta Feeling to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,722 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,722 | event_generation_logger | INFO | Adding Harbor Lights to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,722 | event_generation_logger | INFO | Adding (It's No) Sin to user 52 <bound method User.get_name of <user.User object at 0x0000028D3D62EB90>>'s library
+EVENT: 2024-11-04 23:32:14,722 | event_generation_logger | INFO | Generating suggestions based on Island Beats
+EVENT: 2024-11-04 23:32:14,725 | event_generation_logger | INFO | Matched preferences with user Gabriel reggae roots
+EVENT: 2024-11-04 23:32:14,725 | event_generation_logger | INFO | Matched preferences with user Sofia latinmusicfan
+EVENT: 2024-11-04 23:32:14,725 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-04 23:32:30,773 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:32:30,774 | event_generation_logger | INFO | Start generating random event for user 33 Madison kpoplover
+EVENT: 2024-11-04 23:32:30,774 | event_generation_logger | INFO | Playlist Hypnotic Moodadded to user 33
+EVENT: 2024-11-04 23:32:44,730 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:32:44,731 | event_generation_logger | INFO | Start generating random event for user 82 Sean hiphophead
+EVENT: 2024-11-04 23:32:44,731 | event_generation_logger | INFO | Playlist Epic Pulse added to user 82
+EVENT: 2024-11-04 23:33:00,781 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:33:00,781 | event_generation_logger | INFO | Start generating random event for user 41 Victoria classicalpiano
+EVENT: 2024-11-04 23:33:00,782 | event_generation_logger | INFO | Playlist Smooth Atmospheresadded to user 41
+EVENT: 2024-11-04 23:33:14,739 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-04 23:33:14,739 | event_generation_logger | INFO | Start generating random event for user 93 Victoria popsinger
+EVENT: 2024-11-04 23:33:14,740 | event_generation_logger | INFO | Playlist Chill Flow added to user 93
