@@ -168,6 +168,13 @@ class GUI:
         self.right_side_frame.pack_forget()
         self.adminwindow(system)
         displaylog = tk.Listbox(self.content_frame, width = 850, height = 800)
+        filterbox = tk.Frame(self.leftBar, height = 20, width = 250)
+        filterbox.pack()
+        filterbox.pack_propagate(0)
+        filtertext = tk.Text(filterbox, height = 1, width = 15)
+        filterbutton = tk.Button(filterbox, text = "▼", command = lambda: self.filter_logs(displaylog, system, filtertext, type))
+        filterbutton.pack(side = tk.LEFT)
+        filtertext.pack(side = tk.LEFT)
         if type == 0:
             file = open("./logs/system_event.log", "r")
             content = file.read()
@@ -187,6 +194,33 @@ class GUI:
             for index, event in enumerate(event_list):
                 displaylog.insert(index, event)
         displaylog.pack()
+        self.scrollbar.pack_forget()
+        self.scrollbar = tk.Scrollbar(self.right_side_frame, orient="vertical", command=displaylog.yview)
+        self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) #mmm scrollbar, this caused so much pain
+        displaylog.configure(yscrollcommand=self.scrollbar.set)
+
+    
+    def filter_logs(self, displaylog, system, rawinput, type):
+        inp = rawinput.get()
+
+        if type == 0:
+            file = open("./logs/system_event.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for index, event in enumerate(event_list):
+                displaylog.insert(index, event)
+        elif type == 1:
+            file = open("./logs/user_action.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for index, event in enumerate(event_list):
+                displaylog.insert(index, event)
+        elif type == 2:
+            file = open("./logs/event_generation.log", "r")
+            content = file.read()
+            event_list = content.split('\n')
+            for index, event in enumerate(event_list):
+                displaylog.insert(index, event)
 
 
 #===================================================================================================================================================================================

@@ -1,0 +1,5 @@
+USER: 2024-11-06 13:59:10,783 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-06 14:04:10,421 | user_action_logger | INFO | Playlist new playlist added to user 1
+USER: 2024-11-06 14:04:12,857 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-06 14:04:14,021 | user_action_logger | INFO | Adding How You Remind Me to user 1 test's library
+USER: 2024-11-06 14:04:16,445 | user_action_logger | INFO | Adding How You Remind Me to user 1 test's playlist
