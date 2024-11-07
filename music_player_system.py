@@ -434,6 +434,30 @@ class MusicPlayerSystem:
         # Merge the two sorted halves
         return self.merge_for_search(head, second)
     
+    def save_changes_to_file(self):
+        self.system_logger.info("Saving all changes to files")
+        current_user = self.first_user
+
+        while current_user is not None:
+            file_name = "./data/user_" + str(current_user.get_id()) + ".txt"
+            f = open(file_name, "w")
+
+            f.write(str(current_user.get_id()) + "\n")
+            f.write(str(current_user.get_name() + "\n"))
+            f.write(str(current_user.get_password()) + "\n")
+
+            playlists = current_user.get_all_playlist()
+            f.write(str(len(playlists)) + "\n")
+
+            for playlist in playlists:
+                f.write(str(playlist.get_name()) + "\n")
+                f.write(str(playlist.format_songs()) + "\n")
+
+            self.system_logger.info("Saved changes to user" + str(current_user.get_id()) + " " + str(current_user.get_name()) + " to files")
+            current_user = current_user.get_next()
+
+        self.system_logger.info("Saved all changes to files")
+
     # ================= Accessor Methods =======================
     def get_user(self, id):
         current_user = self.first_user

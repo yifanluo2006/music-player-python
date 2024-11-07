@@ -1,0 +1,182 @@
+USER: 2024-11-07 14:23:54,827 | user_action_logger | INFO | Deleted Joy To The World - Single Version from Classic Rock Hits
+USER: 2024-11-07 14:23:55,369 | user_action_logger | INFO | Deleted Maggie May - Remastered Version from Classic Rock Hits
+USER: 2024-11-07 14:23:55,683 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Classic Rock Hits
+USER: 2024-11-07 14:23:55,942 | user_action_logger | INFO | Deleted Jump from Classic Rock Hits
+USER: 2024-11-07 14:23:56,191 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
+USER: 2024-11-07 14:23:56,392 | user_action_logger | INFO | Deleted Money for Nothing from Classic Rock Hits
+USER: 2024-11-07 14:23:56,662 | user_action_logger | INFO | Deleted Welcome to the Jungle from Classic Rock Hits
+USER: 2024-11-07 14:24:02,348 | user_action_logger | INFO | Deleted Welcome to the Jungle from 80s Rock Anthems
+USER: 2024-11-07 14:24:02,898 | user_action_logger | INFO | Deleted Money for Nothing from 80s Rock Anthems
+USER: 2024-11-07 14:24:03,380 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
+USER: 2024-11-07 14:24:03,844 | user_action_logger | INFO | Deleted Jump from 80s Rock Anthems
+USER: 2024-11-07 14:24:20,275 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-07 14:24:20,286 | user_action_logger | INFO | Matched preferences with user Owen bluesrock
+USER: 2024-11-07 14:24:20,286 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:24:20,286 | user_action_logger | INFO | Matched preferences with user Lucas bluesman
+USER: 2024-11-07 14:24:20,286 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-07 14:24:20,287 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:24:29,364 | user_action_logger | INFO | Adding Smack That to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:24:33,693 | user_action_logger | INFO | Generating suggestions based on Blues Classics
+USER: 2024-11-07 14:24:33,699 | user_action_logger | INFO | Matched preferences with user James classic blues
+USER: 2024-11-07 14:24:33,699 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-07 14:24:33,700 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:24:33,700 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:24:36,165 | user_action_logger | INFO | Adding Rudolph, the Red-Nosed Reindeer (with The Pinafores) to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:24:36,997 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:24:37,724 | user_action_logger | INFO | Adding Little Star to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:24:41,232 | user_action_logger | INFO | Adding Rudolph, the Red-Nosed Reindeer (with The Pinafores) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:24:44,100 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:24:46,991 | user_action_logger | INFO | Adding Little Star to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:29:17,831 | user_action_logger | INFO | Deleted Joy To The World - Single Version from Classic Rock Hits
+USER: 2024-11-07 14:29:18,139 | user_action_logger | INFO | Deleted Maggie May - Remastered Version from Classic Rock Hits
+USER: 2024-11-07 14:29:18,324 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Classic Rock Hits
+USER: 2024-11-07 14:29:18,510 | user_action_logger | INFO | Deleted Jump from Classic Rock Hits
+USER: 2024-11-07 14:29:18,688 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
+USER: 2024-11-07 14:29:18,858 | user_action_logger | INFO | Deleted Money for Nothing from Classic Rock Hits
+USER: 2024-11-07 14:29:21,313 | user_action_logger | INFO | Deleted Total Eclipse of the Heart from Power Ballads
+USER: 2024-11-07 14:29:21,500 | user_action_logger | INFO | Deleted Alone from Power Ballads
+USER: 2024-11-07 14:29:21,677 | user_action_logger | INFO | Deleted Can't Fight This Feeling from Power Ballads
+USER: 2024-11-07 14:29:21,864 | user_action_logger | INFO | Deleted Every Rose Has Its Thorn from Power Ballads
+USER: 2024-11-07 14:29:22,039 | user_action_logger | INFO | Deleted I Want to Know What Love Is - 1999 Remaster from Power Ballads
+USER: 2024-11-07 14:29:24,481 | user_action_logger | INFO | Deleted Reason To Believe from Guitar Legends
+USER: 2024-11-07 14:29:24,658 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Guitar Legends
+USER: 2024-11-07 14:29:24,819 | user_action_logger | INFO | Deleted Jump from Guitar Legends
+USER: 2024-11-07 14:29:25,013 | user_action_logger | INFO | Deleted Money for Nothing from Guitar Legends
+USER: 2024-11-07 14:29:27,113 | user_action_logger | INFO | Deleted Jack & Diane from 80s Rock Anthems
+USER: 2024-11-07 14:29:27,333 | user_action_logger | INFO | Deleted Jump from 80s Rock Anthems
+USER: 2024-11-07 14:29:27,509 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
+USER: 2024-11-07 14:29:27,687 | user_action_logger | INFO | Deleted Money for Nothing from 80s Rock Anthems
+USER: 2024-11-07 14:29:31,897 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:30:02,367 | user_action_logger | INFO | Generating suggestions based on Blues Classics
+USER: 2024-11-07 14:30:02,375 | user_action_logger | INFO | Matched preferences with user James classic blues
+USER: 2024-11-07 14:30:02,375 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-07 14:30:02,375 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:30:02,375 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:30:03,459 | user_action_logger | INFO | Adding Rudolph, the Red-Nosed Reindeer (with The Pinafores) to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:04,139 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:04,719 | user_action_logger | INFO | Adding Little Star to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:05,955 | user_action_logger | INFO | Adding Smack That to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:06,668 | user_action_logger | INFO | Adding Take Me To Church to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:07,485 | user_action_logger | INFO | Adding I'm Yours to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:07,992 | user_action_logger | INFO | Adding Let Her Go to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:08,977 | user_action_logger | INFO | Adding Riptide to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:11,878 | user_action_logger | INFO | Adding Riptide to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:12,321 | user_action_logger | INFO | Adding Thinking out Loud to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:12,710 | user_action_logger | INFO | Adding Jump to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:13,137 | user_action_logger | INFO | Adding Livin' On A Prayer to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:13,525 | user_action_logger | INFO | Adding Welcome to the Jungle to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:14,212 | user_action_logger | INFO | Adding How You Remind Me to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:14,697 | user_action_logger | INFO | Adding Everything You Want to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:15,660 | user_action_logger | INFO | Adding Photograph to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:23,439 | user_action_logger | INFO | Generating suggestions based on Blues Classics
+USER: 2024-11-07 14:30:23,450 | user_action_logger | INFO | Matched preferences with user James classic blues
+USER: 2024-11-07 14:30:23,450 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-07 14:30:23,451 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:30:23,451 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:30:25,089 | user_action_logger | INFO | Playlist Funky Essentials added to user 60
+USER: 2024-11-07 14:30:25,089 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,089 | user_action_logger | INFO | Adding Call It Stormy Monday (But Tuesday Is Just As Bad) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,089 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Henry bluesrock
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Lucas bluesman
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user James classic blues
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Isaac poprocker
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:30:25,091 | user_action_logger | INFO | Adding Locked out of Heaven to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,092 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,092 | user_action_logger | INFO | Adding The Hills to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,092 | user_action_logger | INFO | Adding Elastic Heart to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,093 | user_action_logger | INFO | Adding How to Save a Life to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,093 | user_action_logger | INFO | Adding Love in This Club to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,096 | user_action_logger | INFO | Adding Hey There Delilah to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,096 | user_action_logger | INFO | Adding Radioactive to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,096 | user_action_logger | INFO | Adding Stressed Out to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:30:25,096 | user_action_logger | INFO | Generating suggestions based on Guitar Legends
+USER: 2024-11-07 14:30:25,097 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-07 14:30:25,097 | user_action_logger | INFO | Matched preferences with user test
+USER: 2024-11-07 14:30:25,097 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:30:25,098 | user_action_logger | INFO | Adding How You Remind Me to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,099 | user_action_logger | INFO | Adding Photograph to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,100 | user_action_logger | INFO | Adding Locked out of Heaven to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,100 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,101 | user_action_logger | INFO | Adding The Hills to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,102 | user_action_logger | INFO | Adding Elastic Heart to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,102 | user_action_logger | INFO | Adding Livin' On A Prayer to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,103 | user_action_logger | INFO | Adding Everything You Want to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,103 | user_action_logger | INFO | Generating suggestions based on Blues Rock
+USER: 2024-11-07 14:30:25,104 | user_action_logger | INFO | Matched preferences with user Julian metalmania
+USER: 2024-11-07 14:30:25,104 | user_action_logger | INFO | Matched preferences with user Jacob metalhead
+USER: 2024-11-07 14:30:25,104 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-07 14:30:25,104 | user_action_logger | INFO | Matched preferences with user Dylan alternative rock
+USER: 2024-11-07 14:30:25,104 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:30:25,105 | user_action_logger | INFO | Adding Locked out of Heaven to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,105 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,105 | user_action_logger | INFO | Adding The Hills to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,105 | user_action_logger | INFO | Adding Elastic Heart to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,105 | user_action_logger | INFO | Adding Reason To Believe to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Adding Fame - 2016 Remaster to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Adding Praying for Time to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Adding Downhearted Blues to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Adding Fancy to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Deleted Little Star from Library
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Deleted Little Star from Rockin' the Blues
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Deleted Reason To Believe from Library
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Deleted Reason To Believe from Blues Rock
+USER: 2024-11-07 14:30:25,106 | user_action_logger | INFO | Deleted Reason To Believe from Guitar Legends
+USER: 2024-11-07 14:30:52,901 | user_action_logger | INFO | Adding Rudolph, the Red-Nosed Reindeer (with The Pinafores) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:55,633 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:30:58,234 | user_action_logger | INFO | Adding Little Star to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:31:01,910 | user_action_logger | INFO | Adding Smack That to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:31:04,155 | user_action_logger | INFO | Adding Take Me To Church to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:31:06,872 | user_action_logger | INFO | Adding I'm Yours to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:32:04,217 | user_action_logger | INFO | Deleted Maggie May - Remastered Version from Classic Rock Hits
+USER: 2024-11-07 14:32:04,411 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Classic Rock Hits
+USER: 2024-11-07 14:32:04,581 | user_action_logger | INFO | Deleted Jump from Classic Rock Hits
+USER: 2024-11-07 14:32:04,752 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
+USER: 2024-11-07 14:32:04,919 | user_action_logger | INFO | Deleted Money for Nothing from Classic Rock Hits
+USER: 2024-11-07 14:32:05,089 | user_action_logger | INFO | Deleted Welcome to the Jungle from Classic Rock Hits
+USER: 2024-11-07 14:32:07,458 | user_action_logger | INFO | Deleted Alone from Power Ballads
+USER: 2024-11-07 14:32:07,652 | user_action_logger | INFO | Deleted Can't Fight This Feeling from Power Ballads
+USER: 2024-11-07 14:32:07,804 | user_action_logger | INFO | Deleted Every Rose Has Its Thorn from Power Ballads
+USER: 2024-11-07 14:32:07,975 | user_action_logger | INFO | Deleted I Want to Know What Love Is - 1999 Remaster from Power Ballads
+USER: 2024-11-07 14:32:08,161 | user_action_logger | INFO | Deleted How Am I Supposed to Live Without You from Power Ballads
+USER: 2024-11-07 14:32:10,117 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Guitar Legends
+USER: 2024-11-07 14:32:10,309 | user_action_logger | INFO | Deleted Jump from Guitar Legends
+USER: 2024-11-07 14:32:10,496 | user_action_logger | INFO | Deleted Money for Nothing from Guitar Legends
+USER: 2024-11-07 14:32:10,681 | user_action_logger | INFO | Deleted Welcome to the Jungle from Guitar Legends
+USER: 2024-11-07 14:32:13,443 | user_action_logger | INFO | Deleted Jump from 80s Rock Anthems
+USER: 2024-11-07 14:32:13,629 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
+USER: 2024-11-07 14:32:13,807 | user_action_logger | INFO | Deleted Money for Nothing from 80s Rock Anthems
+USER: 2024-11-07 14:32:13,970 | user_action_logger | INFO | Deleted Welcome to the Jungle from 80s Rock Anthems
+USER: 2024-11-07 14:32:17,320 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:32:18,214 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:32:18,996 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:32:20,094 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:32:20,561 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-07 14:32:20,572 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-07 14:32:20,573 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-07 14:32:20,573 | user_action_logger | INFO | Matched preferences with user Levi rockfan
+USER: 2024-11-07 14:32:20,573 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:32:21,138 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-07 14:33:00,519 | user_action_logger | INFO | Adding Worried Life Blues to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:33:01,116 | user_action_logger | INFO | Adding I Can't Be Satisfied to user 60 Owen bluesrock's library
+USER: 2024-11-07 14:33:02,724 | user_action_logger | INFO | Generating suggestions based on Blues Classics
+USER: 2024-11-07 14:33:02,744 | user_action_logger | INFO | Matched preferences with user James classic blues
+USER: 2024-11-07 14:33:02,744 | user_action_logger | INFO | Matched preferences with user Thomas bluesman
+USER: 2024-11-07 14:33:02,744 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-07 14:33:05,884 | user_action_logger | INFO | Adding Rudolph, the Red-Nosed Reindeer (with The Pinafores) to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:33:07,863 | user_action_logger | INFO | Adding It Wasn't Me to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:33:10,794 | user_action_logger | INFO | Adding Little Star to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:33:15,166 | user_action_logger | INFO | Adding Smack That to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:33:18,317 | user_action_logger | INFO | Adding Take Me To Church to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:33:20,813 | user_action_logger | INFO | Adding Jump to user 60 Owen bluesrock's playlist
+USER: 2024-11-07 14:34:40,905 | user_action_logger | INFO | Deleted Joy To The World - Single Version from Classic Rock Hits
+USER: 2024-11-07 14:35:33,564 | user_action_logger | INFO | Deleted Total Eclipse of the Heart from Power Ballads
+USER: 2024-11-07 14:35:36,044 | user_action_logger | INFO | Deleted Reason To Believe from Guitar Legends
+USER: 2024-11-07 14:35:38,188 | user_action_logger | INFO | Deleted Jack & Diane from 80s Rock Anthems
+USER: 2024-11-07 14:39:44,795 | user_action_logger | INFO | Playlist Edgy Atmospheres added to user 1
+USER: 2024-11-07 14:43:19,635 | user_action_logger | INFO | Playlist Radiant Flow added to user 1

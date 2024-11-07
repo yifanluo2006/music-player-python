@@ -194,6 +194,18 @@ class Playlist:
             index -= 1
             
         return current_song # returns the song at index, or last song if index is too large
+    
+    def format_songs(self):
+        formatted_songs = ""
+        current_song = self.get_first_song()
+
+        while current_song is not None:
+            formatted_songs = formatted_songs + str(current_song.get_id()[1:])
+            if current_song.get_next() is not None:
+                formatted_songs = formatted_songs + ","
+            current_song = current_song.get_next()
+
+        return formatted_songs
 
     # ============== Testing ===============
     # def print_list(self): #print list for testing purposes

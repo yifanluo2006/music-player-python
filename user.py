@@ -39,7 +39,8 @@ class User:
             playlist_song_list = user_info_list[3+i*2+2].split(",")
             for song_id in playlist_song_list:
                 current_song = complete_playlist.search_song_id('s' + str(song_id))
-                self.playlists[i].add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+                if current_song is not None:
+                    self.playlists[i].add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
         
         for playlist in self.playlists:
             current_song = playlist.get_first_song()

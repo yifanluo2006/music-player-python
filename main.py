@@ -60,6 +60,9 @@ def main(): # This is the main method, this will always run as the program start
     
     # stops event generator after GUI is closed
     event_generator.set_stop()
+
+    # save all the changes to the data files so they can be loaded next time
+    music_player_system.save_changes_to_file()
     
 if __name__ == "__main__":
     main()

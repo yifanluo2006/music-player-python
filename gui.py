@@ -201,26 +201,12 @@ class GUI:
 
     
     def filter_logs(self, displaylog, system, rawinput, type):
-        inp = rawinput.get()
+        inp = rawinput.get("1.0", tk.END)
+        for i in range(displaylog.size()):
+            if inp not in displaylog.get():
+                displaylog.delete[i]
+                print(displaylog.Items[i].toString)
 
-        if type == 0:
-            file = open("./logs/system_event.log", "r")
-            content = file.read()
-            event_list = content.split('\n')
-            for index, event in enumerate(event_list):
-                displaylog.insert(index, event)
-        elif type == 1:
-            file = open("./logs/user_action.log", "r")
-            content = file.read()
-            event_list = content.split('\n')
-            for index, event in enumerate(event_list):
-                displaylog.insert(index, event)
-        elif type == 2:
-            file = open("./logs/event_generation.log", "r")
-            content = file.read()
-            event_list = content.split('\n')
-            for index, event in enumerate(event_list):
-                displaylog.insert(index, event)
 
 
 #===================================================================================================================================================================================
@@ -383,6 +369,10 @@ class GUI:
                 remove_button.place(x=800, y=5) #ensures you can remove songs, as long as its not in suggestions, for you, or the complete list
             
             clicked.set("Library") #initial menu value
+            for name in options:
+                if currentplaylist.name == name:
+                    clicked.set(currentplaylist.name)
+
             dropmenu = tk.OptionMenu(container, clicked, *options)
             dropmenu.pack()
 
