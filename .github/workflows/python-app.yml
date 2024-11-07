@@ -47,7 +47,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install numpy
+        pip install numpy scikit-learn # the program (machine learning) neeeds these two modules to run
     - name: Test with unittest
       run: |
         python -m unittest discover -s tests -p "test_*.py"
