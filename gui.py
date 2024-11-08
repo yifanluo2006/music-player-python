@@ -203,7 +203,7 @@ class GUI:
     def filter_logs(self, displaylog, system, rawinput, type):
         inp = rawinput.get("1.0", tk.END)
         for i, line in enumerate(displaylog.get(0, tk.END)):
-            if inp not in line:
+            if str(inp) not in str(line):
                 displaylog.delete(i)
             
 

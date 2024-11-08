@@ -247,3 +247,51 @@ USER: 2024-11-08 14:02:55,477 | user_action_logger | INFO | Deleted Love Me or L
 USER: 2024-11-08 14:02:55,677 | user_action_logger | INFO | Deleted Bye-Bye, Blackbird (1926) from Library
 USER: 2024-11-08 14:02:55,869 | user_action_logger | INFO | Deleted It Had To Be You from Library
 USER: 2024-11-08 14:05:08,209 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 14:25:00,491 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-08 14:25:00,493 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-08 14:25:00,494 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-08 14:25:00,494 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
+USER: 2024-11-08 14:25:00,495 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-08 14:25:05,499 | user_action_logger | INFO | Adding Elastic Heart to user 1 test's library
+USER: 2024-11-08 14:25:05,803 | user_action_logger | INFO | Adding The Hills to user 1 test's library
+USER: 2024-11-08 14:25:06,107 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 1 test's library
+USER: 2024-11-08 14:25:06,427 | user_action_logger | INFO | Adding Locked out of Heaven to user 1 test's library
+USER: 2024-11-08 14:25:06,731 | user_action_logger | INFO | Adding Photograph to user 1 test's library
+USER: 2024-11-08 14:25:06,995 | user_action_logger | INFO | Adding Everything You Want to user 1 test's library
+USER: 2024-11-08 14:25:07,603 | user_action_logger | INFO | Adding How You Remind Me to user 1 test's library
+USER: 2024-11-08 14:25:09,155 | user_action_logger | INFO | Adding Laughter In The Rain to user 1 test's library
+USER: 2024-11-08 14:25:09,411 | user_action_logger | INFO | Adding My Eyes Adored You to user 1 test's library
+USER: 2024-11-08 14:25:09,875 | user_action_logger | INFO | Adding The Way We Were to user 1 test's library
+USER: 2024-11-08 14:25:10,499 | user_action_logger | INFO | Adding My Love - 2018 Remaster to user 1 test's library
+USER: 2024-11-08 14:25:10,739 | user_action_logger | INFO | Adding Bridge Over Troubled Water to user 1 test's library
+USER: 2024-11-08 14:25:11,371 | user_action_logger | INFO | Adding Hero to user 1 test's library
+USER: 2024-11-08 14:25:18,580 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-08 14:25:18,583 | user_action_logger | INFO | Matched preferences with user Levi rockfan
+USER: 2024-11-08 14:25:18,583 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-08 14:25:18,583 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
+USER: 2024-11-08 14:25:18,584 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-08 14:25:18,584 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-08 14:25:18,584 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-08 14:25:18,584 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Matched preferences with user Julian metalmania
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Matched preferences with user Noah rockclassic90
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Matched preferences with user Jacob metalhead
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Matched preferences with user Adam 90srock
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Matched preferences with user Isaac poprocker
+USER: 2024-11-08 14:25:18,585 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-08 14:25:19,192 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 14:25:21,152 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 14:25:21,467 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-08 14:25:21,470 | user_action_logger | INFO | Matched preferences with user Levi rockfan
+USER: 2024-11-08 14:25:21,471 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-08 14:25:21,471 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
+USER: 2024-11-08 14:25:21,472 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-08 14:25:21,472 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-08 14:25:21,472 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-08 14:25:21,473 | user_action_logger | INFO | Matched preferences with user Brandon metalhead
+USER: 2024-11-08 14:25:21,473 | user_action_logger | INFO | Matched preferences with user Julian metalmania
+USER: 2024-11-08 14:25:21,473 | user_action_logger | INFO | Matched preferences with user Noah rockclassic90
+USER: 2024-11-08 14:25:21,473 | user_action_logger | INFO | Matched preferences with user Jacob metalhead
+USER: 2024-11-08 14:25:21,473 | user_action_logger | INFO | Matched preferences with user Adam 90srock
+USER: 2024-11-08 14:25:21,474 | user_action_logger | INFO | Matched preferences with user Isaac poprocker
+USER: 2024-11-08 14:25:21,474 | user_action_logger | INFO | Generated suggestions of matching songs
