@@ -9606,3 +9606,178 @@ EVENT: 2024-11-08 14:16:20,061 | event_generation_logger | INFO | Deleted Hero f
 EVENT: 2024-11-08 14:16:20,062 | event_generation_logger | INFO | Deleted Hero from Rock Ballads
 EVENT: 2024-11-08 14:16:20,062 | event_generation_logger | INFO | Next random event will be generated after a 22 second interval
 EVENT: 2024-11-08 14:16:20,062 | event_generation_logger | INFO | Finish Generating Random Event
+EVENT: 2024-11-08 14:22:15,032 | event_generation_logger | INFO | Start Generating Random Event
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Start generating random event for user 31 Hannah countrygirl
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Playlist Funky Tunes added to user 31
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Adding Hero to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Adding Rhinestone Cowboy to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Playlist Energetic Sounds added to user 31
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Adding Hero to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Adding He'll Have to Go to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,033 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Matched preferences with user Hannah countrygirl
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Matched preferences with user Sydney countrygirl
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Matched preferences with user Daniel countryfan55
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Matched preferences with user Allison r&bfan
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,035 | event_generation_logger | INFO | Adding Theme From "The Apartment" to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding Daddy Don't You Walk So Fast to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding No Diggity to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding No One to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding Bleeding Love to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding Foolish to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,036 | event_generation_logger | INFO | Adding If I Ain't Got You to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,037 | event_generation_logger | INFO | Adding I Knew I Loved You to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,037 | event_generation_logger | INFO | Adding Diamonds to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,037 | event_generation_logger | INFO | Adding Stay With Me to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,037 | event_generation_logger | INFO | Adding The Hills to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,038 | event_generation_logger | INFO | Adding Elastic Heart to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,038 | event_generation_logger | INFO | Adding Someone Like You to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,038 | event_generation_logger | INFO | Adding Because You Loved Me (Theme from "Up Close and Personal") to user 31 Hannah countrygirl's library
+EVENT: 2024-11-08 14:22:15,038 | event_generation_logger | INFO | Generating suggestions based on Country Pop
+EVENT: 2024-11-08 14:22:15,041 | event_generation_logger | INFO | Matched preferences with user Sydney countrygirl
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Matched preferences with user Samantha countrygirl
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Matched preferences with user Daniel countryfan55
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Adding He'll Have to Go to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Adding El Paso to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Adding Please Help Me, I'm Falling to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Adding Before The Next Teardrop Falls to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Adding Hero to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,042 | event_generation_logger | INFO | Generating suggestions based on Country Ballads
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Matched preferences with user Samantha countrygirl
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Matched preferences with user Sydney countrygirl
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Matched preferences with user Daniel countryfan55
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Adding Take Me Home, Country Roads to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Adding Baby Don't Get Hooked on Me to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Adding Rhinestone Cowboy to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,044 | event_generation_logger | INFO | Generating suggestions based on Funky Tunes
+EVENT: 2024-11-08 14:22:15,045 | event_generation_logger | INFO | Matched preferences with user Natalie countryroads
+EVENT: 2024-11-08 14:22:15,045 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,046 | event_generation_logger | INFO | Adding He'll Have to Go to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,046 | event_generation_logger | INFO | Adding El Paso to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,046 | event_generation_logger | INFO | Adding Please Help Me, I'm Falling to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,046 | event_generation_logger | INFO | Adding Before The Next Teardrop Falls to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,046 | event_generation_logger | INFO | Adding Have You Ever Really Loved A Woman? to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,047 | event_generation_logger | INFO | Adding Take Me Home, Country Roads to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,047 | event_generation_logger | INFO | Adding Baby Don't Get Hooked on Me to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,047 | event_generation_logger | INFO | Adding Thank God I'm a Country Boy to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,048 | event_generation_logger | INFO | Adding Love Story to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,048 | event_generation_logger | INFO | Adding Thinking out Loud to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,048 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,048 | event_generation_logger | INFO | Adding Walking To New Orleans - Remastered to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,050 | event_generation_logger | INFO | Adding American Woman to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,050 | event_generation_logger | INFO | Adding Somebody That I Used To Know to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,050 | event_generation_logger | INFO | Adding Blue Moon Of Kentucky - Original to user 31 Hannah countrygirl's playlist
+EVENT: 2024-11-08 14:22:15,050 | event_generation_logger | INFO | Start generating random event for user 71 Penelope singerdiva
+EVENT: 2024-11-08 14:22:15,050 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-08 14:22:15,052 | event_generation_logger | INFO | Matched preferences with user Ella diva vocals
+EVENT: 2024-11-08 14:22:15,052 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-08 14:22:15,052 | event_generation_logger | INFO | Matched preferences with user Olivia diva songs
+EVENT: 2024-11-08 14:22:15,052 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,052 | event_generation_logger | INFO | Adding Stronger (What Doesn't Kill You) to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Adding I Kissed A Girl to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Adding So What to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Adding California Gurls to user 71 Penelope singerdiva's library
+EVENT: 2024-11-08 14:22:15,053 | event_generation_logger | INFO | Generating suggestions based on Broadway Stars
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Matched preferences with user Ella diva vocals
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Matched preferences with user Olivia diva songs
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Adding Woman in Love to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Adding Greatest Love of All to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,058 | event_generation_logger | INFO | Adding All of Me to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Adding Stay With Me to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Adding Like a Virgin to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 71 Penelope singerdiva's playlist
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Start generating random event for user 37 Ella diva vocals
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Playlist Serene Essentials added to user 37
+EVENT: 2024-11-08 14:22:15,059 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,060 | event_generation_logger | INFO | Adding Stay With Me to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,060 | event_generation_logger | INFO | Playlist Funky Essentials added to user 37
+EVENT: 2024-11-08 14:22:15,060 | event_generation_logger | INFO | Adding Greatest Love of All to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,060 | event_generation_logger | INFO | Adding Hopelessly Devoted To You to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,060 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-08 14:22:15,061 | event_generation_logger | INFO | Matched preferences with user Penelope singerdiva
+EVENT: 2024-11-08 14:22:15,061 | event_generation_logger | INFO | Matched preferences with user Stella femalepower
+EVENT: 2024-11-08 14:22:15,061 | event_generation_logger | INFO | Matched preferences with user Olivia diva songs
+EVENT: 2024-11-08 14:22:15,061 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,061 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,062 | event_generation_logger | INFO | Adding I Kissed A Girl to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,062 | event_generation_logger | INFO | Adding So What to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,062 | event_generation_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,062 | event_generation_logger | INFO | Adding California Gurls to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,066 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,066 | event_generation_logger | INFO | Adding Waka Waka (This Time for Africa) to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,066 | event_generation_logger | INFO | Adding Born This Way to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Adding I Will Always Love You to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Adding Escapade to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Adding Love Takes Time to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Adding Because I Love You (The Postman Song) to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Adding This Used to Be My Playground to user 37 Ella diva vocals's library
+EVENT: 2024-11-08 14:22:15,067 | event_generation_logger | INFO | Generating suggestions based on Powerful Voices
+EVENT: 2024-11-08 14:22:15,068 | event_generation_logger | INFO | Matched preferences with user Penelope singerdiva
+EVENT: 2024-11-08 14:22:15,068 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,069 | event_generation_logger | INFO | Adding Because You Loved Me (Theme from "Up Close and Personal") to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,069 | event_generation_logger | INFO | Adding Stay With Me to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,069 | event_generation_logger | INFO | Adding Lover Man - Single Version to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,069 | event_generation_logger | INFO | Adding Hello to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,069 | event_generation_logger | INFO | Adding Like a Virgin to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,070 | event_generation_logger | INFO | Adding I Wanna Dance with Somebody (Who Loves Me) to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,070 | event_generation_logger | INFO | Adding Shake It Off to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,070 | event_generation_logger | INFO | Adding Stronger (What Doesn't Kill You) to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,070 | event_generation_logger | INFO | Adding Independent Women, Pt. 1 to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,070 | event_generation_logger | INFO | Adding I Kissed A Girl to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Adding Just Dance to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Adding The Honeydripper to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Adding Don't Be Cruel to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Adding Lean Back to user 37 Ella diva vocals's playlist
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Deleted So What from Library
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Start generating random event for user 27 Lily acousticsoul
+EVENT: 2024-11-08 14:22:15,071 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Matched preferences with user Caroline indieacoustic
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Matched preferences with user Mia indie vibes
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Matched preferences with user Brooklyn indieplaylist
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Matched preferences with user Allison r&bfan
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Adding How to Save a Life to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,075 | event_generation_logger | INFO | Adding Love in This Club to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding Radioactive to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding Locked out of Heaven to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding Stressed Out to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding SexyBack (feat. Timbaland) to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding Pumped Up Kicks to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,076 | event_generation_logger | INFO | Adding No Diggity to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding Foolish to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding If I Ain't Got You to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding I Knew I Loved You to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding Diamonds to user 27 Lily acousticsoul's library
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding The Stampede to user 27 Lily acousticsoul's playlist
+EVENT: 2024-11-08 14:22:15,077 | event_generation_logger | INFO | Adding Rock And Roll Waltz to user 27 Lily acousticsoul's playlist
+EVENT: 2024-11-08 14:22:15,078 | event_generation_logger | INFO | Adding Burn to user 27 Lily acousticsoul's playlist
+EVENT: 2024-11-08 14:22:15,078 | event_generation_logger | INFO | Adding Foggy Mountain Breakdown to user 27 Lily acousticsoul's playlist
+EVENT: 2024-11-08 14:22:15,078 | event_generation_logger | INFO | Adding Boplicity to user 27 Lily acousticsoul's playlist
+EVENT: 2024-11-08 14:22:15,078 | event_generation_logger | INFO | Start generating random event for user 22 Henry electrobeat
+EVENT: 2024-11-08 14:22:15,078 | event_generation_logger | INFO | Generating suggestions based on Library
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Zoe electropop
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Claire edmlover
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Natalie edmfan
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Evan edmaddict
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Ava edmlover101
+EVENT: 2024-11-08 14:22:15,080 | event_generation_logger | INFO | Matched preferences with user Zoe dancemania
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Matched preferences with user Liam partyplaylist
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Generated suggestions of matching songs
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Adding California Gurls to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Adding Only Girl (In The World) to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Adding We Found Love to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,082 | event_generation_logger | INFO | Adding Smooth (feat. Rob Thomas) to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,083 | event_generation_logger | INFO | Adding Wake Me Up to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,083 | event_generation_logger | INFO | Adding Diamonds to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,083 | event_generation_logger | INFO | Adding Can't Hold Us to user 22 Henry electrobeat's library
+EVENT: 2024-11-08 14:22:15,111 | event_generation_logger | INFO | Next random event will be generated after a 30 second interval
+EVENT: 2024-11-08 14:22:15,111 | event_generation_logger | INFO | Finish Generating Random Event
