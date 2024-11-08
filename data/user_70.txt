@@ -1,7 +1,8 @@
 70
 Isaac poprocker
 14678573
-5
+857,883,895,931,938,983,804,854,887,994,644,654,696,685,512,558,655
+7
 Pop Rock Hits
 857,883,895,931,938,983
 Alternative Rock
@@ -9,6 +10,10 @@ Alternative Rock
 Modern Rock
 857,895,931,938,983,994
 Rock Anthems
-644,654,696,804,854,887
+644,654,696,804,854,887,685
 Guitar Favorites
 512,558,644,655,696
+Edgy Sounds
+655,644
+Raw Flow
+804,938

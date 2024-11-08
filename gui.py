@@ -202,10 +202,10 @@ class GUI:
     
     def filter_logs(self, displaylog, system, rawinput, type):
         inp = rawinput.get("1.0", tk.END)
-        for i in range(displaylog.size()):
-            if inp not in displaylog.get():
-                displaylog.delete[i]
-                print(displaylog.Items[i].toString)
+        for i, line in enumerate(displaylog.get(0, tk.END)):
+            if inp not in line:
+                displaylog.delete(i)
+            
 
 
 
@@ -328,6 +328,7 @@ class GUI:
         self.display_songs(system, self.content_frame, playlist.first_song, user, playlist) #displays each individual song
         if clear == True and playlist.id != "99979" and playlist.id != "00000" and playlist.id != "99989" and playlist.id != "99979" and playlist.id != "99990" and playlist.name != "Complete Library":
             self.display_generate_suggestions_button(playlist, system)
+        self.rightSide.yview("moveto", 0)
 
     def display_generate_suggestions_button(self, playlist, system):
         errormessage = tk.Label(self.content_frame, text = "NO SONGS TO GATHER DATA FROM", bg = "black", fg = "red")

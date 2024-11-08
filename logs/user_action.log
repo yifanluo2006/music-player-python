@@ -180,3 +180,70 @@ USER: 2024-11-07 14:35:36,044 | user_action_logger | INFO | Deleted Reason To Be
 USER: 2024-11-07 14:35:38,188 | user_action_logger | INFO | Deleted Jack & Diane from 80s Rock Anthems
 USER: 2024-11-07 14:39:44,795 | user_action_logger | INFO | Playlist Edgy Atmospheres added to user 1
 USER: 2024-11-07 14:43:19,635 | user_action_logger | INFO | Playlist Radiant Flow added to user 1
+USER: 2024-11-08 13:58:50,457 | user_action_logger | INFO | Deleted Joy To The World - Single Version from Classic Rock Hits
+USER: 2024-11-08 13:58:50,458 | user_action_logger | INFO | Deleted Joy To The World - Single Version from Library
+USER: 2024-11-08 13:58:50,625 | user_action_logger | INFO | Deleted Maggie May - Remastered Version from Classic Rock Hits
+USER: 2024-11-08 13:58:50,626 | user_action_logger | INFO | Deleted Maggie May - Remastered Version from Library
+USER: 2024-11-08 13:58:50,914 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Classic Rock Hits
+USER: 2024-11-08 13:58:50,914 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Guitar Legends
+USER: 2024-11-08 13:58:50,915 | user_action_logger | INFO | Deleted Fame - 2016 Remaster from Library
+USER: 2024-11-08 13:58:51,105 | user_action_logger | INFO | Deleted Jump from Classic Rock Hits
+USER: 2024-11-08 13:58:51,106 | user_action_logger | INFO | Deleted Jump from Guitar Legends
+USER: 2024-11-08 13:58:51,106 | user_action_logger | INFO | Deleted Jump from 80s Rock Anthems
+USER: 2024-11-08 13:58:51,106 | user_action_logger | INFO | Deleted Jump from Library
+USER: 2024-11-08 13:58:51,298 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
+USER: 2024-11-08 13:58:51,298 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
+USER: 2024-11-08 13:58:51,299 | user_action_logger | INFO | Deleted Livin' On A Prayer from Library
+USER: 2024-11-08 13:58:51,465 | user_action_logger | INFO | Deleted Money for Nothing from Classic Rock Hits
+USER: 2024-11-08 13:58:51,466 | user_action_logger | INFO | Deleted Money for Nothing from Guitar Legends
+USER: 2024-11-08 13:58:51,466 | user_action_logger | INFO | Deleted Money for Nothing from 80s Rock Anthems
+USER: 2024-11-08 13:58:51,466 | user_action_logger | INFO | Deleted Money for Nothing from Library
+USER: 2024-11-08 13:58:51,633 | user_action_logger | INFO | Deleted Welcome to the Jungle from Classic Rock Hits
+USER: 2024-11-08 13:58:51,634 | user_action_logger | INFO | Deleted Welcome to the Jungle from Guitar Legends
+USER: 2024-11-08 13:58:51,634 | user_action_logger | INFO | Deleted Welcome to the Jungle from 80s Rock Anthems
+USER: 2024-11-08 13:58:51,635 | user_action_logger | INFO | Deleted Welcome to the Jungle from Library
+USER: 2024-11-08 13:58:51,801 | user_action_logger | INFO | Deleted Total Eclipse of the Heart from Power Ballads
+USER: 2024-11-08 13:58:51,802 | user_action_logger | INFO | Deleted Total Eclipse of the Heart from Library
+USER: 2024-11-08 13:58:51,984 | user_action_logger | INFO | Deleted Alone from Power Ballads
+USER: 2024-11-08 13:58:51,985 | user_action_logger | INFO | Deleted Alone from Library
+USER: 2024-11-08 13:58:52,152 | user_action_logger | INFO | Deleted Can't Fight This Feeling from Power Ballads
+USER: 2024-11-08 13:58:52,152 | user_action_logger | INFO | Deleted Can't Fight This Feeling from Library
+USER: 2024-11-08 13:58:52,322 | user_action_logger | INFO | Deleted Every Rose Has Its Thorn from Power Ballads
+USER: 2024-11-08 13:58:52,322 | user_action_logger | INFO | Deleted Every Rose Has Its Thorn from Library
+USER: 2024-11-08 13:58:52,497 | user_action_logger | INFO | Deleted I Want to Know What Love Is - 1999 Remaster from Power Ballads
+USER: 2024-11-08 13:58:52,498 | user_action_logger | INFO | Deleted I Want to Know What Love Is - 1999 Remaster from Library
+USER: 2024-11-08 13:58:52,673 | user_action_logger | INFO | Deleted How Am I Supposed to Live Without You from Power Ballads
+USER: 2024-11-08 13:58:52,674 | user_action_logger | INFO | Deleted How Am I Supposed to Live Without You from Library
+USER: 2024-11-08 13:58:57,100 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 13:59:00,384 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 1 test's playlist
+USER: 2024-11-08 13:59:02,400 | user_action_logger | INFO | Adding Billie Jean to user 1 test's playlist
+USER: 2024-11-08 13:59:05,088 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 1 test's playlist
+USER: 2024-11-08 13:59:06,992 | user_action_logger | INFO | Adding Take Five to user 1 test's playlist
+USER: 2024-11-08 13:59:14,958 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 13:59:20,945 | user_action_logger | INFO | Adding Candy Man Blues to user 1 test's library
+USER: 2024-11-08 13:59:22,248 | user_action_logger | INFO | Adding Copenhagen to user 1 test's library
+USER: 2024-11-08 13:59:24,385 | user_action_logger | INFO | Adding Lovesick Blues to user 1 test's library
+USER: 2024-11-08 13:59:25,473 | user_action_logger | INFO | Adding Love Me or Leave Me to user 1 test's library
+USER: 2024-11-08 13:59:26,481 | user_action_logger | INFO | Adding Bye-Bye, Blackbird (1926) to user 1 test's library
+USER: 2024-11-08 13:59:27,105 | user_action_logger | INFO | Adding It Had To Be You to user 1 test's library
+USER: 2024-11-08 13:59:35,220 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 13:59:43,038 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-08 14:02:49,812 | user_action_logger | INFO | Deleted Jack & Diane from 80s Rock Anthems
+USER: 2024-11-08 14:02:53,685 | user_action_logger | INFO | Deleted Reason To Believe from Guitar Legends
+USER: 2024-11-08 14:02:53,685 | user_action_logger | INFO | Deleted Reason To Believe from Library
+USER: 2024-11-08 14:02:53,845 | user_action_logger | INFO | Deleted Jack & Diane from Library
+USER: 2024-11-08 14:02:54,052 | user_action_logger | INFO | Deleted Bohemian Rhapsody from Classic Rock Hits
+USER: 2024-11-08 14:02:54,053 | user_action_logger | INFO | Deleted Bohemian Rhapsody from Library
+USER: 2024-11-08 14:02:54,221 | user_action_logger | INFO | Deleted Billie Jean from Classic Rock Hits
+USER: 2024-11-08 14:02:54,222 | user_action_logger | INFO | Deleted Billie Jean from Library
+USER: 2024-11-08 14:02:54,364 | user_action_logger | INFO | Deleted Sweet Child O' Mine from Power Ballads
+USER: 2024-11-08 14:02:54,365 | user_action_logger | INFO | Deleted Sweet Child O' Mine from Library
+USER: 2024-11-08 14:02:54,565 | user_action_logger | INFO | Deleted Take Five from Power Ballads
+USER: 2024-11-08 14:02:54,565 | user_action_logger | INFO | Deleted Take Five from Library
+USER: 2024-11-08 14:02:54,917 | user_action_logger | INFO | Deleted Candy Man Blues from Library
+USER: 2024-11-08 14:02:55,109 | user_action_logger | INFO | Deleted Copenhagen from Library
+USER: 2024-11-08 14:02:55,285 | user_action_logger | INFO | Deleted Lovesick Blues from Library
+USER: 2024-11-08 14:02:55,477 | user_action_logger | INFO | Deleted Love Me or Leave Me from Library
+USER: 2024-11-08 14:02:55,677 | user_action_logger | INFO | Deleted Bye-Bye, Blackbird (1926) from Library
+USER: 2024-11-08 14:02:55,869 | user_action_logger | INFO | Deleted It Had To Be You from Library
+USER: 2024-11-08 14:05:08,209 | user_action_logger | INFO | Fetching most trending songs

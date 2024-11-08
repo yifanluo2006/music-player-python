@@ -33,6 +33,12 @@ class User:
         self.system_logger.info("Importing user " + self.username + " from database")
         self.password = user_info_list[2]
         
+        # library_song_list = user_info_list[3].split(",")
+        # for song_id in library_song_list:
+        #     current_song = complete_playlist.search_song_id('s' + str(song_id))
+        #     if current_song is not None:
+        #         self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+
         playlist_num = int(user_info_list[3])
         for i in range(0, playlist_num):
             self.add_playlist(user_info_list[3+i*2+1]) # that is the name element in the .txt file

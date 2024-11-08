@@ -1,6 +1,7 @@
 from playlist import *
 from song import *
 from user import *
+import os.path
 
 import numpy as np
 import logging
@@ -22,8 +23,14 @@ class MusicPlayerSystem:
         self.first_user = None
         self.user = None
 
-        for i in range(1, 101):
+        directory = "./data/user_"
+        current_id = 1
+        path = directory + str(current_id) + ".txt"
+
+        while os.path.isfile(path):
             self.import_user()
+            current_id += 1
+            path = directory + str(current_id) + ".txt"
         self.system_logger.info("Total user count = " + str(self.get_user_num()))
         self.authenticated_user_id = None
 
@@ -442,9 +449,11 @@ class MusicPlayerSystem:
             file_name = "./data/user_" + str(current_user.get_id()) + ".txt"
             f = open(file_name, "w")
 
+            # first 4 lines are fixed: id, name, password, songs in library
             f.write(str(current_user.get_id()) + "\n")
             f.write(str(current_user.get_name() + "\n"))
             f.write(str(current_user.get_password()) + "\n")
+            f.write(str(current_user.get_library().format_songs()) + "\n")
 
             playlists = current_user.get_all_playlist()
             f.write(str(len(playlists)) + "\n")
