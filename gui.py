@@ -156,9 +156,9 @@ class GUI:
         # REMOVE A SONG
     
     def log_buttons(self, system):
-        full_log = tk.Button(self.leftBar, text = "FULL LOG", command = lambda: self.display_log(system, 0))
-        manual_log = tk.Button(self.leftBar, text = "MANUAL LOGS", command = lambda: self.display_log(system, 1))
-        event_log = tk.Button(self.leftBar, text = "EVENTS", command = lambda: self.display_log(system, 2))
+        full_log = tk.Button(self.leftBar, text = "SYSTEM EVENT LOG", command = lambda: self.display_log(system, 0))
+        manual_log = tk.Button(self.leftBar, text = "MANUAL ACTION LOG", command = lambda: self.display_log(system, 1))
+        event_log = tk.Button(self.leftBar, text = "RANDOM EVENT LOG", command = lambda: self.display_log(system, 2))
         full_log.pack()
         manual_log.pack()
         event_log.pack()
@@ -198,10 +198,10 @@ class GUI:
         self.scrollbar = tk.Scrollbar(self.right_side_frame, orient="vertical", command=displaylog.yview)
         self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) #mmm scrollbar, this caused so much pain
         displaylog.configure(yscrollcommand=self.scrollbar.set)
-
-    
+        
     def filter_logs(self, displaylog, system, rawinput, type):
         inp = rawinput.get("1.0", tk.END)
+        
         for i, line in enumerate(displaylog.get(0, tk.END)):
             if str(inp) not in str(line):
                 displaylog.delete(i)
