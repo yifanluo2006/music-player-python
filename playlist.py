@@ -22,10 +22,14 @@ class Playlist:
             if self.first_song is None: #if this is first song
                 self.song = Song(id, title, artist, genre, bpm, meta, frequency, popularity)
                 self.first_song = self.song
+                return True
             else: # if there is already first song
                 a_song = Song(id, title, artist, genre, bpm, meta, frequency, popularity)
                 self.song.set_next(a_song) # "linking" the list
                 self.song = a_song
+                return True
+
+        return False
 
     def is_duplicate(self, id): # check for any duplicate in the current playlist
         current_song = self.first_song

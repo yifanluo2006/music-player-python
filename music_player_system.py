@@ -172,6 +172,25 @@ class MusicPlayerSystem:
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
+    def admin_create_new_song(self, title, artist, genre, bpm, meta):
+        # add the new song to the complete list playlist
+        new_id = "s" + str(self.complete_list.get_len() + 1)
+
+        # I modified the add_song funciton so that it returns True or False depending on if the song is added successfully
+        # If the song is not added successfully, then it will not be written to the .txt file
+
+        # write the song to the .txt file
+        if(self.complete_list.add_song(new_id, title, artist, genre, bpm, meta)):
+            f = open("song_list.txt", "a")
+            f.write("/n")
+            f.write(str(new_id) + "_" + str(title) + "_" + str(artist) + "_" + str(genre) + "_" + str(bpm))
+            for single_meta in meta:
+                f.write("_" + str(single_meta))
+
+
+    def admin_delete_song(self, id):
+        pass
+
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
     The core idea is collaborative filtering: we recommend songs to the current user based on users who have a similar preference in songs

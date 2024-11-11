@@ -135,25 +135,9 @@ class GUI:
     def adminwindow(self, system):
         self.main_screen()
         self.logout_button(system)
-        self.test_button(system)
         self.log_buttons(system)
-        
-    def test_button(self, system):
-        button = tk.Button(self.leftBar, text = "TEST ALL CASES", command = lambda: self.test_all(system))
-        button.pack()
+        self.add_song_button(system)
 
-    def test_all(self, system):
-        testuser = system.first_user
-
-        system.create_playlist(testuser.id, "NEW PLAYLIST")
-        testplaylist = testuser.playlists[-1]
-        if testuser.playlists:
-            print("SUCCESSFULLY CREATED PLAYLIST: " + testuser.playlists[-1].name)
-        system.add_song_to_playlist(testuser.id, testplaylist.id, "s15")
-        if(testplaylist.first_song.id == "s15"):
-            print("SUCCESSFULLY ADDED " + testplaylist.first_song.title + " TO " + testuser.playlists[-1].name)
-        # ADD A SONG FROM GENERATED SUGGESTIONS
-        # REMOVE A SONG
     
     def log_buttons(self, system):
         full_log = tk.Button(self.leftBar, text = "SYSTEM EVENT LOG", command = lambda: self.display_log(system, 0))
@@ -163,6 +147,42 @@ class GUI:
         manual_log.pack()
         event_log.pack()
 
+    def add_song_button(self, system):
+        button = tk.Button(self.leftBar, text = "ADD NEW SONG", command = lambda: self.new_song_window(system))
+        button.pack()
+
+    def new_song_window(self, system):
+        self.leftBar.pack_forget()
+        self.right_side_frame.pack_forget()
+        self.adminwindow(system)
+        frame = tk.Frame(self.rightSide, height = 600, width = 300, bg = "black")
+        frame.place(x=300, y=100)
+        frame.pack_propagate(0)
+        title_text = tk.Label(frame, text = "TITLE")
+        artist_text = tk.Label(frame, text = "ARTIST")
+        genre_text = tk.Label(frame, text = "GENRE")
+        bpm_text = tk.Label(frame, text = "BPM")
+        meta_text = tk.Label(frame, text = "META")
+        title_input = tk.Text(frame, height = 1, width = 15)
+        artist_input = tk.Text(frame, height = 1, width = 15)
+        genre_input = tk.Text(frame, height = 1, width = 15)
+        bpm_input = tk.Text(frame, height = 1, width = 15)
+        meta1_input = tk.Text(frame, height = 1, width = 15)
+        meta2_input = tk.Text(frame, height = 1, width = 15)
+        meta3_input = tk.Text(frame, height = 1, width = 15)
+        title_text.pack()
+        title_input.pack()
+        artist_text.pack()
+        artist_input.pack()
+        genre_text.pack()
+        genre_input.pack()
+        bpm_text.pack()
+        bpm_input.pack()
+        meta_text.pack()
+        meta1_input.pack()
+        meta2_input.pack()
+        meta3_input.pack()
+    
     def display_log(self, system, type):
         self.leftBar.pack_forget()
         self.right_side_frame.pack_forget()
@@ -200,9 +220,10 @@ class GUI:
         displaylog.configure(yscrollcommand=self.scrollbar.set)
         
     def filter_logs(self, displaylog, system, rawinput, type):
-        inp = rawinput.get("1.0", tk.END)
+        inp = rawinput.get("1.0", tk.END).strip()
         
-        for i, line in enumerate(displaylog.get(0, tk.END)):
+        for i in range(displaylog.size() - 1, -1, -1):
+            line = displaylog.get(i)
             if str(inp) not in str(line):
                 displaylog.delete(i)
             
