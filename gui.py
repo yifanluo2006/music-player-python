@@ -137,6 +137,7 @@ class GUI:
         self.logout_button(system)
         self.log_buttons(system)
         self.add_song_button(system)
+        self.remove_song_button(system)
 
     
     def log_buttons(self, system):
@@ -158,11 +159,11 @@ class GUI:
         frame = tk.Frame(self.rightSide, height = 600, width = 300, bg = "black")
         frame.place(x=300, y=100)
         frame.pack_propagate(0)
-        title_text = tk.Label(frame, text = "TITLE")
-        artist_text = tk.Label(frame, text = "ARTIST")
-        genre_text = tk.Label(frame, text = "GENRE")
-        bpm_text = tk.Label(frame, text = "BPM")
-        meta_text = tk.Label(frame, text = "META")
+        title_text = tk.Label(frame, text = "TITLE", font = ("Arial", 10), bg = "black", fg = "white")
+        artist_text = tk.Label(frame, text = "ARTIST", font = ("Arial", 10), bg = "black", fg = "white")
+        genre_text = tk.Label(frame, text = "GENRE", font = ("Arial", 10), bg = "black", fg = "white")
+        bpm_text = tk.Label(frame, text = "BPM", font = ("Arial", 10), bg = "black", fg = "white")
+        meta_text = tk.Label(frame, text = "META", font = ("Arial", 10), bg = "black", fg = "white")
         title_input = tk.Text(frame, height = 1, width = 15)
         artist_input = tk.Text(frame, height = 1, width = 15)
         genre_input = tk.Text(frame, height = 1, width = 15)
@@ -182,12 +183,36 @@ class GUI:
         meta1_input.pack()
         meta2_input.pack()
         meta3_input.pack()
+        confirm_button = tk.Button(frame, text = "CONFIRM", command = lambda: self.create_song(system, title_input, artist_input, genre_input, bpm_input, meta1_input, meta2_input, meta3_input))
+        confirm_button.pack()
+
+
+    def create_song(self, system, title, artist, genre, bpm, meta1, meta2, meta3):
+        title = title.get("1.0", tk.END).strip()
+        artist = artist.get("1.0", tk.END).strip()
+        genre = genre.get("1.0", tk.END).strip()
+        bpm = bpm.get("1.0", tk.END).strip()
+        meta1 = meta1.get("1.0", tk.END).strip()
+        meta2 = meta2.get("1.0", tk.END).strip()
+        meta3 = meta3.get("1.0", tk.END).strip()
+        if title != None and artist != None and genre != None and bpm != None and meta1 != None and meta2 != None and meta3 != None:
+            meta = [meta1, meta2, meta3]
+            system.admin_create_new_song(title, artist, genre, bpm, meta)
+
+    def remove_song_button(self, system):
+        button = tk.Button(self.leftBar, text = "REMOVE SONG", command = lambda: self.delete_song_window(system))
+        button.pack()
+
+    def delete_song_window(self, system):
+        pass
+
     
     def display_log(self, system, type):
         self.leftBar.pack_forget()
         self.right_side_frame.pack_forget()
         self.adminwindow(system)
-        displaylog = tk.Listbox(self.content_frame, width = 850, height = 800)
+        self.content_frame.pack_forget()
+        displaylog = tk.Listbox(self.right_side_frame, width = 850, height = 800)
         filterbox = tk.Frame(self.leftBar, height = 20, width = 250)
         filterbox.pack()
         filterbox.pack_propagate(0)
@@ -215,7 +240,7 @@ class GUI:
                 displaylog.insert(index, event)
         displaylog.pack()
         self.scrollbar.pack_forget()
-        self.scrollbar = tk.Scrollbar(self.right_side_frame, orient="vertical", command=displaylog.yview)
+        self.scrollbar = tk.Scrollbar(self.rightSide, orient="vertical", command=displaylog.yview)
         self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) #mmm scrollbar, this caused so much pain
         displaylog.configure(yscrollcommand=self.scrollbar.set)
         
@@ -370,7 +395,7 @@ class GUI:
             container = tk.Frame(master = frame, width = 850, height = 50, highlightbackground = "black", highlightthickness = 1)
             container.pack()
             container.pack_propagate(0)
-            info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
+            info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre + ", Popularity: " + str(song.popularity_score))
             info.pack()
             options = [ #a list of all playlists available to add songs to, will be expanded upon per user later
                 user.library.name

@@ -176,20 +176,30 @@ class MusicPlayerSystem:
         # add the new song to the complete list playlist
         new_id = "s" + str(self.complete_list.get_len() + 1)
 
-        # I modified the add_song funciton so that it returns True or False depending on if the song is added successfully
-        # If the song is not added successfully, then it will not be written to the .txt file
+        # add the new song to the complete list
+        self.complete_list.add_song(new_id, title, artist, genre, bpm, meta)
 
-        # write the song to the .txt file
-        if(self.complete_list.add_song(new_id, title, artist, genre, bpm, meta)):
-            f = open("song_list.txt", "a")
-            f.write("/n")
-            f.write(str(new_id) + "_" + str(title) + "_" + str(artist) + "_" + str(genre) + "_" + str(bpm))
-            for single_meta in meta:
-                f.write("_" + str(single_meta))
-
+        # write the changes to the .txt file
+        self.write_complete_list()
 
     def admin_delete_song(self, id):
         pass
+
+    def write_complete_list(self):
+        f = open("song_list.txt", "w")
+        current_song = self.complete_list.get_first_song()
+
+        while current_song is not None:
+            # write the elements from the linked-list to the .txt file
+            f.write(str(current_song.get_id()) + "_" + str(current_song.get_title()) + "_" + str(current_song.get_artist()) + "_" + str(current_song.get_genre()) + "_" + str(current_song.get_bpm()))
+            for single_meta in current_song.get_meta():
+                f.write("_" + str(single_meta))
+            f.write("\n")
+
+            current_song = current_song.get_next()
+
+        f.close()
+
 
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
@@ -483,6 +493,7 @@ class MusicPlayerSystem:
 
             self.system_logger.info("Saved changes to user" + str(current_user.get_id()) + " " + str(current_user.get_name()) + " to files")
             current_user = current_user.get_next()
+            f.close()
 
         self.system_logger.info("Saved all changes to files")
 
