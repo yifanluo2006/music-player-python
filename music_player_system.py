@@ -186,10 +186,11 @@ class MusicPlayerSystem:
         pass
 
     def write_complete_list(self):
-        f = open("song_list.txt", "w")
+        f = open("./data/song_list.txt", "w")
         current_song = self.complete_list.get_first_song()
 
         while current_song is not None:
+            print("writing song")
             # write the elements from the linked-list to the .txt file
             f.write(str(current_song.get_id()) + "_" + str(current_song.get_title()) + "_" + str(current_song.get_artist()) + "_" + str(current_song.get_genre()) + "_" + str(current_song.get_bpm()))
             for single_meta in current_song.get_meta():
@@ -227,7 +228,7 @@ class MusicPlayerSystem:
             # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
             # None of the following is copied and pasted
             user_num = self.get_user_num() + 1
-            song_num = 1001 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
+            song_num = self.complete_list.get_len() + 1 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
             matrix = np.zeros((user_num, song_num), dtype=int)
             
             # This code to populate the matrix is entirely my design and code

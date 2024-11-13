@@ -324,3 +324,89 @@ USER: 2024-11-12 14:45:41,483 | user_action_logger | INFO | Generated suggestion
 USER: 2024-11-12 14:45:52,018 | user_action_logger | INFO | Generating suggestions based on Classic Rock Hits
 USER: 2024-11-12 14:45:52,023 | user_action_logger | INFO | Matched preferences with user Isaac poprocker
 USER: 2024-11-12 14:45:52,024 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-12 14:46:34,803 | user_action_logger | INFO | Playlist Blissful Sounds added to user 1
+USER: 2024-11-12 14:46:34,803 | user_action_logger | INFO | Adding Because You Loved Me (Theme from "Up Close and Personal") to user 1 test's playlist
+USER: 2024-11-12 14:46:34,804 | user_action_logger | INFO | Adding Shout to user 1 test's playlist
+USER: 2024-11-12 14:46:34,804 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-12 14:46:34,808 | user_action_logger | INFO | Matched preferences with user Audrey folkfavorites
+USER: 2024-11-12 14:46:34,809 | user_action_logger | INFO | Matched preferences with user Grace folkmusiclover
+USER: 2024-11-12 14:46:34,809 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-12 14:46:34,809 | user_action_logger | INFO | Adding Key to the Highway to user 1 test's library
+USER: 2024-11-12 14:46:34,810 | user_action_logger | INFO | Adding Hey There to user 1 test's library
+USER: 2024-11-12 14:46:34,810 | user_action_logger | INFO | Adding Lullaby Of Broadway to user 1 test's library
+USER: 2024-11-12 14:46:34,810 | user_action_logger | INFO | Adding Little Things Mean a Lot (Original Mix) to user 1 test's library
+USER: 2024-11-12 14:46:34,810 | user_action_logger | INFO | Adding I Want You, I Need You, I Love You to user 1 test's library
+USER: 2024-11-12 14:46:34,810 | user_action_logger | INFO | Generating suggestions based on 80s Rock Anthems
+USER: 2024-11-12 14:46:34,814 | user_action_logger | INFO | Matched preferences with user Henry bluesrock
+USER: 2024-11-12 14:46:34,814 | user_action_logger | INFO | Matched preferences with user Julian metalmania
+USER: 2024-11-12 14:46:34,815 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-12 14:46:34,815 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-12 14:46:34,815 | user_action_logger | INFO | Adding Key to the Highway to user 1 test's playlist
+USER: 2024-11-12 14:46:34,816 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 1 test's playlist
+USER: 2024-11-12 14:46:34,816 | user_action_logger | INFO | Adding What In The World's Come Over You to user 1 test's playlist
+USER: 2024-11-12 14:46:34,816 | user_action_logger | INFO | Generating suggestions based on Classic Rock Hits
+USER: 2024-11-12 14:46:34,819 | user_action_logger | INFO | Matched preferences with user Isaac poprocker
+USER: 2024-11-12 14:46:34,819 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-12 14:46:34,820 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 1 test's playlist
+USER: 2024-11-12 14:46:34,820 | user_action_logger | INFO | Adding Boogie Chillen to user 1 test's playlist
+USER: 2024-11-12 14:46:34,820 | user_action_logger | INFO | Adding Summer to user 1 test's playlist
+USER: 2024-11-12 14:46:34,821 | user_action_logger | INFO | Adding That's The Way Love Goes to user 1 test's playlist
+USER: 2024-11-12 14:46:34,821 | user_action_logger | INFO | Adding Gloomy Sunday (with Teddy Wilson & His Orchestra) - Take 1 to user 1 test's playlist
+USER: 2024-11-12 14:46:34,821 | user_action_logger | INFO | Adding Oh! My Pa-Pa (O Mein Papa) - 2001 Remastered to user 1 test's playlist
+USER: 2024-11-12 14:46:34,822 | user_action_logger | INFO | Adding Bad Day to user 1 test's playlist
+USER: 2024-11-12 14:46:34,822 | user_action_logger | INFO | Adding Why Don't You Believe Me - Remastered to user 1 test's playlist
+USER: 2024-11-12 14:46:34,822 | user_action_logger | INFO | Adding Hanging By A Moment to user 1 test's playlist
+USER: 2024-11-12 14:46:34,822 | user_action_logger | INFO | Adding With Arms Wide Open to user 1 test's playlist
+USER: 2024-11-12 14:46:34,823 | user_action_logger | INFO | Adding Don't You Want Me to user 1 test's playlist
+USER: 2024-11-12 14:46:34,823 | user_action_logger | INFO | Adding Everybody Wants To Rule The World to user 1 test's playlist
+USER: 2024-11-12 14:46:34,823 | user_action_logger | INFO | Adding Shout to user 1 test's playlist
+USER: 2024-11-12 14:46:34,823 | user_action_logger | INFO | Adding Owner Of A Lonely Heart to user 1 test's playlist
+USER: 2024-11-12 14:46:34,823 | user_action_logger | INFO | Adding Love in This Club to user 1 test's playlist
+USER: 2024-11-12 14:46:34,824 | user_action_logger | INFO | Adding When a Man Loves a Woman to user 1 test's playlist
+USER: 2024-11-12 14:46:34,824 | user_action_logger | INFO | Adding Hero to user 1 test's playlist
+USER: 2024-11-12 14:46:34,824 | user_action_logger | INFO | Adding I Gotta Feeling to user 1 test's playlist
+USER: 2024-11-12 14:46:34,824 | user_action_logger | INFO | Generating suggestions based on 80s Rock Anthems
+USER: 2024-11-12 14:46:34,830 | user_action_logger | INFO | Matched preferences with user Henry bluesrock
+USER: 2024-11-12 14:46:34,830 | user_action_logger | INFO | Matched preferences with user Julian metalmania
+USER: 2024-11-12 14:46:34,830 | user_action_logger | INFO | Matched preferences with user Sophie classicalguitar
+USER: 2024-11-12 14:46:34,831 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-12 14:46:34,831 | user_action_logger | INFO | Adding Canal Street Blues to user 1 test's playlist
+USER: 2024-11-12 14:46:34,831 | user_action_logger | INFO | Adding I Gotta Feeling to user 1 test's playlist
+USER: 2024-11-12 14:46:34,832 | user_action_logger | INFO | Adding Hero to user 1 test's playlist
+USER: 2024-11-12 14:46:34,832 | user_action_logger | INFO | Adding I'm Sorry to user 1 test's playlist
+USER: 2024-11-12 14:46:34,832 | user_action_logger | INFO | Adding Endless Love to user 1 test's playlist
+USER: 2024-11-12 14:46:34,832 | user_action_logger | INFO | Adding See See Rider Blues - Remastered to user 1 test's playlist
+USER: 2024-11-12 14:46:34,832 | user_action_logger | INFO | Adding Dreamlover to user 1 test's playlist
+USER: 2024-11-12 14:46:34,833 | user_action_logger | INFO | Adding Prisoner of Love to user 1 test's playlist
+USER: 2024-11-12 14:46:34,833 | user_action_logger | INFO | Adding Unwell to user 1 test's playlist
+USER: 2024-11-12 14:46:34,833 | user_action_logger | INFO | Adding Hey There Delilah to user 1 test's playlist
+USER: 2024-11-12 14:46:34,833 | user_action_logger | INFO | Adding Without You to user 1 test's playlist
+USER: 2024-11-12 14:46:34,834 | user_action_logger | INFO | Adding Cradle Of Love to user 1 test's playlist
+USER: 2024-11-12 14:46:34,834 | user_action_logger | INFO | Adding The Streak to user 1 test's playlist
+USER: 2024-11-12 14:46:34,834 | user_action_logger | INFO | Adding Can't Hold Us to user 1 test's playlist
+USER: 2024-11-13 13:52:59,128 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-13 13:53:02,247 | user_action_logger | INFO | Searching for query test
+USER: 2024-11-13 13:53:14,355 | user_action_logger | INFO | Adding test to user 1 test's playlist
+USER: 2024-11-13 13:53:16,091 | user_action_logger | INFO | Generating suggestions based on Edgy Hits
+USER: 2024-11-13 13:53:16,096 | user_action_logger | INFO | Matched preferences with user Penelope singerdiva
+USER: 2024-11-13 13:53:16,097 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-13 13:53:33,187 | user_action_logger | INFO | Generating suggestions based on Blissful Sounds
+USER: 2024-11-13 13:53:33,192 | user_action_logger | INFO | Matched preferences with user Emma popprincess22
+USER: 2024-11-13 13:53:33,193 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-13 13:54:02,939 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-13 13:54:02,944 | user_action_logger | INFO | Matched preferences with user Audrey folkfavorites
+USER: 2024-11-13 13:54:02,946 | user_action_logger | INFO | Matched preferences with user Grace folkmusiclover
+USER: 2024-11-13 13:54:02,947 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
+USER: 2024-11-13 13:54:02,947 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-13 13:54:08,859 | user_action_logger | INFO | Generating suggestions based on Classic Rock Hits
+USER: 2024-11-13 13:54:08,864 | user_action_logger | INFO | Matched preferences with user Nathaniel electrorocker
+USER: 2024-11-13 13:54:08,865 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-13 13:54:17,579 | user_action_logger | INFO | Generating suggestions based on Rhythmic Essentials
+USER: 2024-11-13 13:54:17,584 | user_action_logger | INFO | Matched preferences with user Stella femalepower
+USER: 2024-11-13 13:54:17,585 | user_action_logger | INFO | Matched preferences with user Isabelle poplover
+USER: 2024-11-13 13:54:17,585 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-13 13:58:29,508 | user_action_logger | INFO | Searching for query test
+USER: 2024-11-13 13:59:52,882 | user_action_logger | INFO | Searching for query test
+USER: 2024-11-13 14:00:37,579 | user_action_logger | INFO | Searching for query yes
+USER: 2024-11-13 14:01:13,495 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-13 14:01:51,330 | user_action_logger | INFO | Searching for query yes
