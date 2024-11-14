@@ -230,28 +230,6 @@ class GUI:
             info = songdisplay.get(i)
             pieces = info.split(',')
             system.admin_delete_song(pieces[0]) # you need to pass in the id of the song to be deleted
-        
-        self.right_side_frame.pack_forget()
-        self.adminwindow(system)
-        self.content_frame.pack_forget()
-        songdisplay = tk.Listbox(self.right_side_frame, width = 850, height = 800)
-        deletebutton = tk.Button(self.leftBar, text = "DELETE CURRENT SELECTION", command = lambda: self.del_current(system))
-        deletebutton.pack()
-        song = system.complete_list.first_song
-        while song.next != None:
-            info = str(song.id + ", " + song.title + ", " + song.artist + ", " + song.genre + ", " + song.bpm)
-            songdisplay.insert(tk.END, info)
-            song = song.next
-        songdisplay.pack()
-        self.scrollbar.pack_forget()
-        self.scrollbar = tk.Scrollbar(self.rightSide, orient="vertical", command=songdisplay.yview)
-        self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y) 
-        songdisplay.configure(yscrollcommand=self.scrollbar.set)
-        
-
-
-    def del_current(self, system):
-        pass
 
     
     def display_log(self, system, type):

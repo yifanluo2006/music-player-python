@@ -15,7 +15,6 @@ s14_Statesboro Blues_Blind Willie McTell_Blues_75_piedmont blues_1920s_slide gui
 s15_In a Mist_Bix Beiderbecke_Jazz_70_piano solo_1920s_impressionist jazz_composer
 s16_Pine Top's Boogie Woogie_Pinetop Smith_Blues_90_boogie woogie_piano_1920s_dance
 s17_Carolina Shout_James P. Johnson_Jazz_95_stride piano_1920s_piano solo_rhythm
-s18_Ol' Man River_Paul Robeson_Musical_70_show tune_1920s_bass-baritone_vocal
 s19_Matchbox Blues_Blind Lemon Jefferson_Blues_80_texas blues_1920s_guitar_early blues
 s20_Downhearted Blues_Bessie Smith_Blues_75_classic blues_1920s_female vocal_blues standard
 s21_Empty Bed Blues_Bessie Smith_Blues_70_classic blues_1920s_female vocal_sad
