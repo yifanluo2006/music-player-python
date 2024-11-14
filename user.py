@@ -55,14 +55,18 @@ class User:
                 self.add_song_to_library(current_song.get_id(), complete_playlist)
                 current_song = current_song.get_next()
         
+    """
+    The following two functions will not only complete the required funciton of adding song to library and adding song to playlist,
+    But also return a status code of 0, 1, 2, depending of if the song is added to a library, playlist or not. 
+    Returns 0 for not added
+    Returns 1 for added to playlist
+    Returns 2 for added to library
+    This is nessecary in both functions since the add song to playlist function can call the add song to library function to add a song to the library if it did not yet exist in the library
+    """
     def add_song_to_library(self, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
         if current_song is not None and self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta()):
-            current_song.update_frequency(1) # reference to the song in the complete list
-            
-            
-            #---------------------Need to fix above to update dict in music_player_system-------------------------
-            current_song.get_owner().get
+            return 2
 
     def add_song_to_playlist(self, playlistId, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)

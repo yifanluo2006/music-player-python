@@ -209,9 +209,10 @@ class GUI:
         self.adminwindow(system)
         self.content_frame.pack_forget()
         songdisplay = tk.Listbox(self.right_side_frame, width = 850, height = 800)
-        deletebutton = tk.Button(self.leftBar, text = "DELETE CURRENT SELECTION", command = lambda: self.del_current(system)) # changed to pass in id parameter
+        deletebutton = tk.Button(self.leftBar, text = "DELETE CURRENT SELECTION", command = lambda: self.del_current(system, songdisplay)) # changed to pass in id parameter
         deletebutton.pack()
         song = system.complete_list.first_song
+        print(song.title)
         while song.next != None:
             info = str(song.id + ", " + song.title + ", " + song.artist + ", " + song.genre + ", " + str(song.bpm))
             songdisplay.insert(tk.END, info)
@@ -224,8 +225,11 @@ class GUI:
         
 
 
-    def del_current(self, system):
-        system.admin_delete_song(id) # you need to pass in the id of the song to be deleted
+    def del_current(self, system, songdisplay):
+        for i in songdisplay.curselection():
+            info = songdisplay.get(i)
+            pieces = info.split(',')
+            system.admin_delete_song(pieces[0]) # you need to pass in the id of the song to be deleted
         
     
     def display_log(self, system, type):

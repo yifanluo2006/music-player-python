@@ -17,14 +17,14 @@ class Playlist:
 
         self.id = str(id)
 
-    def add_song(self, id, title, artist, genre, bpm, meta, frequency=0, popularity=0.0):
+    def add_song(self, id, title, artist, genre, bpm, meta):
         if not self.is_duplicate(str(id)):
             if self.first_song is None: #if this is first song
-                self.song = Song(id, title, artist, genre, bpm, meta, frequency, popularity)
+                self.song = Song(id, title, artist, genre, bpm, meta)
                 self.first_song = self.song
                 return True
             else: # if there is already first song
-                a_song = Song(id, title, artist, genre, bpm, meta, frequency, popularity)
+                a_song = Song(id, title, artist, genre, bpm, meta)
                 self.song.set_next(a_song) # "linking" the list
                 self.song = a_song
                 return True
