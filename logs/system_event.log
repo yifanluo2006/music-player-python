@@ -204,3 +204,7 @@ SYSTEM: 2024-11-14 15:55:33,129 | system_logger | INFO | Calculated popularity s
 SYSTEM: 2024-11-14 15:55:33,130 | system_logger | INFO | Found top 3 most trending songs 
 SYSTEM: 2024-11-14 15:55:33,262 | system_logger | INFO | Calculated popularity score by EMA
 SYSTEM: 2024-11-14 15:55:33,263 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-14 16:14:08,218 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-14 16:14:08,220 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-14 16:14:08,317 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-14 16:14:08,326 | system_logger | INFO | Found top 3 most trending songs 
