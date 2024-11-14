@@ -57,9 +57,12 @@ class User:
         
     def add_song_to_library(self, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)
-        if current_song is not None:
+        if current_song is not None and self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta()):
             current_song.update_frequency(1) # reference to the song in the complete list
-            self.library.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
+            
+            
+            #---------------------Need to fix above to update dict in music_player_system-------------------------
+            current_song.get_owner().get
 
     def add_song_to_playlist(self, playlistId, songID, complete_playlist):
         current_song = complete_playlist.search_song_id(songID)

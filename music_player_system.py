@@ -16,6 +16,8 @@ class MusicPlayerSystem:
         self.event_generation_logger = logging.getLogger("event_generation_logger")
 
         self.complete_list = Playlist("00000", "Complete Library", self) # initial playlist created
+        self.frequency_number_dict = {}
+        self.popularity_factor_dict = {}
         self.populate_complete_list() # and populated
 
         self.system_logger.info("Welcome to the Music Player System by Yifan and Jaden!")
@@ -56,6 +58,8 @@ class MusicPlayerSystem:
                 meta.append(str(song_element[9]))
             
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], meta)
+            self.frequency_number_dict["s" + song_element[0]] = 0
+            self.popularity_factor_dict["s" + song_element[0]] = 0
             self.system_logger.info(str(song_element[0]) + " " + str(song_element[1]) + " is loaded")
                 
     def import_user(self):
@@ -128,7 +132,7 @@ class MusicPlayerSystem:
         if current_song is not None and current_song.get_id() == song.get_id():
             playlist.set_first_song(playlist.get_first_song().get_next())
             if playlist.get_id()[3 : 5] == "00":
-                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                self.frequency_number_dict[song.get_id()] -= 1
                 for new_playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, new_playlist)
 
@@ -151,7 +155,7 @@ class MusicPlayerSystem:
                 self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 
             if playlist.get_id()[3 : 5] == "00":
-                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                self.frequency_number_dict[song.get_id()] -= 1
                 for playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, playlist)
         
@@ -168,13 +172,14 @@ class MusicPlayerSystem:
                     self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 
                 if playlist.get_id()[3 : 5] == "00":
-                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                    self.frequency_number_dict[song.get_id()] -= 1
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
     def admin_create_new_song(self, title, artist, genre, bpm, meta):
         # add the new song to the complete list playlist
-        new_id = "s" + str(self.complete_list.get_len() + 1)
+        next_available_id = int(self.get_last_user().get_id()[1:]) + 1
+        new_id = "s" + str(next_available_id)
 
         # add the new song to the complete list
         self.complete_list.add_song(new_id, title, artist, genre, bpm, meta)
@@ -183,7 +188,43 @@ class MusicPlayerSystem:
         self.write_complete_list()
 
     def admin_delete_song(self, id):
-        pass
+        current_song = self.complete_list.get_first_song()
+        last_song = self.complete_list.get_last_song()
+
+        # If the song to be deleted is at the begining
+        if current_song is not None and current_song.get_id() == id:
+            self.complete_list.set_first_song(self.complete_list.get_first_song().get_next())
+            
+            current_user = self.first_user
+            while current_user is not None:
+                self.delete_song_in_playlist(current_song, current_user.get_library())
+                current_user = current_user.get_next()
+
+        # If the song to be deleted is at the end
+        if current_song is not None and last_song.get_id() == id:
+            while current_song.get_next().get_next() is not None:
+                current_song = current_song.get_next()
+            current_song.set_next(None)
+            self.complete_list.reset_last_song()
+            
+            current_user = self.first_user
+            while current_user is not None:
+                self.delete_song_in_playlist(current_song, current_user.get_library())
+                current_user = current_user.get_next()
+        
+        # If the song to be deleted is in the middle
+        while current_song is not None and current_song.get_next() is not None:
+            previous_song = current_song
+            current_song = current_song.get_next()
+            if current_song.get_id() == id:
+                previous_song.set_next(current_song.get_next())
+            
+            current_user = self.first_user
+            while current_user is not None:
+                self.delete_song_in_playlist(current_song, current_user.get_library())
+                current_user = current_user.get_next()
+                
+        self.write_complete_list()
 
     def write_complete_list(self):
         f = open("./data/song_list.txt", "w")

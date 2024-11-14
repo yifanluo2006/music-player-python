@@ -1,5 +1,5 @@
 class Song:
-    def __init__(self, id, title, artist, genre, bpm, meta, frequency=0, popularity_score=0.0):
+    def __init__(self, id, title, artist, genre, bpm, meta):
         self.next = None
         
         self.id = str(id)
@@ -8,10 +8,6 @@ class Song:
         self.genre = str(genre)
         self.bpm = int(bpm)
         self.meta = meta
-        
-        self.similarity = 0.0
-        self.frequency_count = frequency
-        self.popularity_score = popularity_score
         
     def set_next(self, next):
         self.next = next
