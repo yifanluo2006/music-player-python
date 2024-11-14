@@ -128,7 +128,8 @@ class MusicPlayerSystem:
         if current_song is not None and current_song.get_id() == song.get_id():
             playlist.set_first_song(playlist.get_first_song().get_next())
             if playlist.get_id()[3 : 5] == "00":
-                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                if self.complete_list.search_song_id(song.get_id()) is not None:
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                 for new_playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, new_playlist)
 
@@ -151,7 +152,8 @@ class MusicPlayerSystem:
                 self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 
             if playlist.get_id()[3 : 5] == "00":
-                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                if self.complete_list.search_song_id(song.get_id()) is not None:
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                 for playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, playlist)
         
@@ -168,13 +170,14 @@ class MusicPlayerSystem:
                     self.event_generation_logger.info("Deleted " + song.get_title() + " from " + playlist.get_name())
                 
                 if playlist.get_id()[3 : 5] == "00":
-                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                    if self.complete_list.search_song_id(song.get_id()) is not None:
+                        self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
     def admin_create_new_song(self, title, artist, genre, bpm, meta):
         # add the new song to the complete list playlist
-        new_id = "s" + str(self.complete_list.get_len() + 1)
+        new_id = "s" + str(int(self.complete_list.get_last_song().get_id()[1:]) + 1)
 
         # add the new song to the complete list
         self.complete_list.add_song(new_id, title, artist, genre, bpm, meta)
@@ -214,10 +217,10 @@ class MusicPlayerSystem:
             if current_song.get_id() == id:
                 previous_song.set_next(current_song.get_next())
             
-            current_user = self.first_user
-            while current_user is not None:
-                self.delete_song_in_playlist(current_song, current_user.get_library())
-                current_user = current_user.get_next()
+                current_user = self.first_user
+                while current_user is not None:
+                    self.delete_song_in_playlist(current_song, current_user.get_library())
+                    current_user = current_user.get_next()
                 
         self.write_complete_list()
 
@@ -231,8 +234,9 @@ class MusicPlayerSystem:
             f.write(str(current_song.get_id()) + "_" + str(current_song.get_title()) + "_" + str(current_song.get_artist()) + "_" + str(current_song.get_genre()) + "_" + str(current_song.get_bpm()))
             for single_meta in current_song.get_meta():
                 f.write("_" + str(single_meta))
-            f.write("\n")
-
+            
+            if current_song.get_next() is not None:
+                f.write("\n")
             current_song = current_song.get_next()
 
         f.close()
@@ -264,7 +268,7 @@ class MusicPlayerSystem:
             # The idea for the following code was inspired by ChatGPT; however, the specific details are coded by myself
             # None of the following is copied and pasted
             user_num = self.get_user_num() + 1
-            song_num = self.complete_list.get_len() + 1 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
+            song_num = int(self.complete_list.get_last_song().get_id()[1:]) + 1 # note that in our case the 0 row and 0 column will always be empty, because there is no zero indicies. However, this is ok because we are never going to access these parts
             matrix = np.zeros((user_num, song_num), dtype=int)
             
             # This code to populate the matrix is entirely my design and code

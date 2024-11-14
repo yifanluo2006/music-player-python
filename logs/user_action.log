@@ -22,3 +22,98 @@ USER: 2024-11-14 15:01:29,082 | user_action_logger | INFO | Adding The Third Man
 USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Artistry In Rhythm from Library
 USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Artistry In Rhythm from Power Ballads
 USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Bridge Over Troubled Water from Library
+USER: 2024-11-14 16:36:16,339 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:36:18,976 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 1 test's library
+USER: 2024-11-14 16:36:19,511 | user_action_logger | INFO | Adding Billie Jean to user 1 test's library
+USER: 2024-11-14 16:36:20,007 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 1 test's library
+USER: 2024-11-14 16:36:20,415 | user_action_logger | INFO | Adding Take Five to user 1 test's library
+USER: 2024-11-14 16:36:21,093 | user_action_logger | INFO | Adding Shape of You to user 1 test's library
+USER: 2024-11-14 16:36:29,569 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:36:47,205 | user_action_logger | INFO | Deleted Bohemian Rhapsody from Library
+USER: 2024-11-14 16:36:48,376 | user_action_logger | INFO | Deleted Billie Jean from Library
+USER: 2024-11-14 16:36:49,579 | user_action_logger | INFO | Deleted Sweet Child O' Mine from Library
+USER: 2024-11-14 16:36:50,577 | user_action_logger | INFO | Deleted Take Five from Library
+USER: 2024-11-14 16:37:10,220 | user_action_logger | INFO | Playlist Smooth Mood added to user 1
+USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Adding Total Eclipse of the Heart to user 1 test's playlist
+USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Adding Because They're Young to user 1 test's playlist
+USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
+USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Bridge Over Troubled Water to user 1 test's library
+USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Firework to user 1 test's library
+USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Hot Stuff to user 1 test's library
+USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 1 test's library
+USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding Hanging By A Moment to user 1 test's library
+USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding How to Save a Life to user 1 test's library
+USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Misterioso - Live to user 1 test's playlist
+USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Shadow Dancing to user 1 test's playlist
+USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Band Of Gold - Re-Record to user 1 test's playlist
+USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Dippermouth Blues to user 1 test's playlist
+USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from Library
+USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
+USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
+USER: 2024-11-14 16:37:13,917 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:35,051 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:36,781 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:37,940 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:38,682 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:39,385 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:39,907 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:40,507 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:45,054 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:45,832 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:46,600 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:47,244 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:49,483 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:50,475 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:37:59,994 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:38:01,574 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:38:04,877 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:57:02,322 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:57:41,661 | user_action_logger | INFO | Deleted Because They're Young from Classic Mood
+USER: 2024-11-14 16:57:42,341 | user_action_logger | INFO | Deleted Watch Me (Whip / Nae Nae) from Classic Mood
+USER: 2024-11-14 16:57:48,167 | user_action_logger | INFO | Deleted Locked out of Heaven from Classic Rock Hits
+USER: 2024-11-14 16:57:48,583 | user_action_logger | INFO | Deleted Photograph from Classic Rock Hits
+USER: 2024-11-14 16:57:48,991 | user_action_logger | INFO | Deleted Welcome to the Jungle from Classic Rock Hits
+USER: 2024-11-14 16:57:49,431 | user_action_logger | INFO | Deleted The Hills from Classic Rock Hits
+USER: 2024-11-14 16:57:50,163 | user_action_logger | INFO | Deleted Everything You Want from Classic Rock Hits
+USER: 2024-11-14 16:57:54,822 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:58:01,351 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:58:01,356 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:58:01,727 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:03,453 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:07,963 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:58:07,967 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:58:07,967 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-14 16:58:07,968 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:58:07,968 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:58:13,162 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:17,885 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:18,697 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:19,351 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:20,137 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:58:26,126 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:58:29,238 | user_action_logger | INFO | Adding Devil Or Angel to user 1 test's library
+USER: 2024-11-14 16:58:29,767 | user_action_logger | INFO | Adding Everybody Wants To Rule The World to user 1 test's library
+USER: 2024-11-14 16:58:30,245 | user_action_logger | INFO | Adding Here Without You to user 1 test's library
+USER: 2024-11-14 16:58:31,245 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 16:59:17,293 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 16:59:17,297 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
+USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Matched preferences with user Evan classicrock
+USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Matched preferences with user Connor hardrock
+USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 16:59:20,472 | user_action_logger | INFO | Adding Crank That (Soulja Boy) to user 1 test's playlist
+USER: 2024-11-14 16:59:22,588 | user_action_logger | INFO | Fetching most trending songs
