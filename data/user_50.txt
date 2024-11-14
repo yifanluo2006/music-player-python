@@ -1,25 +1,11 @@
 50
 Christian classicjazz
 77319459
-
-10
+199,204,210,213,216,226,206,237,290,246,270
+3
 Jazz Legends
-
+199,204,210,213,216,226
 Swing Era
-
+206,213,216,226,237,290
 Bebop Classics
-
-Radiant Flow
-
-Hypnotic Atmospheres
-
-Smooth Hits
-
-Serene Journey
-
-Lively Journey
-
-Energetic Pulse
-
-Rhythmic Chronicles
-
+206,216,226,237,246,270

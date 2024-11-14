@@ -1,21 +1,13 @@
 90
 Henry bluesrock
 19969176
-
-8
+205,211,229,242,262,266,644,654,696,804,854,887,512,558,655,397
+4
 Blues Classics
-
+205,211,229,242,262,266
 Blues Rock
-
+644,654,696,804,854,887
 Guitar Legends
-
+512,558,644,655,696
 Rockin' the Blues
-
-Soothing Sounds
-
-Lively Atmospheres
-
-Cosmic Journey
-
-Blissful Tunes
-
+211,262,266,397,644,654

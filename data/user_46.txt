@@ -1,33 +1,15 @@
 46
 Connor hardrock
 70045844
-
-14
+510,511,558,644,654,655,696,804,854,887,512,938,993,995,996,649,650,651,662,700,771
+5
 Classic Rock
-
+510,511,558,644,654,655
 Hard Rock Hits
-
+644,654,696,804,854,887
 Guitar Legends
-
+512,558,644,655,696
 Metal Anthems
-
+804,887,938,993,995,996
 Rock Ballads
-
-Chill Tunes
-
-Raw Pulse
-
-Lively Vibes
-
-Chill Chronicles
-
-Energetic Pulse
-
-Classic Mood
-
-Classic Flow
-
-Edgy Collection
-
-Edgy Atmospheres
-
+649,650,651,662,700,771

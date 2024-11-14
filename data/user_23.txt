@@ -1,29 +1,17 @@
 23
 Victoria 90spopfan
 70928756
-
-12
+706,708,712,759,762,775,710,908,909,919,652,771,792,916,803,834,841,859,920,972,954,966,906
+6
 90s Pop Hits
-
+706,708,712,759,762,775
 Boy Bands
-
+708,710,908,909,919
 Female Pop Stars
-
+652,706,712,771,792,916
 Feel-Good Tunes
-
+803,834,841,859,920,972
 Romantic Ballads
-
+771,792,916,954,966
 Top Chart Toppers
-
-Edgy Mood
-
-Cosmic Vibes
-
-Classic Collection
-
-Rhythmic Atmospheres
-
-Rhythmic Pulse
-
-Smooth Mood
-
+803,834,841,859,906,920

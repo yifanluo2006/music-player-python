@@ -1,15 +1,13 @@
 76
 Nathaniel electrorocker
 92632830
-
-5
+804,854,857,887,938,983,636,669,683,686,895,883,931
+4
 Electronic Rock
-
+804,854,857,887,938,983
 Synth Rock
-
+636,669,683,686,895
 Alternative Rock
-
+857,883,895,931,938,983
 Indie Rock
-
-Lively Mood
-
+857,883,895,931,938,983

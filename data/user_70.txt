@@ -1,25 +1,15 @@
 70
 Isaac poprocker
 14678573
-
-10
+857,883,895,931,938,983,804,854,887,994,644,654,696,512,558,655
+5
 Pop Rock Hits
-
+857,883,895,931,938,983
 Alternative Rock
-
+804,854,857,887,938,983
 Modern Rock
-
+857,895,931,938,983,994
 Rock Anthems
-
+644,654,696,804,854,887
 Guitar Favorites
-
-Funky Journey
-
-Raw Essentials
-
-Hypnotic Hits
-
-Energetic Chronicles
-
-Energetic Collection
-
+512,558,644,655,696

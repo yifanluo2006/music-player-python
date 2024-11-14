@@ -1,19 +1,13 @@
 80
 Thomas bluesman
 55107854
-
-7
+205,211,229,242,262,266,397,874,979,644,654,696,804,854,887
+4
 Blues Legends
-
+205,211,229,242,262,266
 Chicago Blues
-
+211,262,266,397,874,979
 Blues Rock
-
+644,654,696,804,854,887
 Guitar Blues
-
-Dreamy Atmospheres
-
-Epic Collection
-
-Serene Pulse
-
+211,262,266,397,644,654

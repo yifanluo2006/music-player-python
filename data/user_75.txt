@@ -1,23 +1,15 @@
 75
 Samantha countrygirl
 60527387
-
-9
+402,415,447,555,771,784,519,529,553,561,872,973,902,967,993
+5
 Country Classics
-
+402,415,447,555,771,784
 Modern Country
-
+519,529,553,561,872,973
 Country Pop
-
+872,902,967,973,993
 Country Ballads
-
+402,415,447,555,771,784
 Road Trip Songs
-
-Raw Hits
-
-Soothing Vibes
-
-Serene Tunes
-
-Lively Tunes
-
+519,553,561,872,902,967

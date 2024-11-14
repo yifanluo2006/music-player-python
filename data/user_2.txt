@@ -1,19 +1,11 @@
 2
 Sophia jazzlover88
 88561319
-
-7
+201,204,209,210,214,231,217,218,248,273,300,199,206,213,216,226
+3
 Smooth Jazz Classics
-
+201,204,209,210,214,231
 Vocal Jazz Divas
-
+210,217,218,248,273,300
 Instrumental Jazz Greats
-
-Cosmic Chronicles
-
-Hypnotic Journey
-
-Raw Essentials
-
-Radiant Essentials
-
+199,206,213,214,216,226

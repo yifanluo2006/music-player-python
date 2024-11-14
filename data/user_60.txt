@@ -1,25 +1,13 @@
 60
 Owen bluesrock
 21696793
-
-10
+205,211,229,242,262,266,644,654,696,804,854,887,512,558,655,397
+4
 Blues Classics
-
+205,211,229,242,262,266
 Blues Rock
-
+644,654,696,804,854,887
 Guitar Legends
-
+512,558,644,655,696
 Rockin' the Blues
-
-Radiant Vibes
-
-Epic Tunes
-
-Cosmic Collection
-
-Soothing Journey
-
-Chill Chronicles
-
-Blissful Atmospheres
-
+211,262,266,397,644,654

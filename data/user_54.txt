@@ -1,23 +1,15 @@
 54
 Eli rockclassics
 28600411
-
-9
+510,511,558,644,654,655,696,804,854,887,512,649,650,651,662,700,771,500,536,542,556,559
+5
 Classic Rock
-
+510,511,558,644,654,655
 Hard Rock Hits
-
+644,654,696,804,854,887
 Guitar Heroes
-
+512,558,644,655,696
 Rock Ballads
-
+649,650,651,662,700,771
 70s Rock
-
-Cosmic Chronicles
-
-Blissful Pulse
-
-Smooth Flow
-
-Hypnotic Chronicles
-
+500,510,536,542,556,559

@@ -1,21 +1,11 @@
 57
 Elena latinvibes
 46662374
-
-8
+904,915,918,971,977,991,862,935,354,994,996
+3
 Latin Pop
-
+904,915,918,971,977,991
 Reggaeton Beats
-
+862,904,915,918,935,971
 Salsa & Bachata
-
-Serene Sounds
-
-Cosmic Tunes
-
-Edgy Atmospheres
-
-Epic Tunes
-
-Smooth Chronicles
-
+354,971,977,991,994,996

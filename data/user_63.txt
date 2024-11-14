@@ -1,25 +1,11 @@
 63
 Abigail smoothjazz
 49782526
-
-10
+201,204,209,210,214,231,217,218,248,273,300
+3
 Smooth Jazz Grooves
-
+201,204,209,210,214,231
 Late Night Jazz
-
+210,217,218,248,273,300
 Jazz Vocals
-
-Soothing Pulse
-
-Smooth Beats
-
-Blissful Chronicles
-
-Hypnotic Pulse
-
-Lively Hits
-
-Serene Mood
-
-Dreamy Pulse
-
+210,217,218,248,273,300

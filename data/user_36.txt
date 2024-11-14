@@ -1,25 +1,17 @@
 36
 Dylan alternative rock
 72356495
-
-10
+857,883,895,931,938,983,804,854,887,994,944,993,644,654,696
+6
 Indie Rock
-
+857,883,895,931,938,983
 Alternative Hits
-
+804,854,857,887,938,983
 Modern Rock
-
+857,895,931,938,983,994
 Garage Rock
-
+857,883,895,931,938,944
 Post-Punk Revival
-
+857,895,931,938,983,993
 Rock Anthems
-
-Blissful Sounds
-
-Blissful Hits
-
-Cosmic Mood
-
-Classic Hits
-
+644,654,696,804,854,887

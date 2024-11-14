@@ -1,25 +1,15 @@
 66
 Nicholas hardrocker
 69953168
-
-10
+510,511,558,644,654,655,512,696,804,887,938,993,995,996,649,650,651,662,700,771,854
+5
 Classic Rock Anthems
-
+510,511,558,644,654,655
 Guitar Heroes
-
+512,558,644,655,696
 Heavy Metal Classics
-
+804,887,938,993,995,996
 Rock Ballads
-
+649,650,651,662,700,771
 Hard Rock Hits
-
-Hypnotic Flow
-
-Lively Essentials
-
-Hypnotic Mood
-
-Edgy Essentials
-
-Epic Beats
-
+644,654,696,804,854,887

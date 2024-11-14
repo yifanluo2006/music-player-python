@@ -1,23 +1,13 @@
 67
 Zoe electropop
 23047855
-
-9
+636,669,683,686,895,859,901,902,918,928,803,834,841,906,920,937,958,987,994,995,996
+4
 Synth-Pop Classics
-
+636,669,683,686,895
 Modern Electropop
-
+859,895,901,902,918,928
 Dancefloor Hits
-
+803,834,841,859,906,920
 Electronic Chillout
-
-Raw Vibes
-
-Serene Chronicles
-
-Blissful Atmospheres
-
-Dreamy Hits
-
-Soothing Atmospheres
-
+937,958,987,994,995,996

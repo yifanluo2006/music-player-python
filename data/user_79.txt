@@ -1,25 +1,17 @@
 79
 Lucy popenthusiast
 41309560
-
-10
+901,902,904,918,920,923,865,890,972,803,834,841,859,906
+6
 Top Pop Hits
-
+901,902,904,918,920,923
 Female Pop Stars
-
+865,890,901,902,904,972
 Dance Anthems
-
+803,834,841,859,906,920
 Catchy Tunes
-
+803,834,841,859,920,972
 Summer Hits
-
+901,902,918,920,923,972
 Feel-Good Pop
-
-Smooth Flow
-
-Edgy Journey
-
-Energetic Chronicles
-
-Chill Essentials
-
+803,834,841,859,901,920

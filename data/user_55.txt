@@ -1,29 +1,13 @@
 55
 Brooklyn indieplaylist
 48914602
-
-12
+860,866,876,895,934,973,857,883,931,938,983,859,922,959,884,944,979
+4
 Indie Chill
-
+860,866,876,895,934,973
 Alternative Indie
-
+857,883,895,931,938,983
 Indie Pop
-
+859,860,895,922,959,934
 Singer-Songwriters
-
-Cosmic Sounds
-
-Blissful Vibes
-
-Energetic Collection
-
-Funky Tunes
-
-Radiant Sounds
-
-Classic Collection
-
-Hypnotic Pulse
-
-Edgy Tunes
-
+860,884,934,944,973,979

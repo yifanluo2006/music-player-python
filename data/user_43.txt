@@ -1,23 +1,15 @@
 43
 Avery indiepop
 85484281
-
-9
+859,860,895,922,959,934,857,883,931,938,983,834,841,901,902,918,958,987,994,884,944,973,979
+5
 Indie Pop Gems
-
+859,860,895,922,959,934
 Alternative Pop
-
+857,883,895,931,938,983
 Electro Pop
-
+834,841,859,901,902,918
 Chill Indie
-
+860,934,958,987,994
 Singer-Songwriters
-
-Energetic Essentials
-
-Smooth Journey
-
-Cosmic Atmospheres
-
-Cosmic Essentials
-
+860,884,934,944,973,979

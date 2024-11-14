@@ -1,25 +1,11 @@
 7
 James classic blues
 21501001
-
-10
+205,211,229,242,262,266,267,879,397,874,979
+3
 Blues Legends
-
+205,211,229,242,262,266
 Delta Blues
-
+205,229,242,266,267,879
 Electric Blues
-
-Funky Collection
-
-Epic Vibes
-
-Soothing Flow
-
-Lively Essentials
-
-Smooth Beats
-
-Rhythmic Flow
-
-Serene Hits
-
+211,262,266,397,874,979
