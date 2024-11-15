@@ -420,7 +420,11 @@ class GUI:
             container = tk.Frame(master = frame, width = 850, height = 50, highlightbackground = "black", highlightthickness = 1)
             container.pack()
             container.pack_propagate(0)
-            info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre + ", Popularity: " + str(song.popularity_score))
+            if currentplaylist.id == "00000" or currentplaylist.id == "99989":
+                info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre + ", Popularity: " + str(song.popularity_score) + ", Frequency: " + str(song.frequency_count))
+            else:
+                info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
+            
             info.pack()
             options = [ #a list of all playlists available to add songs to, will be expanded upon per user later
                 user.library.name
