@@ -67,7 +67,7 @@ class GUI:
         username = userinput.get(1.0, "end-1c") #grabbing the input text from the login username and password
         password = passinput.get(1.0, "end-1c") # text boxes
 
-        if username == "Jaden" and password == "Yifan":
+        if username == "admin" and password == "adminpassword":
             self.adminwindow(system)
             self.loggedin = True #tells the gui to no longer display the login window
             bigboyframe.destroy() 

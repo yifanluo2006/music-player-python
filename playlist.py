@@ -17,6 +17,13 @@ class Playlist:
 
         self.id = str(id)
 
+    """
+    Funciton for adding a new song in this playlist, it is a linked-list
+    Checks if a song is a duplicate within, and only adds a song if it is not a duplicate
+    This reduces redundant code to check for duplicates, all checking are handled here
+    Returns True if added song, returns False if the song is not added as there is a duplicate
+    sets the frequency and popularity as 0 by default
+    """
     def add_song(self, id, title, artist, genre, bpm, meta, frequency=0, popularity=0.0):
         if not self.is_duplicate(str(id)):
             if self.first_song is None: #if this is first song
@@ -31,6 +38,7 @@ class Playlist:
 
         return False
 
+    # checks if a song is a duplicate in the current playlist or not, by giving a song id and seeing if any song in current playlist matches
     def is_duplicate(self, id): # check for any duplicate in the current playlist
         current_song = self.first_song
         while current_song is not None:
@@ -48,17 +56,25 @@ class Playlist:
             current_song = current_song.get_next()
             
         self.song = current_song
-
+        
+    """ 
+    The following funcitons are all search functions, and they search by different kinds of querys
+    Can search by title, artist, genre, or meta
+    Uses fuzzy search, with similarity of 0.8
+    """
     def search_song_title(self, query):
         search_result = Playlist("99990", "Search Result", self)
         current_song = self.first_song
+        # iterates through playlist with while loop
         while current_song is not None:
+            # ignores case
             similarity_factor = self.similarity(query.lower(), current_song.get_title().lower())
-            if similarity_factor >= 0.8:
+            if similarity_factor >= 0.8: # 0.8 means relatively accurate
                 search_result.add_song(current_song.get_id(), current_song.get_title(), current_song.get_artist(), current_song.get_genre(), current_song.get_bpm(), current_song.get_meta())
-                search_result.get_last_song().update_similarity(similarity_factor)
+                search_result.get_last_song().update_similarity(similarity_factor) # a similarity factor is included in the search result, so it is possible to sort the search result and return the most similar search
             current_song = current_song.get_next()
 
+        # search result is returned as a playlist (linked list)
         return search_result
     
     def search_song_artist(self, query):
@@ -143,6 +159,7 @@ class Playlist:
         distance = self.levenshtein_distance(s1, s2)
         return 1 - (distance / max_len)
     
+    # This function appends two playlists, is useful when appending search results
     def append(self, playlist):
         current_song = self.get_last_song()
         
@@ -199,6 +216,7 @@ class Playlist:
             
         return current_song # returns the song at index, or last song if index is too large
     
+    # This returns the song in this playlist in the required format to be stored in the text document
     def format_songs(self):
         formatted_songs = ""
         current_song = self.get_first_song()
@@ -210,7 +228,3 @@ class Playlist:
             current_song = current_song.get_next()
 
         return formatted_songs
-
-    # ============== Testing ===============
-    # def print_list(self): #print list for testing purposes
-    #     self.first_song.print_all()

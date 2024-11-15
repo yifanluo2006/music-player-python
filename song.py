@@ -1,7 +1,9 @@
 class Song:
     def __init__(self, id, title, artist, genre, bpm, meta, frequency=0, popularity_score=0.0):
+        # each song is a link
         self.next = None
         
+        # normal attributes
         self.id = str(id)
         self.title = str(title)
         self.artist = str(artist)
@@ -9,10 +11,15 @@ class Song:
         self.bpm = int(bpm)
         self.meta = meta
         
+        # similarity is used in the search funcitons
         self.similarity = 0.0
+        
+        # frequency and popularity is used in trend analysis
+        'Note that for each addition to playlist, one frequency count is given, for an addition to a library, five frequency count is given'
         self.frequency_count = frequency
         self.popularity_score = popularity_score
-        
+    
+    # common funciton to use in linked list    
     def set_next(self, next):
         self.next = next
     
@@ -20,10 +27,15 @@ class Song:
     def update_frequency(self, n):
         self.frequency_count += n
 
+    # updates the popularity by EMA formula
     def update_popularity(self):
-        
         alpha = 0.35 # The alpha determines how much the value is affected by the trend
-        self.popularity_score = (self.frequency_count * alpha) + (self.popularity_score * (1-alpha))
+        
+        # correctly initiates the score
+        if self.popularity_score == 0:
+            self.popularity_score = self.frequency_count
+        else:
+            self.popularity_score = (self.frequency_count * alpha) + (self.popularity_score * (1-alpha))
 
     def update_similarity(self, n):
         self.similarity = n
@@ -54,6 +66,7 @@ class Song:
     def get_meta(self):
         return self.meta
     
+    # returns the numeric part of the id, as it starts with 's'
     def get_numeric_id(self):
         id_num = int(self.id[1:])
         return id_num
@@ -63,12 +76,3 @@ class Song:
     
     def get_frequency(self):
         return self.frequency_count
-
-    # ================ Testing ==================== 
-    # def print_all(self): # this is a test method that prints the attributes of the current song and calls the next one to print
-    #     self.print_attributes()
-    #     if self.next != None:
-    #         self.next.print_all()
-    
-    # def print_attributes(self):
-    #     print(self.id, self.title, self.artist, self.genre, self.bpm, self.meta)

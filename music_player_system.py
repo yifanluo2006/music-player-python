@@ -10,7 +10,7 @@ from sklearn.neighbors import NearestNeighbors
 
 class MusicPlayerSystem:
     def __init__(self):
-
+        # Initialize the loggers, including a seperate logger for the system events, user events, and generated events
         self.system_logger = logging.getLogger("system_logger")
         self.user_action_logger = logging.getLogger("user_action_logger")
         self.event_generation_logger = logging.getLogger("event_generation_logger")
@@ -20,6 +20,7 @@ class MusicPlayerSystem:
 
         self.system_logger.info("Welcome to the Music Player System by Yifan and Jaden!")
 
+        # Initialize these variables, crucial for linked-list
         self.first_user = None
         self.user = None
 
@@ -31,10 +32,15 @@ class MusicPlayerSystem:
             self.import_user()
             current_id += 1
             path = directory + str(current_id) + ".txt"
+        
+        self.update_popularity_score()
         self.system_logger.info("Total user count = " + str(self.get_user_num()))
         self.authenticated_user_id = None
 
-
+    """
+    This function reads the song_list text file and imports songs according to data written on that file
+    It splits by the _ seperator, and can import a dynamic amount of meta
+    """
     def populate_complete_list(self): # import the initial list with all songs
         file = open("./data/song_list.txt", "r") #reads the text file
         content = file.read()
@@ -43,6 +49,7 @@ class MusicPlayerSystem:
         for song in song_list: # use this for loop to add songs into the list
             song_element = song.split('_')
             
+            # there are at least 2 meta data, but there can be up to 5 meta data
             meta = [str(song_element[5]), str(song_element[6])]
             
             if len(song_element) == 8:
@@ -55,9 +62,16 @@ class MusicPlayerSystem:
                 meta.append(str(song_element[8]))
                 meta.append(str(song_element[9]))
             
+            # have all the required information, add this song to complete list
             self.complete_list.add_song(song_element[0], song_element[1], song_element[2], song_element[3], song_element[4], meta)
             self.system_logger.info(str(song_element[0]) + " " + str(song_element[1]) + " is loaded")
-                
+    
+    """
+    This funciton imports users which are in a linked list data structure
+    Specifically for importing saved users with information stored in text files
+    Note that this just adds another user to the linked list
+    The informaiton is populated in the user class it self as it is initiated
+    """         
     def import_user(self):
         id = self.get_user_num() + 1
         if self.first_user is None:
@@ -67,7 +81,10 @@ class MusicPlayerSystem:
             a_user = User(id, self.complete_list)
             self.user.set_next(a_user)
             self.user = a_user
-            
+    
+    """
+    In contrast to import_user, this funciton adds a new user as it is newly created
+    """
     def add_user(self, name, password):
         id = self.get_user_num() + 1
         if self.first_user is None:
@@ -79,57 +96,92 @@ class MusicPlayerSystem:
             self.get_last_user().set_next(a_user)
             self.user = a_user
             self.system_logger.info("Total user count = " + str(self.get_user_num()))
-            
+    
+    # login authentication for the login page, also called to check for duplicate names in user creation        
     def login_authentication(self, name, password):
         current_user = self.first_user
         while current_user is not None:
             if current_user.get_name() == name and current_user.get_password() == password:
                 self.system_logger.info("AUTHENTICATION: User " + current_user.get_name() + " Has Authenticated")
                 self.authenticated_user_id = current_user.get_id()
+                # If there is a user that has the user name and password inputed, then it is returned
                 return current_user
             current_user = current_user.get_next()
         
+        # None is returned if it is not found
         return None
-
+    
+    """
+    Adds a song to the library of a user, the specifics on adding are in the user class (OOP principles)
+    The popularity score is updated once the song is added
+    """
     def add_song_to_library(self, userId, songId):
+        # makes sure the user and song exists
         if self.get_user(userId) is not None and self.complete_list.search_song_id(songId) is not None:
             self.user = self.get_user(userId)
             self.user.add_song_to_library(songId, self.complete_list)
+            self.update_popularity_score()
+            
+            # here is how this type of logging works:
+            # because we don't know if an event is by the manual user or the automatic event generation, because both call this function
+            # we see if the user is the authenticated user to determine which logger to use to log this event
             if userId == self.authenticated_user_id:
                 self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
             else:
                 self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s library")
 
+    """
+    Creates a new playlist given the user id and new playlist name
+    """
     def create_playlist(self, userId, playlistName):
+        # ensure the user is not None before adding
         if self.get_user(userId) is not None:
             self.user = self.get_user(userId)
             self.user.add_playlist(playlistName)
             
+        # similar logging strategy
         if userId == self.authenticated_user_id:
-        
             self.user_action_logger.info("Playlist " + str(playlistName) + " added to user " + str(userId))
         else:
             self.event_generation_logger.info(("Playlist " + str(playlistName) + " added to user " + str(userId)))
-
+            
+    """
+    Adds song to playlist, similar structure to add song to library
+    """
     def add_song_to_playlist(self, userId, playlistId, songId):
         if self.get_user(userId) is not None and self.complete_list.search_song_id(songId) is not None:
             self.user = self.get_user(userId)
             self.user.add_song_to_playlist(playlistId, songId, self.complete_list)
+            self.update_popularity_score()
             if userId == self.authenticated_user_id:
                 self.user_action_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
             else:
                 self.event_generation_logger.info("Adding " + self.complete_list.search_song_id(songId).get_title() + " to user " + str(userId) + " " + str(self.get_user(userId).get_name()) + "'s playlist")
 
+    """
+    Delete a song given the song and the playlist it is in
+    This function divides into three situations depending on the locaiton of the song being deleted
+    Also if the song is in the library, then it should be deleted in all playlists, which is something to note
+    """
     def delete_song_in_playlist(self, song, playlist):
         current_song = playlist.get_first_song()
         last_song = playlist.get_last_song()
 
         # If the song to be deleted is at the begining
         if current_song is not None and current_song.get_id() == song.get_id():
+            # subtracts one from the frequency when deleted
+            self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+            self.update_popularity_score()
             playlist.set_first_song(playlist.get_first_song().get_next())
+            
+            # checks if it is a library playlist by seeing if the last two digits is 00, a characteristic of library playlists
             if playlist.get_id()[3 : 5] == "00":
                 if self.complete_list.search_song_id(song.get_id()) is not None:
-                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                    # subtracts four from the frequency when deleted, this combined with the one before adds to five
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-4)
+                    self.update_popularity_score()
+                    
+                # deleting all instances of the song in all of the user's playlists
                 for new_playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, new_playlist)
 
@@ -141,6 +193,8 @@ class MusicPlayerSystem:
 
         # If the song to be deleted is at the end
         if current_song is not None and last_song.get_id() == song.get_id():
+            self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+            self.update_popularity_score()
             while current_song.get_next().get_next() is not None:
                 current_song = current_song.get_next()
             current_song.set_next(None)
@@ -153,15 +207,19 @@ class MusicPlayerSystem:
                 
             if playlist.get_id()[3 : 5] == "00":
                 if self.complete_list.search_song_id(song.get_id()) is not None:
-                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-4)
+                    self.update_popularity_score()
                 for playlist in playlist.get_owner().get_all_playlist():
                     self.delete_song_in_playlist(song, playlist)
         
         # If the song to be deleted is in the middle
         while current_song is not None and current_song.get_next() is not None:
+            # need to keep track of previous song due to the nature of linking the previous song to current song's next song
             previous_song = current_song
             current_song = current_song.get_next()
             if current_song.get_id() == song.get_id():
+                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                self.update_popularity_score()
                 previous_song.set_next(current_song.get_next())
                 
                 if playlist.get_owner().get_id() == self.authenticated_user_id:
@@ -171,10 +229,14 @@ class MusicPlayerSystem:
                 
                 if playlist.get_id()[3 : 5] == "00":
                     if self.complete_list.search_song_id(song.get_id()) is not None:
-                        self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                        self.complete_list.search_song_id(song.get_id()).update_frequency(-4)
+                        self.update_popularity_score()
                     for playlist in playlist.get_owner().get_all_playlist():
                         self.delete_song_in_playlist(song, playlist)
 
+    """ 
+    Administrator creates a brand new song into the complete list and writes to the song text file database
+    """
     def admin_create_new_song(self, title, artist, genre, bpm, meta):
         # add the new song to the complete list playlist
         new_id = "s" + str(int(self.complete_list.get_last_song().get_id()[1:]) + 1)
@@ -185,6 +247,10 @@ class MusicPlayerSystem:
         # write the changes to the .txt file
         self.write_complete_list()
 
+    """ 
+    Administrator deletes a song from the complete list and from the song text file database
+    If a song is indeed deleted, then it is also deleted from every playlist and library in every user
+    """
     def admin_delete_song(self, id):
         current_song = self.complete_list.get_first_song()
         last_song = self.complete_list.get_last_song()
@@ -224,23 +290,26 @@ class MusicPlayerSystem:
                 
         self.write_complete_list()
 
+    """ 
+    Writes the changes in the complete list into the text file so the changes are saved
+    This funciton is to be called in the previous two functions
+    """
     def write_complete_list(self):
         f = open("./data/song_list.txt", "w")
         current_song = self.complete_list.get_first_song()
 
         while current_song is not None:
-            print("writing song")
             # write the elements from the linked-list to the .txt file
             f.write(str(current_song.get_id()) + "_" + str(current_song.get_title()) + "_" + str(current_song.get_artist()) + "_" + str(current_song.get_genre()) + "_" + str(current_song.get_bpm()))
             for single_meta in current_song.get_meta():
                 f.write("_" + str(single_meta))
             
+            # only new line if not last song, we do not want empty line at the end becasue this can cause error
             if current_song.get_next() is not None:
                 f.write("\n")
             current_song = current_song.get_next()
 
         f.close()
-
 
     """
     Advanced suggestion algorithm with weighted factors or ML concepts
@@ -288,9 +357,6 @@ class MusicPlayerSystem:
                     
                 current_user = current_user.get_next()
             
-            # np.set_printoptions(threshold=np.inf)
-            # print(matrix)
-            
             "calculate cosine similarity"
             # The following code is inspired by ChatGPT
             "User k-NN to find similar users"
@@ -312,8 +378,6 @@ class MusicPlayerSystem:
             user_index = 1
             while suggested_songs.get_len() <= 10 and user_index <= 20:
                 similar_user = self.get_user(similar_users[user_index])
-                
-                # print(similar_users)
             
                 current_song = similar_user.get_library().get_first_song()
                 while current_song is not None:
@@ -370,6 +434,16 @@ class MusicPlayerSystem:
         # most popular songs are returned in the format of a linked-list
         return popular_songs
     
+    # a seperate function to update popularity
+    def update_popularity_score(self):
+        current_song = self.complete_list.get_first_song()
+        while current_song is not None:
+            current_song.update_popularity() # updates popularity score for each song
+            current_song = current_song.get_next()
+    
+    """
+    Merge sort code
+    """
     def split(self, head):
         if head is None or head.next is None:
             return None  # Cannot split further
@@ -478,6 +552,9 @@ class MusicPlayerSystem:
         slow.next = None  # Split the list into two halves
         return second
 
+    """
+    Merge sort code
+    """
     def merge_for_search(self, first, second):
   
         # If either list is empty, return the other list
@@ -511,6 +588,11 @@ class MusicPlayerSystem:
         # Merge the two sorted halves
         return self.merge_for_search(head, second)
     
+    """ 
+    Saves all the user information to the text file of that user so changes are saved
+    Function is called after the Tkinter window closes
+    For a user that did not previously exist, a new text file is created to add them
+    """
     def save_changes_to_file(self):
         self.system_logger.info("Saving all changes to files")
         current_user = self.first_user
@@ -525,9 +607,11 @@ class MusicPlayerSystem:
             f.write(str(current_user.get_password()) + "\n")
             f.write(str(current_user.get_library().format_songs()) + "\n")
 
+            # number of playlists
             playlists = current_user.get_all_playlist()
             f.write(str(len(playlists)) + "\n")
 
+            # next lines alternating in playlist name and songs in that playlist
             for playlist in playlists:
                 f.write(str(playlist.get_name()) + "\n")
                 f.write(str(playlist.format_songs()) + "\n")
@@ -576,7 +660,3 @@ class MusicPlayerSystem:
     
     def get_complete_list(self):
         return self.complete_list
-        
-    # =============== Testing ===============
-    # def test_print(self):
-    #     self.complete_list.print_list()
