@@ -28,6 +28,7 @@ class MusicPlayerSystem:
         current_id = 1
         path = directory + str(current_id) + ".txt"
 
+        # only imports if the file exists
         while os.path.isfile(path):
             self.import_user()
             current_id += 1
