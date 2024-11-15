@@ -1,119 +1,169 @@
-USER: 2024-11-14 14:57:32,497 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 15:01:29,072 | user_action_logger | INFO | Playlist Classic Mood added to user 1
-USER: 2024-11-14 15:01:29,073 | user_action_logger | INFO | Adding Jump to user 1 test's playlist
-USER: 2024-11-14 15:01:29,073 | user_action_logger | INFO | Adding Watch Me (Whip / Nae Nae) to user 1 test's playlist
-USER: 2024-11-14 15:01:29,073 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 15:01:29,079 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
-USER: 2024-11-14 15:01:29,079 | user_action_logger | INFO | Matched preferences with user Jacob metalhead
-USER: 2024-11-14 15:01:29,080 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
-USER: 2024-11-14 15:01:29,080 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 15:01:29,080 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 15:01:29,080 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 15:01:29,080 | user_action_logger | INFO | Adding Maggie May - Remastered Version to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding The Way We Were to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding My Eyes Adored You to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding Laughter In The Rain to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding Boogie Chillen to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding Driftin' Blues - 1992 Digital Remaster to user 1 test's library
-USER: 2024-11-14 15:01:29,081 | user_action_logger | INFO | Adding Because They're Young to user 1 test's playlist
-USER: 2024-11-14 15:01:29,082 | user_action_logger | INFO | Adding Hello to user 1 test's playlist
-USER: 2024-11-14 15:01:29,082 | user_action_logger | INFO | Adding I'll Be There (feat. Trey Lorenz) - Live at MTV Unplugged to user 1 test's playlist
-USER: 2024-11-14 15:01:29,082 | user_action_logger | INFO | Adding The Third Man Theme (The Harry Lime Theme) - Original Version to user 1 test's playlist
-USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Artistry In Rhythm from Library
-USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Artistry In Rhythm from Power Ballads
-USER: 2024-11-14 15:01:29,123 | user_action_logger | INFO | Deleted Bridge Over Troubled Water from Library
-USER: 2024-11-14 16:36:16,339 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:36:18,976 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 1 test's library
-USER: 2024-11-14 16:36:19,511 | user_action_logger | INFO | Adding Billie Jean to user 1 test's library
-USER: 2024-11-14 16:36:20,007 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 1 test's library
-USER: 2024-11-14 16:36:20,415 | user_action_logger | INFO | Adding Take Five to user 1 test's library
-USER: 2024-11-14 16:36:21,093 | user_action_logger | INFO | Adding Shape of You to user 1 test's library
-USER: 2024-11-14 16:36:29,569 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:36:47,205 | user_action_logger | INFO | Deleted Bohemian Rhapsody from Library
-USER: 2024-11-14 16:36:48,376 | user_action_logger | INFO | Deleted Billie Jean from Library
-USER: 2024-11-14 16:36:49,579 | user_action_logger | INFO | Deleted Sweet Child O' Mine from Library
-USER: 2024-11-14 16:36:50,577 | user_action_logger | INFO | Deleted Take Five from Library
-USER: 2024-11-14 16:37:10,220 | user_action_logger | INFO | Playlist Smooth Mood added to user 1
-USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Adding Total Eclipse of the Heart to user 1 test's playlist
-USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Adding Because They're Young to user 1 test's playlist
-USER: 2024-11-14 16:37:10,221 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Eli rockclassics
-USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:37:10,224 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Bridge Over Troubled Water to user 1 test's library
-USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Firework to user 1 test's library
-USER: 2024-11-14 16:37:10,225 | user_action_logger | INFO | Adding Hot Stuff to user 1 test's library
-USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding Single Ladies (Put a Ring on It) to user 1 test's library
-USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding Hanging By A Moment to user 1 test's library
-USER: 2024-11-14 16:37:10,226 | user_action_logger | INFO | Adding How to Save a Life to user 1 test's library
-USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Misterioso - Live to user 1 test's playlist
-USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Shadow Dancing to user 1 test's playlist
-USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Band Of Gold - Re-Record to user 1 test's playlist
-USER: 2024-11-14 16:37:10,227 | user_action_logger | INFO | Adding Dippermouth Blues to user 1 test's playlist
-USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from Library
-USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from Classic Rock Hits
-USER: 2024-11-14 16:37:10,260 | user_action_logger | INFO | Deleted Livin' On A Prayer from 80s Rock Anthems
-USER: 2024-11-14 16:37:13,917 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:35,051 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:36,781 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:37,940 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:38,682 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:39,385 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:39,907 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:40,507 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:45,054 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:45,832 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:46,600 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:47,244 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:49,483 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:50,475 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:37:59,994 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:38:01,574 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:38:04,877 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:57:02,322 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:57:41,661 | user_action_logger | INFO | Deleted Because They're Young from Classic Mood
-USER: 2024-11-14 16:57:42,341 | user_action_logger | INFO | Deleted Watch Me (Whip / Nae Nae) from Classic Mood
-USER: 2024-11-14 16:57:48,167 | user_action_logger | INFO | Deleted Locked out of Heaven from Classic Rock Hits
-USER: 2024-11-14 16:57:48,583 | user_action_logger | INFO | Deleted Photograph from Classic Rock Hits
-USER: 2024-11-14 16:57:48,991 | user_action_logger | INFO | Deleted Welcome to the Jungle from Classic Rock Hits
-USER: 2024-11-14 16:57:49,431 | user_action_logger | INFO | Deleted The Hills from Classic Rock Hits
-USER: 2024-11-14 16:57:50,163 | user_action_logger | INFO | Deleted Everything You Want from Classic Rock Hits
-USER: 2024-11-14 16:57:54,822 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:57:54,827 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:58:01,351 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 16:58:01,355 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:58:01,356 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:58:01,727 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:03,453 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:07,963 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:58:07,967 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:58:07,967 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 16:58:07,968 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:58:07,968 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:58:13,162 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:17,885 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:18,697 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:19,351 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:20,137 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:58:26,126 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:58:26,131 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:58:29,238 | user_action_logger | INFO | Adding Devil Or Angel to user 1 test's library
-USER: 2024-11-14 16:58:29,767 | user_action_logger | INFO | Adding Everybody Wants To Rule The World to user 1 test's library
-USER: 2024-11-14 16:58:30,245 | user_action_logger | INFO | Adding Here Without You to user 1 test's library
-USER: 2024-11-14 16:58:31,245 | user_action_logger | INFO | Fetching most trending songs
-USER: 2024-11-14 16:59:17,293 | user_action_logger | INFO | Generating suggestions based on Library
-USER: 2024-11-14 16:59:17,297 | user_action_logger | INFO | Matched preferences with user Tyler rockfan
-USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Matched preferences with user Evan classicrock
-USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Matched preferences with user Connor hardrock
-USER: 2024-11-14 16:59:17,298 | user_action_logger | INFO | Generated suggestions of matching songs
-USER: 2024-11-14 16:59:20,472 | user_action_logger | INFO | Adding Crank That (Soulja Boy) to user 1 test's playlist
-USER: 2024-11-14 16:59:22,588 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:25:42,366 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:25:42,370 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:25:42,370 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:25:57,085 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:25:57,087 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:25:57,088 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:25:57,965 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:25:59,646 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:25:59,649 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:25:59,649 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:26:01,642 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:26:01,645 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:26:01,645 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:26:05,430 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:26:06,861 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:26:06,863 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:26:06,864 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:26:08,938 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:26:12,195 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:26:12,198 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:26:12,198 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:26:13,356 | user_action_logger | INFO | Generating suggestions based on Library
+USER: 2024-11-14 22:26:13,358 | user_action_logger | INFO | Matched preferences with user Lucy popenthusiast
+USER: 2024-11-14 22:26:13,358 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:26:27,124 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:26:33,908 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 101 Alice's library
+USER: 2024-11-14 22:26:34,582 | user_action_logger | INFO | Adding Billie Jean to user 101 Alice's library
+USER: 2024-11-14 22:26:35,153 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 101 Alice's library
+USER: 2024-11-14 22:26:40,233 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 101 Alice's library
+USER: 2024-11-14 22:26:40,740 | user_action_logger | INFO | Adding Take Five to user 101 Alice's library
+USER: 2024-11-14 22:26:43,235 | user_action_logger | INFO | Adding Shape of You to user 101 Alice's library
+USER: 2024-11-14 22:26:55,981 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:02,163 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:04,667 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:06,547 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:08,186 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:10,496 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:13,086 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:41,238 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:27:47,189 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:28:09,576 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:29:11,033 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:29:14,802 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 102 Bob's library
+USER: 2024-11-14 22:29:15,458 | user_action_logger | INFO | Adding Billie Jean to user 102 Bob's library
+USER: 2024-11-14 22:29:16,106 | user_action_logger | INFO | Adding Take Five to user 102 Bob's library
+USER: 2024-11-14 22:29:19,979 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:29:40,399 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:30:20,095 | user_action_logger | INFO | Adding Billie Jean to user 103 Charlie's library
+USER: 2024-11-14 22:30:20,950 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 103 Charlie's library
+USER: 2024-11-14 22:30:22,293 | user_action_logger | INFO | Adding Shape of You to user 103 Charlie's library
+USER: 2024-11-14 22:30:40,758 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:30:43,434 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 101 Alice's library
+USER: 2024-11-14 22:30:43,877 | user_action_logger | INFO | Adding Billie Jean to user 101 Alice's library
+USER: 2024-11-14 22:30:44,510 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 101 Alice's library
+USER: 2024-11-14 22:30:44,802 | user_action_logger | INFO | Adding Billie Jean to user 101 Alice's library
+USER: 2024-11-14 22:30:45,076 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 101 Alice's library
+USER: 2024-11-14 22:30:45,360 | user_action_logger | INFO | Adding Billie Jean to user 101 Alice's library
+USER: 2024-11-14 22:30:45,812 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 101 Alice's library
+USER: 2024-11-14 22:31:16,508 | user_action_logger | INFO | Playlist Rock Classics added to user 101
+USER: 2024-11-14 22:31:21,584 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 101 Alice's playlist
+USER: 2024-11-14 22:31:23,084 | user_action_logger | INFO | Adding Sweet Child O' Mine to user 101 Alice's playlist
+USER: 2024-11-14 22:31:45,255 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:31:55,770 | user_action_logger | INFO | Playlist  added to user 102
+USER: 2024-11-14 22:32:13,481 | user_action_logger | INFO | Playlist Workout Mix added to user 102
+USER: 2024-11-14 22:32:20,258 | user_action_logger | INFO | Adding Billie Jean to user 102 Bob's playlist
+USER: 2024-11-14 22:33:17,365 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:33:22,431 | user_action_logger | INFO | Adding Shape of You to user 102 Bob's playlist
+USER: 2024-11-14 22:33:51,271 | user_action_logger | INFO | Playlist Jazz and Pop added to user 103
+USER: 2024-11-14 22:33:52,707 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:33:56,564 | user_action_logger | INFO | Adding Billie Jean to user 103 Charlie's playlist
+USER: 2024-11-14 22:33:58,468 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:19,915 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:34:22,667 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's library
+USER: 2024-11-14 22:34:22,825 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's library
+USER: 2024-11-14 22:34:22,981 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's library
+USER: 2024-11-14 22:34:23,114 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's library
+USER: 2024-11-14 22:34:23,260 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's library
+USER: 2024-11-14 22:34:25,518 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:25,694 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:25,838 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:26,085 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:26,249 | user_action_logger | INFO | Adding Take Five to user 103 Charlie's playlist
+USER: 2024-11-14 22:34:44,565 | user_action_logger | INFO | Generating suggestions based on Rock Classics
+USER: 2024-11-14 22:34:44,567 | user_action_logger | INFO | Matched preferences with user Charlie
+USER: 2024-11-14 22:34:44,568 | user_action_logger | INFO | Matched preferences with user Bob
+USER: 2024-11-14 22:34:44,568 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-14 22:34:44,568 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:35:05,853 | user_action_logger | INFO | Generating suggestions based on Rock Classics
+USER: 2024-11-14 22:35:05,855 | user_action_logger | INFO | Matched preferences with user Charlie
+USER: 2024-11-14 22:35:05,855 | user_action_logger | INFO | Matched preferences with user Bob
+USER: 2024-11-14 22:35:05,856 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-14 22:35:05,856 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:36:22,224 | user_action_logger | INFO | Generating suggestions based on Workout Mix
+USER: 2024-11-14 22:36:22,227 | user_action_logger | INFO | Matched preferences with user Charlie
+USER: 2024-11-14 22:36:22,227 | user_action_logger | INFO | Matched preferences with user Alice
+USER: 2024-11-14 22:36:22,227 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-14 22:36:22,227 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:37:48,304 | user_action_logger | INFO | Generating suggestions based on Jazz and Pop
+USER: 2024-11-14 22:37:48,307 | user_action_logger | INFO | Matched preferences with user Bob
+USER: 2024-11-14 22:37:48,308 | user_action_logger | INFO | Matched preferences with user Alice
+USER: 2024-11-14 22:37:48,308 | user_action_logger | INFO | Matched preferences with user Nicholas hardrocker
+USER: 2024-11-14 22:37:48,308 | user_action_logger | INFO | Generated suggestions of matching songs
+USER: 2024-11-14 22:38:55,989 | user_action_logger | INFO | Searching for query Queen
+USER: 2024-11-14 22:39:16,861 | user_action_logger | INFO | Searching for query Pop
+USER: 2024-11-14 22:39:26,817 | user_action_logger | INFO | Searching for query Queen
+USER: 2024-11-14 22:39:36,948 | user_action_logger | INFO | Searching for query Sweet
+USER: 2024-11-14 22:40:32,059 | user_action_logger | INFO | Searching for query Sweet Child O' Mine
+USER: 2024-11-14 22:40:44,405 | user_action_logger | INFO | Searching for query sweet zhild O mine
+USER: 2024-11-14 22:40:45,271 | user_action_logger | INFO | Searching for query 
+USER: 2024-11-14 22:40:46,148 | user_action_logger | INFO | Searching for query 
+USER: 2024-11-14 22:40:46,400 | user_action_logger | INFO | Searching for query 
+USER: 2024-11-14 22:40:46,550 | user_action_logger | INFO | Searching for query 
+USER: 2024-11-14 22:40:51,312 | user_action_logger | INFO | Searching for query take vive
+USER: 2024-11-14 22:41:00,739 | user_action_logger | INFO | Searching for query 80s
+USER: 2024-11-14 22:41:53,800 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:42:30,337 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:42:32,160 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 1 test's library
+USER: 2024-11-14 22:42:54,398 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:42:55,817 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 2 Sophia jazzlover88's library
+USER: 2024-11-14 22:43:00,168 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:43:01,041 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:43:02,961 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 2 Sophia jazzlover88's library
+USER: 2024-11-14 22:43:03,510 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 2 Sophia jazzlover88's library
+USER: 2024-11-14 22:43:03,692 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 2 Sophia jazzlover88's library
+USER: 2024-11-14 22:43:03,887 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 2 Sophia jazzlover88's library
+USER: 2024-11-14 22:43:20,304 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:43:22,898 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 3 Michael hiphophead99's library
+USER: 2024-11-14 22:43:40,775 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:45:06,718 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:45:22,522 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:45:25,001 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 4 Emma popprincess22's library
+USER: 2024-11-14 22:45:31,101 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 4 Emma popprincess22's library
+USER: 2024-11-14 22:45:56,284 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:45:59,120 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 5 Daniel countryfan55's library
+USER: 2024-11-14 22:46:01,228 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:07,077 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:08,389 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 6 Olivia diva songs's library
+USER: 2024-11-14 22:47:10,167 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:26,441 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:27,877 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 7 James classic blues's library
+USER: 2024-11-14 22:47:35,054 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:55,490 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:47:58,046 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:00,743 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:02,514 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:02,688 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:02,849 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:03,015 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:03,184 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 8 Ava edmlover101's library
+USER: 2024-11-14 22:48:04,128 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:28,582 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:29,902 | user_action_logger | INFO | Adding Bohemian Rhapsody to user 9 William oldiesfan77's library
+USER: 2024-11-14 22:48:32,963 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:34,312 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:36,124 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:36,991 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:37,796 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:38,656 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:39,349 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:40,059 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:40,753 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:41,576 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:42,293 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:42,991 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:43,597 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:44,387 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:45,020 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:45,788 | user_action_logger | INFO | Fetching most trending songs
+USER: 2024-11-14 22:48:46,469 | user_action_logger | INFO | Fetching most trending songs
