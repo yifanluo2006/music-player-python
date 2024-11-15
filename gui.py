@@ -195,6 +195,8 @@ class GUI:
         meta1 = meta1.get("1.0", tk.END).strip()
         meta2 = meta2.get("1.0", tk.END).strip()
         meta3 = meta3.get("1.0", tk.END).strip()
+
+
         if title != None and artist != None and genre != None and bpm != None and meta1 != None and meta2 != None and meta3 != None:
             meta = [meta1, meta2, meta3]
             system.admin_create_new_song(title, artist, genre, bpm, meta)
@@ -230,6 +232,7 @@ class GUI:
             info = songdisplay.get(i)
             pieces = info.split(',')
             system.admin_delete_song(pieces[0]) # you need to pass in the id of the song to be deleted
+            songdisplay.delete(i)
 
     
     def display_log(self, system, type):
