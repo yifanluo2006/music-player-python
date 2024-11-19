@@ -400,7 +400,7 @@ class GUI:
        
         
         self.display_songs(system, self.content_frame, playlist.first_song, user, playlist) #displays each individual song
-        if clear == True and playlist.id != "99979" and playlist.id != "00000" and playlist.id != "99989" and playlist.id != "99979" and playlist.id != "99990" and playlist.name != "Complete Library":
+        if clear == True and playlist.id != "99979" and playlist.id != "00000" and playlist.id != "99989" and playlist.id != "99979" and playlist.id != "99990" and playlist.name != "Complete Library" and playlist.name != "Search Result":
             self.display_generate_suggestions_button(playlist, system)
         self.rightSide.yview("moveto", 0)
 
@@ -423,7 +423,7 @@ class GUI:
             container = tk.Frame(master = frame, width = 850, height = 50, highlightbackground = "black", highlightthickness = 1)
             container.pack()
             container.pack_propagate(0)
-            if currentplaylist.id == "00000" or currentplaylist.id == "99989":
+            if currentplaylist.id == "00000" or currentplaylist.id == "99989" or currentplaylist.name == "Complete Library":
                 info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre + ", Popularity: " + str(song.popularity_score) + ", Frequency: " + str(song.frequency_count))
             else:
                 info = tk.Label(container, text = song.title + ", " + song.artist + ", " + song.genre)
@@ -458,7 +458,7 @@ class GUI:
             songcounter += 1
             song=song.get_next() #repeats the loop
             
-            if(songcounter > 101):  #once the amount of songs reaches 100, create a new page for the songs
+            if(songcounter > 51):  #once the amount of songs reaches 50, create a new page for the songs
                 new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name, system.get_user(self.current_user))
                 while song is not None:
                     new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta)
@@ -524,6 +524,17 @@ class GUI:
         search_button.pack(side = tk.LEFT)
         search_input = tk.Entry(searchbar, width = 45)
         search_input.pack(side = tk.LEFT)
+        searchoptions = tk.Frame(master = self.leftBar, width = 250, height = 10)
+        searchoptions.pack()
+        titlesearch = tk.Button(searchoptions, text = "TITLE", command = lambda: self.display_playlist(system, system.search_songs_title(system.complete_list, search_input.get().strip()), self.current_user, True))
+        artistsearch = tk.Button(searchoptions, text = "ARTIST", command = lambda: self.display_playlist(system, system.search_songs_artist(system.complete_list, search_input.get().strip()), self.current_user, True))
+        genresearch = tk.Button(searchoptions, text = "GENRE", command = lambda: self.display_playlist(system, system.search_songs_genre(system.complete_list, search_input.get().strip()), self.current_user, True))
+        metasearch = tk.Button(searchoptions, text = "META", command = lambda: self.display_playlist(system, system.search_songs_meta(system.complete_list, search_input.get().strip()), self.current_user, True))
+
+        titlesearch.pack(side = tk.LEFT)
+        artistsearch.pack(side = tk.LEFT)
+        genresearch.pack(side = tk.LEFT)
+        metasearch.pack(side = tk.LEFT)
 
         if self.search_history:
             self.clicked.set("History")

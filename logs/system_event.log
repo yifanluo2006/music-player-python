@@ -1,0 +1,1316 @@
+SYSTEM: 2024-11-18 21:44:54,794 | system_logger | INFO | s1 Bohemian Rhapsody is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s2 Billie Jean is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s3 Sweet Child O' Mine is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s4 Take Five is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s5 Shape of You is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s6 Dark Was the Night Cold Was the Ground is loaded
+SYSTEM: 2024-11-18 21:44:54,795 | system_logger | INFO | s7 Swanee is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s8 Pony Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s9 Rhapsody In Blue is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s10 Crazy Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s11 Black and Tan Fantasy is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s12 Singin' The Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,796 | system_logger | INFO | s13 See See Rider Blues - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s14 Statesboro Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s15 In a Mist is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s16 Pine Top's Boogie Woogie is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s17 Carolina Shout is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s18 Ol' Man River is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s19 Matchbox Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s20 Downhearted Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s21 Empty Bed Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s22 Dippermouth Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,797 | system_logger | INFO | s23 Stardust - Remastered 2002 is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s24 Makin' Whoopee is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s25 See That My Grave Is Kept Clean is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s26 Whispering is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s27 Potato Head Blues - 78rpm Version is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s28 How Long - How Long Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s29 Keep On The Sunny Side is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s30 Stack O' Lee is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s31 Struttin' with Some Barbecue - 78 rpm Version is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s32 St. James Infirmary is loaded
+SYSTEM: 2024-11-18 21:44:54,798 | system_logger | INFO | s33 The Little Old Log Cabin In The Lane is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s34 How Can A Poor Man Stand Such Times And Live - Remastered 2003 is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s35 My Man is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s36 Sally Gooden is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s37 St. Louis Blues - Vocal is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s38 It's Tight Like That is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s39 My Mammy is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s40 King Porter Stomp is loaded
+SYSTEM: 2024-11-18 21:44:54,799 | system_logger | INFO | s41 Honky Tonk Train Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s42 Allons a Lafayette is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s43 Fascinating Rhythm is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s44 Black Bottom Stomp is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s45 Handful of Keys - Remastered 2000 is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s46 East St. Louis Toodle-Oo is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s47 My Blue Heaven is loaded
+SYSTEM: 2024-11-18 21:44:54,800 | system_logger | INFO | s48 The Prisoner's Song is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s49 Black Snake Moan is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s50 Country Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s51 Black And Blue is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s52 Ain't Misbehavin' is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s53 The Coo Coo Bird is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s54 Cool Drink of Water Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s55 Trouble in Mind is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s56 Frankie is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s57 Don't Let Your Deal Go Down Blues (with The North Carolina Ramblers) - 78rpm Version is loaded
+SYSTEM: 2024-11-18 21:44:54,801 | system_logger | INFO | s58 I Wanna Be Loved By You ( 1928 Version ) is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s59 In the Jailhouse Now is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s60 Nobody Knows You When You're Down and Out - 78rpm Version is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s61 Pan American Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s62 Stealin', Stealin' - Remastered 2002 is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s63 Mon Homme is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s64 Heebie Jeebies is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s65 Candy Man Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,802 | system_logger | INFO | s66 Copenhagen is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s67 Lovesick Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s68 Love Me or Leave Me is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s69 Bye-Bye, Blackbird (1926) is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s70 It Had To Be You is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s71 Big Road Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s72 Ory's Creole Trombone is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s73 Grandpa Spells is loaded
+SYSTEM: 2024-11-18 21:44:54,803 | system_logger | INFO | s74 Mother's Children Have a Hard Time is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s75 I Can't Give You Anything But Love is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s76 Doctor Jazz Stomp is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s77 James Alley Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s78 California, Here I Come (1924) is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s79 The Stampede is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s80 Back Water Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s81 Tight Like This is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s82 The Titanic is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s83 'Tain't Nobody's Bizness If I Do is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s84 Chimes Blues - Original is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s85 Tin Roof Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,804 | system_logger | INFO | s86 Waiting for a Train is loaded
+SYSTEM: 2024-11-18 21:44:54,805 | system_logger | INFO | s87 Kansas City Stomps is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s88 The Pearls is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s89 Canal Street Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s90 Kassie Jones is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s91 Dead Man Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s92 Les roses blanches is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s93 Basin Street Blues (06-11-29) is loaded
+SYSTEM: 2024-11-18 21:44:54,806 | system_logger | INFO | s94 A Monday Date is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s95 South is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s96 Dinah is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s97 Cake Walking Babies (From Home) is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s98 Keep My Skillet Good And Greasy is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s99 I'm Coming Virginia is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s100 Stringin the Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s101 Whistle While You Work is loaded
+SYSTEM: 2024-11-18 21:44:54,807 | system_logger | INFO | s102 Me And My Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s103 Let Yourself Go is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s104 My Baby Just Cares For Me is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s105 Puttin' On The Ritz is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s106 It Happened In Monterey is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s107 Easy To Love is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s108 We Just Couldn't Say Goodbye is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s109 Donkey Serenade is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s110 La Cucaracha is loaded
+SYSTEM: 2024-11-18 21:44:54,808 | system_logger | INFO | s111 Love Is The Sweetest Thing is loaded
+SYSTEM: 2024-11-18 21:44:54,809 | system_logger | INFO | s112 Darling Je Vous Aime Beaucoup is loaded
+SYSTEM: 2024-11-18 21:44:54,809 | system_logger | INFO | s113 Little White Lies is loaded
+SYSTEM: 2024-11-18 21:44:54,809 | system_logger | INFO | s114 Falling In Love Again is loaded
+SYSTEM: 2024-11-18 21:44:54,809 | system_logger | INFO | s115 Nice Work If You Can Get It is loaded
+SYSTEM: 2024-11-18 21:44:54,809 | system_logger | INFO | s116 I Wished On The Moon is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s117 Exactly Like You is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s118 Minnie The Moocher (The Ho-De-Ho Song) is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s119 When The Moon Comes Over The Mountain is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s120 Down And Out Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s121 I'll Never Be The Same is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s122 Happy-Go-Lucky You And Broken-Hearted Me is loaded
+SYSTEM: 2024-11-18 21:44:54,810 | system_logger | INFO | s123 Oh! Donna Carla! is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s124 The Object Of My Affection is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s125 I'm In A Dancing Mood is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s126 Would You Like to Take a Walk? is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s127 Body And Soul is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s128 The Way You Look Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s129 I Saw Stars is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s130 Let's Face The Music And Dance is loaded
+SYSTEM: 2024-11-18 21:44:54,811 | system_logger | INFO | s131 You're Driving Me Crazy is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s132 Somebody's Thinking Of You Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s133 Blue Moon is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s134 I Hadn't Anyone Till You is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s135 You're Getting To Be A Habit With Me is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s136 Nevertheless is loaded
+SYSTEM: 2024-11-18 21:44:54,812 | system_logger | INFO | s137 Bei Mir Bist Du Schoen is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s138 These Foolish Things is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s139 From The Top Of Your Head is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s140 Top Hat White Tie And Tails is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s141 Your Heart And Mine is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s142 Three Little Words is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s143 Flat Foot Floogie (With The Floy Floy) is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s144 Love Walked In is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s145 You're A Sweetheart is loaded
+SYSTEM: 2024-11-18 21:44:54,813 | system_logger | INFO | s146 Jeepers Creepers is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s147 Life Is A Song is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s148 Body And Soul is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s149 Sweet and Lovely is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s150 I'm Gonna Sit Right Down And Write Myself A Letter is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s151 Wrap Your Troubles In Dreams is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s152 The Glory Of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s153 Lullaby Of Broadway is loaded
+SYSTEM: 2024-11-18 21:44:54,814 | system_logger | INFO | s154 Stompin' At The Savoy is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s155 One Night Of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s156 Star dust is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s157 A Fine Romance is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s158 Walkin' My Baby Back Home is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s159 Change Partners is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s160 Your Feet's Too Big is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s161 I Get A Kick Out Of You is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s162 I've Told Ev'ry Little Star is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s163 Prisoner of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,815 | system_logger | INFO | s164 Begin The Beguine is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s165 You Couldn't Be Cuter is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s166 Lights Out is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s167 Until The Real Thing Comes Along is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s168 I'm In The Mood For Love is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s169 A Tisket, A Tasket is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s170 Isn't It Romantic is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s171 The Song Is You is loaded
+SYSTEM: 2024-11-18 21:44:54,817 | system_logger | INFO | s172 Alone is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s173 What A Difference A Day Made is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s174 The Touch Of Your Lips is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s175 Beyond The Blue Horizon is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s176 Cheek To Cheek is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s177 I Don't Know Why is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s178 As Time Goes By is loaded
+SYSTEM: 2024-11-18 21:44:54,818 | system_logger | INFO | s179 Wabash Cannon Ball is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s180 I'm Confessing That I Love You is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s181 Ten Cents A Dance is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s182 A Ghost Of A Chance is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s183 Happy Feet is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s184 Stay As Sweet As You Are is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s185 Oh Ma-Ma is loaded
+SYSTEM: 2024-11-18 21:44:54,819 | system_logger | INFO | s186 Mad Dogs And Englishmen is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s187 Just One More Chance is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s188 If I Had A Talking Picture Of You is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s189 East Of The Sun (And West Of The Moon) is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s190 Mad About The Boy is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s191 Gipsy Moon is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s192 Goodnight Sweetheart is loaded
+SYSTEM: 2024-11-18 21:44:54,820 | system_logger | INFO | s193 Sally is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s194 When It's Springtime In The Rockies is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s195 Dancing in the Dark is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s196 Rockin' Chair is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s197 I'm In The Mood For Love is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s198 I'm An Old Cowhand (From The Rio Grande) is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s199 Moonglow is loaded
+SYSTEM: 2024-11-18 21:44:54,821 | system_logger | INFO | s200 With A Song In My Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s201 I'm So Lonesome I Could Cry - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s202 La Vie en rose is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s203 White Christmas is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s204 Round Midnight is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s205 Boogie Chillen is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s206 Koko is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s207 I Will Move On Up A Little Higher - Part 1 is loaded
+SYSTEM: 2024-11-18 21:44:54,822 | system_logger | INFO | s208 Blue Moon Of Kentucky - Original is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s209 Take the "A" Train is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s210 God Bless The Child is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s211 Call It Stormy Monday (But Tuesday Is Just As Bad) is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s212 Caldonia is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s213 Flying Home is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s214 Nuages - avec le Quintette Hot Club de France is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s215 Black (First Movement Of Black, Brown And Beige) - Live is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s216 Manteca is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s217 Sentimental Journey is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s218 Stormy Weather is loaded
+SYSTEM: 2024-11-18 21:44:54,823 | system_logger | INFO | s219 (Get Your Kicks On) Route 66 - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s220 La mer (Beyond the Sea) is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s221 Lovesick Blues - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s222 Choo Choo Ch' Boogie is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s223 When You Wish Upon A Star is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s224 Foggy Mountain Breakdown is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s225 It's Too Soon to Know is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s226 Solo Flight is loaded
+SYSTEM: 2024-11-18 21:44:54,824 | system_logger | INFO | s227 Les feuilles mortes is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s228 You Are My Sunshine is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s229 Driftin' Blues - 1992 Digital Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s230 Nature Boy is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s231 Artistry In Rhythm is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s232 The Christmas Song (Merry Christmas To You) is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s233 A Night In Tunisia is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s234 Der Fuehrer's Face is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s235 Mule Skinner Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s236 Boogie Woogie Bugle Boy is loaded
+SYSTEM: 2024-11-18 21:44:54,825 | system_logger | INFO | s237 Ko-Ko is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s238 New San Antonio Rose is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s239 Good Rockin' Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s240 Ornithology (03-28-46) is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s241 Parker's Mood is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s242 Key to the Highway is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s243 Lost Highway is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s244 Move It On Over is loaded
+SYSTEM: 2024-11-18 21:44:54,827 | system_logger | INFO | s245 Star Dust is loaded
+SYSTEM: 2024-11-18 21:44:54,828 | system_logger | INFO | s246 Groovin' High is loaded
+SYSTEM: 2024-11-18 21:44:54,828 | system_logger | INFO | s247 Walking The Floor Over You is loaded
+SYSTEM: 2024-11-18 21:44:54,828 | system_logger | INFO | s248 The Man I Love is loaded
+SYSTEM: 2024-11-18 21:44:54,828 | system_logger | INFO | s249 Let the Good Times Roll is loaded
+SYSTEM: 2024-11-18 21:44:54,828 | system_logger | INFO | s250 Paper Doll - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s251 As time goes by - Complete vocal by Dooley Wilson is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s252 Straighten Up And Fly Right is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s253 Good Rockin' Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s254 Saturday Night Fish Fry is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s255 Tenderly is loaded
+SYSTEM: 2024-11-18 21:44:54,829 | system_logger | INFO | s256 Four Brothers is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s257 For Me And My Gal - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s258 Riders In the Sky is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s259 Swinging On A Star is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s260 All Or Nothing At All is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s261 I Love you (For Sentimental Reasons) is loaded
+SYSTEM: 2024-11-18 21:44:54,830 | system_logger | INFO | s262 I Can't Be Satisfied is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s263 Misterioso - Live is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s264 Now's The Time is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s265 Chicken Shack Boogie - Rerecorded is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s266 Worried Life Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s267 Rudolph, the Red-Nosed Reindeer (with The Pinafores) is loaded
+SYSTEM: 2024-11-18 21:44:54,831 | system_logger | INFO | s268 Jole Blon is loaded
+SYSTEM: 2024-11-18 21:44:54,832 | system_logger | INFO | s269 Cocktails For Two is loaded
+SYSTEM: 2024-11-18 21:44:54,832 | system_logger | INFO | s270 Salt Peanuts is loaded
+SYSTEM: 2024-11-18 21:44:54,832 | system_logger | INFO | s271 Early Autumn is loaded
+SYSTEM: 2024-11-18 21:44:54,832 | system_logger | INFO | s272 Near You is loaded
+SYSTEM: 2024-11-18 21:44:54,832 | system_logger | INFO | s273 Body and Soul is loaded
+SYSTEM: 2024-11-18 21:44:54,833 | system_logger | INFO | s274 Seven Come Eleven (feat. Benny Goodman & Charlie Christian) is loaded
+SYSTEM: 2024-11-18 21:44:54,833 | system_logger | INFO | s275 Swing To Bop is loaded
+SYSTEM: 2024-11-18 21:44:54,833 | system_logger | INFO | s276 It Had To Be You is loaded
+SYSTEM: 2024-11-18 21:44:54,833 | system_logger | INFO | s277 Gloomy Sunday (with Teddy Wilson & His Orchestra) - Take 1 is loaded
+SYSTEM: 2024-11-18 21:44:54,833 | system_logger | INFO | s278 Frenesi is loaded
+SYSTEM: 2024-11-18 21:44:54,834 | system_logger | INFO | s279 Cotton Tail is loaded
+SYSTEM: 2024-11-18 21:44:54,834 | system_logger | INFO | s280 A Night In Tunisia is loaded
+SYSTEM: 2024-11-18 21:44:54,834 | system_logger | INFO | s281 The Honeydripper is loaded
+SYSTEM: 2024-11-18 21:44:54,834 | system_logger | INFO | s282 Boplicity is loaded
+SYSTEM: 2024-11-18 21:44:54,835 | system_logger | INFO | s283 Que reste-t-il de nos amours is loaded
+SYSTEM: 2024-11-18 21:44:54,835 | system_logger | INFO | s284 Oh, Lady Be Good is loaded
+SYSTEM: 2024-11-18 21:44:54,835 | system_logger | INFO | s285 Smoke! Smoke! Smoke! (That Cigarette) is loaded
+SYSTEM: 2024-11-18 21:44:54,835 | system_logger | INFO | s286 I'll Be Seeing You is loaded
+SYSTEM: 2024-11-18 21:44:54,835 | system_logger | INFO | s287 Hot House is loaded
+SYSTEM: 2024-11-18 21:44:54,836 | system_logger | INFO | s288 Good Enough to Keep (Air Mail Special) is loaded
+SYSTEM: 2024-11-18 21:44:54,836 | system_logger | INFO | s289 Harlem Air-Shaft is loaded
+SYSTEM: 2024-11-18 21:44:54,836 | system_logger | INFO | s290 Opus One - 1991 Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,836 | system_logger | INFO | s291 Asa Branca is loaded
+SYSTEM: 2024-11-18 21:44:54,836 | system_logger | INFO | s292 Take Me Back To Tulsa is loaded
+SYSTEM: 2024-11-18 21:44:54,837 | system_logger | INFO | s293 Deep In the Heart of Texas is loaded
+SYSTEM: 2024-11-18 21:44:54,837 | system_logger | INFO | s294 The Third Man Theme (The Harry Lime Theme) - Original Version is loaded
+SYSTEM: 2024-11-18 21:44:54,837 | system_logger | INFO | s295 Cool Water is loaded
+SYSTEM: 2024-11-18 21:44:54,837 | system_logger | INFO | s296 Someone to Watch Over Me - 78rpm Version is loaded
+SYSTEM: 2024-11-18 21:44:54,838 | system_logger | INFO | s297 The Gypsy is loaded
+SYSTEM: 2024-11-18 21:44:54,838 | system_logger | INFO | s298 Concerto for Cootie - 1999 Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,838 | system_logger | INFO | s299 Don't Fence Me In is loaded
+SYSTEM: 2024-11-18 21:44:54,838 | system_logger | INFO | s300 Lover Man - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s301 Rudolph the Red-Nosed Reindeer is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s302 I Can Dream, Can't I? is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s303 Rag Mop is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s304 Chattanoogie Shoe Shine Boy - 1949 Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s305 Music, Music, Music is loaded
+SYSTEM: 2024-11-18 21:44:54,839 | system_logger | INFO | s306 If I Knew You Were Comin' I'd've Baked a Cake is loaded
+SYSTEM: 2024-11-18 21:44:54,840 | system_logger | INFO | s307 The Third Man Theme (The Harry Lime Theme) - Original Version is loaded
+SYSTEM: 2024-11-18 21:44:54,840 | system_logger | INFO | s308 Mona Lisa is loaded
+SYSTEM: 2024-11-18 21:44:54,840 | system_logger | INFO | s309 Goodnight Irene is loaded
+SYSTEM: 2024-11-18 21:44:54,840 | system_logger | INFO | s310 Harbor Lights is loaded
+SYSTEM: 2024-11-18 21:44:54,840 | system_logger | INFO | s311 The Thing is loaded
+SYSTEM: 2024-11-18 21:44:54,841 | system_logger | INFO | s312 Tennessee Waltz is loaded
+SYSTEM: 2024-11-18 21:44:54,841 | system_logger | INFO | s313 If is loaded
+SYSTEM: 2024-11-18 21:44:54,841 | system_logger | INFO | s314 Be My Love is loaded
+SYSTEM: 2024-11-18 21:44:54,841 | system_logger | INFO | s315 How High the Moon - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,841 | system_logger | INFO | s316 Too Young is loaded
+SYSTEM: 2024-11-18 21:44:54,842 | system_logger | INFO | s317 Come On-A My House is loaded
+SYSTEM: 2024-11-18 21:44:54,842 | system_logger | INFO | s318 Delicado is loaded
+SYSTEM: 2024-11-18 21:44:54,842 | system_logger | INFO | s319 Cold, Cold Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,842 | system_logger | INFO | s320 (It's No) Sin is loaded
+SYSTEM: 2024-11-18 21:44:54,842 | system_logger | INFO | s321 Cry is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s322 Wheel Of Fortune is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s323 Blue Tango is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s324 Here In My Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s325 Delicado is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s326 Auf Wiederseh'n Sweetheart - 2017 Version is loaded
+SYSTEM: 2024-11-18 21:44:54,843 | system_logger | INFO | s327 You Belong To Me is loaded
+SYSTEM: 2024-11-18 21:44:54,844 | system_logger | INFO | s328 I Went To Your Wedding is loaded
+SYSTEM: 2024-11-18 21:44:54,844 | system_logger | INFO | s329 It's In The Book (from "Comedy Caravan") is loaded
+SYSTEM: 2024-11-18 21:44:54,844 | system_logger | INFO | s330 Why Don't You Believe Me - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,845 | system_logger | INFO | s331 I Saw Mommy Kissing Santa Claus is loaded
+SYSTEM: 2024-11-18 21:44:54,845 | system_logger | INFO | s332 Don't Let The Stars Get In Your Eyes is loaded
+SYSTEM: 2024-11-18 21:44:54,845 | system_logger | INFO | s333 Till I Waltz Again With You is loaded
+SYSTEM: 2024-11-18 21:44:54,845 | system_logger | INFO | s334 (How Much Is That) Doggie In The Window is loaded
+SYSTEM: 2024-11-18 21:44:54,845 | system_logger | INFO | s335 The Song from 'moulin Rouge' (Where Is Your Heart) is loaded
+SYSTEM: 2024-11-18 21:44:54,846 | system_logger | INFO | s336 I'm Walking Behind You - 2001 Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,846 | system_logger | INFO | s337 Vaya Con Dios (May God Be With You) is loaded
+SYSTEM: 2024-11-18 21:44:54,846 | system_logger | INFO | s338 St. George & The Dragonet is loaded
+SYSTEM: 2024-11-18 21:44:54,846 | system_logger | INFO | s339 Rags to Riches - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,846 | system_logger | INFO | s340 Oh! My Pa-Pa (O Mein Papa) - 2001 Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s341 Secret Love is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s342 Make Love To Me is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s343 Wanted (with Henri Rene & His Orchestra and Chorus) is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s344 Little Things Mean a Lot (Original Mix) is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s345 Sh-Boom (Life Could Be A Dream) is loaded
+SYSTEM: 2024-11-18 21:44:54,847 | system_logger | INFO | s346 Hey There is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s347 This Ole House - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s348 I Need You Now - 2001 Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s349 Mr. Sandman is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s350 Let Me Go Lover (with Jimmy Carroll & His Orchestra) is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s351 Hearts of Stone is loaded
+SYSTEM: 2024-11-18 21:44:54,848 | system_logger | INFO | s352 Sincerely is loaded
+SYSTEM: 2024-11-18 21:44:54,849 | system_logger | INFO | s353 The Ballad of Davy Crockett is loaded
+SYSTEM: 2024-11-18 21:44:54,849 | system_logger | INFO | s354 Cherry Pink And Apple Blossom White is loaded
+SYSTEM: 2024-11-18 21:44:54,849 | system_logger | INFO | s355 (We're Gonna) Rock Around The Clock is loaded
+SYSTEM: 2024-11-18 21:44:54,849 | system_logger | INFO | s356 The Yellow Rose of Texas - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,849 | system_logger | INFO | s357 Love Is A Many-Splendored Thing is loaded
+SYSTEM: 2024-11-18 21:44:54,850 | system_logger | INFO | s358 Autumn Leaves is loaded
+SYSTEM: 2024-11-18 21:44:54,850 | system_logger | INFO | s359 Sixteen Tons is loaded
+SYSTEM: 2024-11-18 21:44:54,850 | system_logger | INFO | s360 Memories Are Made Of This is loaded
+SYSTEM: 2024-11-18 21:44:54,850 | system_logger | INFO | s361 Rock And Roll Waltz is loaded
+SYSTEM: 2024-11-18 21:44:54,851 | system_logger | INFO | s362 Lisbon Antigua - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,851 | system_logger | INFO | s363 The Poor People Of Paris (Jean's Song) - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,851 | system_logger | INFO | s364 Heartbreak Hotel is loaded
+SYSTEM: 2024-11-18 21:44:54,852 | system_logger | INFO | s365 The Wayward Wind is loaded
+SYSTEM: 2024-11-18 21:44:54,852 | system_logger | INFO | s366 I Want You, I Need You, I Love You is loaded
+SYSTEM: 2024-11-18 21:44:54,852 | system_logger | INFO | s367 My Prayer is loaded
+SYSTEM: 2024-11-18 21:44:54,852 | system_logger | INFO | s368 Don't Be Cruel is loaded
+SYSTEM: 2024-11-18 21:44:54,853 | system_logger | INFO | s369 Hound Dog is loaded
+SYSTEM: 2024-11-18 21:44:54,853 | system_logger | INFO | s370 Love Me Tender is loaded
+SYSTEM: 2024-11-18 21:44:54,853 | system_logger | INFO | s371 Singing The Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,853 | system_logger | INFO | s372 Too Much is loaded
+SYSTEM: 2024-11-18 21:44:54,853 | system_logger | INFO | s373 Young Love is loaded
+SYSTEM: 2024-11-18 21:44:54,854 | system_logger | INFO | s374 Party Doll is loaded
+SYSTEM: 2024-11-18 21:44:54,854 | system_logger | INFO | s375 Round And Round - Remastered - 1992 is loaded
+SYSTEM: 2024-11-18 21:44:54,854 | system_logger | INFO | s376 All Shook Up is loaded
+SYSTEM: 2024-11-18 21:44:54,854 | system_logger | INFO | s377 Love Letters In The Sand - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s378 (Let Me Be Your) Teddy Bear is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s379 Tammy is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s380 Diana is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s381 Baby My Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s382 Honeycomb is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s383 Wake up Little Susie is loaded
+SYSTEM: 2024-11-18 21:44:54,855 | system_logger | INFO | s384 Jailhouse Rock is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s385 You Send Me is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s386 April Love is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s387 At The Hop is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s388 Don't is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s389 Tequila is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s390 Twilight Time - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,856 | system_logger | INFO | s391 Witch Doctor is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s392 All I Have to Do Is Dream is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s393 The Purple People Eater is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s394 Hard Headed Woman is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s395 Poor Little Fool - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s396 Nel blu dipinto di blu' (Volare) is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s397 Little Star is loaded
+SYSTEM: 2024-11-18 21:44:54,857 | system_logger | INFO | s398 It's All In The Game is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s399 It's Only Make Believe is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s400 Tom Dooley is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s401 Theme from a Summer Place is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s402 He'll Have to Go is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s403 Cathy's Clown is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s404 Running Bear is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s405 Teen Angel is loaded
+SYSTEM: 2024-11-18 21:44:54,858 | system_logger | INFO | s406 I'm Sorry is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s407 It's Now or Never is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s408 Handy Man is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s409 Stuck on You is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s410 The Twist is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s411 Everybody's Somebody's Fool is loaded
+SYSTEM: 2024-11-18 21:44:54,859 | system_logger | INFO | s412 Wild One is loaded
+SYSTEM: 2024-11-18 21:44:54,860 | system_logger | INFO | s413 Greenfields is loaded
+SYSTEM: 2024-11-18 21:44:54,860 | system_logger | INFO | s414 What In The World's Come Over You is loaded
+SYSTEM: 2024-11-18 21:44:54,860 | system_logger | INFO | s415 El Paso is loaded
+SYSTEM: 2024-11-18 21:44:54,862 | system_logger | INFO | s416 Alley Oop is loaded
+SYSTEM: 2024-11-18 21:44:54,862 | system_logger | INFO | s417 My Heart Has A Mind Of Its Own is loaded
+SYSTEM: 2024-11-18 21:44:54,862 | system_logger | INFO | s418 Sweet Nothin's is loaded
+SYSTEM: 2024-11-18 21:44:54,864 | system_logger | INFO | s419 Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini is loaded
+SYSTEM: 2024-11-18 21:44:54,864 | system_logger | INFO | s420 Only the Lonely is loaded
+SYSTEM: 2024-11-18 21:44:54,864 | system_logger | INFO | s421 Where Or When is loaded
+SYSTEM: 2024-11-18 21:44:54,864 | system_logger | INFO | s422 Sixteen Reasons is loaded
+SYSTEM: 2024-11-18 21:44:54,865 | system_logger | INFO | s423 Puppy Love - Remix is loaded
+SYSTEM: 2024-11-18 21:44:54,865 | system_logger | INFO | s424 Why is loaded
+SYSTEM: 2024-11-18 21:44:54,865 | system_logger | INFO | s425 Walk, Don't Run is loaded
+SYSTEM: 2024-11-18 21:44:54,865 | system_logger | INFO | s426 Save the Last Dance for Me is loaded
+SYSTEM: 2024-11-18 21:44:54,865 | system_logger | INFO | s427 Baby, You Got What It Takes is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s428 Sink the Bismark is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s429 Chain Gang is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s430 Let It Be Me is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s431 Good Timin is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s432 Beyond the Sea is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s433 Go, Jimmy, Go is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s434 Night is loaded
+SYSTEM: 2024-11-18 21:44:54,866 | system_logger | INFO | s435 Burning Bridges is loaded
+SYSTEM: 2024-11-18 21:44:54,867 | system_logger | INFO | s436 The Big Hurt is loaded
+SYSTEM: 2024-11-18 21:44:54,867 | system_logger | INFO | s437 Because They're Young is loaded
+SYSTEM: 2024-11-18 21:44:54,867 | system_logger | INFO | s438 Lonely Blue Boy is loaded
+SYSTEM: 2024-11-18 21:44:54,867 | system_logger | INFO | s439 Pretty Blue Eyes is loaded
+SYSTEM: 2024-11-18 21:44:54,867 | system_logger | INFO | s440 Way Down Yonder In New Orleans is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s441 Paper Roses is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s442 Mr. Custer is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s443 I Want to Be Wanted is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s444 Mule Skinner Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s445 Cradle Of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s446 You've Got What It Takes is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s447 Please Help Me, I'm Falling is loaded
+SYSTEM: 2024-11-18 21:44:54,868 | system_logger | INFO | s448 Love You So is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s449 Finger Poppin' Time is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s450 Harbor Lights is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s451 Let the Little Girl Dance is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s452 He'll Have to Stay is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s453 Theme From "The Apartment" is loaded
+SYSTEM: 2024-11-18 21:44:54,869 | system_logger | INFO | s454 Volare is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s455 A Million to One is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s456 The Village of St. Bernadette is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s457 The Old Lamplighter is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s458 White Silver Sands is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s459 Devil Or Angel is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s460 Down By the Station is loaded
+SYSTEM: 2024-11-18 21:44:54,870 | system_logger | INFO | s461 Forever is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s462 Image Of A Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s463 Kiddio is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s464 Mission Bell is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s465 I Love the Way You Love is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s466 It's Time To Cry is loaded
+SYSTEM: 2024-11-18 21:44:54,871 | system_logger | INFO | s467 Tell Laura I Love Her is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s468 Mama is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s469 Footsteps is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s470 So Sad (To Watch Good Love Go Bad) - Remastered Version is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s471 That's All You Gotta Do is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s472 Walking To New Orleans - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s473 Among My Souvenirs is loaded
+SYSTEM: 2024-11-18 21:44:54,872 | system_logger | INFO | s474 Swingin' School is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s475 A Rockin' Good Way (To Mess Around And Fall In Love) is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s476 Stairway to Heaven - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s477 My Home Town is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s478 Georgia On My Mind is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s479 Cherry Pie is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s480 (What A) Wonderful World - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,873 | system_logger | INFO | s481 Lady Luck is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s482 Step By Step is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s483 Happy Go Lucky Me is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s484 Young Emotions - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s485 Dreamin' is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s486 Poetry In Motion is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s487 O Dio Mio is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s488 You Talk Too Much is loaded
+SYSTEM: 2024-11-18 21:44:54,874 | system_logger | INFO | s489 Beatnik Fly is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s490 When Will I Be Loved is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s491 Let's Think About Living is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s492 Heartaches By The Number is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s493 In My Little Corner Of The World is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s494 Doggin' Around is loaded
+SYSTEM: 2024-11-18 21:44:54,875 | system_logger | INFO | s495 Little Bitty Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,876 | system_logger | INFO | s496 Money (That's What I Want) - Single Version / Mono is loaded
+SYSTEM: 2024-11-18 21:44:54,876 | system_logger | INFO | s497 Stay is loaded
+SYSTEM: 2024-11-18 21:44:54,876 | system_logger | INFO | s498 Lonely Weekends is loaded
+SYSTEM: 2024-11-18 21:44:54,876 | system_logger | INFO | s499 Sandy is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s500 Bridge Over Troubled Water is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s501 (They Long To Be) Close To You is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s502 American Woman is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s503 Raindrops Keep Fallin' On My Head is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s504 War is loaded
+SYSTEM: 2024-11-18 21:44:54,877 | system_logger | INFO | s505 Ain't No Mountain High Enough is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s506 I'll Be There is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s507 Get Ready is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s508 Let It Be - Remastered 2015 is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s509 Band Of Gold - Re-Record is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s510 Joy To The World - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s511 Maggie May - Remastered Version is loaded
+SYSTEM: 2024-11-18 21:44:54,878 | system_logger | INFO | s512 Reason To Believe is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s513 It's Too Late is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s514 I Feel the Earth Move is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s515 One Bad Apple is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s516 How Can You Mend A Broken Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s517 Indian Reservation (The Lament of the Cherokee Reservation Indian) is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s518 Go Away Little Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s519 Take Me Home, Country Roads is loaded
+SYSTEM: 2024-11-18 21:44:54,879 | system_logger | INFO | s520 Just My Imagination (Running Away With Me) is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s521 Knock Three Times is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s522 The First Time Ever I Saw Your Face is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s523 Alone Again (Naturally) is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s524 American Pie is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s525 Without You is loaded
+SYSTEM: 2024-11-18 21:44:54,880 | system_logger | INFO | s526 The Candy Man is loaded
+SYSTEM: 2024-11-18 21:44:54,881 | system_logger | INFO | s527 I GOTCHA is loaded
+SYSTEM: 2024-11-18 21:44:54,881 | system_logger | INFO | s528 Lean on Me is loaded
+SYSTEM: 2024-11-18 21:44:54,881 | system_logger | INFO | s529 Baby Don't Get Hooked on Me is loaded
+SYSTEM: 2024-11-18 21:44:54,881 | system_logger | INFO | s530 Brand New Key is loaded
+SYSTEM: 2024-11-18 21:44:54,881 | system_logger | INFO | s531 Daddy Don't You Walk So Fast is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s532 Tie a Yellow Ribbon Round the Ole Oak Tree (feat. Tony Orlando) - Digitally Remastered 1998 is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s533 Bad, Bad Leroy Brown is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s534 Killing Me Softly with His Song is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s535 Let's Get It On is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s536 My Love - 2018 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s537 Why Me is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s538 Crocodile Rock is loaded
+SYSTEM: 2024-11-18 21:44:54,882 | system_logger | INFO | s539 Will It Go Round In Circles is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s540 You're so Vain is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s541 Touch Me In The Morning is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s542 The Way We Were is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s543 Seasons in the Sun is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s544 Love's Theme is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s545 Come and Get Your Love - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,883 | system_logger | INFO | s546 Dancing Machine is loaded
+SYSTEM: 2024-11-18 21:44:54,884 | system_logger | INFO | s547 The Loco-Motion is loaded
+SYSTEM: 2024-11-18 21:44:54,884 | system_logger | INFO | s548 TSOP (The Sound of Philadelphia) (feat. The Three Degrees) is loaded
+SYSTEM: 2024-11-18 21:44:54,884 | system_logger | INFO | s549 The Streak is loaded
+SYSTEM: 2024-11-18 21:44:54,884 | system_logger | INFO | s550 Bennie And The Jets - Remastered 2014 is loaded
+SYSTEM: 2024-11-18 21:44:54,884 | system_logger | INFO | s551 One Hell Of A Woman is loaded
+SYSTEM: 2024-11-18 21:44:54,885 | system_logger | INFO | s552 Love Will Keep Us Together is loaded
+SYSTEM: 2024-11-18 21:44:54,885 | system_logger | INFO | s553 Rhinestone Cowboy is loaded
+SYSTEM: 2024-11-18 21:44:54,885 | system_logger | INFO | s554 Philadelphia Freedom is loaded
+SYSTEM: 2024-11-18 21:44:54,885 | system_logger | INFO | s555 Before The Next Teardrop Falls is loaded
+SYSTEM: 2024-11-18 21:44:54,885 | system_logger | INFO | s556 My Eyes Adored You is loaded
+SYSTEM: 2024-11-18 21:44:54,886 | system_logger | INFO | s557 Shining Star is loaded
+SYSTEM: 2024-11-18 21:44:54,886 | system_logger | INFO | s558 Fame - 2016 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,886 | system_logger | INFO | s559 Laughter In The Rain is loaded
+SYSTEM: 2024-11-18 21:44:54,886 | system_logger | INFO | s560 One of These Nights - 2013 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,886 | system_logger | INFO | s561 Thank God I'm a Country Boy is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s562 Silly Love Songs - Remastered 2014 is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s563 Don't Go Breaking My Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s564 Disco Lady is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s565 December, 1963 (Oh What a Night!) is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s566 Play That Funky Music is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s567 Kiss and Say Goodbye is loaded
+SYSTEM: 2024-11-18 21:44:54,887 | system_logger | INFO | s568 Love Machine is loaded
+SYSTEM: 2024-11-18 21:44:54,888 | system_logger | INFO | s569 50 Ways to Leave Your Lover is loaded
+SYSTEM: 2024-11-18 21:44:54,888 | system_logger | INFO | s570 Love Is Alive is loaded
+SYSTEM: 2024-11-18 21:44:54,888 | system_logger | INFO | s571 A Fifth Of Beethoven is loaded
+SYSTEM: 2024-11-18 21:44:54,888 | system_logger | INFO | s572 Tonight's the Night (Gonna Be Alright) - 2009 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,888 | system_logger | INFO | s573 I Just Want To Be Your Everything is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s574 Best of My Love is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s575 Evergreen (Love Theme from "A Star Is Born") is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s576 Angel in Your Arms - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s577 I Like Dreamin' is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s578 Don't Leave Me This Way is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s579 (Your Love Has Lifted Me) Higher And Higher is loaded
+SYSTEM: 2024-11-18 21:44:54,889 | system_logger | INFO | s580 Undercover Angel is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s581 Torn Between Two Lovers is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s582 Shadow Dancing is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s583 Night Fever - From "Saturday Night Fever" Soundtrack is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s584 You Light Up My Life is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s585 Stayin Alive is loaded
+SYSTEM: 2024-11-18 21:44:54,890 | system_logger | INFO | s586 Kiss You All Over is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s587 How Deep Is Your Love is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s588 Baby Come Back is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s589 (Love Is) Thicker Than Water is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s590 Boogie Oogie Oogie - Single Version 2 / Remastered 1999 is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s591 Three Times A Lady is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s592 My Sharona is loaded
+SYSTEM: 2024-11-18 21:44:54,891 | system_logger | INFO | s593 Bad Girls is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s594 Le Freak - 2018 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s595 Do Ya Think I'm Sexy is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s596 Reunited is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s597 I Will Survive - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s598 Hot Stuff is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s599 Y.M.C.A. is loaded
+SYSTEM: 2024-11-18 21:44:54,892 | system_logger | INFO | s600 Physical (Glee Cast Version) (feat. Olivia Newton-John) is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s601 Hopelessly Devoted To You is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s602 Magic is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s603 Heart Attack is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s604 Bette Davis Eyes is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s605 Endless Love is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s606 Eye of the Tiger is loaded
+SYSTEM: 2024-11-18 21:44:54,893 | system_logger | INFO | s607 Every Breath You Take is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s608 What A Feeling is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s609 Another One Bites The Dust - Remastered 2011 is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s610 Say Say Say - Remastered 2015 is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s611 Call Me (Theme From American Gigolo) - Remastered 2001 is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s612 Lady is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s613 Centerfold is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s614 (Just Like) Starting Over - Remastered 2010 is loaded
+SYSTEM: 2024-11-18 21:44:54,894 | system_logger | INFO | s615 I Love Rock 'N Roll is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s616 Ebony And Ivory is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s617 That's What Friends Are For is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s618 Upside Down is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s619 Thriller is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s620 Abracadabra is loaded
+SYSTEM: 2024-11-18 21:44:54,895 | system_logger | INFO | s621 Say You, Say Me is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s622 All Night Long (All Night) - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s623 Waiting for a Girl Like You is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s624 Hurts So Good is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s625 Another Day in Paradise - 2016 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s626 Do That To Me One More Time is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s627 Like a Virgin is loaded
+SYSTEM: 2024-11-18 21:44:54,896 | system_logger | INFO | s628 When Doves Cry is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s629 Maneater is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s630 Another Brick in the Wall, Pt. 2 is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s631 Faith - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s632 Crazy Little Thing Called Love is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s633 Total Eclipse of the Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s634 Careless Whisper is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s635 Walk Like an Egyptian is loaded
+SYSTEM: 2024-11-18 21:44:54,897 | system_logger | INFO | s636 Don't You Want Me is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s637 Jessie's Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s638 Woman in Love is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s639 Hard to Say I'm Sorry / Get Away - 2006 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s640 Miss You Much is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s641 Down Under is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s642 We Are the World is loaded
+SYSTEM: 2024-11-18 21:44:54,898 | system_logger | INFO | s643 Jack & Diane is loaded
+SYSTEM: 2024-11-18 21:44:54,899 | system_logger | INFO | s644 Jump is loaded
+SYSTEM: 2024-11-18 21:44:54,899 | system_logger | INFO | s645 Islands In the Stream is loaded
+SYSTEM: 2024-11-18 21:44:54,899 | system_logger | INFO | s646 Coming Up - Remastered 2011 is loaded
+SYSTEM: 2024-11-18 21:44:54,899 | system_logger | INFO | s647 Arthur's Theme (Best That You Can Do) is loaded
+SYSTEM: 2024-11-18 21:44:54,899 | system_logger | INFO | s648 Broken Wings is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s649 Alone is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s650 Can't Fight This Feeling is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s651 Every Rose Has Its Thorn is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s652 I Wanna Dance with Somebody (Who Loves Me) is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s653 I Can't Go for That (No Can Do) is loaded
+SYSTEM: 2024-11-18 21:44:54,900 | system_logger | INFO | s654 Livin' On A Prayer is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s655 Money for Nothing is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s656 On My Own is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s657 Beat It is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s658 Crazy for You is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s659 What's Love Got to Do with It is loaded
+SYSTEM: 2024-11-18 21:44:54,901 | system_logger | INFO | s660 Rock with You - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,902 | system_logger | INFO | s661 Separate Lives (Love Theme from White Nights) is loaded
+SYSTEM: 2024-11-18 21:44:54,902 | system_logger | INFO | s662 I Want to Know What Love Is - 1999 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,902 | system_logger | INFO | s663 It's Still Rock and Roll to Me is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s664 Look Away is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s665 Footloose is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s666 Against All Odds (Take a Look at Me Now) - 2016 Remaster is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s667 Roll With It is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s668 Straight Up is loaded
+SYSTEM: 2024-11-18 21:44:54,903 | system_logger | INFO | s669 Everybody Wants To Rule The World is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s670 We Didn't Start the Fire is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s671 Nothing's Gonna Stop Us Now is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s672 With Or Without You - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s673 The Power Of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s674 Greatest Love of All is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s675 I Just Called To Say I Love You is loaded
+SYSTEM: 2024-11-18 21:44:54,904 | system_logger | INFO | s676 La Bamba is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s677 Funkytown is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s678 Magic is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s679 One More Try - Remastered is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s680 Ghostbusters is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s681 Gloria is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s682 Hello is loaded
+SYSTEM: 2024-11-18 21:44:54,905 | system_logger | INFO | s683 Shout is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s684 Right Here Waiting is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s685 Woman - Remastered 2010 is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s686 Owner Of A Lonely Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s687 Please Don't Go - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s688 Lost in Your Eyes is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s689 Need You Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,906 | system_logger | INFO | s690 Harden My Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,907 | system_logger | INFO | s691 Shake You Down is loaded
+SYSTEM: 2024-11-18 21:44:54,907 | system_logger | INFO | s692 We Built This City is loaded
+SYSTEM: 2024-11-18 21:44:54,907 | system_logger | INFO | s693 Stuck With You is loaded
+SYSTEM: 2024-11-18 21:44:54,907 | system_logger | INFO | s694 Party All the Time is loaded
+SYSTEM: 2024-11-18 21:44:54,907 | system_logger | INFO | s695 Never Gonna Give You Up is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s696 Welcome to the Jungle is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s697 Everytime You Go Away is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s698 Don't Know Much (with Aaron Neville) is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s699 Got My Mind Set On You - Remastered 2004 is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s700 How Am I Supposed to Live Without You is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s701 Opposites Attract is loaded
+SYSTEM: 2024-11-18 21:44:54,908 | system_logger | INFO | s702 Escapade is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s703 Black Velvet is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s704 Love Will Lead You Back is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s705 I'll Be Your Everything is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s706 Nothing Compares 2 U is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s707 Vogue is loaded
+SYSTEM: 2024-11-18 21:44:54,909 | system_logger | INFO | s708 Hold On is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s709 It Must Have Been Love - From the Film "Pretty Woman" is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s710 Step by Step is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s711 She Ain't Worth It is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s712 Vision of Love is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s713 If Wishes Came True is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s714 Blaze Of Glory - From "Young Guns II" Soundtrack is loaded
+SYSTEM: 2024-11-18 21:44:54,910 | system_logger | INFO | s715 Release Me is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s716 (Can't Live Without Your) Love And Affection is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s717 Close To You is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s718 Praying for Time is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s719 I Don't Have the Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s720 Black Cat is loaded
+SYSTEM: 2024-11-18 21:44:54,911 | system_logger | INFO | s721 Ice Ice Baby is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s722 Love Takes Time is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s723 I'm Your Baby Tonight is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s724 Because I Love You (The Postman Song) is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s725 Justify My Love is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s726 Love Will Never Do (Without You) is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s727 The First Time is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s728 Gonna Make You Sweat (Everybody Dance Now) is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s729 All The Man That I Need is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s730 Someday is loaded
+SYSTEM: 2024-11-18 21:44:54,912 | system_logger | INFO | s731 One More Try is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s732 Coming Out of the Dark is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s733 I've Been Thinking About You is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s734 You're In Love is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s735 Baby Baby is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s736 Joyride is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s737 I Like The Way is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s738 I Don't Wanna Cry is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s739 More Than Words is loaded
+SYSTEM: 2024-11-18 21:44:54,914 | system_logger | INFO | s740 Rush Rush is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s741 Unbelievable is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s742 (Everything I Do) I Do It For You is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s743 The Promise Of A New Day is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s744 I Adore Mi Amor is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s745 Good Vibrations is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s746 Emotions is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s747 Romantic is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s748 When a Man Loves a Woman is loaded
+SYSTEM: 2024-11-18 21:44:54,915 | system_logger | INFO | s749 Black or White - Single Version is loaded
+SYSTEM: 2024-11-18 21:44:54,917 | system_logger | INFO | s750 All 4 Love is loaded
+SYSTEM: 2024-11-18 21:44:54,917 | system_logger | INFO | s751 Don't Let the Sun Go Down on Me is loaded
+SYSTEM: 2024-11-18 21:44:54,917 | system_logger | INFO | s752 I'm Too Sexy is loaded
+SYSTEM: 2024-11-18 21:44:54,917 | system_logger | INFO | s753 To Be With You is loaded
+SYSTEM: 2024-11-18 21:44:54,917 | system_logger | INFO | s754 Save The Best For Last is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s755 Jump is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s756 I'll Be There (feat. Trey Lorenz) - Live at MTV Unplugged is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s757 Baby Got Back is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s758 This Used to Be My Playground is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s759 End Of The Road is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s760 How Do You Talk To An Angel? is loaded
+SYSTEM: 2024-11-18 21:44:54,918 | system_logger | INFO | s761 I Will Always Love You is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s762 A Whole New World (Aladdin's Theme) is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s763 Informer is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s764 Freak Me is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s765 That's The Way Love Goes is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s766 Weak is loaded
+SYSTEM: 2024-11-18 21:44:54,919 | system_logger | INFO | s767 (I Can't Help) Falling In Love With You is loaded
+SYSTEM: 2024-11-18 21:44:54,920 | system_logger | INFO | s768 Dreamlover is loaded
+SYSTEM: 2024-11-18 21:44:54,920 | system_logger | INFO | s769 I'd Do Anything For Love (But I Won't Do That) - Single Edit is loaded
+SYSTEM: 2024-11-18 21:44:54,920 | system_logger | INFO | s770 Again is loaded
+SYSTEM: 2024-11-18 21:44:54,920 | system_logger | INFO | s771 Hero is loaded
+SYSTEM: 2024-11-18 21:44:54,920 | system_logger | INFO | s772 All for Love is loaded
+SYSTEM: 2024-11-18 21:44:54,921 | system_logger | INFO | s773 The Power of Love - Radio Edit is loaded
+SYSTEM: 2024-11-18 21:44:54,921 | system_logger | INFO | s774 The Sign is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s775 Bump n' Grind is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s776 I Swear is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s777 Stay (I Missed You) - Storytellers is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s778 I'll Make Love To You is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s779 On Bended Knee is loaded
+SYSTEM: 2024-11-18 21:44:54,922 | system_logger | INFO | s780 Here Comes the Hotstepper - Heartical Mix is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s781 Creep is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s782 Take a Bow is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s783 This Is How We Do It is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s784 Have You Ever Really Loved A Woman? is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s785 Waterfalls is loaded
+SYSTEM: 2024-11-18 21:44:54,923 | system_logger | INFO | s786 Kiss from a Rose is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s787 You Are Not Alone - Radio Edit is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s788 Gangsta's Paradise (feat. L.V.) is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s789 Fantasy is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s790 Exhale - Shoop Shoop is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s791 One Sweet Day is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s792 Because You Loved Me (Theme from "Up Close and Personal") is loaded
+SYSTEM: 2024-11-18 21:44:54,924 | system_logger | INFO | s793 Always Be My Baby is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s794 Tha Crossroads is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s795 How Do You Want It is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s796 California Love - Original Version is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s797 You're Makin' Me High is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s798 Let It Flow - from "Waiting to Exhale" Original Soundtrack is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s799 No Diggity is loaded
+SYSTEM: 2024-11-18 21:44:54,925 | system_logger | INFO | s800 We Belong Together is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s801 Yeah! (feat. Lil Jon & Ludacris) is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s802 Low (feat. T-Pain) is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s803 I Gotta Feeling is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s804 How You Remind Me is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s805 No One is loaded
+SYSTEM: 2024-11-18 21:44:54,926 | system_logger | INFO | s806 Boom Boom Pow is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s807 Let Me Love You is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s808 Gold Digger is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s809 Apologize is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s810 Dilemma is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s811 Family Affair is loaded
+SYSTEM: 2024-11-18 21:44:54,927 | system_logger | INFO | s812 Big Girls Don't Cry (Personal) is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s813 Maria Maria (feat. The Product G&B) is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s814 U Got It Bad is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s815 Whatever You Like is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s816 Bleeding Love is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s817 Independent Women, Pt. 1 is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s818 Foolish is loaded
+SYSTEM: 2024-11-18 21:44:54,928 | system_logger | INFO | s819 Hey Ya! is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s820 Burn is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s821 The Way You Move (feat. Sleepy Brown) is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s822 Crank That (Soulja Boy) is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s823 In Da Club is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s824 Irreplaceable is loaded
+SYSTEM: 2024-11-18 21:44:54,929 | system_logger | INFO | s825 Hanging By A Moment is loaded
+SYSTEM: 2024-11-18 21:44:54,930 | system_logger | INFO | s826 Breathe is loaded
+SYSTEM: 2024-11-18 21:44:54,930 | system_logger | INFO | s827 Lose Yourself is loaded
+SYSTEM: 2024-11-18 21:44:54,930 | system_logger | INFO | s828 Fallin' is loaded
+SYSTEM: 2024-11-18 21:44:54,930 | system_logger | INFO | s829 I'm Real - Murder Remix is loaded
+SYSTEM: 2024-11-18 21:44:54,930 | system_logger | INFO | s830 Goodies (feat. Petey Pablo) is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s831 Hot In Herre is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s832 Smooth (feat. Rob Thomas) is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s833 Run It! (feat. Juelz Santana) is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s834 Just Dance is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s835 My Boo is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s836 Live Your Life is loaded
+SYSTEM: 2024-11-18 21:44:54,931 | system_logger | INFO | s837 Baby Boy (feat. Sean Paul) is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s838 Lollipop is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s839 Crazy In Love (feat. Jay-Z) is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s840 Hollaback Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s841 Poker Face is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s842 Kryptonite is loaded
+SYSTEM: 2024-11-18 21:44:54,932 | system_logger | INFO | s843 Promiscuous is loaded
+SYSTEM: 2024-11-18 21:44:54,933 | system_logger | INFO | s844 Lean Back is loaded
+SYSTEM: 2024-11-18 21:44:54,933 | system_logger | INFO | s845 With Arms Wide Open is loaded
+SYSTEM: 2024-11-18 21:44:54,933 | system_logger | INFO | s846 Since U Been Gone is loaded
+SYSTEM: 2024-11-18 21:44:54,933 | system_logger | INFO | s847 Drop It Like It's Hot is loaded
+SYSTEM: 2024-11-18 21:44:54,933 | system_logger | INFO | s848 Viva La Vida is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s849 Get Busy is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s850 If I Ain't Got You is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s851 Candy Shop is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s852 The Way I Are is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s853 I Knew I Loved You is loaded
+SYSTEM: 2024-11-18 21:44:54,934 | system_logger | INFO | s854 Everything You Want is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s855 Bad Day is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s856 Umbrella is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s857 How to Save a Life is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s858 One, Two Step (feat. Missy Elliott) is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s859 SexyBack (feat. Timbaland) is loaded
+SYSTEM: 2024-11-18 21:44:54,935 | system_logger | INFO | s860 I'm Yours is loaded
+SYSTEM: 2024-11-18 21:44:54,936 | system_logger | INFO | s861 Ain't It Funny - Murder Remix is loaded
+SYSTEM: 2024-11-18 21:44:54,936 | system_logger | INFO | s862 Temperature is loaded
+SYSTEM: 2024-11-18 21:44:54,936 | system_logger | INFO | s863 Disturbia is loaded
+SYSTEM: 2024-11-18 21:44:54,936 | system_logger | INFO | s864 All For You is loaded
+SYSTEM: 2024-11-18 21:44:54,936 | system_logger | INFO | s865 I Kissed A Girl is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s866 Unwell is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s867 Here Without You is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s868 Hot N Cold is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s869 Get Low is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s870 Buy U a Drank (Shawty Snappin') is loaded
+SYSTEM: 2024-11-18 21:44:54,937 | system_logger | INFO | s871 Right Thurr is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s872 Love Story is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s873 I Wanna Know is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s874 Smack That is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s875 Love Song is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s876 Bent is loaded
+SYSTEM: 2024-11-18 21:44:54,938 | system_logger | INFO | s877 Bubbly is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s878 Right Round is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s879 It Wasn't Me is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s880 Always On Time is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s881 Complicated is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s882 My Humps is loaded
+SYSTEM: 2024-11-18 21:44:54,939 | system_logger | INFO | s883 Love in This Club is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s884 You're Beautiful is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s885 Stand Up is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s886 Check On It (feat. Bun B & Slim Thug) is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s887 Photograph is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s888 U Remind Me is loaded
+SYSTEM: 2024-11-18 21:44:54,940 | system_logger | INFO | s889 Stronger is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s890 So What is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s891 Kiss Kiss is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s892 Girlfriend is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s893 Let Me Blow Ya Mind is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s894 Work It is loaded
+SYSTEM: 2024-11-18 21:44:54,941 | system_logger | INFO | s895 Hey There Delilah is loaded
+SYSTEM: 2024-11-18 21:44:54,942 | system_logger | INFO | s896 Try Again is loaded
+SYSTEM: 2024-11-18 21:44:54,942 | system_logger | INFO | s897 Single Ladies (Put a Ring on It) is loaded
+SYSTEM: 2024-11-18 21:44:54,942 | system_logger | INFO | s898 Forever is loaded
+SYSTEM: 2024-11-18 21:44:54,942 | system_logger | INFO | s899 Airplanes (feat. Hayley Williams) is loaded
+SYSTEM: 2024-11-18 21:44:54,942 | system_logger | INFO | s900 Love The Way You Lie is loaded
+SYSTEM: 2024-11-18 21:44:54,943 | system_logger | INFO | s901 California Gurls is loaded
+SYSTEM: 2024-11-18 21:44:54,943 | system_logger | INFO | s902 Only Girl (In The World) is loaded
+SYSTEM: 2024-11-18 21:44:54,943 | system_logger | INFO | s903 Firework is loaded
+SYSTEM: 2024-11-18 21:44:54,943 | system_logger | INFO | s904 Waka Waka (This Time for Africa) is loaded
+SYSTEM: 2024-11-18 21:44:54,944 | system_logger | INFO | s905 Teenage Dream is loaded
+SYSTEM: 2024-11-18 21:44:54,944 | system_logger | INFO | s906 All I Do Is Win is loaded
+SYSTEM: 2024-11-18 21:44:54,945 | system_logger | INFO | s907 DJ Got Us Fallin' In Love is loaded
+SYSTEM: 2024-11-18 21:44:54,945 | system_logger | INFO | s908 What Makes You Beautiful is loaded
+SYSTEM: 2024-11-18 21:44:54,945 | system_logger | INFO | s909 Last Friday Night (T.G.I.F.) is loaded
+SYSTEM: 2024-11-18 21:44:54,945 | system_logger | INFO | s910 Price Tag is loaded
+SYSTEM: 2024-11-18 21:44:54,946 | system_logger | INFO | s911 Paradise is loaded
+SYSTEM: 2024-11-18 21:44:54,946 | system_logger | INFO | s912 Grenade is loaded
+SYSTEM: 2024-11-18 21:44:54,946 | system_logger | INFO | s913 We Are Young (feat. Janelle Monáe) is loaded
+SYSTEM: 2024-11-18 21:44:54,963 | system_logger | INFO | s914 Give Me Everything is loaded
+SYSTEM: 2024-11-18 21:44:54,963 | system_logger | INFO | s915 Ai Se Eu Te Pego is loaded
+SYSTEM: 2024-11-18 21:44:54,963 | system_logger | INFO | s916 Someone Like You is loaded
+SYSTEM: 2024-11-18 21:44:54,963 | system_logger | INFO | s917 Moves Like Jagger is loaded
+SYSTEM: 2024-11-18 21:44:54,963 | system_logger | INFO | s918 We Found Love is loaded
+SYSTEM: 2024-11-18 21:44:54,964 | system_logger | INFO | s919 Somebody That I Used To Know is loaded
+SYSTEM: 2024-11-18 21:44:54,964 | system_logger | INFO | s920 Call Me Maybe is loaded
+SYSTEM: 2024-11-18 21:44:54,964 | system_logger | INFO | s921 Party Rock Anthem is loaded
+SYSTEM: 2024-11-18 21:44:54,964 | system_logger | INFO | s922 Pumped Up Kicks is loaded
+SYSTEM: 2024-11-18 21:44:54,965 | system_logger | INFO | s923 Born This Way is loaded
+SYSTEM: 2024-11-18 21:44:54,965 | system_logger | INFO | s924 Super Bass is loaded
+SYSTEM: 2024-11-18 21:44:54,965 | system_logger | INFO | s925 S&M is loaded
+SYSTEM: 2024-11-18 21:44:54,965 | system_logger | INFO | s926 Stereo Hearts (feat. Adam Levine) is loaded
+SYSTEM: 2024-11-18 21:44:54,966 | system_logger | INFO | s927 Stronger (What Doesn't Kill You) is loaded
+SYSTEM: 2024-11-18 21:44:54,966 | system_logger | INFO | s928 Titanium (feat. Sia) is loaded
+SYSTEM: 2024-11-18 21:44:54,966 | system_logger | INFO | s929 E.T. is loaded
+SYSTEM: 2024-11-18 21:44:54,966 | system_logger | INFO | s930 Starships is loaded
+SYSTEM: 2024-11-18 21:44:54,966 | system_logger | INFO | s931 Radioactive is loaded
+SYSTEM: 2024-11-18 21:44:54,967 | system_logger | INFO | s932 Diamonds is loaded
+SYSTEM: 2024-11-18 21:44:54,967 | system_logger | INFO | s933 Thrift Shop (feat. Wanz) is loaded
+SYSTEM: 2024-11-18 21:44:54,967 | system_logger | INFO | s934 Let Her Go is loaded
+SYSTEM: 2024-11-18 21:44:54,967 | system_logger | INFO | s935 Gangnam Style is loaded
+SYSTEM: 2024-11-18 21:44:54,968 | system_logger | INFO | s936 Harlem Shake is loaded
+SYSTEM: 2024-11-18 21:44:54,968 | system_logger | INFO | s937 Latch is loaded
+SYSTEM: 2024-11-18 21:44:54,968 | system_logger | INFO | s938 Locked out of Heaven is loaded
+SYSTEM: 2024-11-18 21:44:54,969 | system_logger | INFO | s939 One More Night is loaded
+SYSTEM: 2024-11-18 21:44:54,969 | system_logger | INFO | s940 We Are Never Ever Getting Back Together is loaded
+SYSTEM: 2024-11-18 21:44:54,969 | system_logger | INFO | s941 Whistle is loaded
+SYSTEM: 2024-11-18 21:44:54,969 | system_logger | INFO | s942 Payphone is loaded
+SYSTEM: 2024-11-18 21:44:54,970 | system_logger | INFO | s943 Sexy And I Know It is loaded
+SYSTEM: 2024-11-18 21:44:54,970 | system_logger | INFO | s944 Mirrors is loaded
+SYSTEM: 2024-11-18 21:44:54,970 | system_logger | INFO | s945 Just Give Me a Reason is loaded
+SYSTEM: 2024-11-18 21:44:54,970 | system_logger | INFO | s946 Dark Horse is loaded
+SYSTEM: 2024-11-18 21:44:54,971 | system_logger | INFO | s947 Timber (feat. Ke$ha) is loaded
+SYSTEM: 2024-11-18 21:44:54,971 | system_logger | INFO | s948 Wrecking Ball is loaded
+SYSTEM: 2024-11-18 21:44:54,971 | system_logger | INFO | s949 Royals is loaded
+SYSTEM: 2024-11-18 21:44:54,972 | system_logger | INFO | s950 Get Lucky is loaded
+SYSTEM: 2024-11-18 21:44:54,972 | system_logger | INFO | s951 Counting Stars is loaded
+SYSTEM: 2024-11-18 21:44:54,972 | system_logger | INFO | s952 Wake Me Up is loaded
+SYSTEM: 2024-11-18 21:44:54,972 | system_logger | INFO | s953 Roar is loaded
+SYSTEM: 2024-11-18 21:44:54,973 | system_logger | INFO | s954 All of Me is loaded
+SYSTEM: 2024-11-18 21:44:54,973 | system_logger | INFO | s955 Happy is loaded
+SYSTEM: 2024-11-18 21:44:54,973 | system_logger | INFO | s956 Animals is loaded
+SYSTEM: 2024-11-18 21:44:54,973 | system_logger | INFO | s957 Burn is loaded
+SYSTEM: 2024-11-18 21:44:54,973 | system_logger | INFO | s958 Heart Attack is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s959 Riptide is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s960 Rude is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s961 Work Bitch is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s962 Can't Hold Us is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s963 Anaconda is loaded
+SYSTEM: 2024-11-18 21:44:54,974 | system_logger | INFO | s964 Fancy is loaded
+SYSTEM: 2024-11-18 21:44:54,976 | system_logger | INFO | s965 Problem is loaded
+SYSTEM: 2024-11-18 21:44:54,976 | system_logger | INFO | s966 Stay With Me is loaded
+SYSTEM: 2024-11-18 21:44:54,976 | system_logger | INFO | s967 Summer is loaded
+SYSTEM: 2024-11-18 21:44:54,976 | system_logger | INFO | s968 Blank Space is loaded
+SYSTEM: 2024-11-18 21:44:54,977 | system_logger | INFO | s969 Chandelier is loaded
+SYSTEM: 2024-11-18 21:44:54,977 | system_logger | INFO | s970 All About That Bass is loaded
+SYSTEM: 2024-11-18 21:44:54,977 | system_logger | INFO | s971 Bailando is loaded
+SYSTEM: 2024-11-18 21:44:54,977 | system_logger | INFO | s972 Shake It Off is loaded
+SYSTEM: 2024-11-18 21:44:54,978 | system_logger | INFO | s973 Thinking out Loud is loaded
+SYSTEM: 2024-11-18 21:44:54,978 | system_logger | INFO | s974 Trap Queen is loaded
+SYSTEM: 2024-11-18 21:44:54,978 | system_logger | INFO | s975 Bang Bang is loaded
+SYSTEM: 2024-11-18 21:44:54,978 | system_logger | INFO | s976 Boom Clap is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s977 Can't Remember to Forget You is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s978 I'm an Albatraoz is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s979 Take Me To Church is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s980 Hotline Bling is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s981 Can't Feel My Face is loaded
+SYSTEM: 2024-11-18 21:44:54,979 | system_logger | INFO | s982 Sugar is loaded
+SYSTEM: 2024-11-18 21:44:54,980 | system_logger | INFO | s983 Stressed Out is loaded
+SYSTEM: 2024-11-18 21:44:54,981 | system_logger | INFO | s984 What Do You Mean? is loaded
+SYSTEM: 2024-11-18 21:44:54,981 | system_logger | INFO | s985 Love Yourself is loaded
+SYSTEM: 2024-11-18 21:44:54,981 | system_logger | INFO | s986 Lean On (feat. MØ & DJ Snake) is loaded
+SYSTEM: 2024-11-18 21:44:54,981 | system_logger | INFO | s987 Faded is loaded
+SYSTEM: 2024-11-18 21:44:54,981 | system_logger | INFO | s988 Love Me Like You Do is loaded
+SYSTEM: 2024-11-18 21:44:54,982 | system_logger | INFO | s989 Sorry is loaded
+SYSTEM: 2024-11-18 21:44:54,982 | system_logger | INFO | s990 Hello is loaded
+SYSTEM: 2024-11-18 21:44:54,982 | system_logger | INFO | s991 See You Again (feat. Charlie Puth) is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s992 Uptown Funk (feat. Bruno Mars) is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s993 Watch Me (Whip / Nae Nae) is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s994 Stitches is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s995 The Hills is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s996 Elastic Heart is loaded
+SYSTEM: 2024-11-18 21:44:54,983 | system_logger | INFO | s997 West End Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,984 | system_logger | INFO | s998 St Louis Blues is loaded
+SYSTEM: 2024-11-18 21:44:54,984 | system_logger | INFO | s999 Blue Yodel #1 (t For Texas) is loaded
+SYSTEM: 2024-11-18 21:44:54,984 | system_logger | INFO | s1000 Ain't Misbehavin is loaded
+SYSTEM: 2024-11-18 21:44:54,985 | system_logger | INFO | Welcome to the Music Player System by Yifan and Jaden!
+SYSTEM: 2024-11-18 21:44:55,006 | system_logger | INFO | Importing user Alex rockfan123 from database
+SYSTEM: 2024-11-18 21:44:55,010 | system_logger | INFO | User1 Alex rockfan123 is successfully created
+SYSTEM: 2024-11-18 21:44:55,017 | system_logger | INFO | Importing user Sophia jazzlover88 from database
+SYSTEM: 2024-11-18 21:44:55,020 | system_logger | INFO | User2 Sophia jazzlover88 is successfully created
+SYSTEM: 2024-11-18 21:44:55,026 | system_logger | INFO | Importing user Michael hiphophead99 from database
+SYSTEM: 2024-11-18 21:44:55,032 | system_logger | INFO | User3 Michael hiphophead99 is successfully created
+SYSTEM: 2024-11-18 21:44:55,038 | system_logger | INFO | Importing user Emma popprincess22 from database
+SYSTEM: 2024-11-18 21:44:55,043 | system_logger | INFO | User4 Emma popprincess22 is successfully created
+SYSTEM: 2024-11-18 21:44:55,048 | system_logger | INFO | Importing user Daniel countryfan55 from database
+SYSTEM: 2024-11-18 21:44:55,051 | system_logger | INFO | User5 Daniel countryfan55 is successfully created
+SYSTEM: 2024-11-18 21:44:55,127 | system_logger | INFO | Importing user Olivia diva songs from database
+SYSTEM: 2024-11-18 21:44:55,132 | system_logger | INFO | User6 Olivia diva songs is successfully created
+SYSTEM: 2024-11-18 21:44:55,136 | system_logger | INFO | Importing user James classic blues from database
+SYSTEM: 2024-11-18 21:44:55,138 | system_logger | INFO | User7 James classic blues is successfully created
+SYSTEM: 2024-11-18 21:44:55,142 | system_logger | INFO | Importing user Ava edmlover101 from database
+SYSTEM: 2024-11-18 21:44:55,147 | system_logger | INFO | User8 Ava edmlover101 is successfully created
+SYSTEM: 2024-11-18 21:44:55,152 | system_logger | INFO | Importing user William oldiesfan77 from database
+SYSTEM: 2024-11-18 21:44:55,154 | system_logger | INFO | User9 William oldiesfan77 is successfully created
+SYSTEM: 2024-11-18 21:44:55,160 | system_logger | INFO | Importing user Mia indie vibes from database
+SYSTEM: 2024-11-18 21:44:55,165 | system_logger | INFO | User10 Mia indie vibes is successfully created
+SYSTEM: 2024-11-18 21:44:55,168 | system_logger | INFO | Importing user Ethan rapenthusiast from database
+SYSTEM: 2024-11-18 21:44:55,174 | system_logger | INFO | User11 Ethan rapenthusiast is successfully created
+SYSTEM: 2024-11-18 21:44:55,178 | system_logger | INFO | Importing user Isabella latinbeats from database
+SYSTEM: 2024-11-18 21:44:55,181 | system_logger | INFO | User12 Isabella latinbeats is successfully created
+SYSTEM: 2024-11-18 21:44:55,186 | system_logger | INFO | Importing user Noah rockclassic90 from database
+SYSTEM: 2024-11-18 21:44:55,191 | system_logger | INFO | User13 Noah rockclassic90 is successfully created
+SYSTEM: 2024-11-18 21:44:55,195 | system_logger | INFO | Importing user Charlotte soulfulsounds from database
+SYSTEM: 2024-11-18 21:44:55,200 | system_logger | INFO | User14 Charlotte soulfulsounds is successfully created
+SYSTEM: 2024-11-18 21:44:55,204 | system_logger | INFO | Importing user Liam partyplaylist from database
+SYSTEM: 2024-11-18 21:44:55,209 | system_logger | INFO | User15 Liam partyplaylist is successfully created
+SYSTEM: 2024-11-18 21:44:55,212 | system_logger | INFO | Importing user Amelia classicaljazz from database
+SYSTEM: 2024-11-18 21:44:55,214 | system_logger | INFO | User16 Amelia classicaljazz is successfully created
+SYSTEM: 2024-11-18 21:44:55,218 | system_logger | INFO | Importing user Jacob metalhead from database
+SYSTEM: 2024-11-18 21:44:55,222 | system_logger | INFO | User17 Jacob metalhead is successfully created
+SYSTEM: 2024-11-18 21:44:55,228 | system_logger | INFO | Importing user Harper pop hits from database
+SYSTEM: 2024-11-18 21:44:55,232 | system_logger | INFO | User18 Harper pop hits is successfully created
+SYSTEM: 2024-11-18 21:44:55,237 | system_logger | INFO | Importing user Benjamin golden oldies from database
+SYSTEM: 2024-11-18 21:44:55,240 | system_logger | INFO | User19 Benjamin golden oldies is successfully created
+SYSTEM: 2024-11-18 21:44:55,245 | system_logger | INFO | Importing user Evelyn hiphopqueen from database
+SYSTEM: 2024-11-18 21:44:55,251 | system_logger | INFO | User20 Evelyn hiphopqueen is successfully created
+SYSTEM: 2024-11-18 21:44:55,257 | system_logger | INFO | Importing user Grace folkmusiclover from database
+SYSTEM: 2024-11-18 21:44:55,260 | system_logger | INFO | User21 Grace folkmusiclover is successfully created
+SYSTEM: 2024-11-18 21:44:55,264 | system_logger | INFO | Importing user Henry electrobeat from database
+SYSTEM: 2024-11-18 21:44:55,270 | system_logger | INFO | User22 Henry electrobeat is successfully created
+SYSTEM: 2024-11-18 21:44:55,274 | system_logger | INFO | Importing user Victoria 90spopfan from database
+SYSTEM: 2024-11-18 21:44:55,280 | system_logger | INFO | User23 Victoria 90spopfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,286 | system_logger | INFO | Importing user Matthew classicalbuff from database
+SYSTEM: 2024-11-18 21:44:55,287 | system_logger | INFO | User24 Matthew classicalbuff is successfully created
+SYSTEM: 2024-11-18 21:44:55,291 | system_logger | INFO | Importing user Sofia latinmusicfan from database
+SYSTEM: 2024-11-18 21:44:55,296 | system_logger | INFO | User25 Sofia latinmusicfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,300 | system_logger | INFO | Importing user Jack punkrocker from database
+SYSTEM: 2024-11-18 21:44:55,305 | system_logger | INFO | User26 Jack punkrocker is successfully created
+SYSTEM: 2024-11-18 21:44:55,309 | system_logger | INFO | Importing user Lily acousticsoul from database
+SYSTEM: 2024-11-18 21:44:55,315 | system_logger | INFO | User27 Lily acousticsoul is successfully created
+SYSTEM: 2024-11-18 21:44:55,320 | system_logger | INFO | Importing user Ryan hiphopbeats from database
+SYSTEM: 2024-11-18 21:44:55,327 | system_logger | INFO | User28 Ryan hiphopbeats is successfully created
+SYSTEM: 2024-11-18 21:44:55,332 | system_logger | INFO | Importing user Zoe dancemania from database
+SYSTEM: 2024-11-18 21:44:55,336 | system_logger | INFO | User29 Zoe dancemania is successfully created
+SYSTEM: 2024-11-18 21:44:55,340 | system_logger | INFO | Importing user Nathan jazzfanatic from database
+SYSTEM: 2024-11-18 21:44:55,341 | system_logger | INFO | User30 Nathan jazzfanatic is successfully created
+SYSTEM: 2024-11-18 21:44:55,369 | system_logger | INFO | Importing user Hannah countrygirl from database
+SYSTEM: 2024-11-18 21:44:55,376 | system_logger | INFO | User31 Hannah countrygirl is successfully created
+SYSTEM: 2024-11-18 21:44:55,380 | system_logger | INFO | Importing user Lucas bluesman from database
+SYSTEM: 2024-11-18 21:44:55,383 | system_logger | INFO | User32 Lucas bluesman is successfully created
+SYSTEM: 2024-11-18 21:44:55,389 | system_logger | INFO | Importing user Madison kpoplover from database
+SYSTEM: 2024-11-18 21:44:55,393 | system_logger | INFO | User33 Madison kpoplover is successfully created
+SYSTEM: 2024-11-18 21:44:55,397 | system_logger | INFO | Importing user Logan classicpop from database
+SYSTEM: 2024-11-18 21:44:55,401 | system_logger | INFO | User34 Logan classicpop is successfully created
+SYSTEM: 2024-11-18 21:44:55,404 | system_logger | INFO | Importing user Aria newagefan from database
+SYSTEM: 2024-11-18 21:44:55,407 | system_logger | INFO | User35 Aria newagefan is successfully created
+SYSTEM: 2024-11-18 21:44:55,411 | system_logger | INFO | Importing user Dylan alternative rock from database
+SYSTEM: 2024-11-18 21:44:55,417 | system_logger | INFO | User36 Dylan alternative rock is successfully created
+SYSTEM: 2024-11-18 21:44:55,422 | system_logger | INFO | Importing user Ella diva vocals from database
+SYSTEM: 2024-11-18 21:44:55,429 | system_logger | INFO | User37 Ella diva vocals is successfully created
+SYSTEM: 2024-11-18 21:44:55,432 | system_logger | INFO | Importing user Gabriel reggae roots from database
+SYSTEM: 2024-11-18 21:44:55,438 | system_logger | INFO | User38 Gabriel reggae roots is successfully created
+SYSTEM: 2024-11-18 21:44:55,442 | system_logger | INFO | Importing user Scarlett poptimism from database
+SYSTEM: 2024-11-18 21:44:55,447 | system_logger | INFO | User39 Scarlett poptimism is successfully created
+SYSTEM: 2024-11-18 21:44:55,452 | system_logger | INFO | Importing user Julian metalmania from database
+SYSTEM: 2024-11-18 21:44:55,457 | system_logger | INFO | User40 Julian metalmania is successfully created
+SYSTEM: 2024-11-18 21:44:55,461 | system_logger | INFO | Importing user Victoria classicalpiano from database
+SYSTEM: 2024-11-18 21:44:55,463 | system_logger | INFO | User41 Victoria classicalpiano is successfully created
+SYSTEM: 2024-11-18 21:44:55,467 | system_logger | INFO | Importing user Adam 90srock from database
+SYSTEM: 2024-11-18 21:44:55,470 | system_logger | INFO | User42 Adam 90srock is successfully created
+SYSTEM: 2024-11-18 21:44:55,474 | system_logger | INFO | Importing user Avery indiepop from database
+SYSTEM: 2024-11-18 21:44:55,480 | system_logger | INFO | User43 Avery indiepop is successfully created
+SYSTEM: 2024-11-18 21:44:55,485 | system_logger | INFO | Importing user Caleb hiphopmix from database
+SYSTEM: 2024-11-18 21:44:55,492 | system_logger | INFO | User44 Caleb hiphopmix is successfully created
+SYSTEM: 2024-11-18 21:44:55,496 | system_logger | INFO | Importing user Layla soulfuldivas from database
+SYSTEM: 2024-11-18 21:44:55,501 | system_logger | INFO | User45 Layla soulfuldivas is successfully created
+SYSTEM: 2024-11-18 21:44:55,504 | system_logger | INFO | Importing user Connor hardrock from database
+SYSTEM: 2024-11-18 21:44:55,509 | system_logger | INFO | User46 Connor hardrock is successfully created
+SYSTEM: 2024-11-18 21:44:55,512 | system_logger | INFO | Importing user Samantha popclassics from database
+SYSTEM: 2024-11-18 21:44:55,518 | system_logger | INFO | User47 Samantha popclassics is successfully created
+SYSTEM: 2024-11-18 21:44:55,524 | system_logger | INFO | Importing user Evan edmaddict from database
+SYSTEM: 2024-11-18 21:44:55,528 | system_logger | INFO | User48 Evan edmaddict is successfully created
+SYSTEM: 2024-11-18 21:44:55,532 | system_logger | INFO | Importing user Natalie countryroads from database
+SYSTEM: 2024-11-18 21:44:55,536 | system_logger | INFO | User49 Natalie countryroads is successfully created
+SYSTEM: 2024-11-18 21:44:55,540 | system_logger | INFO | Importing user Christian classicjazz from database
+SYSTEM: 2024-11-18 21:44:55,541 | system_logger | INFO | User50 Christian classicjazz is successfully created
+SYSTEM: 2024-11-18 21:44:55,545 | system_logger | INFO | Importing user Audrey folkfavorites from database
+SYSTEM: 2024-11-18 21:44:55,548 | system_logger | INFO | User51 Audrey folkfavorites is successfully created
+SYSTEM: 2024-11-18 21:44:55,553 | system_logger | INFO | Importing user Aaron reggaevibes from database
+SYSTEM: 2024-11-18 21:44:55,556 | system_logger | INFO | User52 Aaron reggaevibes is successfully created
+SYSTEM: 2024-11-18 21:44:55,588 | system_logger | INFO | Importing user Grace popdiva from database
+SYSTEM: 2024-11-18 21:44:55,594 | system_logger | INFO | User53 Grace popdiva is successfully created
+SYSTEM: 2024-11-18 21:44:55,598 | system_logger | INFO | Importing user Eli rockclassics from database
+SYSTEM: 2024-11-18 21:44:55,602 | system_logger | INFO | User54 Eli rockclassics is successfully created
+SYSTEM: 2024-11-18 21:44:55,621 | system_logger | INFO | Importing user Brooklyn indieplaylist from database
+SYSTEM: 2024-11-18 21:44:55,625 | system_logger | INFO | User55 Brooklyn indieplaylist is successfully created
+SYSTEM: 2024-11-18 21:44:55,632 | system_logger | INFO | Importing user Jonathan hiphopclassics from database
+SYSTEM: 2024-11-18 21:44:55,644 | system_logger | INFO | User56 Jonathan hiphopclassics is successfully created
+SYSTEM: 2024-11-18 21:44:55,659 | system_logger | INFO | Importing user Elena latinvibes from database
+SYSTEM: 2024-11-18 21:44:55,663 | system_logger | INFO | User57 Elena latinvibes is successfully created
+SYSTEM: 2024-11-18 21:44:55,670 | system_logger | INFO | Importing user Ian classicalmusic from database
+SYSTEM: 2024-11-18 21:44:55,671 | system_logger | INFO | User58 Ian classicalmusic is successfully created
+SYSTEM: 2024-11-18 21:44:55,678 | system_logger | INFO | Importing user Savannah divadance from database
+SYSTEM: 2024-11-18 21:44:55,688 | system_logger | INFO | User59 Savannah divadance is successfully created
+SYSTEM: 2024-11-18 21:44:55,698 | system_logger | INFO | Importing user Owen bluesrock from database
+SYSTEM: 2024-11-18 21:44:55,702 | system_logger | INFO | User60 Owen bluesrock is successfully created
+SYSTEM: 2024-11-18 21:44:55,712 | system_logger | INFO | Importing user Lily worldmusicfan from database
+SYSTEM: 2024-11-18 21:44:55,715 | system_logger | INFO | User61 Lily worldmusicfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,724 | system_logger | INFO | Importing user Samuel classicpunk from database
+SYSTEM: 2024-11-18 21:44:55,730 | system_logger | INFO | User62 Samuel classicpunk is successfully created
+SYSTEM: 2024-11-18 21:44:55,736 | system_logger | INFO | Importing user Abigail smoothjazz from database
+SYSTEM: 2024-11-18 21:44:55,738 | system_logger | INFO | User63 Abigail smoothjazz is successfully created
+SYSTEM: 2024-11-18 21:44:55,775 | system_logger | INFO | Importing user Christopher soundtracklover from database
+SYSTEM: 2024-11-18 21:44:55,781 | system_logger | INFO | User64 Christopher soundtracklover is successfully created
+SYSTEM: 2024-11-18 21:44:55,787 | system_logger | INFO | Importing user Stella femalepower from database
+SYSTEM: 2024-11-18 21:44:55,795 | system_logger | INFO | User65 Stella femalepower is successfully created
+SYSTEM: 2024-11-18 21:44:55,800 | system_logger | INFO | Importing user Nicholas hardrocker from database
+SYSTEM: 2024-11-18 21:44:55,807 | system_logger | INFO | User66 Nicholas hardrocker is successfully created
+SYSTEM: 2024-11-18 21:44:55,812 | system_logger | INFO | Importing user Zoe electropop from database
+SYSTEM: 2024-11-18 21:44:55,817 | system_logger | INFO | User67 Zoe electropop is successfully created
+SYSTEM: 2024-11-18 21:44:55,824 | system_logger | INFO | Importing user Jonathan hiphopfan from database
+SYSTEM: 2024-11-18 21:44:55,834 | system_logger | INFO | User68 Jonathan hiphopfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,841 | system_logger | INFO | Importing user Sophie classicalguitar from database
+SYSTEM: 2024-11-18 21:44:55,843 | system_logger | INFO | User69 Sophie classicalguitar is successfully created
+SYSTEM: 2024-11-18 21:44:55,866 | system_logger | INFO | Importing user Isaac poprocker from database
+SYSTEM: 2024-11-18 21:44:55,872 | system_logger | INFO | User70 Isaac poprocker is successfully created
+SYSTEM: 2024-11-18 21:44:55,878 | system_logger | INFO | Importing user Penelope singerdiva from database
+SYSTEM: 2024-11-18 21:44:55,884 | system_logger | INFO | User71 Penelope singerdiva is successfully created
+SYSTEM: 2024-11-18 21:44:55,889 | system_logger | INFO | Importing user Anthony latinvibes from database
+SYSTEM: 2024-11-18 21:44:55,895 | system_logger | INFO | User72 Anthony latinvibes is successfully created
+SYSTEM: 2024-11-18 21:44:55,912 | system_logger | INFO | Importing user Caroline indieacoustic from database
+SYSTEM: 2024-11-18 21:44:55,917 | system_logger | INFO | User73 Caroline indieacoustic is successfully created
+SYSTEM: 2024-11-18 21:44:55,923 | system_logger | INFO | Importing user Luke rapfan from database
+SYSTEM: 2024-11-18 21:44:55,930 | system_logger | INFO | User74 Luke rapfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,936 | system_logger | INFO | Importing user Samantha countrygirl from database
+SYSTEM: 2024-11-18 21:44:55,940 | system_logger | INFO | User75 Samantha countrygirl is successfully created
+SYSTEM: 2024-11-18 21:44:55,946 | system_logger | INFO | Importing user Nathaniel electrorocker from database
+SYSTEM: 2024-11-18 21:44:55,950 | system_logger | INFO | User76 Nathaniel electrorocker is successfully created
+SYSTEM: 2024-11-18 21:44:55,955 | system_logger | INFO | Importing user Allison r&bfan from database
+SYSTEM: 2024-11-18 21:44:55,960 | system_logger | INFO | User77 Allison r&bfan is successfully created
+SYSTEM: 2024-11-18 21:44:55,965 | system_logger | INFO | Importing user Brandon metalhead from database
+SYSTEM: 2024-11-18 21:44:55,970 | system_logger | INFO | User78 Brandon metalhead is successfully created
+SYSTEM: 2024-11-18 21:44:55,974 | system_logger | INFO | Importing user Lucy popenthusiast from database
+SYSTEM: 2024-11-18 21:44:55,980 | system_logger | INFO | User79 Lucy popenthusiast is successfully created
+SYSTEM: 2024-11-18 21:44:55,986 | system_logger | INFO | Importing user Thomas bluesman from database
+SYSTEM: 2024-11-18 21:44:55,988 | system_logger | INFO | User80 Thomas bluesman is successfully created
+SYSTEM: 2024-11-18 21:44:55,993 | system_logger | INFO | Importing user Claire edmlover from database
+SYSTEM: 2024-11-18 21:44:55,998 | system_logger | INFO | User81 Claire edmlover is successfully created
+SYSTEM: 2024-11-18 21:44:56,003 | system_logger | INFO | Importing user Sean hiphophead from database
+SYSTEM: 2024-11-18 21:44:56,010 | system_logger | INFO | User82 Sean hiphophead is successfully created
+SYSTEM: 2024-11-18 21:44:56,015 | system_logger | INFO | Importing user Eleanor classicalfan from database
+SYSTEM: 2024-11-18 21:44:56,015 | system_logger | INFO | User83 Eleanor classicalfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,021 | system_logger | INFO | Importing user Cameron punkrocker from database
+SYSTEM: 2024-11-18 21:44:56,025 | system_logger | INFO | User84 Cameron punkrocker is successfully created
+SYSTEM: 2024-11-18 21:44:56,029 | system_logger | INFO | Importing user Hailey popdiva from database
+SYSTEM: 2024-11-18 21:44:56,036 | system_logger | INFO | User85 Hailey popdiva is successfully created
+SYSTEM: 2024-11-18 21:44:56,059 | system_logger | INFO | Importing user Evan classicrock from database
+SYSTEM: 2024-11-18 21:44:56,064 | system_logger | INFO | User86 Evan classicrock is successfully created
+SYSTEM: 2024-11-18 21:44:56,068 | system_logger | INFO | Importing user Avery indiepop from database
+SYSTEM: 2024-11-18 21:44:56,073 | system_logger | INFO | User87 Avery indiepop is successfully created
+SYSTEM: 2024-11-18 21:44:56,077 | system_logger | INFO | Importing user Connor hiphopfan from database
+SYSTEM: 2024-11-18 21:44:56,084 | system_logger | INFO | User88 Connor hiphopfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,090 | system_logger | INFO | Importing user Alyssa latinfan from database
+SYSTEM: 2024-11-18 21:44:56,094 | system_logger | INFO | User89 Alyssa latinfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,098 | system_logger | INFO | Importing user Henry bluesrock from database
+SYSTEM: 2024-11-18 21:44:56,101 | system_logger | INFO | User90 Henry bluesrock is successfully created
+SYSTEM: 2024-11-18 21:44:56,105 | system_logger | INFO | Importing user Isabelle poplover from database
+SYSTEM: 2024-11-18 21:44:56,111 | system_logger | INFO | User91 Isabelle poplover is successfully created
+SYSTEM: 2024-11-18 21:44:56,114 | system_logger | INFO | Importing user Levi rockfan from database
+SYSTEM: 2024-11-18 21:44:56,119 | system_logger | INFO | User92 Levi rockfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,123 | system_logger | INFO | Importing user Victoria popsinger from database
+SYSTEM: 2024-11-18 21:44:56,129 | system_logger | INFO | User93 Victoria popsinger is successfully created
+SYSTEM: 2024-11-18 21:44:56,132 | system_logger | INFO | Importing user Aaron hiphopmix from database
+SYSTEM: 2024-11-18 21:44:56,138 | system_logger | INFO | User94 Aaron hiphopmix is successfully created
+SYSTEM: 2024-11-18 21:44:56,183 | system_logger | INFO | Importing user Natalie edmfan from database
+SYSTEM: 2024-11-18 21:44:56,189 | system_logger | INFO | User95 Natalie edmfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,194 | system_logger | INFO | Importing user Kevin classicjazz from database
+SYSTEM: 2024-11-18 21:44:56,195 | system_logger | INFO | User96 Kevin classicjazz is successfully created
+SYSTEM: 2024-11-18 21:44:56,199 | system_logger | INFO | Importing user Sydney countrygirl from database
+SYSTEM: 2024-11-18 21:44:56,202 | system_logger | INFO | User97 Sydney countrygirl is successfully created
+SYSTEM: 2024-11-18 21:44:56,207 | system_logger | INFO | Importing user Tyler rockfan from database
+SYSTEM: 2024-11-18 21:44:56,210 | system_logger | INFO | User98 Tyler rockfan is successfully created
+SYSTEM: 2024-11-18 21:44:56,214 | system_logger | INFO | Importing user Victoria divafan from database
+SYSTEM: 2024-11-18 21:44:56,219 | system_logger | INFO | User99 Victoria divafan is successfully created
+SYSTEM: 2024-11-18 21:44:56,224 | system_logger | INFO | Importing user Logan hiphophead from database
+SYSTEM: 2024-11-18 21:44:56,231 | system_logger | INFO | User100 Logan hiphophead is successfully created
+SYSTEM: 2024-11-18 21:44:56,231 | system_logger | INFO | Total user count = 100
+SYSTEM: 2024-11-18 21:44:56,378 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-18 21:44:56,379 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-18 21:44:56,447 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-18 21:44:56,448 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-18 21:44:56,516 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-18 21:44:56,517 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-18 21:45:26,335 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-18 21:45:26,337 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-18 21:45:28,200 | system_logger | INFO | AUTHENTICATION: User Alex rockfan123 Has Authenticated
+SYSTEM: 2024-11-18 21:45:28,200 | system_logger | INFO | AUTHENTICATION: User Alex rockfan123 Has Authenticated
+SYSTEM: 2024-11-18 21:45:39,076 | system_logger | INFO | Calculated popularity score by EMA
+SYSTEM: 2024-11-18 21:45:39,077 | system_logger | INFO | Found top 3 most trending songs 
+SYSTEM: 2024-11-18 21:45:57,534 | system_logger | INFO | Saving all changes to files
+SYSTEM: 2024-11-18 21:45:57,535 | system_logger | INFO | Saved changes to user1 Alex rockfan123 to files
+SYSTEM: 2024-11-18 21:45:57,536 | system_logger | INFO | Saved changes to user2 Sophia jazzlover88 to files
+SYSTEM: 2024-11-18 21:45:57,537 | system_logger | INFO | Saved changes to user3 Michael hiphophead99 to files
+SYSTEM: 2024-11-18 21:45:57,537 | system_logger | INFO | Saved changes to user4 Emma popprincess22 to files
+SYSTEM: 2024-11-18 21:45:57,538 | system_logger | INFO | Saved changes to user5 Daniel countryfan55 to files
+SYSTEM: 2024-11-18 21:45:57,538 | system_logger | INFO | Saved changes to user6 Olivia diva songs to files
+SYSTEM: 2024-11-18 21:45:57,539 | system_logger | INFO | Saved changes to user7 James classic blues to files
+SYSTEM: 2024-11-18 21:45:57,539 | system_logger | INFO | Saved changes to user8 Ava edmlover101 to files
+SYSTEM: 2024-11-18 21:45:57,540 | system_logger | INFO | Saved changes to user9 William oldiesfan77 to files
+SYSTEM: 2024-11-18 21:45:57,540 | system_logger | INFO | Saved changes to user10 Mia indie vibes to files
+SYSTEM: 2024-11-18 21:45:57,541 | system_logger | INFO | Saved changes to user11 Ethan rapenthusiast to files
+SYSTEM: 2024-11-18 21:45:57,541 | system_logger | INFO | Saved changes to user12 Isabella latinbeats to files
+SYSTEM: 2024-11-18 21:45:57,542 | system_logger | INFO | Saved changes to user13 Noah rockclassic90 to files
+SYSTEM: 2024-11-18 21:45:57,542 | system_logger | INFO | Saved changes to user14 Charlotte soulfulsounds to files
+SYSTEM: 2024-11-18 21:45:57,542 | system_logger | INFO | Saved changes to user15 Liam partyplaylist to files
+SYSTEM: 2024-11-18 21:45:57,542 | system_logger | INFO | Saved changes to user16 Amelia classicaljazz to files
+SYSTEM: 2024-11-18 21:45:57,544 | system_logger | INFO | Saved changes to user17 Jacob metalhead to files
+SYSTEM: 2024-11-18 21:45:57,544 | system_logger | INFO | Saved changes to user18 Harper pop hits to files
+SYSTEM: 2024-11-18 21:45:57,545 | system_logger | INFO | Saved changes to user19 Benjamin golden oldies to files
+SYSTEM: 2024-11-18 21:45:57,545 | system_logger | INFO | Saved changes to user20 Evelyn hiphopqueen to files
+SYSTEM: 2024-11-18 21:45:57,545 | system_logger | INFO | Saved changes to user21 Grace folkmusiclover to files
+SYSTEM: 2024-11-18 21:45:57,546 | system_logger | INFO | Saved changes to user22 Henry electrobeat to files
+SYSTEM: 2024-11-18 21:45:57,546 | system_logger | INFO | Saved changes to user23 Victoria 90spopfan to files
+SYSTEM: 2024-11-18 21:45:57,547 | system_logger | INFO | Saved changes to user24 Matthew classicalbuff to files
+SYSTEM: 2024-11-18 21:45:57,547 | system_logger | INFO | Saved changes to user25 Sofia latinmusicfan to files
+SYSTEM: 2024-11-18 21:45:57,548 | system_logger | INFO | Saved changes to user26 Jack punkrocker to files
+SYSTEM: 2024-11-18 21:45:57,548 | system_logger | INFO | Saved changes to user27 Lily acousticsoul to files
+SYSTEM: 2024-11-18 21:45:57,548 | system_logger | INFO | Saved changes to user28 Ryan hiphopbeats to files
+SYSTEM: 2024-11-18 21:45:57,549 | system_logger | INFO | Saved changes to user29 Zoe dancemania to files
+SYSTEM: 2024-11-18 21:45:57,549 | system_logger | INFO | Saved changes to user30 Nathan jazzfanatic to files
+SYSTEM: 2024-11-18 21:45:57,550 | system_logger | INFO | Saved changes to user31 Hannah countrygirl to files
+SYSTEM: 2024-11-18 21:45:57,550 | system_logger | INFO | Saved changes to user32 Lucas bluesman to files
+SYSTEM: 2024-11-18 21:45:57,551 | system_logger | INFO | Saved changes to user33 Madison kpoplover to files
+SYSTEM: 2024-11-18 21:45:57,551 | system_logger | INFO | Saved changes to user34 Logan classicpop to files
+SYSTEM: 2024-11-18 21:45:57,552 | system_logger | INFO | Saved changes to user35 Aria newagefan to files
+SYSTEM: 2024-11-18 21:45:57,552 | system_logger | INFO | Saved changes to user36 Dylan alternative rock to files
+SYSTEM: 2024-11-18 21:45:57,553 | system_logger | INFO | Saved changes to user37 Ella diva vocals to files
+SYSTEM: 2024-11-18 21:45:57,553 | system_logger | INFO | Saved changes to user38 Gabriel reggae roots to files
+SYSTEM: 2024-11-18 21:45:57,554 | system_logger | INFO | Saved changes to user39 Scarlett poptimism to files
+SYSTEM: 2024-11-18 21:45:57,554 | system_logger | INFO | Saved changes to user40 Julian metalmania to files
+SYSTEM: 2024-11-18 21:45:57,554 | system_logger | INFO | Saved changes to user41 Victoria classicalpiano to files
+SYSTEM: 2024-11-18 21:45:57,555 | system_logger | INFO | Saved changes to user42 Adam 90srock to files
+SYSTEM: 2024-11-18 21:45:57,555 | system_logger | INFO | Saved changes to user43 Avery indiepop to files
+SYSTEM: 2024-11-18 21:45:57,555 | system_logger | INFO | Saved changes to user44 Caleb hiphopmix to files
+SYSTEM: 2024-11-18 21:45:57,556 | system_logger | INFO | Saved changes to user45 Layla soulfuldivas to files
+SYSTEM: 2024-11-18 21:45:57,556 | system_logger | INFO | Saved changes to user46 Connor hardrock to files
+SYSTEM: 2024-11-18 21:45:57,557 | system_logger | INFO | Saved changes to user47 Samantha popclassics to files
+SYSTEM: 2024-11-18 21:45:57,557 | system_logger | INFO | Saved changes to user48 Evan edmaddict to files
+SYSTEM: 2024-11-18 21:45:57,557 | system_logger | INFO | Saved changes to user49 Natalie countryroads to files
+SYSTEM: 2024-11-18 21:45:57,558 | system_logger | INFO | Saved changes to user50 Christian classicjazz to files
+SYSTEM: 2024-11-18 21:45:57,558 | system_logger | INFO | Saved changes to user51 Audrey folkfavorites to files
+SYSTEM: 2024-11-18 21:45:57,559 | system_logger | INFO | Saved changes to user52 Aaron reggaevibes to files
+SYSTEM: 2024-11-18 21:45:57,559 | system_logger | INFO | Saved changes to user53 Grace popdiva to files
+SYSTEM: 2024-11-18 21:45:57,559 | system_logger | INFO | Saved changes to user54 Eli rockclassics to files
+SYSTEM: 2024-11-18 21:45:57,560 | system_logger | INFO | Saved changes to user55 Brooklyn indieplaylist to files
+SYSTEM: 2024-11-18 21:45:57,560 | system_logger | INFO | Saved changes to user56 Jonathan hiphopclassics to files
+SYSTEM: 2024-11-18 21:45:57,560 | system_logger | INFO | Saved changes to user57 Elena latinvibes to files
+SYSTEM: 2024-11-18 21:45:57,561 | system_logger | INFO | Saved changes to user58 Ian classicalmusic to files
+SYSTEM: 2024-11-18 21:45:57,561 | system_logger | INFO | Saved changes to user59 Savannah divadance to files
+SYSTEM: 2024-11-18 21:45:57,562 | system_logger | INFO | Saved changes to user60 Owen bluesrock to files
+SYSTEM: 2024-11-18 21:45:57,562 | system_logger | INFO | Saved changes to user61 Lily worldmusicfan to files
+SYSTEM: 2024-11-18 21:45:57,562 | system_logger | INFO | Saved changes to user62 Samuel classicpunk to files
+SYSTEM: 2024-11-18 21:45:57,562 | system_logger | INFO | Saved changes to user63 Abigail smoothjazz to files
+SYSTEM: 2024-11-18 21:45:57,563 | system_logger | INFO | Saved changes to user64 Christopher soundtracklover to files
+SYSTEM: 2024-11-18 21:45:57,564 | system_logger | INFO | Saved changes to user65 Stella femalepower to files
+SYSTEM: 2024-11-18 21:45:57,564 | system_logger | INFO | Saved changes to user66 Nicholas hardrocker to files
+SYSTEM: 2024-11-18 21:45:57,564 | system_logger | INFO | Saved changes to user67 Zoe electropop to files
+SYSTEM: 2024-11-18 21:45:57,565 | system_logger | INFO | Saved changes to user68 Jonathan hiphopfan to files
+SYSTEM: 2024-11-18 21:45:57,565 | system_logger | INFO | Saved changes to user69 Sophie classicalguitar to files
+SYSTEM: 2024-11-18 21:45:57,566 | system_logger | INFO | Saved changes to user70 Isaac poprocker to files
+SYSTEM: 2024-11-18 21:45:57,566 | system_logger | INFO | Saved changes to user71 Penelope singerdiva to files
+SYSTEM: 2024-11-18 21:45:57,566 | system_logger | INFO | Saved changes to user72 Anthony latinvibes to files
+SYSTEM: 2024-11-18 21:45:57,567 | system_logger | INFO | Saved changes to user73 Caroline indieacoustic to files
+SYSTEM: 2024-11-18 21:45:57,567 | system_logger | INFO | Saved changes to user74 Luke rapfan to files
+SYSTEM: 2024-11-18 21:45:57,568 | system_logger | INFO | Saved changes to user75 Samantha countrygirl to files
+SYSTEM: 2024-11-18 21:45:57,568 | system_logger | INFO | Saved changes to user76 Nathaniel electrorocker to files
+SYSTEM: 2024-11-18 21:45:57,569 | system_logger | INFO | Saved changes to user77 Allison r&bfan to files
+SYSTEM: 2024-11-18 21:45:57,569 | system_logger | INFO | Saved changes to user78 Brandon metalhead to files
+SYSTEM: 2024-11-18 21:45:57,569 | system_logger | INFO | Saved changes to user79 Lucy popenthusiast to files
+SYSTEM: 2024-11-18 21:45:57,570 | system_logger | INFO | Saved changes to user80 Thomas bluesman to files
+SYSTEM: 2024-11-18 21:45:57,570 | system_logger | INFO | Saved changes to user81 Claire edmlover to files
+SYSTEM: 2024-11-18 21:45:57,571 | system_logger | INFO | Saved changes to user82 Sean hiphophead to files
+SYSTEM: 2024-11-18 21:45:57,571 | system_logger | INFO | Saved changes to user83 Eleanor classicalfan to files
+SYSTEM: 2024-11-18 21:45:57,571 | system_logger | INFO | Saved changes to user84 Cameron punkrocker to files
+SYSTEM: 2024-11-18 21:45:57,572 | system_logger | INFO | Saved changes to user85 Hailey popdiva to files
+SYSTEM: 2024-11-18 21:45:57,572 | system_logger | INFO | Saved changes to user86 Evan classicrock to files
+SYSTEM: 2024-11-18 21:45:57,572 | system_logger | INFO | Saved changes to user87 Avery indiepop to files
+SYSTEM: 2024-11-18 21:45:57,574 | system_logger | INFO | Saved changes to user88 Connor hiphopfan to files
+SYSTEM: 2024-11-18 21:45:57,574 | system_logger | INFO | Saved changes to user89 Alyssa latinfan to files
+SYSTEM: 2024-11-18 21:45:57,574 | system_logger | INFO | Saved changes to user90 Henry bluesrock to files
+SYSTEM: 2024-11-18 21:45:57,575 | system_logger | INFO | Saved changes to user91 Isabelle poplover to files
+SYSTEM: 2024-11-18 21:45:57,575 | system_logger | INFO | Saved changes to user92 Levi rockfan to files
+SYSTEM: 2024-11-18 21:45:57,575 | system_logger | INFO | Saved changes to user93 Victoria popsinger to files
+SYSTEM: 2024-11-18 21:45:57,576 | system_logger | INFO | Saved changes to user94 Aaron hiphopmix to files
+SYSTEM: 2024-11-18 21:45:57,576 | system_logger | INFO | Saved changes to user95 Natalie edmfan to files
+SYSTEM: 2024-11-18 21:45:57,577 | system_logger | INFO | Saved changes to user96 Kevin classicjazz to files
+SYSTEM: 2024-11-18 21:45:57,577 | system_logger | INFO | Saved changes to user97 Sydney countrygirl to files
+SYSTEM: 2024-11-18 21:45:57,577 | system_logger | INFO | Saved changes to user98 Tyler rockfan to files
+SYSTEM: 2024-11-18 21:45:57,578 | system_logger | INFO | Saved changes to user99 Victoria divafan to files
+SYSTEM: 2024-11-18 21:45:57,578 | system_logger | INFO | Saved changes to user100 Logan hiphophead to files
+SYSTEM: 2024-11-18 21:45:57,578 | system_logger | INFO | Saved all changes to files
