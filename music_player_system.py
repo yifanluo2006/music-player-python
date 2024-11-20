@@ -258,36 +258,36 @@ class MusicPlayerSystem:
 
         # If the song to be deleted is at the begining
         if current_song is not None and current_song.get_id() == id:
-            self.complete_list.set_first_song(self.complete_list.get_first_song().get_next())
-            
             current_user = self.first_user
             while current_user is not None:
                 self.delete_song_in_playlist(current_song, current_user.get_library())
                 current_user = current_user.get_next()
+            
+            self.complete_list.set_first_song(self.complete_list.get_first_song().get_next())
                 
         # If the song to be deleted is at the end
-        if current_song is not None and last_song.get_id() == id:
+        if current_song is not None and last_song.get_id() == id:        
+            current_user = self.first_user
+            while current_user is not None:
+                self.delete_song_in_playlist(current_song, current_user.get_library())
+                current_user = current_user.get_next()
+            
             while current_song.get_next().get_next() is not None:
                 current_song = current_song.get_next()
             current_song.set_next(None)
             self.complete_list.reset_last_song()
-            
+        
+        # If the song to be deleted is in the middle
+        while current_song is not None and current_song.get_next() is not None:
             current_user = self.first_user
             while current_user is not None:
                 self.delete_song_in_playlist(current_song, current_user.get_library())
                 current_user = current_user.get_next()
-        
-        # If the song to be deleted is in the middle
-        while current_song is not None and current_song.get_next() is not None:
+
             previous_song = current_song
             current_song = current_song.get_next()
             if current_song.get_id() == id:
                 previous_song.set_next(current_song.get_next())
-            
-                current_user = self.first_user
-                while current_user is not None:
-                    self.delete_song_in_playlist(current_song, current_user.get_library())
-                    current_user = current_user.get_next()
                 
         self.write_complete_list()
 
