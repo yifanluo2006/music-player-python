@@ -403,7 +403,7 @@ class MusicPlayerSystem:
     Sophisticated popularity tracking with trend analysis
     I will track the popularity with exponential moving average (EMA), which places a greater value on closer data points, thus indicating the trend
     Therefore, the formula will react to a trend faster than normal popularity tracking
-    The idea of EMA was inspired by ChatGPT; however, the EMA part of code is entirely my own
+    The idea of the mathematical foundation behind EMA was inspired by various online souces and ChatGPT; however, the code is entirely my own
     The formula and majority of calculations will be in song class
     Note that only the copy of the song within the complete list will be updated, all other copies in libraries and playlists will not as it is only nessecary to keep track of one record, and the complete list is the most accurate record
     """

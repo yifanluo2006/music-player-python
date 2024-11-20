@@ -461,7 +461,7 @@ class GUI:
             if(songcounter > 51):  #once the amount of songs reaches 50, create a new page for the songs
                 new_page = Playlist("{0:03d}".format(self.current_user) + "99", currentplaylist.name, system.get_user(self.current_user))
                 while song is not None:
-                    new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta)
+                    new_page.add_song(song.id, song.title, song.artist, song.genre, song.bpm, song.meta, song.frequency_count, song.popularity_score)
                     song=song.get_next()
                 next_page_button = tk.Button(self.content_frame, text = ">", command = lambda: self.next_page(currentplaylist, new_page, system))
                 next_page_button.pack(side = tk.BOTTOM)
