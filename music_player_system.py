@@ -283,9 +283,11 @@ class MusicPlayerSystem:
             current_song = current_song.get_next()
             if current_song.get_id() == id:
                 previous_song.set_next(current_song.get_next())
+                print("deleting song form complete list")
             
                 current_user = self.first_user
                 while current_user is not None:
+                    print("deleting song from all instances")
                     self.delete_song_in_playlist(current_song, current_user.get_library())
                     current_user = current_user.get_next()
                 

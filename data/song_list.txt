@@ -12,8 +12,6 @@ s11_Black and Tan Fantasy_Duke Ellington_Jazz_100_big band_1920s_orchestral jazz
 s12_Singin' The Blues_Bix Beiderbecke And Frankie Trumbauer_Jazz_80_cool jazz_1920s_coronet_saxophone
 s13_See See Rider Blues - Remastered_Ma Rainey_Blues_85_classic blues_1920s_female vocal_early blues
 s14_Statesboro Blues_Blind Willie McTell_Blues_75_piedmont blues_1920s_slide guitar_12-string guitar
-s15_In a Mist_Bix Beiderbecke_Jazz_70_piano solo_1920s_impressionist jazz_composer
-s16_Pine Top's Boogie Woogie_Pinetop Smith_Blues_90_boogie woogie_piano_1920s_dance
 s17_Carolina Shout_James P. Johnson_Jazz_95_stride piano_1920s_piano solo_rhythm
 s18_Ol' Man River_Paul Robeson_Musical_70_show tune_1920s_bass-baritone_vocal
 s19_Matchbox Blues_Blind Lemon Jefferson_Blues_80_texas blues_1920s_guitar_early blues
@@ -22,7 +20,6 @@ s21_Empty Bed Blues_Bessie Smith_Blues_70_classic blues_1920s_female vocal_sad
 s22_Dippermouth Blues_Louis Armstrong_Jazz_110_early jazz_1920s_trumpet_New Orleans
 s23_Stardust - Remastered 2002_Hoagy Carmichael_Jazz_65_ballad_1920s_piano_vocal
 s24_Makin' Whoopee_Eddie Cantor_Pop_115_show tune_1920s_Broadway_comedy
-s25_See That My Grave Is Kept Clean_Blind Lemon Jefferson_Blues_70_texas blues_1920s_guitar_spiritual
 s26_Whispering_Paul Whiteman_Pop_115_dance band_1920s_orchestral_jazz influence
 s27_Potato Head Blues - 78rpm Version_Louis Armstrong_Jazz_115_early jazz_1920s_trumpet_hot jazz
 s28_How Long - How Long Blues_Leroy Carr_Blues_75_piano blues_1920s_vocal blues_duo
@@ -33,7 +30,6 @@ s32_St. James Infirmary_Louis Armstrong_Jazz_80_blues_1920s_vocal_trumpet
 s33_The Little Old Log Cabin In The Lane_Fiddlin John Carson_Country_90_old-time_1920s_fiddle_traditional
 s34_How Can A Poor Man Stand Such Times And Live - Remastered 2003_Blind Alfred Reed_Folk_75_folk_1920s_protest song_Depression-era
 s35_My Man_Fanny Brice_Pop_70_torch song_1920s_Broadway_female vocal
-s36_Sally Gooden_Eck Robertson_Country_110_fiddle tune_1920s_old-time_instrumental
 s37_St. Louis Blues - Vocal_Louis Armstrong_Jazz_75_blues_1920s_trumpet_vocal
 s38_It's Tight Like That_Tampa Red and Georgia Tom_Blues_100_hokum blues_1920s_duo_double entendre
 s39_My Mammy_Al Jolson_Pop_70_show tune_1920s_Broadway_sentimental
@@ -652,7 +648,6 @@ s651_Every Rose Has Its Thorn_Poison_Rock_76_1980s_power ballad_acoustic guitar_
 s652_I Wanna Dance with Somebody (Who Loves Me)_Whitney Houston_Pop_119_1980s_dance-pop_female vocal_Grammy winner
 s653_I Can't Go for That (No Can Do)_Daryl Hall & John Oates_Pop_112_1980s_blue-eyed soul_R&B influence_duo
 s654_Livin' On A Prayer_Bon Jovi_Rock_123_1980s_anthemic_classic rock_guitar
-s655_Money for Nothing_Dire Straits_Rock_134_1980s_guitar riff_MTV_satire
 s656_On My Own_Patti LaBelle & Michael McDonald_R&B_77_1980s_duet_ballad_soulful
 s657_Beat It_Michael Jackson_Pop_139_1980s_guitar solo_Eddie Van Halen_Thriller album
 s658_Crazy for You_Madonna_Pop_95_1980s_ballad_female vocal_film soundtrack
@@ -998,3 +993,4 @@ s997_West End Blues_Louis Armstrong_Jazz_80_jazz standard_1920s_classic jazz_tru
 s998_St Louis Blues_Bessie Smith_Blues_75_classic blues_1920s_female vocal_jazz influence
 s999_Blue Yodel #1 (t For Texas)_Jimmie Rodgers_Country_85_yodeling_1920s_early country_blues influence
 s1000_Ain't Misbehavin_Fats Waller_Jazz_110_swing_piano_vocal jazz_1920s
+s1001_testsong_madeupartist_Pop_72_Heartfelt_Ballad_Vocal
