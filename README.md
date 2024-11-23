@@ -14,10 +14,6 @@ Since this is a mock system, there are also comprehensive and advanced testing f
 
 Our Music Player project will be coded using Python with the Tkinter library to create a graphical user interface. We will be coding together during classes with the VS Code Live Share which allows people to collaborate in real time with one project. After we are done with each class, we will commit our changes to GitHub. As the project develops, we might split into different branches and work on separate features. We will complete our planning, track our progress, and save and commit code on GitHub. GitHub will be the centre of our project, with a repository to store code and track commits, and a Project to plan and schedule.
 
-## Table of Contents
-
-
-
 ## Installation
 
 ### Prerequisites
@@ -54,7 +50,7 @@ To run the music player system, follow the following steps:
 1. cd into the directory containing the project
 
 ```bash
-cd music-player-python
+cd /music-player-python
 ```
 
 2. Run the project in Main, specifically the main.py file, with this command:
