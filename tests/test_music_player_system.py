@@ -8,6 +8,14 @@ class TestMusicPlayerSystem(unittest.TestCase):
     def setUp(self):
         self.mock_music_player_system = MusicPlayerSystem()
         
+    def test_get_popular_song(self):
+        # adding song 25 to all users, boosting its trend
+        for i in range(0, 100):
+            self.mock_music_player_system.add_song_to_library(i, "s887")
+        
+        # the correct result should have song 25 as most popular
+        self.assertEqual(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id(), "s887")
+        
     def test_create_playlist_1(self):
         userId = 1
         playlistName = "Test Playlist"
@@ -84,14 +92,6 @@ class TestMusicPlayerSystem(unittest.TestCase):
         except Exception as e:
             self.fail("Raised an exception: " + str(e))
             
-    def test_get_popular_song(self):
-        # adding song 25 to all users, boosting its trend
-        for i in range(0, 100):
-            self.mock_music_player_system.add_song_to_library(i, "s25")
-        
-        # the correct result should have song 25 as most popular
-        self.assertTrue(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id())
-        
     def test_gen_suggestion_for_non_user(self):
         userId = 500
         playlistId = "50000"
