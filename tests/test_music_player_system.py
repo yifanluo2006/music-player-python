@@ -11,10 +11,10 @@ class TestMusicPlayerSystem(unittest.TestCase):
     def test_get_popular_song(self):
         # adding song 25 to all users, boosting its trend
         for i in range(0, 100):
-            self.mock_music_player_system.add_song_to_library(i, "s887")
+            self.mock_music_player_system.add_song_to_library(i, "s25")
         
         # the correct result should have song 25 as most popular
-        self.assertEqual(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id(), "s887")
+        self.assertTrue(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id() == "s25")
         
     def test_create_playlist_1(self):
         userId = 1
