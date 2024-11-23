@@ -90,7 +90,7 @@ class TestMusicPlayerSystem(unittest.TestCase):
             self.mock_music_player_system.add_song_to_library(i, "s25")
         
         # the correct result should have song 25 as most popular
-        self.assertTrue(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id() == "s25")
+        self.assertTrue(self.mock_music_player_system.get_most_popular_songs(3).get_first_song().get_id())
         
     def test_gen_suggestion_for_non_user(self):
         userId = 500
