@@ -171,8 +171,9 @@ class MusicPlayerSystem:
         # If the song to be deleted is at the begining
         if current_song is not None and current_song.get_id() == song.get_id():
             # subtracts one from the frequency when deleted
-            self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
-            self.update_popularity_score()
+            if self.complete_list.search_song_id(song.get_id()) is not None:
+                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                self.update_popularity_score()
             playlist.set_first_song(playlist.get_first_song().get_next())
             
             # checks if it is a library playlist by seeing if the last two digits is 00, a characteristic of library playlists
@@ -194,8 +195,9 @@ class MusicPlayerSystem:
 
         # If the song to be deleted is at the end
         if current_song is not None and last_song.get_id() == song.get_id():
-            self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
-            self.update_popularity_score()
+            if self.complete_list.search_song_id(song.get_id()) is not None:
+                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                self.update_popularity_score()
             while current_song.get_next().get_next() is not None:
                 current_song = current_song.get_next()
             current_song.set_next(None)
@@ -219,8 +221,9 @@ class MusicPlayerSystem:
             previous_song = current_song
             current_song = current_song.get_next()
             if current_song.get_id() == song.get_id():
-                self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
-                self.update_popularity_score()
+                if self.complete_list.search_song_id(song.get_id()) is not None:
+                    self.complete_list.search_song_id(song.get_id()).update_frequency(-1)
+                    self.update_popularity_score()
                 previous_song.set_next(current_song.get_next())
                 
                 if playlist.get_owner().get_id() == self.authenticated_user_id:
